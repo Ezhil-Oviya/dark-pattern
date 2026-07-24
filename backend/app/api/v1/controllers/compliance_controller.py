@@ -1,0 +1,2 @@
+class ComplianceController:
+    pass

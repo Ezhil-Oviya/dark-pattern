@@ -1,0 +1,2 @@
+class DarkPatternDetector:
+    pass

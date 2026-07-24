@@ -1,0 +1,2 @@
+class ReportController:
+    pass

@@ -1,0 +1,2 @@
+class AuditSchema:
+    pass

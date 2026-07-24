@@ -1,0 +1,44 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: dpca-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./database/mongodb/init:/docker-entrypoint-initdb.d:ro
+    env_file:
+      - .env
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: dpca-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    volumes:
+      - ./storage:/app/storage
+      - ./logs:/app/logs
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: dpca-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    env_file:
+      - frontend/.env.example
+    depends_on:
+      - backend
+
+volumes:
+  mongodb_data:

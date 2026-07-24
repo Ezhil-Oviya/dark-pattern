@@ -1,0 +1,2 @@
+class CrawlerService:
+    pass
