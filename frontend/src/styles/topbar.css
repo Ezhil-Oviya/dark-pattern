@@ -1,0 +1,57 @@
+.topbar{
+
+    height:80px;
+
+    background:white;
+
+    margin-left:260px;
+
+    padding:20px 35px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.topbar h1{
+
+    font-size:28px;
+
+    color:#0f172a;
+
+}
+
+.topbar p{
+
+    margin-top:6px;
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+.team-card{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 18px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+.team-card span{
+
+    font-size:13px;
+
+}

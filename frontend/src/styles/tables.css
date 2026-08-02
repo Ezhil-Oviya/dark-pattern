@@ -1,0 +1,193 @@
+.table-card{
+
+    background:white;
+
+    margin-top:30px;
+
+    padding:30px;
+
+    border-radius:14px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+.table-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.table-header span{
+
+    background:#DBEAFE;
+
+    color:#2563EB;
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+}
+
+.website-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.website-table th{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:16px;
+
+    text-align:left;
+
+}
+
+.website-table td{
+
+    padding:18px 16px;
+
+    border-bottom:1px solid #E2E8F0;
+
+}
+
+.website-table tbody tr:hover{
+
+    background:#F8FAFC;
+
+}
+
+.platform-cell{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.platform-icon{
+
+    width:42px;
+
+    height:42px;
+
+    background:#DBEAFE;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.platform-cell small{
+
+    color:#64748B;
+
+}
+
+.status-ready{
+
+    background:#DCFCE7;
+
+    color:#16A34A;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.edit-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-right:10px;
+
+    display:inline-flex;
+
+    gap:6px;
+
+    align-items:center;
+
+}
+
+.delete-btn{
+
+    background:#EF4444;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    display:inline-flex;
+
+    gap:6px;
+
+    align-items:center;
+
+}
+
+.empty-table{
+
+    text-align:center;
+
+    padding:60px;
+
+}
+
+.empty-table h3{
+
+    margin-top:20px;
+
+    color:#334155;
+
+}
+
+.empty-table p{
+
+    color:#64748B;
+
+    margin-top:10px;
+
+}

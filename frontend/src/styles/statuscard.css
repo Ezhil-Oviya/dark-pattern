@@ -1,0 +1,59 @@
+.status-box{
+
+    background:white;
+
+    border-radius:14px;
+
+    padding:22px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+    transition:.25s;
+
+}
+
+.status-box:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.status-icon{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+}
+
+.status-box h3{
+
+    color:#0F172A;
+
+}
+
+.status-box p{
+
+    color:#16A34A;
+
+    margin-top:6px;
+
+    font-weight:600;
+
+}

@@ -11,7 +11,7 @@ from app.api.v1.routes import (
     evidence_routes,
     report_routes,
 )
-
+from app.api.v1.health import router as health_router
 api_router = APIRouter()
 api_router.include_router(auth_routes.router, prefix="/auth", tags=["Authentication"])
 api_router.include_router(audit_routes.router, prefix="/audits", tags=["Audits"])
@@ -22,3 +22,7 @@ api_router.include_router(evidence_routes.router, prefix="/evidence", tags=["Evi
 api_router.include_router(report_routes.router, prefix="/reports", tags=["Reports"])
 api_router.include_router(dashboard_routes.router, prefix="/dashboard", tags=["Dashboard"])
 api_router.include_router(bot_routes.router, prefix="/bot", tags=["AI Compliance Bot"])
+api_router.include_router(
+    health_router,
+    tags=["Health"]
+)

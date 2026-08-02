@@ -1,0 +1,71 @@
+.quick-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    margin-top:25px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+}
+
+.quick-card h2{
+
+    margin-bottom:20px;
+
+}
+
+.quick-btn{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:16px;
+
+    margin-top:15px;
+
+    display:flex;
+
+    gap:12px;
+
+    align-items:center;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.25s;
+
+}
+
+.quick-btn:hover{
+
+    transform:translateX(5px);
+
+}
+
+.blue{
+
+    background:#2563EB;
+
+}
+
+.green{
+
+    background:#16A34A;
+
+}
+
+.orange{
+
+    background:#F59E0B;
+
+}
