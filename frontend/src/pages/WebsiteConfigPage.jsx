@@ -129,9 +129,6 @@ export default function WebsiteConfigPage() {
 
   return (
     <Layout>
-
-    <div className="dashboard-container">
-
       <WebsiteForm
         onSubmit={handleSave}
         selectedWebsite={selectedWebsite}
@@ -143,10 +140,6 @@ export default function WebsiteConfigPage() {
         onEdit={handleEdit}
         onDelete={handleDelete}
       />
-
-    </div>
-
-  </Layout>
-);
-
+    </Layout>
+  );
 }
