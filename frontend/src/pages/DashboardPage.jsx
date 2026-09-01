@@ -1,21 +1,13 @@
 import { useEffect, useState } from "react";
 
 import {
-
     Globe,
-
     PlayCircle,
-
     ShieldAlert,
-
     FileText,
-
     Database,
-
     Server,
-
     MonitorSmartphone
-
 } from "lucide-react";
 
 import Sidebar from "../components/layout/Sidebar";
@@ -27,6 +19,7 @@ import { useNavigate } from "react-router-dom";
 
 import { getWebsites } from "../services/websiteService";
 import { getHealth } from "../services/healthService";
+import { getAudits } from "../services/automationService";
 
 import Layout from "../components/layout/Layout";
 
@@ -35,6 +28,7 @@ import "../styles/dashboard.css";
 export default function DashboardPage(){
 
     const [websites,setWebsites]=useState([]);
+    const [auditCount, setAuditCount]=useState(0);
 
 const [health,setHealth]=useState({
 
@@ -51,7 +45,7 @@ const [health,setHealth]=useState({
     useEffect(()=>{
 
         load();
-
+        loadAuditsCount();
         loadHealth();
 
     },[]);
@@ -72,6 +66,15 @@ const [health,setHealth]=useState({
 
         }
 
+    };
+
+    const loadAuditsCount = async () => {
+        try {
+            const list = await getAudits();
+            setAuditCount(Array.isArray(list) ? list.length : 0);
+        } catch (e) {
+            console.error("Failed to load audits count:", e);
+        }
     };
 
     const loadHealth = async () => {
@@ -127,7 +130,7 @@ const [health,setHealth]=useState({
 
     title="Audits"
 
-    value="0"
+    value={auditCount}
 
     icon={<PlayCircle color="#22C55E"/>}
 

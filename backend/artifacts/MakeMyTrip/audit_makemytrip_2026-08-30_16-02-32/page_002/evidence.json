@@ -1,0 +1,70 @@
+{
+  "evidence_id": "ev_page_002_audit_makemytrip_2026-08-30_16-02-32",
+  "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/hotels/",
+  "page_title": "",
+  "crawl_depth": 1,
+  "page_index": 2,
+  "audit_time": "2026-08-30_16-02-32",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_002/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_002/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_002/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_002/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 2,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p2_scr_99bc91",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/hotels/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_002/screenshot.png",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Platform: MakeMyTrip | Page: 2 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p2_dom_382988",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/hotels/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_002/dom.html",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Captured at network idle for https://www.makemytrip.com/hotels/ (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    }
+  ]
+}

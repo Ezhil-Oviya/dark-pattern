@@ -1,0 +1,814 @@
+{
+  "url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+  "title": "Bpc Bau New Inline At Store Online - Buy Bpc Bau New Inline At Online at Best Price in India | Flipkart.com",
+  "timestamp": "2026-09-01T08:20:54.656Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Beauty"
+    },
+    {
+      "tag": "p",
+      "text": "Flipkart Internet Private Limited,"
+    },
+    {
+      "tag": "p",
+      "text": "Buildings Alyssa, Begonia &"
+    },
+    {
+      "tag": "p",
+      "text": "Clove Embassy Tech Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Outer Ring Road, Devarabeesanahalli Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Bengaluru, 560103,"
+    },
+    {
+      "tag": "p",
+      "text": "Karnataka, India"
+    },
+    {
+      "tag": "p",
+      "text": "CIN : U51109KA2012PTC066107"
+    },
+    {
+      "tag": "p",
+      "text": "Telephone: 044-45614709 / 044-45714709"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Search for Products, Brands and More",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Search Icon",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": false,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/flights-travel-uhp-at-store?marketplace=FKT",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4 _1psv1ze9x _1psv1ze7o _1psv1ze2u _1psv1ze53 _7dzyg23 _1psv1ze29 _1psv1ze53 _1psv1zee3",
+      "is_visible": true,
+      "selector": "div._1psv1zeb9._1psv1ze0 > div.css-g5y9jx > div.grid-formation.grid-column-6:nth-of-type(2) > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "Search Icon",
+      "href": "/searchsuggestion",
+      "id": "",
+      "classes": "lilxh_ header-form-search",
+      "is_visible": false,
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3 > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "New customer?Sign Up",
+      "href": "/account/login?signup=true&ret=/",
+      "id": "",
+      "classes": "Fvt7X7 _1psv1zel",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.Fvt7X7._1psv1zel:nth-of-type(1)"
+    },
+    {
+      "text": "My Profile",
+      "href": "/account/?rd=0&link=home_account",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "Flipkart Plus Zone",
+      "href": "/plus",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Orders",
+      "href": "/account/orders?link=home_orders",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Wishlist",
+      "href": "/wishlist?link=home_wishlist",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(5)"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(6)"
+    },
+    {
+      "text": "Rewards",
+      "href": "/account/rewards?link=home_rewards",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(7)"
+    },
+    {
+      "text": "Gift Cards",
+      "href": "/the-gift-card-store?link=home_giftcard",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(8)"
+    },
+    {
+      "text": "Notification Preferences",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(9)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(10)"
+    },
+    {
+      "text": "Advertise",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(11)"
+    },
+    {
+      "text": "Download App",
+      "href": "/mobile-apps?otracker=ch_vn_mobile_apps",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(12)"
+    },
+    {
+      "text": "More",
+      "href": "#",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3 > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(1)"
+    },
+    {
+      "text": "Notification Settings",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Advertise on Flipkart",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Cart",
+      "href": "/viewcart?marketplace=FLIPKART",
+      "id": "",
+      "classes": "E7_UTN",
+      "is_visible": true,
+      "selector": "div.PGj60j:nth-of-type(2) > div:nth-of-type(4) > div.H5bs2Y > a.E7_UTN"
+    },
+    {
+      "text": "For You",
+      "href": "https://www.flipkart.com/",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Fashion",
+      "href": "/ss-26-base-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mobiles",
+      "href": "/mobile-phones-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Electronics",
+      "href": "/new-elec-clp-march-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Beauty",
+      "href": "/bpc-bau-new-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Home",
+      "href": "/home-kitchen-25-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Appliances",
+      "href": "/tv-and-appliances-inline-ab-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Toys, baby..",
+      "href": "/toysbc-new26-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Food & Health",
+      "href": "/fnhc-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Auto Accessories",
+      "href": "/aa-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sports & Fitness",
+      "href": "/sf-inline-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Furniture",
+      "href": "/india-ka-furniture-studio-inlines-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Books & Media",
+      "href": "/booksmedia-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "2 Wheelers",
+      "href": "/twowheelers-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "",
+      "href": "/g9b/~cs-7t41kft224/pr?sid=g9b&collection-tab-name=Grooming&param=876543234&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/fragrances/~cs-wwnfg33jhh/pr?sid=g9b%2C0yh&collection-tab-name=Reebok&sort=recency_desc&param=8547642&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/hair-care-and-accessory/hair-care/pr?sid=g9b,lcf,qqm&p[]=facets.fulfilled_by%255B%255D%3DF-Assured&param=7654567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/fragrances/pr?sid=g9b%2C0yh&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&param=37355464&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/makeup/~cs-uyohez5es3/pr?sid=g9b,ffi&param=86434567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/~cs-znnke00ust/pr?sid=g9b&collection-tab-name=Basket%20offer%20new&param=987666&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/bpc-monsoon-at-store?param=8765&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/pr?sid=g9b&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&param=0965676&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Skin care",
+      "href": "/skin-bau-bpc-at-store?param=876543245&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNraW4gY2FyZSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Hair care",
+      "href": "/hair-days-sale25-at-store?param=865456&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkhhaXIgY2FyZSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Makeup",
+      "href": "/makeup-at-store?param=764376&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1ha2V1cCJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Grooming",
+      "href": "/mens-grooming-at-store?param=98765432&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdyb29taW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Global Luxe",
+      "href": "/bpc-premium-st-at-store?param=3456789&BU=BGM&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdsb2JhbCBMdXhlIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Derma",
+      "href": "/derma-page-at-store?param=7643234545&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRlcm1hIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "K-beauty",
+      "href": "/bpc-korean-25-at-store?param=34565454&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkstYmVhdXR5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Gifting",
+      "href": "/bpc-gifting-at-store?param=76543212345&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdpZnRpbmciXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Beauty supp",
+      "href": "/health-care/health-supplements/vitamin-supplement/pr?sid=hlc%2Cetg%2Cqtw&p%5B%5D=facets.type%255B%255D%3DSpecial%2BSupplements&param=484839&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlYXV0eSBzdXBwIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Reebok",
+      "href": "/beauty-and-grooming/fragrances/~cs-wwnfg33jhh/pr?sid=g9b%2C0yh&collection-tab-name=Reebok&sort=recency_desc&param=96545643&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlJlZWJvayJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Value 365",
+      "href": "/beauty-and-grooming/~cs-45g4qlkmx2/pr?sid=g9b&collection-tab-name=Personal+Care&sort=recency_desc&experience=hv&pageUID=1784559239890&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlZhbHVlIDM2NSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Fragrances",
+      "href": "/bpc-summer-fragrance-at-store?param=87654543&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkZyYWdyYW5jZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Bath & spa",
+      "href": "/bath-and-spa-at-store?param=876654345&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJhdGggJiBzcGEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Hygiene",
+      "href": "/offers-list/content?screen=dynamic&pk=themeViews%3DWH-TBBD-OMU%3AVIEW%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkh5Z2llbmUiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Oral care",
+      "href": "/oral-care-25-at-store?param=367667873&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk9yYWwgY2FyZSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Monsoon",
+      "href": "/bpc-monsoon-at-store?param=76543234&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vbnNvb24iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Hyphen",
+      "href": "/beauty-and-grooming/pr?sid=g9b&p%5B%5D=facets.brand%255B%255D%3DHYPHEN&fm=neo%2Fmerchandising&iid=M_8876d975-ee68-43b2-bd52-024e926faacc_1_372UD5BXDFYS_MC.RXB0XORLSZ1I&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=RXB0XORLSZ1I&sort=recency_desc&param=345676&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkh5cGhlbiJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/~cs-6963vm9twk/pr?sid=g9b&collection-tab-name=Best+Value+Deals&sort=recency_desc&param=9876543&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtgi _1i2djt90 _1i2djt6r",
+      "is_visible": true,
+      "selector": "div > div > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/body-face-skin-care/body-and-face-care/sunscreen/pr?sid=g9b%2Cema%2C5la%2Cxrh&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&param=36624654&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/fragrances/perfume/pr?sid=g9b%2C0yh%2Cjhz&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&param=6787676&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/body-face-skin-care/body-and-face-care/moisturizer/pr?sid=g9b,ema,5la,1ke&p[]=facets.fulfilled_by%255B%255D%3DF-Assured&param=375346738&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/makeup/eye-makeup/pr?sid=g9b%2Cffi%2Cttr&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/hair-care-and-accessory/hair-care/shampoo/pr?sid=g9b%2Clcf%2Cqqm%2Ct36&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.discount_range_v1%255B%255D%3D30%2525%2Bor%2Bmore&param=3653463&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/hair-care-and-accessory/hair-care/conditioner/pr?sid=g9b%2Clcf%2Cqqm%2Cha1&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&param=377453&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/body-face-skin-care/body-and-face-care/face-wash/pr?sid=g9b%2Cema%2C5la%2Cjav&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&param=373423634&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/makeup/lips/lipstick/pr?sid=g9b,ffi,tv5,una&p[]=facets.fulfilled_by%255B%255D%3DF-Assured&param=34567890&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/bath-shower/bath-essentials/body-wash/pr?sid=g9b%2C5nz%2Cb1b%2Cbwa&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.price_range.from%3D149&p%5B%5D=facets.price_range.to%3DMax&param=2725433&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/hair-care-and-accessory/hair-care/hair-oil/pr?sid=g9b%2Clcf%2Cqqm%2Cfmb&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.price_range.from%3D149&p%5B%5D=facets.price_range.to%3DMax&param=36646547&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/body-face-skin-care/body-and-face-care/~cs-7zi767w4uy/pr?sid=g9b%2Cema%2C5la&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&sort=recency_desc&p%5B%5D=facets.promo%255B%255D%3Dvl%253A05a8940617&droppedD2%5B%5D=&pageUID=1788158933456&experience=hv&pageUID=1784559239890&param=234567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/hair-care-and-accessory/~cs-7zi767w4uy/pr?sid=g9b%2Clcf&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&sort=recency_desc&p%5B%5D=facets.promo%255B%255D%3Dvl%253A05a8940617&droppedD2%5B%5D=&pageUID=1788159408111&experience=hv&pageUID=1784559239890&param=234567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/bath-shower/~cs-7zi767w4uy/pr?sid=g9b%2C5nz&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&sort=recency_desc&p%5B%5D=facets.promo%255B%255D%3Dvl%253A05a8940617&droppedD2%5B%5D=69ae6f83-02ec-4a03-88ab-3f375e20c9f6&pageUID=1788159719363&experience=hv&pageUID=1784559239890&param=456789&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/makeup/~cs-pv2l49eg8a/pr?sid=g9b%2Cffi&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D299&sort=recency_desc&param=2345678&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/fragrances/~cs-pv2l49eg8a/pr?sid=g9b%2C0yh&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&sort=recency_desc&p%5B%5D=facets.promo%255B%255D%3Dvl%253A05a8940617&droppedD2%5B%5D=&pageUID=1788159556821&experience=hv&pageUID=1784559239890&param=234567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/womens-personal-hygiene/~cs-7zi767w4uy/pr?sid=g9b%2Ciph&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&sort=recency_desc&p%5B%5D=facets.promo%255B%255D%3Dvl%253A05a8940617&droppedD2%5B%5D=ad840f73-f417-43fe-ab92-440cd68931f9&pageUID=1788159861750&experience=hv&pageUID=1784559239890&param=234567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/~cs-u5nyhaginy/pr?sid=g9b&collection-tab-name=BPC+PAHSE+6&sort=recency_desc&experience=hv&pageUID=1784559239890&param=2345678&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/~cs-26cihyok3h/pr?sid=g9b&collection-tab-name=Under+rs199&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D99&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtgi _1i2djt90 _1i2djt6r",
+      "is_visible": true,
+      "selector": "div > div > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/beauty-and-grooming/body-face-skin-care/body-and-face-care/pr?sid=g9b%2Cema%2C5la&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.brand%255B%255D%3DCetaphil&sort=recency_desc&param=876567&BU=BGM",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    }
+  ],
+  "forms": [
+    {
+      "id": "",
+      "name": "",
+      "action": "/search",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search for Products, Brands and More",
+          "label": "",
+          "required": false,
+          "is_visible": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker1",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "marketplace",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as-show",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        }
+      ],
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search"
+    }
+  ],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 9,
+    "total_buttons": 4,
+    "total_links": 80,
+    "total_forms": 1,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

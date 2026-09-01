@@ -1,0 +1,874 @@
+{
+  "url": "https://www.flipkart.com/",
+  "title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+  "timestamp": "2026-08-30T10:27:59.645Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "For You"
+    },
+    {
+      "tag": "p",
+      "text": "Flipkart Internet Private Limited,"
+    },
+    {
+      "tag": "p",
+      "text": "Buildings Alyssa, Begonia &"
+    },
+    {
+      "tag": "p",
+      "text": "Clove Embassy Tech Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Outer Ring Road, Devarabeesanahalli Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Bengaluru, 560103,"
+    },
+    {
+      "tag": "p",
+      "text": "Karnataka, India"
+    },
+    {
+      "tag": "p",
+      "text": "CIN : U51109KA2012PTC066107"
+    },
+    {
+      "tag": "p",
+      "text": "Telephone: 044-45614709 / 044-45714709"
+    },
+    {
+      "tag": "p",
+      "text": "Get access to your Orders, Wishlist and Recommendations"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Search for Products, Brands and More",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Search Icon",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": false,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "✕",
+      "tag": "span",
+      "type": "",
+      "id": "",
+      "classes": "b3wTlE",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "body.fk-modal-visible > div.mcO4kT.RFBkxv:nth-of-type(5) > div.q7ywiQ > span.b3wTlE"
+    },
+    {
+      "text": "Request OTP",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "WHahJn UejJtu sz5klr",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div > form > div.UgcHCN:nth-of-type(3) > button.WHahJn.UejJtu"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/flights-travel-uhp-at-store?marketplace=FKT",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4 _1psv1ze9x _1psv1ze7o _1psv1ze2u _1psv1ze53 _7dzyg23 _1psv1ze29 _1psv1ze53 _1psv1zee3",
+      "is_visible": true,
+      "selector": "div._1psv1zeb9._1psv1ze0 > div.css-g5y9jx > div.grid-formation.grid-column-6:nth-of-type(2) > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "Search Icon",
+      "href": "/searchsuggestion",
+      "id": "",
+      "classes": "lilxh_ header-form-search",
+      "is_visible": false,
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "New customer?Sign Up",
+      "href": "/account/login?signup=true&ret=/",
+      "id": "",
+      "classes": "Fvt7X7 _1psv1zel",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.Fvt7X7._1psv1zel:nth-of-type(1)"
+    },
+    {
+      "text": "My Profile",
+      "href": "/account/?rd=0&link=home_account",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "Flipkart Plus Zone",
+      "href": "/plus",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Orders",
+      "href": "/account/orders?link=home_orders",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Wishlist",
+      "href": "/wishlist?link=home_wishlist",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(5)"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(6)"
+    },
+    {
+      "text": "Rewards",
+      "href": "/account/rewards?link=home_rewards",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(7)"
+    },
+    {
+      "text": "Gift Cards",
+      "href": "/the-gift-card-store?link=home_giftcard",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(8)"
+    },
+    {
+      "text": "Notification Preferences",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(9)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(10)"
+    },
+    {
+      "text": "Advertise",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(11)"
+    },
+    {
+      "text": "Download App",
+      "href": "/mobile-apps?otracker=ch_vn_mobile_apps",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(12)"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/",
+      "id": "",
+      "classes": "BHnOJf",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.qjYSan:nth-of-type(2) > div.BSliuJ:nth-of-type(2) > a.BHnOJf"
+    },
+    {
+      "text": "More",
+      "href": "#",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3 > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(1)"
+    },
+    {
+      "text": "Notification Settings",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Advertise on Flipkart",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Cart",
+      "href": "/viewcart?marketplace=FLIPKART",
+      "id": "",
+      "classes": "E7_UTN",
+      "is_visible": true,
+      "selector": "div.PGj60j:nth-of-type(2) > div:nth-of-type(4) > div.H5bs2Y > a.E7_UTN"
+    },
+    {
+      "text": "For You",
+      "href": "https://www.flipkart.com/",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Fashion",
+      "href": "/ss-26-base-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mobiles",
+      "href": "/mobile-phones-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Electronics",
+      "href": "/new-elec-clp-march-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Beauty",
+      "href": "/bpc-bau-new-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Home",
+      "href": "/home-kitchen-25-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Appliances",
+      "href": "/tv-and-appliances-inline-ab-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Toys, baby..",
+      "href": "/toysbc-new26-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Food & Health",
+      "href": "/fnhc-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Auto Accessories",
+      "href": "/aa-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sports & Fitness",
+      "href": "/sf-inline-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Furniture",
+      "href": "/india-ka-furniture-studio-inlines-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Books & Media",
+      "href": "/booksmedia-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "2 Wheelers",
+      "href": "/twowheelers-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "",
+      "href": "/mens-footwear/mens-slippers-flip-flops/pr?sid=osp%2Ccil%2Ce1r&p%5B%5D=facets.type%255B%255D%3DSlides&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D164&sort=popularity&param=10928374&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=3MB02ZDOVKZE_IAD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/televisions/~cs-b1mhaq44pp/pr?sid=ckf%2Cczl&collection-tab-name=Top+43+TVs&pageCriteria=default&param=4903&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=GLE633BMMZG4_IAD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/televisions/~cs-kiawp8qewa/pr?sid=ckf%2Cczl&collection-tab-name=TCL+T6D+TVs&sort=price_asc&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=PHTT5FD7IT05_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/footwear/~cs-hfaqj4ufxa/pr?sid=osp&collection-tab-name=One8Footwear&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=YV0YICWCAJUC_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/boltt-evo-4g-sky-blue-64-gb/p/itm5bc8cf4538f2b?pid=MOBHPP59WKSV4FYG&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=L0HFWQBBO7G5_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/vivo-y11-5g-cosmic-gold-64-gb/p/itm722b8f27be0b8?pid=MOBHZF4TFXUNDF4Z&marketplace=FLIPKART&lid=LSTMOBHZF4TFXUNDF4ZFTB6YH&pageUID=1787814300460&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=LIUXMOHSSO12_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/realme-p4-5g-steel-grey-128-gb/p/itmf836e6de035a5?pid=MOBHPBHATYTBGZXN&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=51M54RLFDZ5S_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/footwear/mens-footwear/pr?sid=osp%2Ccil&p%5B%5D=facets.price_range.from%3D2000&sort=recency_desc&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.brand%255B%255D%3Done8&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=3SGAEBKOHSAU_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/footwear/~cs-6yysmw5u6u/pr?sid=osp&collection-tab-name=Puma_New&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=SBC9V7N0J4OD_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/toys/tricycles-and-rideons/pr?sid=tng%2C2cz&p%5B%5D=facets.brand%255B%255D%3DMiss%2B%2526%2BChief&sort=recency_desc&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=W1299H3XDSDH_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Get it now\nFrom ₹95",
+      "href": "/pens-stationery/pr?sid=dgv&marketplace=FLIPKART&param=12348765&hpid=5ks1aTacXLinpBHcb3VucKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTk1Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQk1ER1FLUFVORVVHTVdWWiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlBlbnMgYW5kIG5vdGVib29rcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Milton, Cello & more\nFrom ₹129",
+      "href": "/kitchen-cookware-serveware/water-bottles-flasks/pr?sid=upp%2C3t7&marketplace=FLIPKART&sort=popularity&p%5B%5D=facets.price_range.from%3D129&p%5B%5D=facets.price_range.to%3DMax&hpid=uBvWEo4NUmh0PT8_4P0PDap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEyOSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkJPVEU2UFVWSlE4QVhCQzQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJXYXRlciBCb3R0bGVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Eveready, Wipro & More\nFrom ₹89",
+      "href": "/home-lighting/utility-lighting/torches/pr?sid=jhg%2Cyqn%2Cdb9&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&hpid=Az6d2hhzukqaT7dGbDwRjqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTg5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiVE9IR1RSNjZEOEVHVFZDVSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRvcmNoZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Hawkins, Prestige & more\nMin 50% Off",
+      "href": "/kitchen-cookware-serveware/cookware/pressure-cookers/pr?sid=upp%2Ctnx%2Cgsl&marketplace=FLIPKART&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&hpid=g6Vn6m82YOQzJNe-s1dGtKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJNaW4gNTAlIE9mZiJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlBSQ0ZHRlpUWkZHQUZTVUgiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcmVzc3VyZSBDb29rZXJzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/flights-travel-uhp-at-store?param=Flights-Bookings-dontmiss&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtgi _1i2djt90 _1i2djt6r",
+      "is_visible": true,
+      "selector": "div > div > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/offers-list/recommended-for-you?screen=dynamic&pk=contentTags%3DGCD_THEME_10~marketplace%3DFLIPKART~widgetType%3DdealCardV3~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0",
+      "is_visible": true,
+      "selector": "div._3n8fna1co._3n8fna10j > div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Face Wash\nMin. 50% Off",
+      "href": "https://www.flipkart.com/all/~cs-5ab19791d4f627a2a36b60d5791384ca/pr?sid=g9b,ema,5la,jav&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Hair Claw\nMin. 50% Off",
+      "href": "https://www.flipkart.com/all/~cs-597cf2cfc68d911d5f236ca0fa9b8d60/pr?sid=g9b,lcf,bjl,zbu&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Hair Removal\nMin. 50% Off",
+      "href": "https://www.flipkart.com/all/~cs-6e3b6210390d11367e7770887e0a7696/pr?sid=g9b,ema,5la,ic8&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Body And Face Care\nExplore Now",
+      "href": "https://www.flipkart.com/all/~cs-60e5cd8a7506bf096d08e14190e04c94/pr?sid=g9b,ema,5la&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/bags-wallets-belts/~cs-4h4s69xu3t/pr?sid=reh&collection-tab-name=Clutch&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D599&offer=vl:05a8940617&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/r18/~cs-dksn6xbfh0/pr?sid=r18&collection-tab-name=Watch&offer=vl:05a8940617&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/furniture/~cs-6jzohikecu/pr?sid=wwe&collection-tab-name=Wardrobe&param=67893&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/furniture/~cs-ibbnv9n9c1/pr?sid=wwe&collection-tab-name=Collapsible%20wardrobe&param=79831&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/clothing-and-accessories/~cs-roadna84cg/pr?sid=clo&collection-tab-name=Trousers&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D649&param=347634747&offer=vl:05a8940617&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/automotive-accessories/car-air-purifiers-and-air-fresheners/~cs-vu6w3wco84/pr?sid=1mt%2Cbpx&p%5B%5D=facets.brand%255B%255D%3DAirganic&p%5B%5D=facets.brand%255B%255D%3DAromahpure&valueid=vl:05a8940617&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/exercise-fitness/fitness-equipment/treadmills/~cs-14gyup4ug2/pr?sid=qoc%2Camf%2Coyq&collection-tab-name=Treadmill&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/clothing-and-accessories/topwear/~cs-cn6mhneqkn/pr?sid=clo%2Cash&p%5B%5D=facets.price_range.from%3D500&p%5B%5D=facets.price_range.to%3DMax&sort=price_desc&param=1233&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/furniture/~cs-mv7squlwrj/pr?sid=wwe&collection-tab-name=Side%20table&param=78421&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/product/p/item?pid=EIKHGTAARRCGZJHX&PARAM=097512&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/tyy/4mr/~cs-fgi6pfxox3/pr?sid=tyy,4mr&collection-tab-name=MIETUBL+Screen+Guard+249&experience=hv&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/product/p/item?pid=TOHHHC7XERWUUFTM&PARAM=086712&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/product/p/itme?pid=PUTEXGGX677FHH4Q&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/sports/badminton/~cs-t7g2psuo2t/pr?sid=abc%2Cegs&collection-tab-name=Badminton&experience=hv&BU=Mixed",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4",
+      "is_visible": true,
+      "selector": "div > div > div._1psv1zeb9._1psv1ze0 > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "",
+      "href": "/toys/tricycles-and-rideons/pr?sid=tng%2C2cz&p%5B%5D=facets.brand%255B%255D%3DMiss%2B%2526%2BChief&sort=recency_desc&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=W0JDZB1L95JS_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/footwear/~cs-7cnldmiyl6/pr?sid=osp&collection-tab-name=Brand_Days&p%5B%5D=facets.discount_range_v1%255B%255D%3D70%2525%2Bor%2Bmore&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=7P3T9M59W3JB_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/kyh/~cs-evl33tfgk2/pr?sid=kyh&collection-tab-name=Himalaya+Baby&offer=nb%3Amp%3A07d8c58628&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=OFS4BBGTTULF_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/ajy/buh/~cs-9z8cku4rib/pr?sid=ajy%2Cbuh&collection-tab-name=FIRE-BOLTT&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=NRZKH9BF75Z5_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/kitchen-cookware-serveware/~cs-87f44cxg1p/pr?sid=upp&collection-tab-name=Bergner&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=EQBRCKQ54RZ0_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/samsung-galaxy-ring-ai-enabled-health-monitoring-sleep-coach-wireless-charging-smart-ring/p/itm00fed9a3fc870?pid=SMWHN3S4ZCYAW497&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiQUQiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19&nnc=HM5THY283M7M_AD&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtk9 _1i2djtir _1i2djtja _1i2djtjb",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/offers-list/recommended-for-you?screen=dynamic&pk=contentTags%3DGCD_THEME_1~marketplace%3DFLIPKART~widgetType%3DdealCardV3~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0",
+      "is_visible": true,
+      "selector": "div._3n8fna1co._3n8fna10j > div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "True Wireless\nMin. 50% Off",
+      "href": "https://www.flipkart.com/all/~cs-6ef68bc8d283b86730515a8f2c87ff23/pr?sid=0pm,fcn,821,a7x,2si&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Trimmers\nMin. 50% Off",
+      "href": "https://www.flipkart.com/all/~cs-fcd986f0a357ac4dbc7f91b70631e4b1/pr?sid=zlw,79s,by3&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Security Cameras\nMin. 50% Off",
+      "href": "https://www.flipkart.com/all/~cs-f766ab37f7cb15a909ea5fe94d98ac75/pr?sid=igc,j69,agd&marketplace=FLIPKART&restrictLocale=true&BU=Mixed",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    }
+  ],
+  "forms": [
+    {
+      "id": "",
+      "name": "",
+      "action": "/search",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search for Products, Brands and More",
+          "label": "",
+          "required": false,
+          "is_visible": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker1",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "marketplace",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as-show",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        }
+      ],
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search"
+    },
+    {
+      "id": "",
+      "name": "",
+      "action": "",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": true,
+          "value": ""
+        }
+      ],
+      "selector": "div.Blh9Gf > div.oTmHSp:nth-of-type(2) > div > form"
+    }
+  ],
+  "checkboxes": [],
+  "prices": [
+    {
+      "raw_text": "Get it now\nFrom ₹95",
+      "detected_price": "₹95",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "grid-formation grid-column-4",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(1)",
+      "context": "Get it now\nFrom ₹95\n   \nMilton, Cello & more\nFrom ₹129\n   \nEveready, Wipro & More\nFrom ₹89\n   \nHawkins, Prestige & m"
+    },
+    {
+      "raw_text": "Milton, Cello & more\nFrom ₹129",
+      "detected_price": "₹129",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "grid-formation grid-column-4",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(2)",
+      "context": "Get it now\nFrom ₹95\n   \nMilton, Cello & more\nFrom ₹129\n   \nEveready, Wipro & More\nFrom ₹89\n   \nHawkins, Prestige & m"
+    },
+    {
+      "raw_text": "Eveready, Wipro & More\nFrom ₹89",
+      "detected_price": "₹89",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "grid-formation grid-column-4",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(3)",
+      "context": "Get it now\nFrom ₹95\n   \nMilton, Cello & more\nFrom ₹129\n   \nEveready, Wipro & More\nFrom ₹89\n   \nHawkins, Prestige & m"
+    },
+    {
+      "raw_text": "Top Collection\nUnder ₹249",
+      "detected_price": "₹249",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "grid-formation grid-column-4",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(1)",
+      "context": "Top Collection\nUnder ₹249\n   \nTop Collection\nMin. 80% Off\n   \nTop Sellers\nMin. 70% Off\n   \nExplore Now\nTop Rated"
+    }
+  ],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 10,
+    "total_buttons": 4,
+    "total_links": 80,
+    "total_forms": 2,
+    "total_checkboxes": 0,
+    "total_prices": 4,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "evidence_id": "ev_page_004_audit_makemytrip_2026-08-30_16-02-32",
+  "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/holidays-india/",
+  "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+  "crawl_depth": 1,
+  "page_index": 4,
+  "audit_time": "2026-08-30_16-02-32",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 32,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 26,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 4,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p4_scr_9ee394",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/screenshot.png",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Platform: MakeMyTrip | Page: 4 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p4_dom_3a8432",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/dom.html",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Captured at network idle for https://www.makemytrip.com/holidays-india/ (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_0_8e7d",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.sliderItemContent:nth-of-type(3) > ul.sliderItem-benefits > li:nth-of-type(2) > div",
+      "text": "Book Hotels @ ₹0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_1_3c9e",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "ul.sliderItem-benefits > li:nth-of-type(2) > div > p.benefitTitle",
+      "text": "Book Hotels @ ₹0",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_2_3ebf",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(2)",
+      "text": "Maldives\n\nStarting at ₹11,300 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹11,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_3_423c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹11,300 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Maldives\n\nStarting at ₹11,300 Per person",
+      "attributes": {
+        "detected_price": "₹11,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_4_c27f",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(3)",
+      "text": "Laos\n\nStarting at ₹22,900 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹22,900",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_5_ca5c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹22,900 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Laos\n\nStarting at ₹22,900 Per person",
+      "attributes": {
+        "detected_price": "₹22,900",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_6_febf",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(4)",
+      "text": "Bali\n\nStarting at ₹13,300 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹13,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_7_7114",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹13,300 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Bali\n\nStarting at ₹13,300 Per person",
+      "attributes": {
+        "detected_price": "₹13,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_8_a24d",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(5)",
+      "text": "Vietnam\n\nStarting at ₹14,800 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹14,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_9_1ac6",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹14,800 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Vietnam\n\nStarting at ₹14,800 Per person",
+      "attributes": {
+        "detected_price": "₹14,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_10_a7e1",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(6)",
+      "text": "Europe\n\nStarting at ₹1,39,300 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹1,39,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_11_c266",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹1,39,300 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Europe\n\nStarting at ₹1,39,300 Per person",
+      "attributes": {
+        "detected_price": "₹1,39,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_12_4100",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide:nth-of-type(8)",
+      "text": "Australia\n\nStarting at ₹41,800 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹41,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_13_1f5b",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹41,800 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Australia\n\nStarting at ₹41,800 Per person",
+      "attributes": {
+        "detected_price": "₹41,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_14_0e66",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide:nth-of-type(9)",
+      "text": "New Zealand\n\nStarting at ₹2,37,800 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹2,37,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_15_6912",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹2,37,800 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "New Zealand\n\nStarting at ₹2,37,800 Per person",
+      "attributes": {
+        "detected_price": "₹2,37,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_16_b6da",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide:nth-of-type(10)",
+      "text": "Bhutan\n\nStarting at ₹23,800 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹23,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_17_7ee1",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹23,800 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Bhutan\n\nStarting at ₹23,800 Per person",
+      "attributes": {
+        "detected_price": "₹23,800",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_18_997c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide:nth-of-type(11)",
+      "text": "Japan\n\nStarting at ₹1,32,100 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹1,32,100",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_19_ab8e",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹1,32,100 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Japan\n\nStarting at ₹1,32,100 Per person",
+      "attributes": {
+        "detected_price": "₹1,32,100",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_20_6363",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide:nth-of-type(12)",
+      "text": "Malaysia\n\nStarting at ₹23,500 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹23,500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_21_265f",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹23,500 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Malaysia\n\nStarting at ₹23,500 Per person",
+      "attributes": {
+        "detected_price": "₹23,500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_22_3260",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide:nth-of-type(13)",
+      "text": "Sri Lanka\n\nStarting at ₹12,300 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Thailand\n\nMaldives\n\nStarting at ₹11,300 Per person\n\nLaos\n\nStarting at ₹22,900 Per person\n\nBali\n\nStarting at ₹13,300 Per",
+      "attributes": {
+        "detected_price": "₹12,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_23_1b26",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹12,300 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Sri Lanka\n\nStarting at ₹12,300 Per person",
+      "attributes": {
+        "detected_price": "₹12,300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_24_b045",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(2) > div:nth-of-type(2)",
+      "text": "T&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "T&C'S APPLY\n\nSave Big and Travel Smart: Grab Up to 35% OFF*\n\non Flights, Hotels, Packages, Buses & More.\n\nVIEW DETAILS",
+      "attributes": {
+        "detected_price": "₹99,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_25_506a",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Book starting at ₹99,999*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "T&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.",
+      "attributes": {
+        "detected_price": "₹99,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_0_f8ae",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "#header-container > div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2)",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs\n\nSign up/Login now to\n\nLock Flight",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "imageSliderModal modal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_1_bb70",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2) > div.imageSlideContainer > section.modalMain.tcnFooter",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs",
+      "tag": "section",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalMain tcnFooter"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_2_1fe3",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.imageSlideContainer > section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1)",
+      "text": "Mobile Number\n\n‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalField makeFlex column appendBottom20"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_3_6d2c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1) > div.modalFieldInner.makeFlex",
+      "text": "‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_004/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalFieldInner makeFlex hrtlCenter"
+      }
+    }
+  ]
+}

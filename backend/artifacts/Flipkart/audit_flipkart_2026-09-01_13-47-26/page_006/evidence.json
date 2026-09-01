@@ -1,0 +1,202 @@
+{
+  "evidence_id": "ev_page_006_audit_flipkart_2026-09-01_13-47-26",
+  "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+  "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+  "crawl_depth": 1,
+  "page_index": 6,
+  "audit_time": "2026-09-01_13-47-26",
+  "artifacts": {
+    "screenshot": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/screenshot.png",
+    "dom": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/dom.html",
+    "extracted_json": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+    "evidence_json": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 8,
+    "total_checkbox_evidence": 6,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p6_scr_e485ea",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/screenshot.png",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "Platform: Flipkart | Page: 6 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p6_dom_94d464",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/dom.html",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "Captured at network idle for https://www.flipkart.com/communication-preferences/push?t=all (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_cb_0_c5f5",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "li.zKiXJy:nth-of-type(1) > section.WifV34 > label.BMOCJ3.komfF8 > input.UXWKAE",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p6_cb_1_07b6",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "li.zKiXJy:nth-of-type(2) > section.WifV34 > label.BMOCJ3.komfF8 > input.UXWKAE",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p6_cb_2_f72e",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "li.zKiXJy:nth-of-type(3) > section.WifV34 > label.BMOCJ3.komfF8 > input.UXWKAE",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p6_cb_3_6302",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "li.zKiXJy:nth-of-type(4) > section.WifV34 > label.BMOCJ3.komfF8 > input.UXWKAE",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p6_cb_4_194c",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "li.zKiXJy:nth-of-type(5) > section.WifV34 > label.BMOCJ3.komfF8 > input.UXWKAE",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p6_cb_5_3072",
+      "audit_id": "audit_flipkart_2026-09-01_13-47-26",
+      "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "page_title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "li.zKiXJy:nth-of-type(6) > section.WifV34 > label.BMOCJ3.komfF8 > input.UXWKAE",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-01_13-47-26/page_006/extracted.json",
+      "timestamp": "2026-09-01_13-47-26",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": false
+      }
+    }
+  ]
+}

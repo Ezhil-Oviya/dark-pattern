@@ -1,0 +1,135 @@
+{
+  "audit_id": "audit_flipkart_2026-09-01_13-45-44",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "start_url": "https://www.flipkart.com",
+  "configured_crawl_depth": 0,
+  "actual_max_depth_reached": 0,
+  "max_pages_limit": 15,
+  "pages_discovered": 1,
+  "pages_crawled": 1,
+  "pages_successful": 1,
+  "pages_failed": 0,
+  "total_evidence_items": 2,
+  "total_dark_pattern_findings": 0,
+  "start_time": "2026-09-01_13-45-44",
+  "end_time": "2026-09-01_13-46-20",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No dynamic countdown timers or artificial scarcity pressure detected across crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient pricing or checkout breakdown data present across crawled pages to evaluate Drip Pricing.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient cross-page promotional comparison data to evaluate Bait and Switch.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-45-44",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "https://www.flipkart.com/",
+      "title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9689c59b8cfa55c2864d21",
+        "dom": "api/v1/automation/artifact/6a9689cc9b8cfa55c2864d28",
+        "extracted_json": "api/v1/automation/artifact/6a9689d39b8cfa55c2864d2d",
+        "evidence_json": "api/v1/automation/artifact/6a9689d39b8cfa55c2864d2f"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient page content and link data to evaluate Bait and Switch.",
+          "page_url": "https://www.flipkart.com",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_CONTENT"
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    }
+  ]
+}

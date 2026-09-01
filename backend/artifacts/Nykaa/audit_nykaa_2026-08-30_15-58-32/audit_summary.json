@@ -1,0 +1,2000 @@
+{
+  "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "start_url": "https://www.nykaa.com",
+  "configured_crawl_depth": 1,
+  "actual_max_depth_reached": 1,
+  "max_pages_limit": 10,
+  "pages_discovered": 79,
+  "pages_crawled": 10,
+  "pages_successful": 10,
+  "pages_failed": 0,
+  "total_evidence_items": 268,
+  "total_dark_pattern_findings": 48,
+  "start_time": "2026-08-30_15-58-32",
+  "end_time": "2026-08-30_16-00-51",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "DETECTED",
+      "detected": true,
+      "confidence": 90,
+      "pages_affected_count": 3,
+      "affected_pages": [
+        {
+          "page_index": 0,
+          "url": "https://www.nykaa.com/",
+          "depth": 0,
+          "evidence_count": 4
+        },
+        {
+          "page_index": 3,
+          "url": "https://www.nykaa.com/stores-n-events-desktop",
+          "depth": 1,
+          "evidence_count": 50
+        },
+        {
+          "page_index": 6,
+          "url": "https://www.nykaa.com/?root=logo",
+          "depth": 1,
+          "evidence_count": 4
+        }
+      ],
+      "total_instances": 48,
+      "reason": "Potential False Urgency detected across 3 page(s) (48 unique instance(s) found with 58 traceable evidence items).",
+      "evidence": [
+        {
+          "evidence_id": "ev_p0_urg_0_0ba6",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+          "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_0_0ba6",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+          "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_0_0ba6",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+          "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_0_0ba6",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+          "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+        },
+        {
+          "evidence_id": "ev_p3_urg_0_43e8",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(1)",
+          "text": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_0_43e8",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(1)",
+          "text": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_2_b001",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(2)",
+          "text": "MUMBAI\nNykaa On Trend - Seawoods Grand Central Mall\nOpen 11:00 AM - 09:30 PM\nUpper Ground floor, Plot No.R-1, Sector 40, Seawoods Railway Station, Navi Mumbai- 400706 Ph: 022-22762722\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa On Trend - Seawoods Grand Central Mall\nOpen 11:00 AM - 09:30 PM\nUpper Ground floor, Plot No.R-1, Sector 40, Seawoods Railway Station, Navi Mumbai- 400706 Ph: 022-22762722\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_3_7d44",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(3)",
+          "text": "PUNE\nNykaa Luxe - Westend Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit no: GS-09C, Aundh Pune - 411007 Ph: 022-22762722\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "PUNE\nNykaa Luxe - Westend Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit no: GS-09C, Aundh Pune - 411007 Ph: 022-22762722\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_4_a61e",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(4)",
+          "text": "CHENNAI\nNykaa On Trend - Palladium Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, 28, Velachery Road Nagendra Nagar, Anna Garden Velachery, Chennai- 600042\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "CHENNAI\nNykaa On Trend - Palladium Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, 28, Velachery Road Nagendra Nagar, Anna Garden Velachery, Chennai- 600042\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_5_d056",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(5)",
+          "text": "COIMBATORE\nNykaa On Trend - Prozone Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sivanandhapuram, Saravanampatty, Coimbatore, 641035 Ph: 022-22762722\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "COIMBATORE\nNykaa On Trend - Prozone Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sivanandhapuram, Saravanampatty, Coimbatore, 641035 Ph: 022-22762722\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_6_1fc8",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(6)",
+          "text": "INDORE\nNykaa Luxe - Next Treasure Island Next Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Rabindranath Tagore Marg, Flim Colony Indore- 452001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "INDORE\nNykaa Luxe - Next Treasure Island Next Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Rabindranath Tagore Marg, Flim Colony Indore- 452001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_7_fdbe",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(7)",
+          "text": "HYDERABAD\nNykaa Luxe - L&T Metro Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor Nagarjuna Hills, Punjagutta Hyderabad- 500082\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "HYDERABAD\nNykaa Luxe - L&T Metro Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor Nagarjuna Hills, Punjagutta Hyderabad- 500082\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_8_5e57",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(8)",
+          "text": "NOIDA\nNykaa On Trend - Logix City Centre Mall\nOpen 11:00 AM - 09:30 PM\nGround floor, Store No-6, Plot No BW 58, Sector 32 Noida: 201301\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NOIDA\nNykaa On Trend - Logix City Centre Mall\nOpen 11:00 AM - 09:30 PM\nGround floor, Store No-6, Plot No BW 58, Sector 32 Noida: 201301\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_9_37be",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(9)",
+          "text": "NEW DELHI\nNykaa Luxe - Khan Market\nOpen 11:00 AM - 09:30 PM\n58b, Rabindra Nagar New Delhi- 110003\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NEW DELHI\nNykaa Luxe - Khan Market\nOpen 11:00 AM - 09:30 PM\n58b, Rabindra Nagar New Delhi- 110003\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_10_f1cf",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(10)",
+          "text": "NEW DELHI\nNykaa Luxe - The Chanakya\nOpen 11:00 AM - 09:30 PM\nSecond floor Unit No S202-203 13A-16D, Tikendrajeet Marg New Delhi- 110021\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NEW DELHI\nNykaa Luxe - The Chanakya\nOpen 11:00 AM - 09:30 PM\nSecond floor Unit No S202-203 13A-16D, Tikendrajeet Marg New Delhi- 110021\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_11_e308",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(11)",
+          "text": "NEW DELHI\nNykaa Luxe - Indira Gandhi International Airport\nOpen 11:00 AM - 09:30 PM\nDomestic Departure, Terminal-3 New Delhi- 110037\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NEW DELHI\nNykaa Luxe - Indira Gandhi International Airport\nOpen 11:00 AM - 09:30 PM\nDomestic Departure, Terminal-3 New Delhi- 110037\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_12_3483",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(12)",
+          "text": "AMRITSAR\nNykaa On Trend - Mall of Amritsar\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sultan Wind Sub Urban, Main GT Road Amritsar- 143001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "AMRITSAR\nNykaa On Trend - Mall of Amritsar\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sultan Wind Sub Urban, Main GT Road Amritsar- 143001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_13_824b",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(13)",
+          "text": "BENGALURU\nNykaa On Trend - Mantri Square Mall\nOpen 11:00 AM - 09:30 PM\nUnit No.UG-15A, Sampige Rd, Malleshwaram West, Bengaluru, Karnataka 560003\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "BENGALURU\nNykaa On Trend - Mantri Square Mall\nOpen 11:00 AM - 09:30 PM\nUnit No.UG-15A, Sampige Rd, Malleshwaram West, Bengaluru, Karnataka 560003\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_14_9ef4",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(14)",
+          "text": "AHMEDABAD\nNykaa Luxe - Alpha One Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-35, Plot No-216, T.P Scheme-1, Near Vastrapur Lake, Vastrapur, Ahmedabad, Gujarat 380054\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "AHMEDABAD\nNykaa Luxe - Alpha One Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-35, Plot No-216, T.P Scheme-1, Near Vastrapur Lake, Vastrapur, Ahmedabad, Gujarat 380054\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_15_8652",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(16)",
+          "text": "BENGALURU\nNykaa Luxe - Forum Shantiniketan Mall\nOpen 11:00 AM - 09:30 PM\nUnit No - 21 Whitefield Main road, Hoodi. Bengaluru-560067\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "BENGALURU\nNykaa Luxe - Forum Shantiniketan Mall\nOpen 11:00 AM - 09:30 PM\nUnit No - 21 Whitefield Main road, Hoodi. Bengaluru-560067\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_16_c187",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(17)",
+          "text": "KANPUR\nNykaa Luxe - Z Square Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-03,16/113, Mall Road, Bada Chauraha, Downtown, Kanpur, Uttar Pradesh 208001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "KANPUR\nNykaa Luxe - Z Square Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-03,16/113, Mall Road, Bada Chauraha, Downtown, Kanpur, Uttar Pradesh 208001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_17_8442",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(18)",
+          "text": "MUMBAI\nNykaa On Trend - Inorbit Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF - 06, Link Rd, Malad West, Mumbai, Maharashtra 400064\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa On Trend - Inorbit Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF - 06, Link Rd, Malad West, Mumbai, Maharashtra 400064\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_18_a14c",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(19)",
+          "text": "CHENNAI\nNykaa On Trend - VR Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-47 A, Jawaharlal Nehru Rd, Anna Nagar West, Anna Nagar, Chennai, Tamil Nadu 600040\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "CHENNAI\nNykaa On Trend - VR Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-47 A, Jawaharlal Nehru Rd, Anna Nagar West, Anna Nagar, Chennai, Tamil Nadu 600040\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_19_2248",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(20)",
+          "text": "MUMBAI\nNykaa On Trend - Viviana Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF-52A, Eastern Express Highway, On Service Road, Next To Jupiter Hospital, Thane West, Thane, Maharashtra 400601\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa On Trend - Viviana Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF-52A, Eastern Express Highway, On Service Road, Next To Jupiter Hospital, Thane West, Thane, Maharashtra 400601\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_20_31ab",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(21)",
+          "text": "GURUGRAM\nNykaa On Trend - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-060A, NH 8, Ambience Island, DLF Phase 3, Sector 24, Gurugram, Haryana 122002\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "GURUGRAM\nNykaa On Trend - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-060A, NH 8, Ambience Island, DLF Phase 3, Sector 24, Gurugram, Haryana 122002\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_21_82aa",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(22)",
+          "text": "JAIPUR\nNykaa On Trend - MI Road\nOpen 11:00 AM - 09:30 PM\nGround Floor, E-2, Kamani Mansion, Panch Batti Circle, M.I. Road, Jaipur, Rajasthan 302001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "JAIPUR\nNykaa On Trend - MI Road\nOpen 11:00 AM - 09:30 PM\nGround Floor, E-2, Kamani Mansion, Panch Batti Circle, M.I. Road, Jaipur, Rajasthan 302001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_22_6241",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(23)",
+          "text": "BENGALURU\nNykaa Luxe - Lavelle Road\nOpen 11:00 AM - 09:30 PM\nLavelle Road, 7, 100 Feet Ring Road, Near-Regent, Bengaluru, Karnataka 560001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "BENGALURU\nNykaa Luxe - Lavelle Road\nOpen 11:00 AM - 09:30 PM\nLavelle Road, 7, 100 Feet Ring Road, Near-Regent, Bengaluru, Karnataka 560001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_23_053c",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(24)",
+          "text": "NEW DELHI\nNykaa Luxe - Pacific Mall\nOpen 11:00 AM - 09:30 PM\nPacfic Mall, Unit No GF - 39, Najafgarh Rd, Tagore Garden, Tilak Nagar, New Delhi, Delhi 110018 Ph: 011-46010013\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NEW DELHI\nNykaa Luxe - Pacific Mall\nOpen 11:00 AM - 09:30 PM\nPacfic Mall, Unit No GF - 39, Najafgarh Rd, Tagore Garden, Tilak Nagar, New Delhi, Delhi 110018 Ph: 011-46010013\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_24_197e",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(26)",
+          "text": "MUMBAI\nNykaa Luxe - Linking Road\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Plot No 329, Ground Floor,Dawn Building, Linking Road, Khar Mumbai, Maharashtra 400052 Ph: 022-62362228\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa Luxe - Linking Road\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Plot No 329, Ground Floor,Dawn Building, Linking Road, Khar Mumbai, Maharashtra 400052 Ph: 022-62362228\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_25_3ade",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(27)",
+          "text": "PANAJI\nNykaa Luxe - High Street, Panaji, Goa\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ground Floor, Park Plaza Building, Opp Azad Maidan, Panaji, Goa - 403001 Panaji, Goa 403001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "PANAJI\nNykaa Luxe - High Street, Panaji, Goa\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ground Floor, Park Plaza Building, Opp Azad Maidan, Panaji, Goa - 403001 Panaji, Goa 403001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_26_29f6",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(28)",
+          "text": "LUCKNOW\nNykaa Luxe - Sahara Ganj, Lucknow\nOpen 11:00 AM - 09:30 PM\nSahara Ganj Mall, Shop No. – 21D, Ground Floor, Shahnajaf Road, Prem Nagar, Hazratganj Lucknow, Uttar Pradesh 226001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "LUCKNOW\nNykaa Luxe - Sahara Ganj, Lucknow\nOpen 11:00 AM - 09:30 PM\nSahara Ganj Mall, Shop No. – 21D, Ground Floor, Shahnajaf Road, Prem Nagar, Hazratganj Lucknow, Uttar Pradesh 226001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_27_ca04",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(29)",
+          "text": "MUMBAI\nNykaa Luxe - Powai\nOpen 11:00 AM - 09:30 PM\nNykaa LUXE, G4A, Ground Floor, City Park Central Avenue, Hiranandani Business Park, Powai, Mumbai, Maharashtra 400076\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa Luxe - Powai\nOpen 11:00 AM - 09:30 PM\nNykaa LUXE, G4A, Ground Floor, City Park Central Avenue, Hiranandani Business Park, Powai, Mumbai, Maharashtra 400076\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_28_4dfb",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(30)",
+          "text": "VADODARA\nNykaa Luxe - Inorbit Mall, Vadodara\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Inorbit Mall, Shop No. – G-33, Opp, Alembic Rd, Subhanpura, Vadodara, Gujarat 390023\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "VADODARA\nNykaa Luxe - Inorbit Mall, Vadodara\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Inorbit Mall, Shop No. – G-33, Opp, Alembic Rd, Subhanpura, Vadodara, Gujarat 390023\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_29_dca2",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(31)",
+          "text": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_29_dca2",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(31)",
+          "text": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_31_6dca",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(32)",
+          "text": "NEW DELHI\nNykaa Luxe - Khan Market 2\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Khan Market, 45-A, Front Portion, New Delhi - 110003\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NEW DELHI\nNykaa Luxe - Khan Market 2\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Khan Market, 45-A, Front Portion, New Delhi - 110003\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_32_4b56",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(33)",
+          "text": "NAGPUR\nNykaa On Trend - Trilium Mall, Nagpur\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Trilium Mall, Unit No. UGF - 18, Rambagh Layout, Untkhana, Nagpur, Maharashtra 440003\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NAGPUR\nNykaa On Trend - Trilium Mall, Nagpur\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Trilium Mall, Unit No. UGF - 18, Rambagh Layout, Untkhana, Nagpur, Maharashtra 440003\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_33_04f5",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(34)",
+          "text": "LUDHIANA\nNykaa Luxe - MBD Mall, Ludhiana\nOpen 11:00 AM - 09:30 PM\nMBD Neopolis Mall, Ground Floor, Ferozpur Rd, Housing Board ColonyAdjacent Rajguru NagarLudhiana, Punjab 141012\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "LUDHIANA\nNykaa Luxe - MBD Mall, Ludhiana\nOpen 11:00 AM - 09:30 PM\nMBD Neopolis Mall, Ground Floor, Ferozpur Rd, Housing Board ColonyAdjacent Rajguru NagarLudhiana, Punjab 141012\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_34_36f3",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(36)",
+          "text": "SURAT\nNykaa Luxe - VR Mall, Surat\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, VR Mall, Shop No. – 16A, Ground Floor, Dumas Rd, Magdalla, Surat, Gujarat 395007\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "SURAT\nNykaa Luxe - VR Mall, Surat\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, VR Mall, Shop No. – 16A, Ground Floor, Dumas Rd, Magdalla, Surat, Gujarat 395007\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_35_6204",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(38)",
+          "text": "BENGALURU\nNykaa Luxe - 100 Feet Road, Indiranagar, Bengaluru\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, No. 383, Ground Floor, 100 Feet road Indiranagar, HAL 2nd Stage, Bangalore - 560038\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "BENGALURU\nNykaa Luxe - 100 Feet Road, Indiranagar, Bengaluru\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, No. 383, Ground Floor, 100 Feet road Indiranagar, HAL 2nd Stage, Bangalore - 560038\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_36_1b42",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(39)",
+          "text": "JALANDHAR\nNykaa On Trend - MBD Mall, Jalandhar\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, MBD Neopolis Mall, Shop GF 01Sehdev Market Jalandhar, Punjab 144001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "JALANDHAR\nNykaa On Trend - MBD Mall, Jalandhar\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, MBD Neopolis Mall, Shop GF 01Sehdev Market Jalandhar, Punjab 144001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_37_f8a6",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(41)",
+          "text": "RAIPUR\nNykaa Luxe - Magneto Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe Magneto The Mall, Shop GF 11Great Eastern Road, Jivan Vihar, Labhandih Raipur, Chhattisgarh 492001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "RAIPUR\nNykaa Luxe - Magneto Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe Magneto The Mall, Shop GF 11Great Eastern Road, Jivan Vihar, Labhandih Raipur, Chhattisgarh 492001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_38_aea8",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(43)",
+          "text": "BENGALURU\nNykaa Kiosk - Forum Mall Koramangala\nOpen 11:00 AM - 09:30 PM\nThe Forum Mall, KGR 07, No. 21, Hosur RoadChikku Lakshmaiah Layout, Koramangala, Bengaluru, Karnataka 560095\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "BENGALURU\nNykaa Kiosk - Forum Mall Koramangala\nOpen 11:00 AM - 09:30 PM\nThe Forum Mall, KGR 07, No. 21, Hosur RoadChikku Lakshmaiah Layout, Koramangala, Bengaluru, Karnataka 560095\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_39_6d45",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(44)",
+          "text": "CHANDIGARH\nNykaa Luxe - Sector 17, High Street\nOpen 11:00 AM - 09:30 PM\nSCO 50, Sector 17-CBridge Market, Sector 17Chandigarh, Punjab 160017\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "CHANDIGARH\nNykaa Luxe - Sector 17, High Street\nOpen 11:00 AM - 09:30 PM\nSCO 50, Sector 17-CBridge Market, Sector 17Chandigarh, Punjab 160017\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_40_6586",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(46)",
+          "text": "BAREILLY\nNykaa On Trend - Phoenix Market City Mall\nOpen 11:00 AM - 09:30 PM\nShop G-23, Phoenix United Mall Pilibhit Bypass Road Bareilly, Uttar Pradesh 243122\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "BAREILLY\nNykaa On Trend - Phoenix Market City Mall\nOpen 11:00 AM - 09:30 PM\nShop G-23, Phoenix United Mall Pilibhit Bypass Road Bareilly, Uttar Pradesh 243122\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_41_9129",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(49)",
+          "text": "NEW DELHI\nNykaa Luxe - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ambience Mall, Unit No. UG - 19, 2, Nelson Mandela Marg, Vasant Kunj II, Vasant Kunj, New Delhi, Delhi 110070\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "NEW DELHI\nNykaa Luxe - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ambience Mall, Unit No. UG - 19, 2, Nelson Mandela Marg, Vasant Kunj II, Vasant Kunj, New Delhi, Delhi 110070\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_42_0e20",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(51)",
+          "text": "CHENNAI\nNykaa On Trend - Forum Vijaya Mall\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Forum Vijaya Mall, Shop No. UG - 17, 183, Arcot Rd, Vadapalani, Chennai, Tamil Nadu 600026\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "CHENNAI\nNykaa On Trend - Forum Vijaya Mall\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Forum Vijaya Mall, Shop No. UG - 17, 183, Arcot Rd, Vadapalani, Chennai, Tamil Nadu 600026\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_43_f24f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(52)",
+          "text": "MUMBAI\nNykaa On Trend - Inorbit Mall, Vashi\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Inorbit Mall, Shop No. GF - 07, Palm Beach Rd, Sector 30A, Vashi, Navi Mumbai, Maharashtra 400703\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "MUMBAI\nNykaa On Trend - Inorbit Mall, Vashi\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Inorbit Mall, Shop No. GF - 07, Palm Beach Rd, Sector 30A, Vashi, Navi Mumbai, Maharashtra 400703\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_44_f643",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(54)",
+          "text": "CHANDIGARH\nNykaa Kiosk - VR Punjab\nOpen 11:00 AM - 09:30 PM\nVR Punjab, Kiosk-GFK 2 NH-21, Chandigarh, Kharar - Landran Rd, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "CHANDIGARH\nNykaa Kiosk - VR Punjab\nOpen 11:00 AM - 09:30 PM\nVR Punjab, Kiosk-GFK 2 NH-21, Chandigarh, Kharar - Landran Rd, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_45_1c40",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(56) > div.css-95skh > div.css-zol25y:nth-of-type(3)",
+          "text": "Open 11:00 AM - 08:00 PM",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "Open 11:00 AM - 08:00 PM"
+        },
+        {
+          "evidence_id": "ev_p3_urg_46_020c",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(57)",
+          "text": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_46_020c",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(57)",
+          "text": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_48_c13c",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(58)",
+          "text": "AHMEDABAD\nNykaa Luxe - One 42\nOpen 11:00 AM - 08:00 PM\nOne 42 CHS, Shop No. G - 09 Retail Plaza, Opp Ashok VatikaOff Bopal Ambi RoadBodakdev, Ahmedabad, Gujarat 380058\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "AHMEDABAD\nNykaa Luxe - One 42\nOpen 11:00 AM - 08:00 PM\nOne 42 CHS, Shop No. G - 09 Retail Plaza, Opp Ashok VatikaOff Bopal Ambi RoadBodakdev, Ahmedabad, Gujarat 380058\nDirections"
+        },
+        {
+          "evidence_id": "ev_p3_urg_49_1afc",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(59)",
+          "text": "PUNE\nNykaa On Trend - SGS Mall\nOpen 09:00 AM - 07:00 PM\nNykaa On Trend, SGS Mall, Unit no. G - 06, 231, Moledina Rd, Camp, Pune, Maharashtra 411001\nDirections",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+          "context": "PUNE\nNykaa On Trend - SGS Mall\nOpen 09:00 AM - 07:00 PM\nNykaa On Trend, SGS Mall, Unit no. G - 06, 231, Moledina Rd, Camp, Pune, Maharashtra 411001\nDirections"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_5266",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+          "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_5266",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+          "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_5266",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+          "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_5266",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+          "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+        }
+      ]
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Price disclosures appear upfront; no undisclosed mandatory fees or unexpected surcharges detected.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "https://www.nykaa.com/",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 8,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9405e2fc68c239798b85e7",
+        "dom": "api/v1/automation/artifact/6a9405e4fc68c239798b85ec",
+        "extracted_json": "api/v1/automation/artifact/6a9405e5fc68c239798b85f4",
+        "evidence_json": "api/v1/automation/artifact/6a9405e5fc68c239798b85f6"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 4 urgency indicator(s) (countdown timer, scarcity pressure, e.g. 'Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [
+            {
+              "evidence_id": "ev_p0_urg_0_0ba6",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+              "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_0_0ba6",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+              "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_0_0ba6",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+              "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_0_0ba6",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_000/extracted.json",
+              "context": "Ends In:\n02h 01m 07s\nEnds In:\n02h 01m 07s"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 4,
+            "signals": [
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "https://www.nykaa.com/sp/offers-native/offers",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 27,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9405fdfc68c239798b85f8",
+        "dom": "api/v1/automation/artifact/6a9405fffc68c239798b85ff",
+        "extracted_json": "api/v1/automation/artifact/6a940602fc68c239798b8609",
+        "evidence_json": "api/v1/automation/artifact/6a940602fc68c239798b860b"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "https://www.nykaa.com/explore/lp",
+      "title": "Explore Webpage Creation - Beauty",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 3,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a940616fc68c239798b860d",
+        "dom": "api/v1/automation/artifact/6a940616fc68c239798b8610",
+        "extracted_json": "api/v1/automation/artifact/6a940617fc68c239798b8616",
+        "evidence_json": "api/v1/automation/artifact/6a940617fc68c239798b8618"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "https://www.nykaa.com/stores-n-events-desktop",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 53,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a940620fc68c239798b861a",
+        "dom": "api/v1/automation/artifact/6a940620fc68c239798b861d",
+        "extracted_json": "api/v1/automation/artifact/6a940621fc68c239798b8625",
+        "evidence_json": "api/v1/automation/artifact/6a940621fc68c239798b8627"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 50 urgency indicator(s) (countdown timer, e.g. 'MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nG...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [
+            {
+              "evidence_id": "ev_p3_urg_0_43e8",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(1)",
+              "text": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_0_43e8",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(1)",
+              "text": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa Luxe - Infiniti Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No 14,New Link Road, Oshiwara,Andheri West, Mumbai - 400053 Ph: 022-22762722\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_2_b001",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(2)",
+              "text": "MUMBAI\nNykaa On Trend - Seawoods Grand Central Mall\nOpen 11:00 AM - 09:30 PM\nUpper Ground floor, Plot No.R-1, Sector 40, Seawoods Railway Station, Navi Mumbai- 400706 Ph: 022-22762722\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa On Trend - Seawoods Grand Central Mall\nOpen 11:00 AM - 09:30 PM\nUpper Ground floor, Plot No.R-1, Sector 40, Seawoods Railway Station, Navi Mumbai- 400706 Ph: 022-22762722\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_3_7d44",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(3)",
+              "text": "PUNE\nNykaa Luxe - Westend Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit no: GS-09C, Aundh Pune - 411007 Ph: 022-22762722\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "PUNE\nNykaa Luxe - Westend Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit no: GS-09C, Aundh Pune - 411007 Ph: 022-22762722\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_4_a61e",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(4)",
+              "text": "CHENNAI\nNykaa On Trend - Palladium Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, 28, Velachery Road Nagendra Nagar, Anna Garden Velachery, Chennai- 600042\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "CHENNAI\nNykaa On Trend - Palladium Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, 28, Velachery Road Nagendra Nagar, Anna Garden Velachery, Chennai- 600042\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_5_d056",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(5)",
+              "text": "COIMBATORE\nNykaa On Trend - Prozone Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sivanandhapuram, Saravanampatty, Coimbatore, 641035 Ph: 022-22762722\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "COIMBATORE\nNykaa On Trend - Prozone Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sivanandhapuram, Saravanampatty, Coimbatore, 641035 Ph: 022-22762722\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_6_1fc8",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(6)",
+              "text": "INDORE\nNykaa Luxe - Next Treasure Island Next Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Rabindranath Tagore Marg, Flim Colony Indore- 452001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "INDORE\nNykaa Luxe - Next Treasure Island Next Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Rabindranath Tagore Marg, Flim Colony Indore- 452001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_7_fdbe",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(7)",
+              "text": "HYDERABAD\nNykaa Luxe - L&T Metro Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor Nagarjuna Hills, Punjagutta Hyderabad- 500082\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "HYDERABAD\nNykaa Luxe - L&T Metro Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor Nagarjuna Hills, Punjagutta Hyderabad- 500082\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_8_5e57",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(8)",
+              "text": "NOIDA\nNykaa On Trend - Logix City Centre Mall\nOpen 11:00 AM - 09:30 PM\nGround floor, Store No-6, Plot No BW 58, Sector 32 Noida: 201301\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NOIDA\nNykaa On Trend - Logix City Centre Mall\nOpen 11:00 AM - 09:30 PM\nGround floor, Store No-6, Plot No BW 58, Sector 32 Noida: 201301\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_9_37be",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(9)",
+              "text": "NEW DELHI\nNykaa Luxe - Khan Market\nOpen 11:00 AM - 09:30 PM\n58b, Rabindra Nagar New Delhi- 110003\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NEW DELHI\nNykaa Luxe - Khan Market\nOpen 11:00 AM - 09:30 PM\n58b, Rabindra Nagar New Delhi- 110003\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_10_f1cf",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(10)",
+              "text": "NEW DELHI\nNykaa Luxe - The Chanakya\nOpen 11:00 AM - 09:30 PM\nSecond floor Unit No S202-203 13A-16D, Tikendrajeet Marg New Delhi- 110021\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NEW DELHI\nNykaa Luxe - The Chanakya\nOpen 11:00 AM - 09:30 PM\nSecond floor Unit No S202-203 13A-16D, Tikendrajeet Marg New Delhi- 110021\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_11_e308",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(11)",
+              "text": "NEW DELHI\nNykaa Luxe - Indira Gandhi International Airport\nOpen 11:00 AM - 09:30 PM\nDomestic Departure, Terminal-3 New Delhi- 110037\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NEW DELHI\nNykaa Luxe - Indira Gandhi International Airport\nOpen 11:00 AM - 09:30 PM\nDomestic Departure, Terminal-3 New Delhi- 110037\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_12_3483",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(12)",
+              "text": "AMRITSAR\nNykaa On Trend - Mall of Amritsar\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sultan Wind Sub Urban, Main GT Road Amritsar- 143001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "AMRITSAR\nNykaa On Trend - Mall of Amritsar\nOpen 11:00 AM - 09:30 PM\nGround Floor, Sultan Wind Sub Urban, Main GT Road Amritsar- 143001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_13_824b",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(13)",
+              "text": "BENGALURU\nNykaa On Trend - Mantri Square Mall\nOpen 11:00 AM - 09:30 PM\nUnit No.UG-15A, Sampige Rd, Malleshwaram West, Bengaluru, Karnataka 560003\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "BENGALURU\nNykaa On Trend - Mantri Square Mall\nOpen 11:00 AM - 09:30 PM\nUnit No.UG-15A, Sampige Rd, Malleshwaram West, Bengaluru, Karnataka 560003\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_14_9ef4",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(14)",
+              "text": "AHMEDABAD\nNykaa Luxe - Alpha One Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-35, Plot No-216, T.P Scheme-1, Near Vastrapur Lake, Vastrapur, Ahmedabad, Gujarat 380054\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "AHMEDABAD\nNykaa Luxe - Alpha One Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-35, Plot No-216, T.P Scheme-1, Near Vastrapur Lake, Vastrapur, Ahmedabad, Gujarat 380054\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_15_8652",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(16)",
+              "text": "BENGALURU\nNykaa Luxe - Forum Shantiniketan Mall\nOpen 11:00 AM - 09:30 PM\nUnit No - 21 Whitefield Main road, Hoodi. Bengaluru-560067\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "BENGALURU\nNykaa Luxe - Forum Shantiniketan Mall\nOpen 11:00 AM - 09:30 PM\nUnit No - 21 Whitefield Main road, Hoodi. Bengaluru-560067\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_16_c187",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(17)",
+              "text": "KANPUR\nNykaa Luxe - Z Square Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-03,16/113, Mall Road, Bada Chauraha, Downtown, Kanpur, Uttar Pradesh 208001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "KANPUR\nNykaa Luxe - Z Square Mall\nOpen 11:00 AM - 09:30 PM\nGround Floor, Unit No. G-03,16/113, Mall Road, Bada Chauraha, Downtown, Kanpur, Uttar Pradesh 208001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_17_8442",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(18)",
+              "text": "MUMBAI\nNykaa On Trend - Inorbit Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF - 06, Link Rd, Malad West, Mumbai, Maharashtra 400064\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa On Trend - Inorbit Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF - 06, Link Rd, Malad West, Mumbai, Maharashtra 400064\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_18_a14c",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(19)",
+              "text": "CHENNAI\nNykaa On Trend - VR Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-47 A, Jawaharlal Nehru Rd, Anna Nagar West, Anna Nagar, Chennai, Tamil Nadu 600040\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "CHENNAI\nNykaa On Trend - VR Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-47 A, Jawaharlal Nehru Rd, Anna Nagar West, Anna Nagar, Chennai, Tamil Nadu 600040\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_19_2248",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(20)",
+              "text": "MUMBAI\nNykaa On Trend - Viviana Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF-52A, Eastern Express Highway, On Service Road, Next To Jupiter Hospital, Thane West, Thane, Maharashtra 400601\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa On Trend - Viviana Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. GF-52A, Eastern Express Highway, On Service Road, Next To Jupiter Hospital, Thane West, Thane, Maharashtra 400601\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_20_31ab",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(21)",
+              "text": "GURUGRAM\nNykaa On Trend - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-060A, NH 8, Ambience Island, DLF Phase 3, Sector 24, Gurugram, Haryana 122002\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "GURUGRAM\nNykaa On Trend - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nUnit No. G-060A, NH 8, Ambience Island, DLF Phase 3, Sector 24, Gurugram, Haryana 122002\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_21_82aa",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(22)",
+              "text": "JAIPUR\nNykaa On Trend - MI Road\nOpen 11:00 AM - 09:30 PM\nGround Floor, E-2, Kamani Mansion, Panch Batti Circle, M.I. Road, Jaipur, Rajasthan 302001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "JAIPUR\nNykaa On Trend - MI Road\nOpen 11:00 AM - 09:30 PM\nGround Floor, E-2, Kamani Mansion, Panch Batti Circle, M.I. Road, Jaipur, Rajasthan 302001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_22_6241",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(23)",
+              "text": "BENGALURU\nNykaa Luxe - Lavelle Road\nOpen 11:00 AM - 09:30 PM\nLavelle Road, 7, 100 Feet Ring Road, Near-Regent, Bengaluru, Karnataka 560001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "BENGALURU\nNykaa Luxe - Lavelle Road\nOpen 11:00 AM - 09:30 PM\nLavelle Road, 7, 100 Feet Ring Road, Near-Regent, Bengaluru, Karnataka 560001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_23_053c",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(24)",
+              "text": "NEW DELHI\nNykaa Luxe - Pacific Mall\nOpen 11:00 AM - 09:30 PM\nPacfic Mall, Unit No GF - 39, Najafgarh Rd, Tagore Garden, Tilak Nagar, New Delhi, Delhi 110018 Ph: 011-46010013\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NEW DELHI\nNykaa Luxe - Pacific Mall\nOpen 11:00 AM - 09:30 PM\nPacfic Mall, Unit No GF - 39, Najafgarh Rd, Tagore Garden, Tilak Nagar, New Delhi, Delhi 110018 Ph: 011-46010013\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_24_197e",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(26)",
+              "text": "MUMBAI\nNykaa Luxe - Linking Road\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Plot No 329, Ground Floor,Dawn Building, Linking Road, Khar Mumbai, Maharashtra 400052 Ph: 022-62362228\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa Luxe - Linking Road\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Plot No 329, Ground Floor,Dawn Building, Linking Road, Khar Mumbai, Maharashtra 400052 Ph: 022-62362228\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_25_3ade",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(27)",
+              "text": "PANAJI\nNykaa Luxe - High Street, Panaji, Goa\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ground Floor, Park Plaza Building, Opp Azad Maidan, Panaji, Goa - 403001 Panaji, Goa 403001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "PANAJI\nNykaa Luxe - High Street, Panaji, Goa\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ground Floor, Park Plaza Building, Opp Azad Maidan, Panaji, Goa - 403001 Panaji, Goa 403001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_26_29f6",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(28)",
+              "text": "LUCKNOW\nNykaa Luxe - Sahara Ganj, Lucknow\nOpen 11:00 AM - 09:30 PM\nSahara Ganj Mall, Shop No. – 21D, Ground Floor, Shahnajaf Road, Prem Nagar, Hazratganj Lucknow, Uttar Pradesh 226001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "LUCKNOW\nNykaa Luxe - Sahara Ganj, Lucknow\nOpen 11:00 AM - 09:30 PM\nSahara Ganj Mall, Shop No. – 21D, Ground Floor, Shahnajaf Road, Prem Nagar, Hazratganj Lucknow, Uttar Pradesh 226001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_27_ca04",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(29)",
+              "text": "MUMBAI\nNykaa Luxe - Powai\nOpen 11:00 AM - 09:30 PM\nNykaa LUXE, G4A, Ground Floor, City Park Central Avenue, Hiranandani Business Park, Powai, Mumbai, Maharashtra 400076\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa Luxe - Powai\nOpen 11:00 AM - 09:30 PM\nNykaa LUXE, G4A, Ground Floor, City Park Central Avenue, Hiranandani Business Park, Powai, Mumbai, Maharashtra 400076\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_28_4dfb",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(30)",
+              "text": "VADODARA\nNykaa Luxe - Inorbit Mall, Vadodara\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Inorbit Mall, Shop No. – G-33, Opp, Alembic Rd, Subhanpura, Vadodara, Gujarat 390023\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "VADODARA\nNykaa Luxe - Inorbit Mall, Vadodara\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Inorbit Mall, Shop No. – G-33, Opp, Alembic Rd, Subhanpura, Vadodara, Gujarat 390023\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_29_dca2",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(31)",
+              "text": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_29_dca2",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(31)",
+              "text": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "GUWAHATI\nNykaa Luxe - City Centre Mall\nOpen 10:00 AM - 09:30 PM\nNykaa LUXE, City Centre Mall, Unit No GF - 3 & 3A, 10/3, GS Rd, Guwahati, Assam 781005\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_31_6dca",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(32)",
+              "text": "NEW DELHI\nNykaa Luxe - Khan Market 2\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Khan Market, 45-A, Front Portion, New Delhi - 110003\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NEW DELHI\nNykaa Luxe - Khan Market 2\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Khan Market, 45-A, Front Portion, New Delhi - 110003\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_32_4b56",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(33)",
+              "text": "NAGPUR\nNykaa On Trend - Trilium Mall, Nagpur\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Trilium Mall, Unit No. UGF - 18, Rambagh Layout, Untkhana, Nagpur, Maharashtra 440003\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NAGPUR\nNykaa On Trend - Trilium Mall, Nagpur\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Trilium Mall, Unit No. UGF - 18, Rambagh Layout, Untkhana, Nagpur, Maharashtra 440003\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_33_04f5",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(34)",
+              "text": "LUDHIANA\nNykaa Luxe - MBD Mall, Ludhiana\nOpen 11:00 AM - 09:30 PM\nMBD Neopolis Mall, Ground Floor, Ferozpur Rd, Housing Board ColonyAdjacent Rajguru NagarLudhiana, Punjab 141012\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "LUDHIANA\nNykaa Luxe - MBD Mall, Ludhiana\nOpen 11:00 AM - 09:30 PM\nMBD Neopolis Mall, Ground Floor, Ferozpur Rd, Housing Board ColonyAdjacent Rajguru NagarLudhiana, Punjab 141012\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_34_36f3",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(36)",
+              "text": "SURAT\nNykaa Luxe - VR Mall, Surat\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, VR Mall, Shop No. – 16A, Ground Floor, Dumas Rd, Magdalla, Surat, Gujarat 395007\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "SURAT\nNykaa Luxe - VR Mall, Surat\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, VR Mall, Shop No. – 16A, Ground Floor, Dumas Rd, Magdalla, Surat, Gujarat 395007\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_35_6204",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(38)",
+              "text": "BENGALURU\nNykaa Luxe - 100 Feet Road, Indiranagar, Bengaluru\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, No. 383, Ground Floor, 100 Feet road Indiranagar, HAL 2nd Stage, Bangalore - 560038\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "BENGALURU\nNykaa Luxe - 100 Feet Road, Indiranagar, Bengaluru\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, No. 383, Ground Floor, 100 Feet road Indiranagar, HAL 2nd Stage, Bangalore - 560038\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_36_1b42",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(39)",
+              "text": "JALANDHAR\nNykaa On Trend - MBD Mall, Jalandhar\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, MBD Neopolis Mall, Shop GF 01Sehdev Market Jalandhar, Punjab 144001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "JALANDHAR\nNykaa On Trend - MBD Mall, Jalandhar\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, MBD Neopolis Mall, Shop GF 01Sehdev Market Jalandhar, Punjab 144001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_37_f8a6",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(41)",
+              "text": "RAIPUR\nNykaa Luxe - Magneto Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe Magneto The Mall, Shop GF 11Great Eastern Road, Jivan Vihar, Labhandih Raipur, Chhattisgarh 492001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "RAIPUR\nNykaa Luxe - Magneto Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe Magneto The Mall, Shop GF 11Great Eastern Road, Jivan Vihar, Labhandih Raipur, Chhattisgarh 492001\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_38_aea8",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(43)",
+              "text": "BENGALURU\nNykaa Kiosk - Forum Mall Koramangala\nOpen 11:00 AM - 09:30 PM\nThe Forum Mall, KGR 07, No. 21, Hosur RoadChikku Lakshmaiah Layout, Koramangala, Bengaluru, Karnataka 560095\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "BENGALURU\nNykaa Kiosk - Forum Mall Koramangala\nOpen 11:00 AM - 09:30 PM\nThe Forum Mall, KGR 07, No. 21, Hosur RoadChikku Lakshmaiah Layout, Koramangala, Bengaluru, Karnataka 560095\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_39_6d45",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(44)",
+              "text": "CHANDIGARH\nNykaa Luxe - Sector 17, High Street\nOpen 11:00 AM - 09:30 PM\nSCO 50, Sector 17-CBridge Market, Sector 17Chandigarh, Punjab 160017\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "CHANDIGARH\nNykaa Luxe - Sector 17, High Street\nOpen 11:00 AM - 09:30 PM\nSCO 50, Sector 17-CBridge Market, Sector 17Chandigarh, Punjab 160017\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_40_6586",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(46)",
+              "text": "BAREILLY\nNykaa On Trend - Phoenix Market City Mall\nOpen 11:00 AM - 09:30 PM\nShop G-23, Phoenix United Mall Pilibhit Bypass Road Bareilly, Uttar Pradesh 243122\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "BAREILLY\nNykaa On Trend - Phoenix Market City Mall\nOpen 11:00 AM - 09:30 PM\nShop G-23, Phoenix United Mall Pilibhit Bypass Road Bareilly, Uttar Pradesh 243122\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_41_9129",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(49)",
+              "text": "NEW DELHI\nNykaa Luxe - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ambience Mall, Unit No. UG - 19, 2, Nelson Mandela Marg, Vasant Kunj II, Vasant Kunj, New Delhi, Delhi 110070\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "NEW DELHI\nNykaa Luxe - Ambience Mall\nOpen 11:00 AM - 09:30 PM\nNykaa Luxe, Ambience Mall, Unit No. UG - 19, 2, Nelson Mandela Marg, Vasant Kunj II, Vasant Kunj, New Delhi, Delhi 110070\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_42_0e20",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(51)",
+              "text": "CHENNAI\nNykaa On Trend - Forum Vijaya Mall\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Forum Vijaya Mall, Shop No. UG - 17, 183, Arcot Rd, Vadapalani, Chennai, Tamil Nadu 600026\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "CHENNAI\nNykaa On Trend - Forum Vijaya Mall\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Forum Vijaya Mall, Shop No. UG - 17, 183, Arcot Rd, Vadapalani, Chennai, Tamil Nadu 600026\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_43_f24f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(52)",
+              "text": "MUMBAI\nNykaa On Trend - Inorbit Mall, Vashi\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Inorbit Mall, Shop No. GF - 07, Palm Beach Rd, Sector 30A, Vashi, Navi Mumbai, Maharashtra 400703\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "MUMBAI\nNykaa On Trend - Inorbit Mall, Vashi\nOpen 11:00 AM - 09:30 PM\nNykaa On Trend, Inorbit Mall, Shop No. GF - 07, Palm Beach Rd, Sector 30A, Vashi, Navi Mumbai, Maharashtra 400703\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_44_f643",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(54)",
+              "text": "CHANDIGARH\nNykaa Kiosk - VR Punjab\nOpen 11:00 AM - 09:30 PM\nVR Punjab, Kiosk-GFK 2 NH-21, Chandigarh, Kharar - Landran Rd, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "CHANDIGARH\nNykaa Kiosk - VR Punjab\nOpen 11:00 AM - 09:30 PM\nVR Punjab, Kiosk-GFK 2 NH-21, Chandigarh, Kharar - Landran Rd, Sector 118, Sahibzada Ajit Singh Nagar, Punjab 160055\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_45_1c40",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(56) > div.css-95skh > div.css-zol25y:nth-of-type(3)",
+              "text": "Open 11:00 AM - 08:00 PM",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "Open 11:00 AM - 08:00 PM"
+            },
+            {
+              "evidence_id": "ev_p3_urg_46_020c",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(57)",
+              "text": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_46_020c",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(57)",
+              "text": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "GURUGRAM\nNykaa Luxe - Airia Mall\nOpen 10:00 AM - 10:00 PM\nReach Airia Mall, Unit No. GF - 23Sohna Rd, Badshahpur, Sector 66Gurugram, Haryana 122102\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_48_c13c",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(58)",
+              "text": "AHMEDABAD\nNykaa Luxe - One 42\nOpen 11:00 AM - 08:00 PM\nOne 42 CHS, Shop No. G - 09 Retail Plaza, Opp Ashok VatikaOff Bopal Ambi RoadBodakdev, Ahmedabad, Gujarat 380058\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "AHMEDABAD\nNykaa Luxe - One 42\nOpen 11:00 AM - 08:00 PM\nOne 42 CHS, Shop No. G - 09 Retail Plaza, Opp Ashok VatikaOff Bopal Ambi RoadBodakdev, Ahmedabad, Gujarat 380058\nDirections"
+            },
+            {
+              "evidence_id": "ev_p3_urg_49_1afc",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1njnuax:nth-of-type(2) > div.css-1qpk5y1:nth-of-type(1) > div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(59)",
+              "text": "PUNE\nNykaa On Trend - SGS Mall\nOpen 09:00 AM - 07:00 PM\nNykaa On Trend, SGS Mall, Unit no. G - 06, 231, Moledina Rd, Camp, Pune, Maharashtra 411001\nDirections",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_003/extracted.json",
+              "context": "PUNE\nNykaa On Trend - SGS Mall\nOpen 09:00 AM - 07:00 PM\nNykaa On Trend, SGS Mall, Unit no. G - 06, 231, Moledina Rd, Camp, Pune, Maharashtra 411001\nDirections"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 50,
+            "signals": [
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "https://www.nykaa.com/giftcard/list",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a94062afc68c239798b8629",
+        "dom": "api/v1/automation/artifact/6a94062afc68c239798b8630",
+        "extracted_json": "api/v1/automation/artifact/6a94062afc68c239798b8632",
+        "evidence_json": "api/v1/automation/artifact/6a94062bfc68c239798b8634"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 5,
+      "folder": "page_005",
+      "url": "https://www.nykaa.com/help-center?dl_type=help_center",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a940633fc68c239798b8636",
+        "dom": "api/v1/automation/artifact/6a940634fc68c239798b8638",
+        "extracted_json": "api/v1/automation/artifact/6a940634fc68c239798b863a",
+        "evidence_json": "api/v1/automation/artifact/6a940634fc68c239798b863c"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 6,
+      "folder": "page_006",
+      "url": "https://www.nykaa.com/?root=logo",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 8,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a940637fc68c239798b863e",
+        "dom": "api/v1/automation/artifact/6a940637fc68c239798b8643",
+        "extracted_json": "api/v1/automation/artifact/6a940638fc68c239798b864b",
+        "evidence_json": "api/v1/automation/artifact/6a940638fc68c239798b864d"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 4 urgency indicator(s) (countdown timer, scarcity pressure, e.g. 'Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [
+            {
+              "evidence_id": "ev_p6_urg_0_5266",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+              "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_0_5266",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+              "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_0_5266",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+              "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_0_5266",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_006/extracted.json",
+              "context": "Ends In:\n01h 59m 44s\nEnds In:\n01h 59m 44s"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 4,
+            "signals": [
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 7,
+      "folder": "page_007",
+      "url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 55,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a940642fc68c239798b864f",
+        "dom": "api/v1/automation/artifact/6a940643fc68c239798b8656",
+        "extracted_json": "api/v1/automation/artifact/6a940643fc68c239798b865e",
+        "evidence_json": "api/v1/automation/artifact/6a940643fc68c239798b8660"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 8,
+      "folder": "page_008",
+      "url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 62,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a94064efc68c239798b8662",
+        "dom": "api/v1/automation/artifact/6a94064efc68c239798b866c",
+        "extracted_json": "api/v1/automation/artifact/6a94064ffc68c239798b8674",
+        "evidence_json": "api/v1/automation/artifact/6a94064ffc68c239798b8676"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_index": 9,
+      "folder": "page_009",
+      "url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 48,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a940659fc68c239798b8678",
+        "dom": "api/v1/automation/artifact/6a940659fc68c239798b867f",
+        "extracted_json": "api/v1/automation/artifact/6a94065afc68c239798b8687",
+        "evidence_json": "api/v1/automation/artifact/6a94065afc68c239798b8689"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    }
+  ]
+}

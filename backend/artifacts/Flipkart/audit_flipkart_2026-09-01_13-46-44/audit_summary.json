@@ -1,0 +1,331 @@
+{
+  "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "start_url": "https://www.flipkart.com",
+  "configured_crawl_depth": 2,
+  "actual_max_depth_reached": 1,
+  "max_pages_limit": 15,
+  "pages_discovered": 68,
+  "pages_crawled": 15,
+  "pages_successful": 1,
+  "pages_failed": 14,
+  "total_evidence_items": 5,
+  "total_dark_pattern_findings": 0,
+  "start_time": "2026-09-01_13-46-44",
+  "end_time": "2026-09-01_13-47-07",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No dynamic countdown timers or artificial scarcity pressure detected across crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Price disclosures appear upfront; no undisclosed mandatory fees or unexpected surcharges detected.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "https://www.flipkart.com/",
+      "title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 5,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9689f59b8cfa55c2864d34",
+        "dom": "api/v1/automation/artifact/6a9689fd9b8cfa55c2864d3c",
+        "extracted_json": "api/v1/automation/artifact/6a968a019b8cfa55c2864d41",
+        "evidence_json": "api/v1/automation/artifact/6a968a019b8cfa55c2864d43"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: net::ERR_ABORTED at https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT\nCall log:\n  - navigating to \"https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT\", waiting until \"domcontentloaded\"\n",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "https://www.flipkart.com/searchsuggestion",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://www.flipkart.com/searchsuggestion\", waiting until \"domcontentloaded\"\n",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "https://www.flipkart.com/plus",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "https://www.flipkart.com/wishlist?link=home_wishlist",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 5,
+      "folder": "page_005",
+      "url": "https://www.flipkart.com/the-gift-card-store?link=home_giftcard",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 6,
+      "folder": "page_006",
+      "url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 7,
+      "folder": "page_007",
+      "url": "https://www.flipkart.com/helpcentre",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 8,
+      "folder": "page_008",
+      "url": "https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 9,
+      "folder": "page_009",
+      "url": "https://www.flipkart.com/viewcart?marketplace=FLIPKART",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 10,
+      "folder": "page_010",
+      "url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 11,
+      "folder": "page_011",
+      "url": "https://www.flipkart.com/mobile-phones-store",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 12,
+      "folder": "page_012",
+      "url": "https://www.flipkart.com/new-elec-clp-march-at-store",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 13,
+      "folder": "page_013",
+      "url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-01_13-46-44",
+      "page_index": 14,
+      "folder": "page_014",
+      "url": "https://www.flipkart.com/home-kitchen-25-at-store",
+      "title": "Failed Page",
+      "depth": 1,
+      "status": "failed",
+      "error": "Page.goto: Target page, context or browser has been closed",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "evidence_id": "ev_page_009_audit_makemytrip_2026-08-30_16-02-32",
+  "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/cruise",
+  "page_title": "Cruise - Make My Trip",
+  "crawl_depth": 1,
+  "page_index": 9,
+  "audit_time": "2026-08-30_16-02-32",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 22,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 14,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 6,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p9_scr_a36143",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/screenshot.png",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Platform: MakeMyTrip | Page: 9 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p9_dom_65e5be",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/dom.html",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Captured at network idle for https://www.makemytrip.com/cruise (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_0_f75b",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized:nth-of-type(2) > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(1)",
+      "text": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person\n\nAustralia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStartin",
+      "attributes": {
+        "detected_price": "₹21,146",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_1_1ded",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹21,146 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person",
+      "attributes": {
+        "detected_price": "₹21,146",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_2_df24",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slide.slick-active:nth-of-type(2) > div > div.width640.appendRight24 > div.makeFlex.spaceBetween:nth-of-type(1)",
+      "text": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person\n\nAmsterdam\n\nStarting from ₹96,71",
+      "attributes": {
+        "detected_price": "₹14,563",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_3_0d16",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.flexOne.appendRight24:nth-of-type(1) > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹14,563 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Australia\n\nStarting from ₹14,563 per person",
+      "attributes": {
+        "detected_price": "₹14,563",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_4_8b37",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div > div.width640.appendRight24 > div.makeFlex.spaceBetween:nth-of-type(1) > div.flexOne:nth-of-type(2)",
+      "text": "Singapore\n\nStarting from ₹8,298 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person",
+      "attributes": {
+        "detected_price": "₹8,298",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_5_6c06",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.flexOne:nth-of-type(2) > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹8,298 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Singapore\n\nStarting from ₹8,298 per person",
+      "attributes": {
+        "detected_price": "₹8,298",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_6_7ed3",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slide.slick-active:nth-of-type(2) > div > div.width640.appendRight24 > div.makeFlex.flexOne:nth-of-type(2)",
+      "text": "Amsterdam\n\nStarting from ₹96,719 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person\n\nAmsterdam\n\nStarting from ₹96,71",
+      "attributes": {
+        "detected_price": "₹96,719",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_7_f904",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.flexOne:nth-of-type(2) > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹96,719 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Amsterdam\n\nStarting from ₹96,719 per person",
+      "attributes": {
+        "detected_price": "₹96,719",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_8_7d67",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized:nth-of-type(2) > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(3)",
+      "text": "Europe\n\nStarting from ₹42,771 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person\n\nAustralia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStartin",
+      "attributes": {
+        "detected_price": "₹42,771",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_9_d617",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹42,771 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Europe\n\nStarting from ₹42,771 per person",
+      "attributes": {
+        "detected_price": "₹42,771",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_10_a220",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.appendBottom48:nth-of-type(3) > div.cardWrapper > div.carouselContainer > div.slick-slider.slick-initialized:nth-of-type(2)",
+      "text": "Disney Cruise\n\nStarting from ₹46,395 per person\n\nRoyal Caribbean\n\nStarting from ₹8,801 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Our Featured Cruise Lines\n\nDisney Cruise\n\nStarting from ₹46,395 per person\n\nRoyal Caribbean\n\nStarting from ₹8,801 per pe",
+      "attributes": {
+        "detected_price": "₹46,395",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_11_2139",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div > div.cardContainer.appendRight24 > div.cardContentWrapper:nth-of-type(2) > p.cardDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹46,395 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Disney Cruise\n\nStarting from ₹46,395 per person",
+      "attributes": {
+        "detected_price": "₹46,395",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_12_b1b7",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized:nth-of-type(2) > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(2)",
+      "text": "Royal Caribbean\n\nStarting from ₹8,801 per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Disney Cruise\n\nStarting from ₹46,395 per person\n\nRoyal Caribbean\n\nStarting from ₹8,801 per person",
+      "attributes": {
+        "detected_price": "₹8,801",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_13_5de4",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div > div.cardContainer.appendRight24 > div.cardContentWrapper:nth-of-type(2) > p.cardDescriptionText:nth-of-type(2)",
+      "text": "Starting from ₹8,801 per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Royal Caribbean\n\nStarting from ₹8,801 per person",
+      "attributes": {
+        "detected_price": "₹8,801",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_md_0_dab0",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.makeFlex.hrtlCenter:nth-of-type(1) > ul.userSection.pushRight > li.makeFlex.hrtlCenter:nth-of-type(4) > div.loginModal.displayBlock:nth-of-type(3)",
+      "text": "",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "loginModal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_md_1_358c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.appendBottom48.appendTop48:nth-of-type(1) > div.cruisesVideoContainer > div.relative > div.overlayCruiseContent",
+      "text": "Cruise\n\nFrom search to sail, guided by experts\n\nAmenities for a fun-filled experience\n\nDining with stunning ocean views\n\nWorld-class performances\n\nStays for every style & budget",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "overlayCruiseContent"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_md_2_3368",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)",
+      "text": "",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "overlayVideoCardNewBg"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_md_3_fcd3",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)",
+      "text": "",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "overlayVideoCardNewBg"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_md_4_b979",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)",
+      "text": "",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "overlayVideoCardNewBg"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_md_5_7f14",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/cruise",
+      "page_title": "Cruise - Make My Trip",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)",
+      "text": "",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_009/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "overlayVideoCardNewBg"
+      }
+    }
+  ]
+}

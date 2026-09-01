@@ -1,0 +1,90 @@
+{
+  "evidence_id": "ev_page_002_audit_nykaa_2026-08-30_15-58-32",
+  "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/explore/lp",
+  "page_title": "Explore Webpage Creation - Beauty",
+  "crawl_depth": 1,
+  "page_index": 2,
+  "audit_time": "2026-08-30_15-58-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 3,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 1,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p2_scr_a49870",
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/screenshot.png",
+      "timestamp": "2026-08-30_15-58-32",
+      "context": "Platform: Nykaa | Page: 2 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p2_dom_0d0600",
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/dom.html",
+      "timestamp": "2026-08-30_15-58-32",
+      "context": "Captured at network idle for https://www.nykaa.com/explore/lp (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p2_pr_0_f4ee",
+      "audit_id": "audit_nykaa_2026-08-30_15-58-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-tscqxu:nth-of-type(3) > div.css-1axfht6 > div.css-15u830z:nth-of-type(1) > div.css-fd2g8d:nth-of-type(1)",
+      "text": "FREE SHIPPING\nOn Orders of Rs. 299 and above",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-08-30_15-58-32/page_002/extracted.json",
+      "timestamp": "2026-08-30_15-58-32",
+      "context": "FREE SHIPPING\nOn Orders of Rs. 299 and above\nEASY RETURNS\n15-Day Return Policy\n100% AUTHENTIC\nProducts Sourced Directly",
+      "attributes": {
+        "detected_price": "Rs. 299",
+        "currency": "INR"
+      }
+    }
+  ]
+}

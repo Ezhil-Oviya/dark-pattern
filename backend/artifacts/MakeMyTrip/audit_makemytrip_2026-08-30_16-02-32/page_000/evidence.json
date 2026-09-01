@@ -1,0 +1,832 @@
+{
+  "evidence_id": "ev_page_000_audit_makemytrip_2026-08-30_16-02-32",
+  "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/",
+  "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+  "crawl_depth": 0,
+  "page_index": 0,
+  "audit_time": "2026-08-30_16-02-32",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 40,
+    "total_checkbox_evidence": 1,
+    "total_urgency_evidence": 3,
+    "total_price_evidence": 30,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 4,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p0_scr_07c150",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/screenshot.png",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Platform: MakeMyTrip | Page: 0 | Depth: 0",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p0_dom_5eb449",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/dom.html",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Captured at network idle for https://www.makemytrip.com/ (depth=0)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_cb_0_3bf6",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "div.makeFlex.gap8:nth-of-type(1) > div.checkbox-wrapper.appendRight8:nth-of-type(1) > span.commonCheckbox.flights > input",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": false,
+        "default_checked": false,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_0_3ac3",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(38) > div:nth-of-type(1)",
+      "text": "INTL FLIGHTS\nT&C'S APPLY\n\nGrab up to 15% OFF*\n\non domestic & international flights + hotels, outstation cabs & buses.\n\nOffer ends in 06h:57m\nVIEW DETAILS",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nGrab up to 15% OFF*\n\non domestic & international flights + hotels, outstation cabs & buses.\n\nOffer ends in 06h:57m\nVIEW DETAILS",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": ""
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_1_a1f3",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.sliderFoot:nth-of-type(2)",
+      "text": "Offer ends in 06h:57m\nVIEW DETAILS",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Offer ends in 06h:57m\nVIEW DETAILS",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "sliderFoot"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_2_bd54",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.makeFlex.column > div.sliderFoot:nth-of-type(2) > span.sliderFoot__left > span.validTag.whiteText",
+      "text": "Offer ends in 06h:57m",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Offer ends in 06h:57m",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "validTag whiteText font10 latoBold"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_0_648b",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.sliderItemContent:nth-of-type(3) > ul.sliderItem-benefits > li:nth-of-type(2) > div",
+      "text": "Book Hotels @ ₹0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_1_b450",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "ul.sliderItem-benefits > li:nth-of-type(2) > div > p.benefitTitle",
+      "text": "Book Hotels @ ₹0",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_2_2eea",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.fltWidgetSection.appendBottom40 > div.fsw:nth-of-type(2) > div.fsw_inner.returnPersuasion:nth-of-type(1) > div.flt_fsw_inputBox.flightTravellersOnly:nth-of-type(5)",
+      "text": "Travellers\n1\n0\n0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "From\n\nDEL, Delhi Airport India\n\n⇌\nTo\n\nBLR, Bengaluru International Airport India\n\nDeparture\n\n31 Aug26\n\nMonday\n\nReturn\n\nT",
+      "attributes": {
+        "detected_price": "rs\n1",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_3_8132",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.specialFareContainer.relative:nth-of-type(1) > div.fareOptionsWrap:nth-of-type(2) > div.makeFlex.gap8 > div.fareCardItemContainer:nth-of-type(3)",
+      "text": "Armed Forces\nUp to ₹ 600 off",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "Regular\nRegular fares\nStudent\nExtra discounts/baggage\nArmed Forces\nUp to ₹ 600 off\nHave a GST number ?\nUpto 10% Extra Sa",
+      "attributes": {
+        "detected_price": "₹ 600",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_4_3a90",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Get Up to ₹1000 OFF* on buses, cabs & flights",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "DOM HOTELS\nT&C'S APPLY\n\nVISIT HOME THIS RAKSHABANDHAN!\n\nGet Up to ₹1000 OFF* on buses, cabs & flights",
+      "attributes": {
+        "detected_price": "₹1000",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_5_f794",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "BUS\nT&C'S APPLY\n\nUp to ₹300 OFF* on Bus Bookings\n\nfor the upcoming long weekends.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nUp to ₹300 OFF* on Bus Bookings\n\nfor the upcoming long weekends.\n\nCode: MMTESCAPE\nBOOK NOW",
+      "attributes": {
+        "detected_price": "₹300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_6_9b27",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Up to ₹300 OFF* on Bus Bookings",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nUp to ₹300 OFF* on Bus Bookings\n\nfor the upcoming long weekends.",
+      "attributes": {
+        "detected_price": "₹300",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_7_66ba",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Grab Up to ₹500 OFF* on Outstation Cabs.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "CABS\nT&C'S APPLY\n\nGrab Up to ₹500 OFF* on Outstation Cabs.\n\nBook your journeys to India’s sacred destinations with us.",
+      "attributes": {
+        "detected_price": "₹500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_8_c833",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(2) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "HOLIDAYS\nT&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "HOLIDAYS\nT&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.\n\nBOOK NOW",
+      "attributes": {
+        "detected_price": "₹99,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_9_853f",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Book starting at ₹99,999*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "HOLIDAYS\nT&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.",
+      "attributes": {
+        "detected_price": "₹99,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_10_12fe",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "T&C'S APPLY\n\nClaim Rs. 500 OFF* on MakeMyTrip Airport Cabs!\n\nValid on buying a new forex card.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "T&C'S APPLY\n\nClaim Rs. 500 OFF* on MakeMyTrip Airport Cabs!\n\nValid on buying a new forex card.\n\nEXPLORE NOW",
+      "attributes": {
+        "detected_price": "Rs. 500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_11_a767",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Claim Rs. 500 OFF* on MakeMyTrip Airport Cabs!",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "T&C'S APPLY\n\nClaim Rs. 500 OFF* on MakeMyTrip Airport Cabs!\n\nValid on buying a new forex card.",
+      "attributes": {
+        "detected_price": "Rs. 500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_12_7d22",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "T&C'S APPLY\n\nGet Up to INR 7500 Cashback* on Forex with Us!\n\nAlso enjoy same-day doorstep delivery.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "T&C'S APPLY\n\nGet Up to INR 7500 Cashback* on Forex with Us!\n\nAlso enjoy same-day doorstep delivery.\n\nEXPLORE NOW",
+      "attributes": {
+        "detected_price": "INR 7500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_13_c6d4",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Get Up to INR 7500 Cashback* on Forex with Us!",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "T&C'S APPLY\n\nGet Up to INR 7500 Cashback* on Forex with Us!\n\nAlso enjoy same-day doorstep delivery.",
+      "attributes": {
+        "detected_price": "INR 7500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_14_9bb9",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Starting @ ₹10/km* & book reliable journeys with us!",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "CABS\nT&C'S APPLY\n\nExplore Top Routes for Outstation Cabs\n\nStarting @ ₹10/km* & book reliable journeys with us!",
+      "attributes": {
+        "detected_price": "₹10",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_15_bdfd",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "up to ₹5000 refund on missing a flight due to cab delays",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "CABS\nT&C'S APPLY\n\nAvail our Ride Guarantee feature & get\n\nup to ₹5000 refund on missing a flight due to cab delays",
+      "attributes": {
+        "detected_price": "₹5000",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_16_3e70",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(28) > div:nth-of-type(2)",
+      "text": "RAILS\nT&C'S APPLY\n\nFor You: Up to ₹40 OFF*\n\non Train Bookings.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "CABS\nT&C'S APPLY\n\nFor Late Night Flights:\n\nan assured ride & on-time pickup guarantee.\n\nBOOK NOW\n\nRAILS\nT&C'S APPLY\n\nFor",
+      "attributes": {
+        "detected_price": "₹40",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_17_b7dc",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "For You: Up to ₹40 OFF*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "RAILS\nT&C'S APPLY\n\nFor You: Up to ₹40 OFF*\n\non Train Bookings.",
+      "attributes": {
+        "detected_price": "₹40",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_18_513a",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(35) > div:nth-of-type(2)",
+      "text": "BUS\nT&C'S APPLY\n\nUp to ₹50 OFF*\n\non IntrCity Buses\n\nCode: INTRCITY\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nGrab FLAT 8% OFF* on Buses\n\nKarnataka, Andhra Pradesh & more\n\nCode: MMTSOUTH\nBOOK NOW\n\nBUS\nT&C'S APPLY",
+      "attributes": {
+        "detected_price": "₹50",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_19_82c2",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Up to ₹50 OFF*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nUp to ₹50 OFF*\n\non IntrCity Buses",
+      "attributes": {
+        "detected_price": "₹50",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_20_3775",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "with Fares Starting at ₹12,850*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nSale by AirAsia: Book Flights to Thailand\n\nwith Fares Starting at ₹12,850*.",
+      "attributes": {
+        "detected_price": "₹12,850",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_21_20e3",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "INTL FLIGHTS\nT&C'S APPLY\n\nLIVE NOW: Sale by AirAsia\n\nwith Flights to Japan Starting at ₹22,990*.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nLIVE NOW: Sale by AirAsia\n\nwith Flights to Japan Starting at ₹22,990*.\n\nBOOK NOW",
+      "attributes": {
+        "detected_price": "₹22,990",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_22_0617",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "with Flights to Japan Starting at ₹22,990*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nLIVE NOW: Sale by AirAsia\n\nwith Flights to Japan Starting at ₹22,990*.",
+      "attributes": {
+        "detected_price": "₹22,990",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_23_de5c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(2) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "INTL FLIGHTS\nT&C'S APPLY\n\nLIVE NOW: Sale by AirAsia\n\nwith Flights to Malaysia Starting at ₹9,429*.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nLIVE NOW: Sale by AirAsia\n\nwith Flights to Malaysia Starting at ₹9,429*.\n\nBOOK NOW",
+      "attributes": {
+        "detected_price": "₹9,429",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_24_ddbf",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "with Flights to Malaysia Starting at ₹9,429*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nLIVE NOW: Sale by AirAsia\n\nwith Flights to Malaysia Starting at ₹9,429*.",
+      "attributes": {
+        "detected_price": "₹9,429",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_25_cf6e",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(42) > div:nth-of-type(2)",
+      "text": "CABS\nT&C'S APPLY\n\nUp to ₹1000 OFF* on Cabs\n\nthe upcoming long weekends.\n\nCode: MMTESCAPE\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "INTL FLIGHTS\nT&C'S APPLY\n\nNow Added by Emirates: Airbus 380,\n\nWorld's Largest Aircraft, Flying from Delhi.\n\nBOOK NOW\n\nCA",
+      "attributes": {
+        "detected_price": "₹1000",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_26_2505",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(47) > div:nth-of-type(1)",
+      "text": "BUS\nT&C'S APPLY\n\nMMTBLACK SPECIAL: FLAT ₹150 OFF*\n\non Bus Tickets.\n\nCode: MMTBLACK\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nMMTBLACK SPECIAL: FLAT ₹150 OFF*\n\non Bus Tickets.\n\nCode: MMTBLACK\nBOOK NOW\n\nDOM FLIGHTS\nT&C'S APPLY\n\nFo",
+      "attributes": {
+        "detected_price": "₹150",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_27_2c36",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "MMTBLACK SPECIAL: FLAT ₹150 OFF*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nMMTBLACK SPECIAL: FLAT ₹150 OFF*\n\non Bus Tickets.",
+      "attributes": {
+        "detected_price": "₹150",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_28_91e5",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(50) > div:nth-of-type(1)",
+      "text": "BUS\nT&C'S APPLY\n\nSave up to ₹250*\n\nwith our Bus-Train Pass.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nSave up to ₹250*\n\nwith our Bus-Train Pass.\n\nBOOK NOW\n\nDOM FLIGHTS\nT&C'S APPLY\n\nUp to 15% OFF* on flight",
+      "attributes": {
+        "detected_price": "₹250",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_29_bc7a",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Save up to ₹250*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": "BUS\nT&C'S APPLY\n\nSave up to ₹250*\n\nwith our Bus-Train Pass.",
+      "attributes": {
+        "detected_price": "₹250",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_md_0_7d3d",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "#header-container > div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2)",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs\n\nSign up/Login now to\n\nLock Flight",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "imageSliderModal modal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_md_1_b45c",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2) > div.imageSlideContainer > section.modalMain.tcnFooter",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs",
+      "tag": "section",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalMain tcnFooter"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_md_2_1e31",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.imageSlideContainer > section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1)",
+      "text": "Mobile Number\n\n‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalField makeFlex column appendBottom20"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_md_3_88da",
+      "audit_id": "audit_makemytrip_2026-08-30_16-02-32",
+      "page_url": "https://www.makemytrip.com/",
+      "page_title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1) > div.modalFieldInner.makeFlex",
+      "text": "‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-08-30_16-02-32/page_000/extracted.json",
+      "timestamp": "2026-08-30_16-02-32",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalFieldInner makeFlex hrtlCenter"
+      }
+    }
+  ]
+}

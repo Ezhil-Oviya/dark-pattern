@@ -1,0 +1,824 @@
+{
+  "url": "https://www.flipkart.com/home-kitchen-25-at-store",
+  "title": "Home Kitchen 25 At Store Online - Buy Home Kitchen 25 At Online at Best Price in India | Flipkart.com",
+  "timestamp": "2026-09-01T08:21:17.845Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Home"
+    },
+    {
+      "tag": "p",
+      "text": "Flipkart Internet Private Limited,"
+    },
+    {
+      "tag": "p",
+      "text": "Buildings Alyssa, Begonia &"
+    },
+    {
+      "tag": "p",
+      "text": "Clove Embassy Tech Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Outer Ring Road, Devarabeesanahalli Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Bengaluru, 560103,"
+    },
+    {
+      "tag": "p",
+      "text": "Karnataka, India"
+    },
+    {
+      "tag": "p",
+      "text": "CIN : U51109KA2012PTC066107"
+    },
+    {
+      "tag": "p",
+      "text": "Telephone: 044-45614709 / 044-45714709"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Search for Products, Brands and More",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Search Icon",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": false,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/flights-travel-uhp-at-store?marketplace=FKT",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4 _1psv1ze90 _1psv1ze6r _1psv1ze2u _1psv1ze53 _1psv1zel0 _1psv1zei0 _1psv1zedi _1psv1zefr _7dzyg28 _1o6mltlfb _1o6mltlaa _1o6mltl8 _1o6mltl59",
+      "is_visible": true,
+      "selector": "div._1psv1zeb9._1psv1ze0 > div.css-g5y9jx > div.grid-formation.grid-column-2:nth-of-type(2) > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "Search Icon",
+      "href": "/searchsuggestion",
+      "id": "",
+      "classes": "lilxh_ header-form-search",
+      "is_visible": false,
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3 > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "New customer?Sign Up",
+      "href": "/account/login?signup=true&ret=/",
+      "id": "",
+      "classes": "Fvt7X7 _1psv1zel",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.Fvt7X7._1psv1zel:nth-of-type(1)"
+    },
+    {
+      "text": "My Profile",
+      "href": "/account/?rd=0&link=home_account",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "Flipkart Plus Zone",
+      "href": "/plus",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Orders",
+      "href": "/account/orders?link=home_orders",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Wishlist",
+      "href": "/wishlist?link=home_wishlist",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(5)"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(6)"
+    },
+    {
+      "text": "Rewards",
+      "href": "/account/rewards?link=home_rewards",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(7)"
+    },
+    {
+      "text": "Gift Cards",
+      "href": "/the-gift-card-store?link=home_giftcard",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(8)"
+    },
+    {
+      "text": "Notification Preferences",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(9)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(10)"
+    },
+    {
+      "text": "Advertise",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(11)"
+    },
+    {
+      "text": "Download App",
+      "href": "/mobile-apps?otracker=ch_vn_mobile_apps",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(12)"
+    },
+    {
+      "text": "More",
+      "href": "#",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3 > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(1)"
+    },
+    {
+      "text": "Notification Settings",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Advertise on Flipkart",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Cart",
+      "href": "/viewcart?marketplace=FLIPKART",
+      "id": "",
+      "classes": "E7_UTN",
+      "is_visible": true,
+      "selector": "div.PGj60j:nth-of-type(2) > div:nth-of-type(4) > div.H5bs2Y > a.E7_UTN"
+    },
+    {
+      "text": "For You",
+      "href": "https://www.flipkart.com/",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Fashion",
+      "href": "/ss-26-base-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mobiles",
+      "href": "/mobile-phones-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Electronics",
+      "href": "/new-elec-clp-march-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Beauty",
+      "href": "/bpc-bau-new-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Home",
+      "href": "/home-kitchen-25-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Appliances",
+      "href": "/tv-and-appliances-inline-ab-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Toys, baby..",
+      "href": "/toysbc-new26-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Food & Health",
+      "href": "/fnhc-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Auto Accessories",
+      "href": "/aa-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sports & Fitness",
+      "href": "/sf-inline-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Furniture",
+      "href": "/india-ka-furniture-studio-inlines-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Books & Media",
+      "href": "/booksmedia-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "2 Wheelers",
+      "href": "/twowheelers-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "",
+      "href": "/offers-list/content?screen=dynamic&pk=themeViews%3DHpw-september-BBDH%3AHpw-september-BBDH~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/hd-festive-at-store?param=279927&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/hd-ganeshapooja-at-store?PARAM=085321&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/kitchen-cookware-serveware/cookware/pr?sid=upp%2Ctnx&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-furnishing/~cs-eog3ncozh6/pr?sid=jra&collection-tab-name=%20Lowest%20prices%20ever.&param=2761&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-improvement/lawn-and-gardening/pr?sid=h1m%2Cum7&marketplace=FLIPKART&p%5B%5D=facets.price_range.from%3D99&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-decor/~cs-054ibxdx98/pr?sid=arb&collection-tab-name=WALL+CLOCK&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D199&param=2768&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/furniture/mattresses/bed-mattress/pr?sid=wwe%2Crg9%2C6t1&p%5B%5D=facets.price_range.from%3D2999&p%5B%5D=facets.price_range.to%3DMax&param=78932&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/furniture/pr?sid=wwe&param=56789&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&param=28892&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Top deals",
+      "href": "/home-value-365-at-store?param=2799&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRvcCBkZWFscyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Cookware",
+      "href": "/kitchen-cookware-serveware/cookware/pr?sid=upp%2Ctnx&marketplace=FLIPKART&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNvb2t3YXJlIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Decor",
+      "href": "/homedecor-at-store?param=2621&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRlY29yIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mosquito nets",
+      "href": "/home-furnishing/bed-linen-blankets/mosquito-nets/pr?sid=jra%2Cknw%2Ci6y&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DClassic%2BMosquito%2BNet&p%5B%5D=facets.brand%255B%255D%3DEvafly&p%5B%5D=facets.brand%255B%255D%3DAlciono&p%5B%5D=facets.brand%255B%255D%3DKolar&p%5B%5D=facets.brand%255B%255D%3DSupreme%2BOn&p%5B%5D=facets.brand%255B%255D%3DBELOMODA&p%5B%5D=facets.brand%255B%255D%3DLifekrafts&p%5B%5D=facets.brand%255B%255D%3DSafeMyles&p%5B%5D=facets.brand%255B%255D%3DKUBER%2BINDUSTRIES&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vc3F1aXRvIG5ldHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Furniture",
+      "href": "/wwe/~cs-oc5sn4jrea/pr?sid=wwe&collection-tab-name=Top+Deals&pageCriteria=default&param=647363&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkZ1cm5pdHVyZSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mirrors",
+      "href": "/building-materials-and-supplies/bathroom-and-kitchen-fittings/bathroom-mirrors/pr?sid=b8s%2Cecr%2Cn1g&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1pcnJvcnMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Containers",
+      "href": "/kitchen-cookware-serveware/kitchen-storage-containers/kitchen-containers/pr?sid=upp%2C5ix%2C01e&marketplace=FLIPKART&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNvbnRhaW5lcnMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Furnishing",
+      "href": "/home-furnishing/~cs-z002n0grg2/pr?sid=jra&collection-tab-name=Furnishing+Nav&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkZ1cm5pc2hpbmciXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Electrical",
+      "href": "/building-materials-and-supplies/electrical-hardware/pr?sid=b8s%2Cprq&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkVsZWN0cmljYWwiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Covers",
+      "href": "/home-furnishing/covers-protectors/pr?sid=jra%2Cixy&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNvdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Cleaning",
+      "href": "/home-cleaning-bathroom-accessories/cleaning-supplies/pr?sid=rja%2Cz2d&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsZWFuaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Bath linen",
+      "href": "/home-furnishing/bath-linen/pr?sid=jra%2Cjk3&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJhdGggbGluZW4iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mats & rugs",
+      "href": "/home-furnishing/floor-coverings/pr?sid=jra%2Ckwq&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1hdHMgJiBydWdzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Beds",
+      "href": "/furniture/beds-more/beds/pr?sid=wwe%2C7p7%2C4yf&p%5B%5D=facets.price_range.from%3D6599&p%5B%5D=facets.price_range.to%3DMax&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlZHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Office chairs",
+      "href": "/furniture/chairs/office-study-chairs/pr?sid=wwe%2Cy7b%2Cfoc&p%5B%5D=facets.price_range.from%3D2699&p%5B%5D=facets.price_range.to%3DMax&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk9mZmljZSBjaGFpcnMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Monsoon",
+      "href": "/all/~cs-696aoizf5a/pr?sid=all&collection-tab-name=monsoon+Essentials&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vbnNvb24iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Utilities",
+      "href": "/home-improvement/home-utilities-and-organizers/pr?sid=h1m%2Ciee&marketplace=FLIPKART&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlV0aWxpdGllcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Bathroom",
+      "href": "/building-materials-and-supplies/bathroom-and-kitchen-fittings/pr?sid=b8s%2Cecr&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJhdGhyb29tIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Lighting essentials",
+      "href": "/home-lighting/pr?sid=jhg&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.promo%255B%255D%3Dvl%253A03c02ccf27&Param=321456D2%5B%5D%3D&pageUID=1757932106314&Param=457832&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkxpZ2h0aW5nIGVzc2VudGlhbHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sofas",
+      "href": "/furniture/sofas/sofas-sectionals/pr?sid=wwe%2Cc3z%2C0mv&p%5B%5D=facets.price_range.from%3D6999&p%5B%5D=facets.price_range.to%3DMax&param=397345&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNvZmFzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Bedsheets",
+      "href": "/home-furnishing/bed-linen-blankets/bedsheets/pr?sid=jra%2Cknw%2Cqcw&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlZHNoZWV0cyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Hardware",
+      "href": "/home-improvement/tools-and-measuring-equipment/power-tools/pr?sid=h1m%2Chww%2Cslm&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkhhcmR3YXJlIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Drinkware",
+      "href": "/kitchen-cookware-serveware/water-bottles-flasks/pr?sid=upp%2C3t7&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRyaW5rd2FyZSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Dining",
+      "href": "/kitchen-cookware-serveware/tableware-dinnerware/pr?sid=upp%2Ci7t&marketplace=FLIPKART&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRpbmluZyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Door stoppers",
+      "href": "/building-materials-and-supplies/door-and-window-fittings/door-stoppers/pr?sid=b8s%2C8dw%2Cufb&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRvb3Igc3RvcHBlcnMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Wall stickers",
+      "href": "/home-decor/stickers-wallpapers/pr?sid=arb%2Cyod&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.promo%255B%255D%3Dvl%253A03c02ccf27&droppedD2%5B%5D=50ab7247-d626-48b6-908d-003ab1820260&pageUID=1758199099629&Param=458369&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIldhbGwgc3RpY2tlcnMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Gardening",
+      "href": "/home-improvement/lawn-and-gardening/pr?sid=h1m%2Cum7&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdhcmRlbmluZyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Pooja needs",
+      "href": "/festive-decor-gifting/spiritual-items/pr?sid=bro%2Cvev&p%5B%5D=facets.brand%255B%255D%3DShubhkart&sort=popularity&p%5B%5D=facets.brand%255B%255D%3DMANGALAM&p%5B%5D=facets.brand%255B%255D%3Dmangalam%2Bcamphor&p%5B%5D=facets.brand%255B%255D%3DCycle&p%5B%5D=facets.brand%255B%255D%3Dcycleagarbatti&p%5B%5D=facets.brand%255B%255D%3DZed%2BBlack&p%5B%5D=facets.brand%255B%255D%3DSHRESHTHA&p%5B%5D=facets.brand%255B%255D%3DKreyam%2527s&p%5B%5D=facets.brand%255B%255D%3DMANGALDEEP&p%5B%5D=facets.brand%255B%255D%3DGojeeva&p%5B%5D=facets.brand%255B%255D%3DDigiRake&p%5B%5D=facets.brand%255B%255D%3DHari%2BDarshan&p%5B%5D=facets.brand%255B%255D%3DGODSUN&p%5B%5D=facets.brand%255B%255D%3DAnandam&p%5B%5D=facets.brand%255B%255D%3DOGU&p%5B%5D=facets.brand%255B%255D%3DChhariya%2BCrafts&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSupermart&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSupermart%2BHome%2BEssentials&p%5B%5D=facets.brand%255B%255D%3DFlipkart%2BSmartBuy&p%5B%5D=facets.brand%255B%255D%3DShubh%2BLabh&p%5B%5D=facets.brand%255B%255D%3DRRR%2BHANDICRAFTS&p%5B%5D=facets.brand%255B%255D%3DGaumayam&p%5B%5D=facets.brand%255B%255D%3DDivine%2BBazaar&p%5B%5D=facets.brand%255B%255D%3DPhool&p%5B%5D=facets.brand%255B%255D%3DOmtirth&p%5B%5D=facets.brand%255B%255D%3DAksharveda&p%5B%5D=facets.brand%255B%255D%3DPuja%2BN%2BPujari&p%5B%5D=facets.brand%255B%255D%3DPujashree&p%5B%5D=facets.brand%255B%255D%3DTIED%2BRIBBONS&p%5B%5D=facets.brand%255B%255D%3DMangadeep&p%5B%5D=facets.brand%255B%255D%3DPRABHU%2BSHRIRAM&p%5B%5D=facets.brand%255B%255D%3DCraftOnline&p%5B%5D=facets.brand%255B%255D%3DAuraCam&p%5B%5D=facets.brand%255B%255D%3DDOKCHAN&p%5B%5D=facets.brand%255B%255D%3DF%2BN%2BF%2BCREATION&p%5B%5D=facets.brand%255B%255D%3DAfast&p%5B%5D=facets.brand%255B%255D%3DSoulflower&p%5B%5D=facets.brand%255B%255D%3DDsh&Param=457383&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlBvb2phIG5lZWRzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mattresses",
+      "href": "/furniture/mattresses/pr?sid=wwe%2Crg9&p%5B%5D=facets.price_range.from%3D2799&p%5B%5D=facets.price_range.to%3DMax&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1hdHRyZXNzZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "",
+      "href": "https://www.flipkart.com/fpg/cbc/store-page?productType=CC&utm_source=CLP_OTA&utm_source_context=Home_flex&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtgi _1i2djt90 _1i2djt6r",
+      "is_visible": true,
+      "selector": "div > div > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-value-365-at-store?param=18728&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtgi _1i2djt90 _1i2djt6r",
+      "is_visible": true,
+      "selector": "div > div > div._3n8fna1co._3n8fna10j > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-improvement/home-utilities-and-organizers/umbrellas/pr?sid=h1m%2Ciee%2Ckjp&marketplace=FLIPKART&p%5B%5D=facets.price_range.from%3D179&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-improvement/home-utilities-and-organizers/laundry/cloth-dryer-stands/pr?sid=h1m%2Ciee%2C3a7%2Cyqq&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/kitchen-cookware-serveware/water-bottles-flasks/pr?sid=upp%2C3t7&marketplace=FLIPKART&p%5B%5D=facets.type%255B%255D%3DFlask&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-lighting/utility-lighting/emergency-lights/pr?sid=jhg%2Cyqn%2Cm6m&marketplace=FLIPKART&p[]=facets.price_range.from%3DMin&p[]=facets.price_range.to%3D499&PARAM=096431&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/home-furnishing/bed-linen-blankets/mosquito-nets/pr?sid=jra%2Cknw%2Ci6y&marketplace=FLIPKART&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D270&p%5B%5D=facets.price_range.to%3DMax&BU=Home",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl0 _1i2djti0 _1i2djtdi _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    }
+  ],
+  "forms": [
+    {
+      "id": "",
+      "name": "",
+      "action": "/search",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search for Products, Brands and More",
+          "label": "",
+          "required": false,
+          "is_visible": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker1",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "marketplace",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as-show",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        }
+      ],
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search"
+    }
+  ],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 9,
+    "total_buttons": 5,
+    "total_links": 80,
+    "total_forms": 1,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

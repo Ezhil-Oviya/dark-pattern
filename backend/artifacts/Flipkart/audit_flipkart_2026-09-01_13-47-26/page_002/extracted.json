@@ -1,0 +1,45 @@
+{
+  "url": "https://www.flipkart.com/searchsuggestion",
+  "title": "Online Shopping India Mobile, Cameras, Lifestyle & more Online @ Flipkart.com",
+  "timestamp": "2026-09-01T08:18:04.516Z",
+  "visible_text": [],
+  "buttons": [
+    {
+      "text": "GO TO HOMEPAGE",
+      "tag": "a",
+      "type": "",
+      "id": "",
+      "classes": "button",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "body > div:nth-of-type(2) > div > a.button"
+    }
+  ],
+  "links": [
+    {
+      "text": "GO TO HOMEPAGE",
+      "href": "/",
+      "id": "",
+      "classes": "button",
+      "is_visible": true,
+      "selector": "body > div:nth-of-type(2) > div > a.button"
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 0,
+    "total_buttons": 1,
+    "total_links": 1,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

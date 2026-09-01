@@ -1,0 +1,596 @@
+{
+  "url": "https://www.makemytrip.com/cruise",
+  "title": "Cruise - Make My Trip",
+  "timestamp": "2026-08-30T10:34:10.649Z",
+  "visible_text": [
+    {
+      "tag": "li",
+      "text": "List Your Property\n\nGrow your business!"
+    },
+    {
+      "tag": "p",
+      "text": "List Your Property"
+    },
+    {
+      "tag": "p",
+      "text": "Grow your business!"
+    },
+    {
+      "tag": "li",
+      "text": "Introducing myBiz\n\nMakeMyTrip for Business"
+    },
+    {
+      "tag": "p",
+      "text": "Introducing myBiz"
+    },
+    {
+      "tag": "p",
+      "text": "MakeMyTrip for Business"
+    },
+    {
+      "tag": "li",
+      "text": "My Trips\n\nManage your bookings"
+    },
+    {
+      "tag": "p",
+      "text": "My Trips"
+    },
+    {
+      "tag": "p",
+      "text": "Manage your bookings"
+    },
+    {
+      "tag": "li",
+      "text": "Login or Create Account\n\nLogin/Signup for Best Prices\n\nLOGIN/ SIGNUP EASILY WITH\n\nLogin with Phone/Email"
+    },
+    {
+      "tag": "p",
+      "text": "Login or Create Account"
+    },
+    {
+      "tag": "p",
+      "text": "Login/Signup for Best Prices"
+    },
+    {
+      "tag": "p",
+      "text": "LOGIN/ SIGNUP EASILY WITH"
+    },
+    {
+      "tag": "p",
+      "text": "Login with Phone/Email"
+    },
+    {
+      "tag": "li",
+      "text": "Flights"
+    },
+    {
+      "tag": "li",
+      "text": "Hotels"
+    },
+    {
+      "tag": "li",
+      "text": "Homestays & Villas"
+    },
+    {
+      "tag": "li",
+      "text": "Holiday Packages"
+    },
+    {
+      "tag": "li",
+      "text": "Trains"
+    },
+    {
+      "tag": "li",
+      "text": "Buses"
+    },
+    {
+      "tag": "li",
+      "text": "Cabs"
+    },
+    {
+      "tag": "li",
+      "text": "Tours & Attractions"
+    },
+    {
+      "tag": "li",
+      "text": "Visa"
+    },
+    {
+      "tag": "li",
+      "text": "Cruise\nnew"
+    },
+    {
+      "tag": "li",
+      "text": "Forex Card & Currency"
+    },
+    {
+      "tag": "li",
+      "text": "Travel Insurance"
+    },
+    {
+      "tag": "h1",
+      "text": "Book Domestic and International Cruises"
+    },
+    {
+      "tag": "h2",
+      "text": "Cruise"
+    },
+    {
+      "tag": "p",
+      "text": "From search to sail, guided by experts"
+    },
+    {
+      "tag": "p",
+      "text": "Amenities for a fun-filled experience"
+    },
+    {
+      "tag": "p",
+      "text": "Dining with stunning ocean views"
+    },
+    {
+      "tag": "p",
+      "text": "World-class performances"
+    },
+    {
+      "tag": "p",
+      "text": "Stays for every style & budget"
+    },
+    {
+      "tag": "p",
+      "text": "Asia and Asia Pacific"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹21,146 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Australia"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹14,563 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Singapore"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹8,298 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Amsterdam"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹96,719 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Europe"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹42,771 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Disney Cruise"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹46,395 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Royal Caribbean"
+    },
+    {
+      "tag": "p",
+      "text": "Starting from ₹8,801 per person"
+    },
+    {
+      "tag": "p",
+      "text": "Cruise FAQs – What to Know Before You Sail"
+    },
+    {
+      "tag": "p",
+      "text": "What documents are required to board the cruise?"
+    },
+    {
+      "tag": "p",
+      "text": "Guests must present a valid passport or government-issued ID, cruise ticket and any required visas based on their itinerary."
+    },
+    {
+      "tag": "p",
+      "text": "What time do I need to check-in and board the cruise?"
+    },
+    {
+      "tag": "p",
+      "text": "For offline check-in, arrive 3–4 hours before departure. Boarding typically closes 1–2 hours before sailing. Refer to your cruise ticket for exact timings."
+    },
+    {
+      "tag": "p",
+      "text": "How much luggage is allowed on the cruise?"
+    },
+    {
+      "tag": "p",
+      "text": "Luggage limits vary by cruise line and cabin type. Check your cruise line’s specific policies on number, weight, and size of bags."
+    },
+    {
+      "tag": "p",
+      "text": "What is included in the cruise ticket?"
+    },
+    {
+      "tag": "p",
+      "text": "Accommodation, dining, entertainment, access to pools, fitness center, and select onboard activities are included, depending on your cruise package. Gratuities and Tips are not included in your cruise package."
+    },
+    {
+      "tag": "p",
+      "text": "Are meals included in the cruise fare?"
+    },
+    {
+      "tag": "p",
+      "text": "Yes, all standard meals at designated restaurants are included. Specialty restaurants may have additional charges."
+    },
+    {
+      "tag": "p",
+      "text": "Are premium beverages included in the cruise fare?"
+    },
+    {
+      "tag": "p",
+      "text": "Standard drinks are included. Premium beverages (cocktails, fine wines, etc.) are available at extra cost or through drink packages."
+    },
+    {
+      "tag": "p",
+      "text": "Is Wi-Fi available?"
+    },
+    {
+      "tag": "p",
+      "text": "Wi-Fi is usually not included and is available for purchase onboard."
+    },
+    {
+      "tag": "p",
+      "text": "Our cruise experts will help you explore the best options"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "SEARCH",
+      "tag": "button",
+      "type": "button",
+      "id": "search_button",
+      "classes": "primaryBtn font24 latoBlack widgetSearchBtn lineHeight29",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "#search_button"
+    },
+    {
+      "text": "Previous",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "slick-arrow slick-prev slick-disabled",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.cardWrapper > div.carouselContainer > div.slick-slider.slick-initialized:nth-of-type(2) > button.slick-arrow.slick-prev:nth-of-type(1)"
+    },
+    {
+      "text": "Next",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "slick-arrow slick-next",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.cardWrapper > div.carouselContainer > div.slick-slider.slick-initialized:nth-of-type(2) > button.slick-arrow.slick-next:nth-of-type(2)"
+    },
+    {
+      "text": "Close",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "ctaCardCloseBtn",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.glow-button > div.iconWrapper > div.ctaCard > button.ctaCardCloseBtn"
+    },
+    {
+      "text": "REQUEST A CALLBACK",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "primaryBtn ctaCardBtn",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.iconWrapper > div.ctaCard > div.ctaCardCtaBtn:nth-of-type(3) > button.primaryBtn.ctaCardBtn"
+    }
+  ],
+  "links": [
+    {
+      "text": "Flights",
+      "href": "https://www.makemytrip.com/flights/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Flights:nth-of-type(1) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Hotels",
+      "href": "https://www.makemytrip.com/hotels/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Hotels:nth-of-type(2) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Homestays & Villas",
+      "href": "https://www.makemytrip.com/homestays/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Homestays:nth-of-type(3) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Holiday Packages",
+      "href": "https://www.makemytrip.com/holidays-india/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Holidays.removeItemMargin:nth-of-type(4) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Trains",
+      "href": "https://www.makemytrip.com/railways/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Trains:nth-of-type(5) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Buses",
+      "href": "https://www.makemytrip.com/bus-tickets/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Buses:nth-of-type(6) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Cabs",
+      "href": "https://www.makemytrip.com/cabs/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Cabs:nth-of-type(7) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Tours & Attractions",
+      "href": "https://www.makemytrip.com/toursandattractions/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_ToursAttractions:nth-of-type(8) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Visa",
+      "href": "https://visa.makemytrip.com/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Visa:nth-of-type(9) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Cruise",
+      "href": "https://www.makemytrip.com/cruise/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column active",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Cruise:nth-of-type(10) > span:nth-of-type(1) > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Forex Card & Currency",
+      "href": "https://www.makemytrip.com/forex/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_Forex:nth-of-type(11) > span > a.headerIcons.makeFlex"
+    },
+    {
+      "text": "Travel Insurance",
+      "href": "https://www.makemytrip.com/travel-insurance/",
+      "id": "",
+      "classes": "headerIcons makeFlex hrtlCenter column",
+      "is_visible": true,
+      "selector": "ul.makeFlex.font12 > li.menu_TravelInsurance:nth-of-type(12) > span > a.headerIcons.makeFlex"
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [
+    {
+      "raw_text": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person",
+      "detected_price": "₹21,146",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "slick-slide slick-active slick-current",
+      "selector": "div.slick-slider.slick-initialized:nth-of-type(2) > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(1)",
+      "context": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person\n\nAustralia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStartin"
+    },
+    {
+      "raw_text": "Starting from ₹21,146 per person",
+      "detected_price": "₹21,146",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "destinationDescriptionText",
+      "selector": "div > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "context": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person"
+    },
+    {
+      "raw_text": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person",
+      "detected_price": "₹14,563",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "makeFlex spaceBetween flexOne appendBottom24",
+      "selector": "div.slick-slide.slick-active:nth-of-type(2) > div > div.width640.appendRight24 > div.makeFlex.spaceBetween:nth-of-type(1)",
+      "context": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person\n\nAmsterdam\n\nStarting from ₹96,71"
+    },
+    {
+      "raw_text": "Starting from ₹14,563 per person",
+      "detected_price": "₹14,563",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "destinationDescriptionText",
+      "selector": "div.flexOne.appendRight24:nth-of-type(1) > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "context": "Australia\n\nStarting from ₹14,563 per person"
+    },
+    {
+      "raw_text": "Singapore\n\nStarting from ₹8,298 per person",
+      "detected_price": "₹8,298",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "flexOne",
+      "selector": "div > div.width640.appendRight24 > div.makeFlex.spaceBetween:nth-of-type(1) > div.flexOne:nth-of-type(2)",
+      "context": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person"
+    },
+    {
+      "raw_text": "Starting from ₹8,298 per person",
+      "detected_price": "₹8,298",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "destinationDescriptionText",
+      "selector": "div.flexOne:nth-of-type(2) > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "context": "Singapore\n\nStarting from ₹8,298 per person"
+    },
+    {
+      "raw_text": "Amsterdam\n\nStarting from ₹96,719 per person",
+      "detected_price": "₹96,719",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "makeFlex flexOne",
+      "selector": "div.slick-slide.slick-active:nth-of-type(2) > div > div.width640.appendRight24 > div.makeFlex.flexOne:nth-of-type(2)",
+      "context": "Australia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStarting from ₹8,298 per person\n\nAmsterdam\n\nStarting from ₹96,71"
+    },
+    {
+      "raw_text": "Starting from ₹96,719 per person",
+      "detected_price": "₹96,719",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "destinationDescriptionText",
+      "selector": "div.makeFlex.flexOne:nth-of-type(2) > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "context": "Amsterdam\n\nStarting from ₹96,719 per person"
+    },
+    {
+      "raw_text": "Europe\n\nStarting from ₹42,771 per person",
+      "detected_price": "₹42,771",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "slick-slide slick-active",
+      "selector": "div.slick-slider.slick-initialized:nth-of-type(2) > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(3)",
+      "context": "Asia and Asia Pacific\n\nStarting from ₹21,146 per person\n\nAustralia\n\nStarting from ₹14,563 per person\n\nSingapore\n\nStartin"
+    },
+    {
+      "raw_text": "Starting from ₹42,771 per person",
+      "detected_price": "₹42,771",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "destinationDescriptionText",
+      "selector": "div > div.destinationCardWrapper.cardBackground > div.destinationContentWrapper > p.destinationDescriptionText:nth-of-type(2)",
+      "context": "Europe\n\nStarting from ₹42,771 per person"
+    },
+    {
+      "raw_text": "Disney Cruise\n\nStarting from ₹46,395 per person\n\nRoyal Caribbean\n\nStarting from ₹8,801 per person",
+      "detected_price": "₹46,395",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "slick-slider slick-initialized",
+      "selector": "div.appendBottom48:nth-of-type(3) > div.cardWrapper > div.carouselContainer > div.slick-slider.slick-initialized:nth-of-type(2)",
+      "context": "Our Featured Cruise Lines\n\nDisney Cruise\n\nStarting from ₹46,395 per person\n\nRoyal Caribbean\n\nStarting from ₹8,801 per pe"
+    },
+    {
+      "raw_text": "Starting from ₹46,395 per person",
+      "detected_price": "₹46,395",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "cardDescriptionText",
+      "selector": "div > div.cardContainer.appendRight24 > div.cardContentWrapper:nth-of-type(2) > p.cardDescriptionText:nth-of-type(2)",
+      "context": "Disney Cruise\n\nStarting from ₹46,395 per person"
+    },
+    {
+      "raw_text": "Royal Caribbean\n\nStarting from ₹8,801 per person",
+      "detected_price": "₹8,801",
+      "currency": "INR",
+      "tag": "div",
+      "classes": "slick-slide slick-active",
+      "selector": "div.slick-slider.slick-initialized:nth-of-type(2) > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(2)",
+      "context": "Disney Cruise\n\nStarting from ₹46,395 per person\n\nRoyal Caribbean\n\nStarting from ₹8,801 per person"
+    },
+    {
+      "raw_text": "Starting from ₹8,801 per person",
+      "detected_price": "₹8,801",
+      "currency": "INR",
+      "tag": "p",
+      "classes": "cardDescriptionText",
+      "selector": "div > div.cardContainer.appendRight24 > div.cardContentWrapper:nth-of-type(2) > p.cardDescriptionText:nth-of-type(2)",
+      "context": "Royal Caribbean\n\nStarting from ₹8,801 per person"
+    }
+  ],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "loginModal displayBlock modalLogin dynHeight personal",
+      "text": "",
+      "selector": "div.makeFlex.hrtlCenter:nth-of-type(1) > ul.userSection.pushRight > li.makeFlex.hrtlCenter:nth-of-type(4) > div.loginModal.displayBlock:nth-of-type(3)"
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "overlayCruiseContent",
+      "text": "Cruise\n\nFrom search to sail, guided by experts\n\nAmenities for a fun-filled experience\n\nDining with stunning ocean views\n\nWorld-class performances\n\nStays for every style & budget",
+      "selector": "div.appendBottom48.appendTop48:nth-of-type(1) > div.cruisesVideoContainer > div.relative > div.overlayCruiseContent"
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "overlayVideoCardNewBg",
+      "text": "",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)"
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "overlayVideoCardNewBg",
+      "text": "",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)"
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "overlayVideoCardNewBg",
+      "text": "",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)"
+    },
+    {
+      "tag": "div",
+      "id": "",
+      "classes": "overlayVideoCardNewBg",
+      "text": "",
+      "selector": "div > div.videoCardNewContainer > div.videoCardWrapper > div.overlayVideoCardNewBg:nth-of-type(2)"
+    }
+  ],
+  "summary": {
+    "total_text_blocks": 63,
+    "total_buttons": 5,
+    "total_links": 12,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 14,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 6
+  }
+}
