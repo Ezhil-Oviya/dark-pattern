@@ -1,0 +1,494 @@
+{
+  "url": "https://www.flipkart.com/helpcentre",
+  "title": "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com",
+  "timestamp": "2026-09-02T08:47:44.869Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Flipkart Help Center | 24x7 Customer Care Support"
+    },
+    {
+      "tag": "p",
+      "text": "GST Rate Updates"
+    },
+    {
+      "tag": "p",
+      "text": "Quick answers to all your queries"
+    },
+    {
+      "tag": "h2",
+      "text": "Official Flipkart Customer Support & Escalation Matrix"
+    },
+    {
+      "tag": "p",
+      "text": "In order to offer a safe and smooth experience, Flipkart has a dedicated and verified foundation through our official platforms. We do not operate any toll-free numbers for public use, and we recommend that customers use the aforementioned ways of communication for more safety."
+    },
+    {
+      "tag": "h2",
+      "text": "How to Access Official Flipkart Support"
+    },
+    {
+      "tag": "p",
+      "text": "If you want to receive prompt help regarding your orders, just activate our constantly available Support Chat. You can now take advantage of our secure communication system to be in touch with our automated assistant and customer support executives."
+    },
+    {
+      "tag": "li",
+      "text": "Access Orders: Visit the Flipkart website or its mobile application and log into your account. Navigate to the Orders section."
+    },
+    {
+      "tag": "li",
+      "text": "Choose the Product: Pick the order or product you need help with from the list shown."
+    },
+    {
+      "tag": "li",
+      "text": "Start Chat: Click on Help or Chat with us link to start the secure chat session."
+    },
+    {
+      "tag": "p",
+      "text": "Note: If the chatbot does not solve your query, then you will automatically be sent to a live support agent in the same chat window."
+    },
+    {
+      "tag": "h2",
+      "text": "Grievance Redressal and Escalation Matrix"
+    },
+    {
+      "tag": "p",
+      "text": "In case your resolution through the usual communication doesn't yield a positive outcome, you can escalate the issue through the three-tier escalation matrix of Flipkart. It is an escalation procedure fully compliant with the above-mentioned IT Act and E-Commerce Consumer Protection rules."
+    },
+    {
+      "tag": "p",
+      "text": "Escalation Level"
+    },
+    {
+      "tag": "p",
+      "text": "Channel"
+    },
+    {
+      "tag": "p",
+      "text": "Description"
+    },
+    {
+      "tag": "p",
+      "text": "Level 1"
+    },
+    {
+      "tag": "p",
+      "text": "Virtual Support Assistant"
+    },
+    {
+      "tag": "p",
+      "text": "Primary 24/7 self-service chat interface next to your orders."
+    },
+    {
+      "tag": "p",
+      "text": "Level 2"
+    },
+    {
+      "tag": "p",
+      "text": "Agent Connect"
+    },
+    {
+      "tag": "p",
+      "text": "Automatic transfer to a support executive if the support assistant cannot provide a solution."
+    },
+    {
+      "tag": "p",
+      "text": "Level 3"
+    },
+    {
+      "tag": "p",
+      "text": "Grievance Officer"
+    },
+    {
+      "tag": "p",
+      "text": "Final escalation tier if the issue is not resolved."
+    },
+    {
+      "tag": "p",
+      "text": "*You should only reach out to the Grievance Officer using the contact details here when your question is still unanswered, despite following the procedures of Level 1 and Level 2 support."
+    },
+    {
+      "tag": "p",
+      "text": "Flipkart Internet Private Limited,"
+    },
+    {
+      "tag": "p",
+      "text": "Buildings Alyssa, Begonia &"
+    },
+    {
+      "tag": "p",
+      "text": "Clove Embassy Tech Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Outer Ring Road, Devarabeesanahalli Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Bengaluru, 560103,"
+    },
+    {
+      "tag": "p",
+      "text": "Karnataka, India"
+    },
+    {
+      "tag": "p",
+      "text": "CIN : U51109KA2012PTC066107"
+    },
+    {
+      "tag": "p",
+      "text": "Telephone: 044-45614709 / 044-45714709"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Log in",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "dSM5Ub OpkGJE KcXDCU",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.aZISTP:nth-of-type(2) > div.IKaoWD.I8eKGn:nth-of-type(2) > div.iwvN_b:nth-of-type(2) > button.dSM5Ub.OpkGJE"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.nS94SX:nth-of-type(2) > div.Bfhncs:nth-of-type(1) > div.gWHkja > a:nth-of-type(1)"
+    },
+    {
+      "text": "Explore Plus",
+      "href": "/plus",
+      "id": "",
+      "classes": "p8iyLE",
+      "is_visible": true,
+      "selector": "div.nS94SX:nth-of-type(2) > div.Bfhncs:nth-of-type(1) > div.gWHkja > a.p8iyLE:nth-of-type(2)"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/helpcentre",
+      "id": "",
+      "classes": "ol1oIH",
+      "is_visible": true,
+      "selector": "div.kOnij4 > div.yrDfl4.jODOEE > div > a.ol1oIH"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "DDNGCa",
+      "is_visible": true,
+      "selector": "div.nzadEb:nth-of-type(1) > div.nS94SX:nth-of-type(2) > div.VyTVML:nth-of-type(4) > a.DDNGCa"
+    },
+    {
+      "text": "Cart",
+      "href": "/viewcart?exploreMode=true&preference=FLIPKART",
+      "id": "",
+      "classes": "WGWdFn",
+      "is_visible": true,
+      "selector": "div.VyTVML:nth-of-type(6) > div.yrDfl4 > div.oRoVe6 > a.WGWdFn"
+    },
+    {
+      "text": "Flights",
+      "href": "/travel/flights?otracker=nmenu_Flights",
+      "id": "",
+      "classes": "OqYNhN",
+      "is_visible": true,
+      "selector": "div.rX6Fng:nth-of-type(2) > div.xDeJa6._53gVo > div.t_CPtu > a.OqYNhN:nth-of-type(1)"
+    },
+    {
+      "text": "Offer Zone",
+      "href": "/offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone",
+      "id": "",
+      "classes": "OqYNhN",
+      "is_visible": true,
+      "selector": "div.rX6Fng:nth-of-type(2) > div.xDeJa6._53gVo > div.t_CPtu > a.OqYNhN:nth-of-type(2)"
+    },
+    {
+      "text": "Help Centre",
+      "href": "/helpcentre?view=ORDERS",
+      "id": "",
+      "classes": "zEfFJL",
+      "is_visible": true,
+      "selector": "div.IKaoWD.mmjEHk:nth-of-type(1) > div.aDN3s4.o9KLa8 > div.IHPEN6 > a.zEfFJL"
+    },
+    {
+      "text": "Know more",
+      "href": "/helpcentre/gst/i/7",
+      "id": "",
+      "classes": "gAS8PN",
+      "is_visible": true,
+      "selector": "div.lJMbFZ > div.WraRXP > div.Ffjx7m:nth-of-type(2) > a.gAS8PN"
+    },
+    {
+      "text": "here",
+      "href": "/pages/terms",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.RJya0a > div > p:nth-of-type(7) > a"
+    },
+    {
+      "text": "Contact Us",
+      "href": "/helpcentre?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(1) > a.wI1dRI:nth-of-type(1)"
+    },
+    {
+      "text": "About Us",
+      "href": "https://corporate.flipkart.net/corporate-home",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(1) > a.wI1dRI:nth-of-type(2)"
+    },
+    {
+      "text": "Careers",
+      "href": "https://www.flipkartcareers.com/?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(1) > a.wI1dRI:nth-of-type(3)"
+    },
+    {
+      "text": "Flipkart Stories",
+      "href": "http://stories.flipkart.com/?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(1) > a.wI1dRI:nth-of-type(4)"
+    },
+    {
+      "text": "Press",
+      "href": "http://stories.flipkart.com/category/top-stories/news/",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(1) > a.wI1dRI:nth-of-type(5)"
+    },
+    {
+      "text": "Corporate Information",
+      "href": "/corporate-information",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(1) > a.wI1dRI:nth-of-type(6)"
+    },
+    {
+      "text": "Myntra",
+      "href": "https://www.myntra.com/",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(2) > a.wI1dRI:nth-of-type(1)"
+    },
+    {
+      "text": "Cleartrip",
+      "href": "https://www.cleartrip.com/",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(2) > a.wI1dRI:nth-of-type(2)"
+    },
+    {
+      "text": "Shopsy",
+      "href": "https://www.shopsy.in/",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(2) > a.wI1dRI:nth-of-type(3)"
+    },
+    {
+      "text": "Payments",
+      "href": "/pages/payments",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(3) > a.wI1dRI:nth-of-type(1)"
+    },
+    {
+      "text": "Shipping",
+      "href": "/pages/shipping",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(3) > a.wI1dRI:nth-of-type(2)"
+    },
+    {
+      "text": "Cancellation & Returns",
+      "href": "/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(3) > a.wI1dRI:nth-of-type(3)"
+    },
+    {
+      "text": "FAQ",
+      "href": "/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(3) > a.wI1dRI:nth-of-type(4)"
+    },
+    {
+      "text": "Cancellation & Returns",
+      "href": "/pages/returnpolicy?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(1)"
+    },
+    {
+      "text": "Terms Of Use",
+      "href": "/pages/terms?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(2)"
+    },
+    {
+      "text": "Security",
+      "href": "/pages/paymentsecurity?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(3)"
+    },
+    {
+      "text": "Privacy",
+      "href": "/pages/privacypolicy?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(4)"
+    },
+    {
+      "text": "Sitemap",
+      "href": "/sitemap?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(5)"
+    },
+    {
+      "text": "Grievance Redressal",
+      "href": "/pages/grievance-redressal-mechanism?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(6)"
+    },
+    {
+      "text": "EPR Compliance",
+      "href": "/pages/ewaste-compliance-tnc?otracker=footer_navlinks",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(7)"
+    },
+    {
+      "text": "FSSAI Food Safety Connect App",
+      "href": "https://fssai.gov.in/cms/food-safety-connect.php",
+      "id": "",
+      "classes": "wI1dRI",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.Mqp_1z.row:nth-of-type(1) > div.RQHjDX:nth-of-type(4) > a.wI1dRI:nth-of-type(8)"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/flipkart",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.CetntC > div.pfnqiI:nth-of-type(4) > span.dRabuN:nth-of-type(1) > a"
+    },
+    {
+      "text": "",
+      "href": "https://www.twitter.com/flipkart",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.CetntC > div.pfnqiI:nth-of-type(4) > span.dRabuN:nth-of-type(2) > a"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/flipkart",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.CetntC > div.pfnqiI:nth-of-type(4) > span.dRabuN:nth-of-type(3) > a"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/flipkart",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.CetntC > div.pfnqiI:nth-of-type(4) > span.dRabuN:nth-of-type(4) > a"
+    },
+    {
+      "text": "044-45614709",
+      "href": "tel:044-45614709",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.bLYZip > div.awBAe9.E0qdhS > p:nth-of-type(8) > a:nth-of-type(1)"
+    },
+    {
+      "text": "044-45714709",
+      "href": "tel:044-45714709",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.bLYZip > div.awBAe9.E0qdhS > p:nth-of-type(8) > a:nth-of-type(2)"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.IIWDQV > div:nth-of-type(1) > a"
+    },
+    {
+      "text": "Gift Cards",
+      "href": "/the-gift-card-store?otracker=footer_navlinks",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.IIWDQV > div:nth-of-type(3) > a"
+    },
+    {
+      "text": "Help Center",
+      "href": "/helpcentre?otracker=footer_navlinks",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div:nth-of-type(2) > div.IIWDQV > div:nth-of-type(4) > a"
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 34,
+    "total_buttons": 1,
+    "total_links": 40,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

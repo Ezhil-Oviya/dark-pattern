@@ -1,0 +1,814 @@
+{
+  "url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+  "title": "Ss 26 Base Inline At Store Online - Buy Ss 26 Base Inline At Online at Best Price in India | Flipkart.com",
+  "timestamp": "2026-09-02T04:47:28.420Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Fashion"
+    },
+    {
+      "tag": "p",
+      "text": "Flipkart Internet Private Limited,"
+    },
+    {
+      "tag": "p",
+      "text": "Buildings Alyssa, Begonia &"
+    },
+    {
+      "tag": "p",
+      "text": "Clove Embassy Tech Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Outer Ring Road, Devarabeesanahalli Village,"
+    },
+    {
+      "tag": "p",
+      "text": "Bengaluru, 560103,"
+    },
+    {
+      "tag": "p",
+      "text": "Karnataka, India"
+    },
+    {
+      "tag": "p",
+      "text": "CIN : U51109KA2012PTC066107"
+    },
+    {
+      "tag": "p",
+      "text": "Telephone: 044-45614709 / 044-45714709"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Search for Products, Brands and More",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Search Icon",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "XFwMiH",
+      "is_visible": false,
+      "is_disabled": false,
+      "selector": "div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search > div.VCplLH.mIK8ju > button.XFwMiH"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    },
+    {
+      "text": "Next Slide",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "nahfZL",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(1) > div.css-g5y9jx > div.KuMtSe > button.nahfZL"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/flights-travel-uhp-at-store?marketplace=FKT",
+      "id": "",
+      "classes": "_1psv1zeb9 _1o6mltlk4 _1psv1ze9x _1psv1ze7o _1psv1ze2u _1psv1ze53 _7dzyg23 _1psv1ze29 _1psv1ze53 _1psv1zee3",
+      "is_visible": true,
+      "selector": "div._1psv1zeb9._1psv1ze0 > div.css-g5y9jx > div.grid-formation.grid-column-6:nth-of-type(2) > a._1psv1zeb9._1o6mltlk4"
+    },
+    {
+      "text": "Search Icon",
+      "href": "/searchsuggestion",
+      "id": "",
+      "classes": "lilxh_ header-form-search",
+      "is_visible": false,
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.BseBiK:nth-of-type(2) > a.lilxh_.header-form-search"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "New customer?Sign Up",
+      "href": "/account/login?signup=true&ret=/",
+      "id": "",
+      "classes": "Fvt7X7 _1psv1zel",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.Fvt7X7._1psv1zel:nth-of-type(1)"
+    },
+    {
+      "text": "My Profile",
+      "href": "/account/?rd=0&link=home_account",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "Flipkart Plus Zone",
+      "href": "/plus",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Orders",
+      "href": "/account/orders?link=home_orders",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Wishlist",
+      "href": "/wishlist?link=home_wishlist",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(5)"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(6)"
+    },
+    {
+      "text": "Rewards",
+      "href": "/account/rewards?link=home_rewards",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(7)"
+    },
+    {
+      "text": "Gift Cards",
+      "href": "/the-gift-card-store?link=home_giftcard",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(8)"
+    },
+    {
+      "text": "Notification Preferences",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(9)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(10)"
+    },
+    {
+      "text": "Advertise",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(11)"
+    },
+    {
+      "text": "Download App",
+      "href": "/mobile-apps?otracker=ch_vn_mobile_apps",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3:nth-of-type(1) > ul.p9yS7v.M8Sosa > a.CfNfim:nth-of-type(12)"
+    },
+    {
+      "text": "Login",
+      "href": "/account/login?ret=/",
+      "id": "",
+      "classes": "BHnOJf",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.qjYSan:nth-of-type(2) > div.BSliuJ:nth-of-type(2) > a.BHnOJf"
+    },
+    {
+      "text": "More",
+      "href": "#",
+      "id": "",
+      "classes": "K05FV0",
+      "is_visible": true,
+      "selector": "div.CXZSEo > div.LhEIN3 > div.wszdrO > a.K05FV0"
+    },
+    {
+      "text": "Become a Seller",
+      "href": "https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(1)"
+    },
+    {
+      "text": "Notification Settings",
+      "href": "/communication-preferences/push?t=all",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(2)"
+    },
+    {
+      "text": "24x7 Customer Care",
+      "href": "/helpcentre",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(3)"
+    },
+    {
+      "text": "Advertise on Flipkart",
+      "href": "https://advertising.flipkart.com/?otracker=ch_vn_advertise_header",
+      "id": "",
+      "classes": "CfNfim",
+      "is_visible": false,
+      "selector": "div.CXZSEo > div.LhEIN3 > ul.p9yS7v._1psv1ze3c > a.CfNfim:nth-of-type(4)"
+    },
+    {
+      "text": "Cart",
+      "href": "/viewcart?marketplace=FLIPKART",
+      "id": "",
+      "classes": "E7_UTN",
+      "is_visible": true,
+      "selector": "div.PGj60j:nth-of-type(2) > div:nth-of-type(4) > div.H5bs2Y > a.E7_UTN"
+    },
+    {
+      "text": "For You",
+      "href": "https://www.flipkart.com/",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Fashion",
+      "href": "/ss-26-base-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Mobiles",
+      "href": "/mobile-phones-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Electronics",
+      "href": "/new-elec-clp-march-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Beauty",
+      "href": "/bpc-bau-new-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Home",
+      "href": "/home-kitchen-25-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Appliances",
+      "href": "/tv-and-appliances-inline-ab-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Toys, baby..",
+      "href": "/toysbc-new26-inline-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Food & Health",
+      "href": "/fnhc-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Auto Accessories",
+      "href": "/aa-2025-new-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sports & Fitness",
+      "href": "/sf-inline-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Furniture",
+      "href": "/india-ka-furniture-studio-inlines-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Books & Media",
+      "href": "/booksmedia-2025-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "2 Wheelers",
+      "href": "/twowheelers-at-store",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "",
+      "href": "/offers-list/content?screen=dynamic&pk=themeViews%3DBBDH-NOV-BASE-HEADER-OMU%3ABBDH-NOV~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=32546&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/ls-foi-26-inline-at-store?param=5678&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/clothing-and-accessories/~cs-tj1hs5ycq5/pr?sid=clo&collection-tab-name=Men%27s+clothing&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&offer=nb:mp:027182f627,nb:mp:02c5885027&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/clothing-and-accessories/kurtas-ethnic-sets-and-bottoms/~cs-gfa76itvgr/pr?sid=clo%2Ccfv&collection-tab-name=kurtsets&p%5B%5D=facets.brand%255B%255D%3DLIBAS&sort=recency_desc&p%5B%5D=facets.brand%255B%255D%3DRANGRITI&p%5B%5D=facets.brand%255B%255D%3DEXTRA%2BLOVE%2BBY%2BLIBAS&p%5B%5D=facets.brand%255B%255D%3DJaipur%2BKurti&p%5B%5D=facets.brand%255B%255D%3DNayo&p%5B%5D=facets.brand%255B%255D%3DAurelia&p%5B%5D=facets.brand%255B%255D%3DVBUYZ&p%5B%5D=facets.brand%255B%255D%3DStylum&p%5B%5D=facets.brand%255B%255D%3DRangmanch%2Bby%2BPantaloons&p%5B%5D=facets.brand%255B%255D%3DIndo%2BEra&p%5B%5D=facets.brand%255B%255D%3DW&p%5B%5D=facets.brand%255B%255D%3DBIBA&p%5B%5D=facets.brand%255B%255D%3DVishudh&p%5B%5D=facets.brand%255B%255D%3DVaranga&p%5B%5D=facets.brand%255B%255D%3DEstela&p%5B%5D=facets.brand%255B%255D%3Dberrylicious&p%5B%5D=facets.brand%255B%255D%3DJanasya&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&param=94857&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/mens-footwear/~cs-8hq51f9dnn/pr?sid=osp%2Ccil&collection-tab-name=Red%20Tape&param=ws&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/clothing-and-accessories/~cs-lq1t6bvyqj/pr?sid=clo&collection-tab-name=Tees&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&param=78777666&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/mens-footwear/~cs-8lblwb61ol/pr?sid=osp%2Ccil&collection-tab-name=SFW%2065&p[]=facets.brand%255B%255D%3DPUMA&p[]=facets.brand%255B%255D%3DADIDAS&p[]=facets.brand%255B%255D%3DREEBOK&param=1303&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/clothing-and-accessories/pr?sid=clo&p%5B%5D=facets.brand%255B%255D%3DEd-a-Mamma&p%5B%5D=facets.brand%255B%255D%3DLuvLap&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys%2B%2526%2BBaby%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BGirls&param=20840&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "",
+      "href": "/reh/plk/tvv/~cs-k9fu22ykzc/pr?sid=reh%2Cplk%2Ctvv&collection-tab-name=Trolley+Bags+M75&pageCriteria=default&p%5B%5D=facets.brand%255B%255D%3DSAFARI&p%5B%5D=facets.brand%255B%255D%3DAMERICAN%2BTOURISTER&p%5B%5D=facets.brand%255B%255D%3DARISTOCRAT&p%5B%5D=facets.brand%255B%255D%3DVIP&p%5B%5D=facets.brand%255B%255D%3DSKYBAGS&p%5B%5D=facets.brand%255B%255D%3DHRX&p%5B%5D=facets.brand%255B%255D%3DKamiliant%2Bby%2BAmerican%2BTourister&p%5B%5D=facets.brand%255B%255D%3DWildcraft&p%5B%5D=facets.brand%255B%255D%3DNASHER%2BMILES&p%5B%5D=facets.brand%255B%255D%3DMagnum%2Bby%2BSafari&p%5B%5D=facets.brand%255B%255D%3DKILLER&p%5B%5D=facets.brand%255B%255D%3DSWISS%2BMILITARY&p%5B%5D=facets.brand%255B%255D%3DALFA&p%5B%5D=facets.brand%255B%255D%3DMETRONAUT&p%5B%5D=facets.brand%255B%255D%3DPROVOGUE&p%5B%5D=facets.brand%255B%255D%3DWROGN&p%5B%5D=facets.brand%255B%255D%3DDELSEY&p%5B%5D=facets.brand%255B%255D%3DPUMA&p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DPolice&p%5B%5D=facets.brand%255B%255D%3DACEPACK&p%5B%5D=facets.brand%255B%255D%3DCARLTON%2BLONDON&p%5B%5D=facets.brand%255B%255D%3DDKNY&p%5B%5D=facets.brand%255B%255D%3DDUCATI&p%5B%5D=facets.brand%255B%255D%3DF%2BGear&p%5B%5D=facets.brand%255B%255D%3DGenie&p%5B%5D=facets.brand%255B%255D%3DGear&p%5B%5D=facets.brand%255B%255D%3DGENIUS%2Bby%2BSAFARI&p%5B%5D=facets.brand%255B%255D%3DMagnum&p%5B%5D=facets.brand%255B%255D%3DTeakwood%2BLeathers&p%5B%5D=facets.brand%255B%255D%3DStony%2BBrook%2Bby%2BNasher%2BMiles&p%5B%5D=facets.brand%255B%255D%3DZouk&param=11126&BU=LifeStyle",
+      "id": "",
+      "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djtl6 _1i2djtix _1i2djte9 _1i2djtfr",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a._3n8fna1co._3n8fna10j"
+    },
+    {
+      "text": "Korean Store",
+      "href": "/korean-store?param=833424354545454&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIktvcmVhbiBTdG9yZSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Shirts",
+      "href": "/bbdh-topwear-at-store?ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNoaXJ0cyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Jeans",
+      "href": "/mc-sale-bbd26-bw-at-store?ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkplYW5zIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sports Shoes",
+      "href": "/spl-2025-sfw-at-store?param=564&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNwb3J0cyBTaG9lcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Watches",
+      "href": "/july-24-sale-store?ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIldhdGNoZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Kids' clothing",
+      "href": "/kidseoss-at-store?param=02868686&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIktpZHMnIGNsb3RoaW5nIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Backpacks",
+      "href": "/backpacks-2026-at-store?param=11737&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJhY2twYWNrcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Tees",
+      "href": "/clothing-and-accessories/topwear/tshirts/pr?sid=clo%2Cash%2Cank&p%5B%5D=facets.ideal_for%255B%255D%3DMen&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRlZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Athleisure",
+      "href": "/clothing-and-accessories/~cs-tj1hs5ycq5/pr?sid=clo&collection-tab-name=Men%27s+clothing&p%5B%5D=facets.brand%255B%255D%3DArrow%2BSport&p%5B%5D=facets.brand%255B%255D%3DPUMA&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DREEBOK&p%5B%5D=facets.brand%255B%255D%3DVAN%2BHEUSEN%2BSPORT&p%5B%5D=facets.brand%255B%255D%3DNIKE&p%5B%5D=facets.brand%255B%255D%3DREEBOK%2BCLASSICS&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BORIGINALS&p%5B%5D=facets.brand%255B%255D%3DFILA&p%5B%5D=facets.brand%255B%255D%3DHRX%2Bby%2BHrithik%2BRoshan&p%5B%5D=facets.brand%255B%255D%3DNIVIA&p%5B%5D=facets.brand%255B%255D%3DNew%2BBalance&p%5B%5D=facets.brand%255B%255D%3DSHIV-NARESH&p%5B%5D=facets.brand%255B%255D%3DUNDER%2BARMOUR&p%5B%5D=facets.brand%255B%255D%3DAdrenex&p%5B%5D=facets.brand%255B%255D%3DM7%2BBy%2BMetronaut&p%5B%5D=facets.brand%255B%255D%3DWildcraft&p%5B%5D=facets.brand%255B%255D%3DAsics&p%5B%5D=facets.brand%255B%255D%3DHUMMEL&p%5B%5D=facets.brand%255B%255D%3DTECHNOSPORT&p%5B%5D=facets.brand%255B%255D%3DHRX%2Bby%2BHrithik%2BRoshan&p%5B%5D=facets.brand%255B%255D%3DHRX%2Bby%2BHrithik%2BRoshan&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkF0aGxlaXN1cmUiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Formals",
+      "href": "/clothing-and-accessories/~cs-p6off9r7pm/pr?sid=clo&collection-tab-name=Formal+Shirts%2C+trousers&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkZvcm1hbHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Kurtas",
+      "href": "/clothing-and-accessories/ethnic-wear/kurtas/men-kurtas/pr?sid=clo%2Ccfv%2Ccib%2Cjks&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkt1cnRhcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sneakers",
+      "href": "/mens-footwear/~cs-lsj8w6jqwd/pr?sid=osp%2Ccil&collection-tab-name=Men%27s+Footwear&p%5B%5D=facets.brand%255B%255D%3DWROGN&sort=price_desc&p%5B%5D=facets.brand%255B%255D%3DSparx&p%5B%5D=facets.brand%255B%255D%3DWOODLAND&p%5B%5D=facets.brand%255B%255D%3DRED%2BCHIEF&p%5B%5D=facets.brand%255B%255D%3DRED%2BTAPE&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPOLO%2BASSN.&p%5B%5D=facets.brand%255B%255D%3DLOUIS%2BPHILIPPE&p%5B%5D=facets.brand%255B%255D%3DLOUIS%2BSTITCH&p%5B%5D=facets.brand%255B%255D%3DRare%2BRabbit&p%5B%5D=facets.brand%255B%255D%3Dbacca%2Bbucci&p%5B%5D=facets.brand%255B%255D%3DJACK%2B%2526%2BJONES&p%5B%5D=facets.brand%255B%255D%3DPepe%2BJeans&p%5B%5D=facets.brand%255B%255D%3Daction&p%5B%5D=facets.brand%255B%255D%3DAbros&param=567&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNuZWFrZXJzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Performance",
+      "href": "/footwear/~cs-kxs7yf8dvv/pr?sid=osp&collection-tab-name=Sports+Footwear&param=5678&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlBlcmZvcm1hbmNlIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Casual Wear",
+      "href": "/mens-casual-shirts/pr?sid=clo%2Cash%2Caxc%2Cmmk%2Ckp7&p%5B%5D=facets.brand%255B%255D%3DAllen%2BSolly&p%5B%5D=facets.brand%255B%255D%3DLEVI%2527S&p%5B%5D=facets.brand%255B%255D%3DPUMA&p%5B%5D=facets.brand%255B%255D%3DLouis%2BPhilippe%2BSport&p%5B%5D=facets.brand%255B%255D%3DJACK%2B%2526%2BJONES&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DREEBOK&p%5B%5D=facets.brand%255B%255D%3DSpykar&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn.%2BDenim%2BCo.&p%5B%5D=facets.brand%255B%255D%3DPepe%2BJeans&p%5B%5D=facets.brand%255B%255D%3DMUFTI&p%5B%5D=facets.brand%255B%255D%3DKILLER&p%5B%5D=facets.brand%255B%255D%3DWildcraft&p%5B%5D=facets.brand%255B%255D%3DLOUIS%2BPHILIPPE&p%5B%5D=facets.brand%255B%255D%3DPETER%2BENGLAND&p%5B%5D=facets.brand%255B%255D%3DREEBOK%2BCLASSICS&p%5B%5D=facets.brand%255B%255D%3DLouis%2BPhilippe%2BJeans&p%5B%5D=facets.brand%255B%255D%3DVAN%2BHEUSEN&p%5B%5D=facets.brand%255B%255D%3DFLYING%2BMACHINE&p%5B%5D=facets.brand%255B%255D%3DVan%2BHeusen%2BAcademy&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn.%2BDenim%2BCo.&p%5B%5D=facets.brand%255B%255D%3DLEE&p%5B%5D=facets.brand%255B%255D%3DWROGN&p%5B%5D=facets.brand%255B%255D%3DWrangler&p%5B%5D=facets.brand%255B%255D%3DArrow%2BSport&p%5B%5D=facets.brand%255B%255D%3DPARX&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BORIGINALS&p%5B%5D=facets.brand%255B%255D%3DPARK%2BAVENUE&p%5B%5D=facets.brand%255B%255D%3DRaymond&p%5B%5D=facets.brand%255B%255D%3DARROW&p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DFILA&p%5B%5D=facets.brand%255B%255D%3DMONTE%2BCARLO&p%5B%5D=facets.brand%255B%255D%3DVAN%2BHEUSEN%2BSPORT&p%5B%5D=facets.brand%255B%255D%3DVan%2BHeusen%2BFlex&p%5B%5D=facets.brand%255B%255D%3DSweven&p%5B%5D=facets.brand%255B%255D%3DINDIAN%2BTERRAIN&p%5B%5D=facets.brand%255B%255D%3DArrow%2BNewyork&p%5B%5D=facets.brand%255B%255D%3DUNDER%2BARMOUR&p%5B%5D=facets.brand%255B%255D%3DAmerican%2BEagle%2BOutfitters&p%5B%5D=facets.brand%255B%255D%3DTOMMY%2BHILFIGER&p%5B%5D=facets.brand%255B%255D%3DVan%2BHeusen%2BFlex&p%5B%5D=facets.brand%255B%255D%3DPeter%2BEngland%2BJeans&p%5B%5D=facets.brand%255B%255D%3DLAWMAN&p%5B%5D=facets.brand%255B%255D%3DWROGN&p%5B%5D=facets.brand%255B%255D%3DLAWMAN%2BPG3&p%5B%5D=facets.brand%255B%255D%3DWROGN%2BACTIVE&p%5B%5D=facets.brand%255B%255D%3DBlackberrys&p%5B%5D=facets.brand%255B%255D%3DCalvin%2BKlein%2BJeans&p%5B%5D=facets.brand%255B%255D%3DLouis%2BPhilippe%2BSport&p%5B%5D=facets.brand%255B%255D%3DNew%2BBalance&p%5B%5D=facets.brand%255B%255D%3DCalvin%2BKlein%2BJeans&p%5B%5D=facets.brand%255B%255D%3DAcademy%2BBy%2BVan%2BHeusen&p%5B%5D=facets.brand%255B%255D%3DNIKE&p%5B%5D=facets.brand%255B%255D%3DPeter%2BEngland%2BCasuals&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPOLO%2BASSN.&p%5B%5D=facets.brand%255B%255D%3DPeter+England+Elite&p%5B%5D=facets.brand%255B%255D%3DMARKS%2B%2526%2BSPENCER&p%5B%5D=facets.brand%255B%255D%3DLawmanPg3%2BX%2BRocky%2BStar&p%5B%5D=facets.brand%255B%255D%3DWrangler%2B20X&p%5B%5D=facets.brand%255B%255D%3DPETER%2BENGLAND&p%5B%5D=facets.brand%255B%255D%3DArrow%2BBlue%2BJean%2BCompany&p%5B%5D=facets.brand%255B%255D%3DAmerican%2BEagle%2BOutfitters&p%5B%5D=facets.brand%255B%255D%3DV%2BDOT%2BBY%2BVAN%2BHEUSEN&p%5B%5D=facets.brand%255B%255D%3DUnderJeans%2Bby%2BSpykar&p%5B%5D=facets.brand%255B%255D%3DLouis%2BPhilippe%2BAth.Work&p%5B%5D=facets.brand%255B%255D%3DREEBOK%2BCLASSICS&p%5B%5D=facets.brand%255B%255D%3DV%2BDOT%2BBY%2BVAN%2BHEUSEN&p%5B%5D=facets.brand%255B%255D%3DLOUIS%2BPHILIPPE&p%5B%5D=facets.brand%255B%255D%3DLouis%2BPhilippe%2BJeans&p%5B%5D=facets.brand%255B%255D%3DCAVALLO%2BBY%2BLINEN%2BCLUB&p%5B%5D=facets.brand%255B%255D%3DINTEGRITI&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNhc3VhbCBXZWFyIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Briefs Vest",
+      "href": "/clothing-and-accessories/innerwear-and-swimwear/~cs-esg5270w9x/pr?sid=clo%2Cqfl&collection-tab-name=Briefs%2C+Vest&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJyaWVmcyBWZXN0Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Trackpants",
+      "href": "/clothing-and-accessories/bottomwear/track-pants/men-track-pants/pr?sid=clo%2Cvua%2Cjlk%2C6ql&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRyYWNrcGFudHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Gen Z fashion",
+      "href": "/ls-bbdh-gen-z-inline-at-store?param=777777&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdlbiBaIGZhc2hpb24iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Next Gen Fashion",
+      "href": "/fashion-spotlight-2026-clp-at-store?param=1321&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk5leHQgR2VuIEZhc2hpb24iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Janmashtami",
+      "href": "/ls-foi-26-inline-at-store?param=2345567&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkphbm1hc2h0YW1pIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Kurta sets",
+      "href": "/kurtasets25-at-store?param=67876&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkt1cnRhIHNldHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Dresses, tops",
+      "href": "/wne-sale-dresses-at-store?param=649996&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRyZXNzZXMsIHRvcHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Casual shoes",
+      "href": "/footwear-base-mf-at-store?param=567&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNhc3VhbCBzaG9lcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Luggage...",
+      "href": "/lta-new-clp-2026-at-store?param=11736&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkx1Z2dhZ2UuLi4iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Jewellery",
+      "href": "/jewellery-store?ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkpld2VsbGVyeSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Sarees",
+      "href": "/sarees25-at-store?param=78987765234&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlNhcmVlcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Jeans, Trousers",
+      "href": "/wne-sale-bottomwear-at-store?param=6856&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkplYW5zLCBUcm91c2VycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Kurtis",
+      "href": "/clothing-and-accessories/ethnic-wear/kurtas/women-kurtas-and-kurtis/pr?sid=clo%2Ccfv%2Ccib%2Crkt&Param=0112&p%5B%5D=facets.fulfilled_by%255B%255D%3DF-Assured&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.discount_range_v1%255B%255D%3D70%2525%2Bor%2Bmore&param=9876&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkt1cnRpcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Women's Sports Shoes",
+      "href": "/sale-base-women-ft-at-store?param=624&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIldvbWVuJ3MgU3BvcnRzIFNob2VzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Bra, panty",
+      "href": "/women-innerwear-at-store?param=6569&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJyYSwgcGFudHkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Lehenga Cholis",
+      "href": "/womens-lehenga-cholis/~cs-0wo413wjh1/pr?sid=clo%2Chlg%2Cwrp&collection-tab-name=lehenga&param=765456&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkxlaGVuZ2EgQ2hvbGlzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Nightsuits",
+      "href": "/nightwear-clp-at-store?param=4612&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk5pZ2h0c3VpdHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Heels & Flats",
+      "href": "/womens-footwear/~womens-sandals/pr?sid=osp%2Ciko&p%5B%5D=facets.brand%255B%255D%3DMOCHI&param=7652&p%5B%5D=facets.brand%255B%255D%3DMETRO&p%5B%5D=facets.brand%255B%255D%3DCatwalk&p%5B%5D=facets.brand%255B%255D%3DCARLTON%2BLONDON&p%5B%5D=facets.brand%255B%255D%3DInc.5&p%5B%5D=facets.brand%255B%255D%3DGinger%2Bby%2BLifestyle&p%5B%5D=facets.brand%255B%255D%3DCODE%2Bby%2BLifestyle&p%5B%5D=facets.brand%255B%255D%3DAllen%2BSolly&p%5B%5D=facets.brand%255B%255D%3DParagon&p%5B%5D=facets.brand%255B%255D%3DFLITE&p%5B%5D=facets.brand%255B%255D%3DAqualite&p%5B%5D=facets.brand%255B%255D%3DANOUK&p%5B%5D=facets.brand%255B%255D%3DBata&p%5B%5D=facets.brand%255B%255D%3DLIBERTY&p%5B%5D=facets.brand%255B%255D%3DLongwalk&p%5B%5D=facets.brand%255B%255D%3DTWINSSHOE&p%5B%5D=facets.brand%255B%255D%3DVENDOZ&p%5B%5D=facets.brand%255B%255D%3DSHOETOPIA&p%5B%5D=facets.brand%255B%255D%3DHVNLY%2BBY%2BSHOETOPIA&p%5B%5D=facets.brand%255B%255D%3DShoestail&p%5B%5D=facets.brand%255B%255D%3DZoom%2BShoes&p%5B%5D=facets.brand%255B%255D%3DTOSHINA%2BSHOES%2BKING&p%5B%5D=facets.brand%255B%255D%3DTRASE&p%5B%5D=facets.brand%255B%255D%3DDoctor%2BUltra%2BComfort&p%5B%5D=facets.brand%255B%255D%3DDOCTOR%2BULTRA&p%5B%5D=facets.brand%255B%255D%3DDenill&p%5B%5D=facets.brand%255B%255D%3DStylestry&p%5B%5D=facets.brand%255B%255D%3DPaduki&p%5B%5D=facets.brand%255B%255D%3DKhadim%2527s&p%5B%5D=facets.brand%255B%255D%3DSHERRIF&p%5B%5D=facets.brand%255B%255D%3DShezone&p%5B%5D=facets.brand%255B%255D%3DDOCTOR%2BEXTRA%2BSOFT&p%5B%5D=facets.brand%255B%255D%3DEL%2BPASO&p%5B%5D=facets.brand%255B%255D%3DFabbmate&p%5B%5D=facets.brand%255B%255D%3DTWO%2BSOFT&p%5B%5D=facets.brand%255B%255D%3DLayasa&param=5464&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkhlZWxzICYgRmxhdHMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Dress Material",
+      "href": "/clothing-and-accessories/fabric/dress-material/women-dress-material/pr?sid=clo%2Cqfi%2Cxcx%2Cms4&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&Param=6437&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkRyZXNzIE1hdGVyaWFsIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Clogs",
+      "href": "/open-footwear-branded-at-store?param=567&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkNsb2dzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    },
+    {
+      "text": "Focus Brands",
+      "href": "/offers-list/content?screen=dynamic&pk=themeViews%3DHOB-BASE-Page-NAV-OMU%3AOMU%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&param=39782762762&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkZvY3VzIEJyYW5kcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.css-g5y9jx > div > div > a"
+    }
+  ],
+  "forms": [
+    {
+      "id": "",
+      "name": "",
+      "action": "/search",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search for Products, Brands and More",
+          "label": "",
+          "required": false,
+          "is_visible": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "otracker1",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "marketplace",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as-show",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "as",
+          "placeholder": "",
+          "label": "",
+          "required": false,
+          "is_visible": false,
+          "value": "[MASKED]"
+        }
+      ],
+      "selector": "header.Csk5Ae._1psv1ze30 > div.lfFUxn:nth-of-type(1) > div.olwU0Z.CXZSEo:nth-of-type(1) > form.lilxh_.header-form-search"
+    }
+  ],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 9,
+    "total_buttons": 4,
+    "total_links": 80,
+    "total_forms": 1,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

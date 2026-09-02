@@ -1,0 +1,70 @@
+{
+  "evidence_id": "ev_page_013_audit_flipkart_2026-09-02_14-31-47",
+  "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+  "page_title": "Bpc Bau New Inline At Store Online - Buy Bpc Bau New Inline At Online at Best Price in India | Flipkart.com",
+  "crawl_depth": 1,
+  "page_index": 13,
+  "audit_time": "2026-09-02_14-31-47",
+  "artifacts": {
+    "screenshot": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_013/screenshot.png",
+    "dom": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_013/dom.html",
+    "extracted_json": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_013/extracted.json",
+    "evidence_json": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_013/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 2,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p13_scr_c84f87",
+      "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+      "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+      "page_title": "Bpc Bau New Inline At Store Online - Buy Bpc Bau New Inline At Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 13,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_013/screenshot.png",
+      "timestamp": "2026-09-02_14-31-47",
+      "context": "Platform: Flipkart | Page: 13 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p13_dom_25f132",
+      "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+      "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+      "page_title": "Bpc Bau New Inline At Store Online - Buy Bpc Bau New Inline At Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 13,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_013/dom.html",
+      "timestamp": "2026-09-02_14-31-47",
+      "context": "Captured at network idle for https://www.flipkart.com/bpc-bau-new-inline-at-store (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    }
+  ]
+}

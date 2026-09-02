@@ -1,0 +1,1101 @@
+{
+  "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "start_url": "https://www.flipkart.com",
+  "configured_crawl_depth": 3,
+  "actual_max_depth_reached": 1,
+  "max_pages_limit": 15,
+  "pages_discovered": 296,
+  "pages_crawled": 15,
+  "pages_successful": 15,
+  "pages_failed": 0,
+  "total_evidence_items": 41,
+  "total_dark_pattern_findings": 0,
+  "start_time": "2026-09-02_10-31-38",
+  "end_time": "2026-09-02_10-32-50",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No dynamic countdown timers or artificial scarcity pressure detected across crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Price disclosures appear upfront; no undisclosed mandatory fees or unexpected surcharges detected.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "https://www.flipkart.com/",
+      "title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 6,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa38fa4218670c481950",
+        "dom": "api/v1/automation/artifact/6a97aa38fa4218670c48195b",
+        "extracted_json": "api/v1/automation/artifact/6a97aa38fa4218670c481960",
+        "evidence_json": "api/v1/automation/artifact/6a97aa38fa4218670c481962"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+      "title": "Flights Travel Uhp At Store Online - Buy Flights Travel Uhp At Online at Best Price in India | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 3,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa3ffa4218670c481964",
+        "dom": "api/v1/automation/artifact/6a97aa3ffa4218670c48196d",
+        "extracted_json": "api/v1/automation/artifact/6a97aa3ffa4218670c481970",
+        "evidence_json": "api/v1/automation/artifact/6a97aa3ffa4218670c481972"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "https://www.flipkart.com/searchsuggestion",
+      "title": "Online Shopping India Mobile, Cameras, Lifestyle & more Online @ Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa40fa4218670c481974",
+        "dom": "api/v1/automation/artifact/6a97aa40fa4218670c481976",
+        "extracted_json": "api/v1/automation/artifact/6a97aa40fa4218670c481978",
+        "evidence_json": "api/v1/automation/artifact/6a97aa40fa4218670c48197a"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/searchsuggestion",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/searchsuggestion",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/searchsuggestion",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/searchsuggestion",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "https://www.flipkart.com/login?ret=%2Fplus&entryPoint=LOGIN_PAGE",
+      "title": "Here's the amazing journey that you've had with Flipkart",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa43fa4218670c48197c",
+        "dom": "api/v1/automation/artifact/6a97aa43fa4218670c48197e",
+        "extracted_json": "api/v1/automation/artifact/6a97aa43fa4218670c481980",
+        "evidence_json": "api/v1/automation/artifact/6a97aa43fa4218670c481982"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/login?ret=%2Fplus&entryPoint=LOGIN_PAGE",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/login?ret=%2Fplus&entryPoint=LOGIN_PAGE",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/login?ret=%2Fplus&entryPoint=LOGIN_PAGE",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/login?ret=%2Fplus&entryPoint=LOGIN_PAGE",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "https://www.flipkart.com/account/login?ret=%2Fwishlist%3Flink%3Dhome_wishlist",
+      "title": "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa46fa4218670c481984",
+        "dom": "api/v1/automation/artifact/6a97aa46fa4218670c481986",
+        "extracted_json": "api/v1/automation/artifact/6a97aa47fa4218670c481988",
+        "evidence_json": "api/v1/automation/artifact/6a97aa47fa4218670c48198a"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/account/login?ret=%2Fwishlist%3Flink%3Dhome_wishlist",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/account/login?ret=%2Fwishlist%3Flink%3Dhome_wishlist",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/account/login?ret=%2Fwishlist%3Flink%3Dhome_wishlist",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/account/login?ret=%2Fwishlist%3Flink%3Dhome_wishlist",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 5,
+      "folder": "page_005",
+      "url": "https://www.flipkart.com/the-gift-card-store?link=home_giftcard",
+      "title": "Buy Gift Cards & Vouchers Online for All Occasions | Flipkart",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa4cfa4218670c48198c",
+        "dom": "api/v1/automation/artifact/6a97aa4cfa4218670c48198f",
+        "extracted_json": "api/v1/automation/artifact/6a97aa4cfa4218670c481993",
+        "evidence_json": "api/v1/automation/artifact/6a97aa4cfa4218670c481995"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/the-gift-card-store?link=home_giftcard",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/the-gift-card-store?link=home_giftcard",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/the-gift-card-store?link=home_giftcard",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/the-gift-card-store?link=home_giftcard",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 6,
+      "folder": "page_006",
+      "url": "https://www.flipkart.com/communication-preferences/push?t=all",
+      "title": "Push Store Online - Buy Push Online at Best Price in India | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 8,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa4ffa4218670c481997",
+        "dom": "api/v1/automation/artifact/6a97aa4ffa4218670c481999",
+        "extracted_json": "api/v1/automation/artifact/6a97aa4ffa4218670c48199b",
+        "evidence_json": "api/v1/automation/artifact/6a97aa4ffa4218670c48199d"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/communication-preferences/push?t=all",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 7,
+      "folder": "page_007",
+      "url": "https://www.flipkart.com/helpcentre",
+      "title": "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa51fa4218670c48199f",
+        "dom": "api/v1/automation/artifact/6a97aa51fa4218670c4819a1",
+        "extracted_json": "api/v1/automation/artifact/6a97aa51fa4218670c4819a3",
+        "evidence_json": "api/v1/automation/artifact/6a97aa51fa4218670c4819a5"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/helpcentre",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/helpcentre",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/helpcentre",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/helpcentre",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 8,
+      "folder": "page_008",
+      "url": "https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps",
+      "title": "Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa53fa4218670c4819a7",
+        "dom": "api/v1/automation/artifact/6a97aa53fa4218670c4819aa",
+        "extracted_json": "api/v1/automation/artifact/6a97aa53fa4218670c4819ac",
+        "evidence_json": "api/v1/automation/artifact/6a97aa53fa4218670c4819ae"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 9,
+      "folder": "page_009",
+      "url": "https://www.flipkart.com/viewcart?marketplace=FLIPKART",
+      "title": "Shopping Cart | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa58fa4218670c4819b0",
+        "dom": "api/v1/automation/artifact/6a97aa58fa4218670c4819b2",
+        "extracted_json": "api/v1/automation/artifact/6a97aa58fa4218670c4819b6",
+        "evidence_json": "api/v1/automation/artifact/6a97aa58fa4218670c4819b8"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/viewcart?marketplace=FLIPKART",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/viewcart?marketplace=FLIPKART",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/viewcart?marketplace=FLIPKART",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/viewcart?marketplace=FLIPKART",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 10,
+      "folder": "page_010",
+      "url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+      "title": "Ss 26 Base Inline At Store Online - Buy Ss 26 Base Inline At Online at Best Price in India | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa60fa4218670c4819c5",
+        "dom": "api/v1/automation/artifact/6a97aa60fa4218670c4819d6",
+        "extracted_json": "api/v1/automation/artifact/6a97aa60fa4218670c4819dc",
+        "evidence_json": "api/v1/automation/artifact/6a97aa60fa4218670c4819de"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/ss-26-base-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 11,
+      "folder": "page_011",
+      "url": "https://www.flipkart.com/mobile-phones-store",
+      "title": "Mobile Phones Online at Best Prices in India",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa66fa4218670c4819e0",
+        "dom": "api/v1/automation/artifact/6a97aa66fa4218670c4819f0",
+        "extracted_json": "api/v1/automation/artifact/6a97aa66fa4218670c4819f4",
+        "evidence_json": "api/v1/automation/artifact/6a97aa66fa4218670c4819f6"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/mobile-phones-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/mobile-phones-store",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/mobile-phones-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/mobile-phones-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 12,
+      "folder": "page_012",
+      "url": "https://www.flipkart.com/new-elec-clp-march-at-store",
+      "title": "New Elec Clp March At Store Online - Buy New Elec Clp March At Online at Best Price in India | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa6bfa4218670c4819f8",
+        "dom": "api/v1/automation/artifact/6a97aa6bfa4218670c481a05",
+        "extracted_json": "api/v1/automation/artifact/6a97aa6bfa4218670c481a0a",
+        "evidence_json": "api/v1/automation/artifact/6a97aa6bfa4218670c481a0c"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/new-elec-clp-march-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/new-elec-clp-march-at-store",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/new-elec-clp-march-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/new-elec-clp-march-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 13,
+      "folder": "page_013",
+      "url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+      "title": "Bpc Bau New Inline At Store Online - Buy Bpc Bau New Inline At Online at Best Price in India | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa6ffa4218670c481a0e",
+        "dom": "api/v1/automation/artifact/6a97aa70fa4218670c481a19",
+        "extracted_json": "api/v1/automation/artifact/6a97aa70fa4218670c481a1e",
+        "evidence_json": "api/v1/automation/artifact/6a97aa70fa4218670c481a20"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/bpc-bau-new-inline-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_flipkart_2026-09-02_10-31-38",
+      "page_index": 14,
+      "folder": "page_014",
+      "url": "https://www.flipkart.com/home-kitchen-25-at-store",
+      "title": "Home Kitchen 25 At Store Online - Buy Home Kitchen 25 At Online at Best Price in India | Flipkart.com",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a97aa75fa4218670c481a22",
+        "dom": "api/v1/automation/artifact/6a97aa75fa4218670c481a31",
+        "extracted_json": "api/v1/automation/artifact/6a97aa75fa4218670c481a35",
+        "evidence_json": "api/v1/automation/artifact/6a97aa75fa4218670c481a37"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.flipkart.com/home-kitchen-25-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.flipkart.com/home-kitchen-25-at-store",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.flipkart.com/home-kitchen-25-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "https://www.flipkart.com/home-kitchen-25-at-store",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    }
+  ]
+}

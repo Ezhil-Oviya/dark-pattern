@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import { getAudits, getAuditDetails } from "../services/automationService";
+import { env } from "../config/env";
 import "../styles/audit.css";
 
-const API_BASE = "http://localhost:8000/";
+const API_BASE = env.apiBaseUrl.replace(/\/api\/v1\/?$/, "") + "/";
 
 export default function EvidencePage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -34,14 +35,17 @@ export default function EvidencePage() {
   async function loadAudits() {
     try {
       const list = await getAudits();
-      setAudits(list);
-      if (list.length > 0 && !selectedAuditId) {
-        setSelectedAuditId(list[0].audit_id);
+      const safeList = Array.isArray(list) ? list : [];
+      setAudits(safeList);
+      if (safeList.length > 0 && !selectedAuditId) {
+        setSelectedAuditId(safeList[0].audit_id);
       }
     } catch (e) {
       console.error("Failed to load audits from MongoDB:", e);
+      setAudits([]);
     }
   }
+
 
   async function loadAudit(id) {
     try {

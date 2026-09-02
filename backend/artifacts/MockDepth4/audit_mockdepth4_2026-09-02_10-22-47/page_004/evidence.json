@@ -1,0 +1,92 @@
+{
+  "evidence_id": "ev_page_004_audit_mockdepth4_2026-09-02_10-22-47",
+  "audit_id": "audit_mockdepth4_2026-09-02_10-22-47",
+  "website_id": "",
+  "platform": "MockDepth4",
+  "page_url": "http://127.0.0.1:50331/level2_b",
+  "page_title": "Level 2B",
+  "crawl_depth": 2,
+  "page_index": 4,
+  "audit_time": "2026-09-02_10-22-47",
+  "artifacts": {
+    "screenshot": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/screenshot.png",
+    "dom": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/dom.html",
+    "extracted_json": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/extracted.json",
+    "evidence_json": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 3,
+    "total_checkbox_evidence": 1,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p4_scr_2c5ef4",
+      "audit_id": "audit_mockdepth4_2026-09-02_10-22-47",
+      "page_url": "http://127.0.0.1:50331/level2_b",
+      "page_title": "Level 2B",
+      "crawl_depth": 2,
+      "page_index": 4,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/screenshot.png",
+      "timestamp": "2026-09-02_10-22-47",
+      "context": "Platform: MockDepth4 | Page: 4 | Depth: 2",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p4_dom_0f82ce",
+      "audit_id": "audit_mockdepth4_2026-09-02_10-22-47",
+      "page_url": "http://127.0.0.1:50331/level2_b",
+      "page_title": "Level 2B",
+      "crawl_depth": 2,
+      "page_index": 4,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/dom.html",
+      "timestamp": "2026-09-02_10-22-47",
+      "context": "Captured at network idle for http://127.0.0.1:50331/level2_b (depth=2)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_cb_0_afc9",
+      "audit_id": "audit_mockdepth4_2026-09-02_10-22-47",
+      "page_url": "http://127.0.0.1:50331/level2_b",
+      "page_title": "Level 2B",
+      "crawl_depth": 2,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "#opt-form > label > input",
+      "text": "Add Warranty (+₹299)",
+      "tag": "input",
+      "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-22-47/page_004/extracted.json",
+      "timestamp": "2026-09-02_10-22-47",
+      "context": "Add Warranty (+₹299)",
+      "attributes": {
+        "name": "warranty",
+        "checked": true,
+        "default_checked": true,
+        "is_visible": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "evidence_id": "ev_page_007_audit_mockdepth4_2026-09-02_10-32-55",
+  "audit_id": "audit_mockdepth4_2026-09-02_10-32-55",
+  "website_id": "",
+  "platform": "MockDepth4",
+  "page_url": "http://127.0.0.1:55009/level4_a",
+  "page_title": "Level 4A",
+  "crawl_depth": 4,
+  "page_index": 7,
+  "audit_time": "2026-09-02_10-32-55",
+  "artifacts": {
+    "screenshot": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-32-55/page_007/screenshot.png",
+    "dom": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-32-55/page_007/dom.html",
+    "extracted_json": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-32-55/page_007/extracted.json",
+    "evidence_json": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-32-55/page_007/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 2,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p7_scr_5dd75d",
+      "audit_id": "audit_mockdepth4_2026-09-02_10-32-55",
+      "page_url": "http://127.0.0.1:55009/level4_a",
+      "page_title": "Level 4A",
+      "crawl_depth": 4,
+      "page_index": 7,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-32-55/page_007/screenshot.png",
+      "timestamp": "2026-09-02_10-32-55",
+      "context": "Platform: MockDepth4 | Page: 7 | Depth: 4",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p7_dom_ef89a5",
+      "audit_id": "audit_mockdepth4_2026-09-02_10-32-55",
+      "page_url": "http://127.0.0.1:55009/level4_a",
+      "page_title": "Level 4A",
+      "crawl_depth": 4,
+      "page_index": 7,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-02_10-32-55/page_007/dom.html",
+      "timestamp": "2026-09-02_10-32-55",
+      "context": "Captured at network idle for http://127.0.0.1:55009/level4_a (depth=4)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    }
+  ]
+}

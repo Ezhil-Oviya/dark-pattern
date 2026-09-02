@@ -1,0 +1,38 @@
+{
+  "url": "https://www.meesho.com/",
+  "title": "Access Denied",
+  "timestamp": "2026-09-02T04:47:21.726Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Access Denied"
+    },
+    {
+      "tag": "p",
+      "text": "Reference #18.14af3b17.1788324440.212cd9b4"
+    },
+    {
+      "tag": "p",
+      "text": "https://errors.edgesuite.net/18.14af3b17.1788324440.212cd9b4"
+    }
+  ],
+  "buttons": [],
+  "links": [],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 3,
+    "total_buttons": 0,
+    "total_links": 0,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

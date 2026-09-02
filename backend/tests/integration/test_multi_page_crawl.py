@@ -12,6 +12,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from app.services.automation.crawler_service import run_crawler
 from app.services.evidence.mongodb_evidence_service import get_audit_details_from_mongodb
+from app.config.database import check_mongo_connection
+
+is_mongo_online, _ = check_mongo_connection()
 
 # HTML pages for multi-level crawl testing
 PAGES = {
@@ -227,6 +230,7 @@ class TestMultiPageCrawlerIntegration(unittest.TestCase):
         crawled_urls = [p["url"] for p in res["pages"]]
         self.assertFalse(any("level5_should_not_crawl" in u for u in crawled_urls))
 
+    @unittest.skipUnless(is_mongo_online, "MongoDB connection is offline or inaccessible")
     def test_per_page_artifacts_and_mongodb_persistence(self):
         """Test 6: Verifies audit is fully stored in MongoDB with GridFS artifacts."""
         website = {

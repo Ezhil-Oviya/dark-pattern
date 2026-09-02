@@ -15,18 +15,19 @@ export default function AuditForm({ onStart, loading }) {
     }, []);
 
     async function load(){
-
-        const data = await getWebsites();
-
-        setWebsites(data);
-
-        if(data.length>0){
-
-            setSelected(data[0].id);
-
+        try {
+            const data = await getWebsites();
+            const list = Array.isArray(data) ? data : [];
+            setWebsites(list);
+            if(list.length > 0){
+                setSelected(list[0].id);
+            }
+        } catch(e) {
+            console.error("Failed to load websites:", e);
+            setWebsites([]);
         }
-
     }
+
 
     return(
 

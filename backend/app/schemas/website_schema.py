@@ -1,30 +1,23 @@
 def website_serializer(website):
+    if not website:
+        return None
 
+    raw_id = website.get("_id") or website.get("id")
     return {
-
-        "id": str(website["_id"]),
-
-        "platform": website["platform"],
-
-        "url": website["url"],
-
-        "category": website["category"],
-
-        "crawl_depth": website["crawl_depth"],
-
-        "max_pages": website["max_pages"],
-
-        "headless": website["headless"],
-
-        "capture_dom": website["capture_dom"],
-
-        "capture_screenshots": website["capture_screenshots"],
-
-        "login_required": website["login_required"]
-
+        "id": str(raw_id) if raw_id else "",
+        "platform": website.get("platform", ""),
+        "url": website.get("url", ""),
+        "category": website.get("category", "Ecommerce"),
+        "crawl_depth": website.get("crawl_depth", 3),
+        "max_pages": website.get("max_pages", 10),
+        "headless": website.get("headless", True),
+        "capture_dom": website.get("capture_dom", True),
+        "capture_screenshots": website.get("capture_screenshots", True),
+        "login_required": website.get("login_required", False)
     }
 
 
 def websites_serializer(websites):
-
-    return [website_serializer(i) for i in websites]
+    if not websites:
+        return []
+    return [website_serializer(i) for i in websites if i]

@@ -1,0 +1,80 @@
+{
+  "audit_id": "audit_mockdepth1_2026-09-02_10-17-29",
+  "website_id": "",
+  "platform": "MockDepth1",
+  "start_url": "http://127.0.0.1:64072/",
+  "configured_crawl_depth": 1,
+  "actual_max_depth_reached": 0,
+  "max_pages_limit": 50,
+  "pages_discovered": 1,
+  "pages_crawled": 1,
+  "pages_successful": 0,
+  "pages_failed": 1,
+  "total_evidence_items": 0,
+  "total_dark_pattern_findings": 0,
+  "start_time": "2026-09-02_10-17-29",
+  "end_time": "2026-09-02_10-17-36",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No urgency or time-sensitive elements present on crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient pricing or checkout breakdown data present across crawled pages to evaluate Drip Pricing.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient cross-page promotional comparison data to evaluate Bait and Switch.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No interactive opt-out or decline modal elements found on crawled pages.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_mockdepth1_2026-09-02_10-17-29",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "http://127.0.0.1:64072/",
+      "title": "Failed Page",
+      "depth": 0,
+      "status": "failed",
+      "error": "SSL handshake failed: ac-ljxd4po-shard-00-00.ub9pvxy.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-ljxd4po-shard-00-01.ub9pvxy.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-ljxd4po-shard-00-02.ub9pvxy.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6a97a6c3387c90a37b4ccb73, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-ljxd4po-shard-00-00.ub9pvxy.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ljxd4po-shard-00-00.ub9pvxy.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-ljxd4po-shard-00-01.ub9pvxy.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ljxd4po-shard-00-01.ub9pvxy.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-ljxd4po-shard-00-02.ub9pvxy.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-ljxd4po-shard-00-02.ub9pvxy.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>",
+      "evidence_count": 0,
+      "findings_count": 0,
+      "artifacts": {},
+      "detections": []
+    }
+  ]
+}

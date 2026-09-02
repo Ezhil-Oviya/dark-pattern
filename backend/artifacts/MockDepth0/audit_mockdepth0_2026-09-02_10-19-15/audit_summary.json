@@ -1,0 +1,135 @@
+{
+  "audit_id": "audit_mockdepth0_2026-09-02_10-19-15",
+  "website_id": "",
+  "platform": "MockDepth0",
+  "start_url": "http://127.0.0.1:50331/",
+  "configured_crawl_depth": 0,
+  "actual_max_depth_reached": 0,
+  "max_pages_limit": 50,
+  "pages_discovered": 1,
+  "pages_crawled": 1,
+  "pages_successful": 1,
+  "pages_failed": 0,
+  "total_evidence_items": 2,
+  "total_dark_pattern_findings": 0,
+  "start_time": "2026-09-02_10-19-15",
+  "end_time": "2026-09-02_10-19-39",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No dynamic countdown timers or artificial scarcity pressure detected across crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient pricing or checkout breakdown data present across crawled pages to evaluate Drip Pricing.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_mockdepth0_2026-09-02_10-19-15",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "http://127.0.0.1:50331/",
+      "title": "Level 0 Homepage",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "artifacts/MockDepth0/audit_mockdepth0_2026-09-02_10-19-15/page_000/screenshot.png",
+        "dom": "artifacts/MockDepth0/audit_mockdepth0_2026-09-02_10-19-15/page_000/dom.html",
+        "extracted_json": "artifacts/MockDepth0/audit_mockdepth0_2026-09-02_10-19-15/page_000/extracted.json",
+        "evidence_json": "artifacts/MockDepth0/audit_mockdepth0_2026-09-02_10-19-15/page_000/evidence.json"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:50331/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:50331/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:50331/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Decline and dismissal options use neutral, non-manipulative phrasing.",
+          "page_url": "http://127.0.0.1:50331/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    }
+  ]
+}

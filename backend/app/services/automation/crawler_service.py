@@ -25,6 +25,15 @@ logger = logging.getLogger(__name__)
 
 ARTIFACTS_DIR = Path("artifacts")
 
+
+def _safe_store_gridfs(content: bytes, filename: str, content_type: str, metadata: dict = None) -> str:
+    try:
+        return store_artifact_in_gridfs(content, filename, content_type, metadata)
+    except Exception as e:
+        logger.warning(f"Could not persist '{filename}' to GridFS (will use local fallback): {e}")
+        return ""
+
+
 # Common tracking parameters to strip during URL normalization
 TRACKING_PARAMS = {
     "utm_source",
@@ -233,7 +242,7 @@ def run_crawler(website: Dict[str, Any]) -> Dict[str, Any]:
                         f.write(screenshot_bytes)
 
                     # Store screenshot in GridFS
-                    screenshot_file_id = store_artifact_in_gridfs(
+                    screenshot_file_id = _safe_store_gridfs(
                         content=screenshot_bytes,
                         filename=f"{audit_id}_page_{page_index:03d}_screenshot.png",
                         content_type="image/png",
@@ -246,7 +255,7 @@ def run_crawler(website: Dict[str, Any]) -> Dict[str, Any]:
                         f.write(html_content)
 
                     # Store DOM in GridFS
-                    dom_file_id = store_artifact_in_gridfs(
+                    dom_file_id = _safe_store_gridfs(
                         content=html_content.encode("utf-8"),
                         filename=f"{audit_id}_page_{page_index:03d}_dom.html",
                         content_type="text/html",
@@ -261,7 +270,7 @@ def run_crawler(website: Dict[str, Any]) -> Dict[str, Any]:
                         f.write(extracted_json_bytes)
 
                     # Store extracted JSON in GridFS
-                    extracted_file_id = store_artifact_in_gridfs(
+                    extracted_file_id = _safe_store_gridfs(
                         content=extracted_json_bytes,
                         filename=f"{audit_id}_page_{page_index:03d}_extracted.json",
                         content_type="application/json",
@@ -287,7 +296,7 @@ def run_crawler(website: Dict[str, Any]) -> Dict[str, Any]:
                         f.write(evidence_json_bytes)
 
                     # Store evidence JSON in GridFS
-                    evidence_file_id = store_artifact_in_gridfs(
+                    evidence_file_id = _safe_store_gridfs(
                         content=evidence_json_bytes,
                         filename=f"{audit_id}_page_{page_index:03d}_evidence.json",
                         content_type="application/json",
@@ -321,10 +330,10 @@ def run_crawler(website: Dict[str, Any]) -> Dict[str, Any]:
 
                     # Construct MongoDB GridFS artifact streaming references
                     artifact_endpoints = {
-                        "screenshot": f"api/v1/automation/artifact/{screenshot_file_id}",
-                        "dom": f"api/v1/automation/artifact/{dom_file_id}",
-                        "extracted_json": f"api/v1/automation/artifact/{extracted_file_id}",
-                        "evidence_json": f"api/v1/automation/artifact/{evidence_file_id}",
+                        "screenshot": f"api/v1/automation/artifact/{screenshot_file_id}" if screenshot_file_id else f"artifacts/{platform}/{audit_id}/{page_folder_name}/screenshot.png",
+                        "dom": f"api/v1/automation/artifact/{dom_file_id}" if dom_file_id else f"artifacts/{platform}/{audit_id}/{page_folder_name}/dom.html",
+                        "extracted_json": f"api/v1/automation/artifact/{extracted_file_id}" if extracted_file_id else f"artifacts/{platform}/{audit_id}/{page_folder_name}/extracted.json",
+                        "evidence_json": f"api/v1/automation/artifact/{evidence_file_id}" if evidence_file_id else f"artifacts/{platform}/{audit_id}/{page_folder_name}/evidence.json",
                     }
 
                     page_summary_item = {

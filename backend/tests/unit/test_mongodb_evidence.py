@@ -6,6 +6,7 @@ from pathlib import Path
 # Add backend to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
+from app.config.database import check_mongo_connection
 from app.services.evidence.mongodb_evidence_service import (
     get_all_audits_from_mongodb,
     get_audit_details_from_mongodb,
@@ -15,8 +16,11 @@ from app.services.evidence.mongodb_evidence_service import (
     store_artifact_in_gridfs,
 )
 
+is_mongo_online, _ = check_mongo_connection()
+
 
 class TestMongoDBEvidencePersistence(unittest.TestCase):
+    @unittest.skipUnless(is_mongo_online, "MongoDB connection is offline or inaccessible")
     def test_gridfs_artifact_storage_and_retrieval(self):
         """Tests uploading binary artifacts to GridFS and retrieving them with metadata."""
         sample_screenshot = b"\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDRmock_png_bytes"
@@ -34,6 +38,7 @@ class TestMongoDBEvidencePersistence(unittest.TestCase):
         self.assertEqual(filename, "test_screenshot.png")
         self.assertEqual(content_type, "image/png")
 
+    @unittest.skipUnless(is_mongo_online, "MongoDB connection is offline or inaccessible")
     def test_audit_pages_and_evidence_persistence_and_query(self):
         """Tests saving and retrieving a complete audit with pages and evidence items in MongoDB."""
         test_audit_id = f"test_audit_mongo_{Path(__file__).stat().st_mtime_ns}"

@@ -1,0 +1,90 @@
+{
+  "evidence_id": "ev_page_001_audit_flipkart_2026-09-02_14-31-47",
+  "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+  "page_title": "Flights Travel Uhp At Store Online - Buy Flights Travel Uhp At Online at Best Price in India | Flipkart.com",
+  "crawl_depth": 1,
+  "page_index": 1,
+  "audit_time": "2026-09-02_14-31-47",
+  "artifacts": {
+    "screenshot": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/screenshot.png",
+    "dom": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/dom.html",
+    "extracted_json": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/extracted.json",
+    "evidence_json": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 3,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 1,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p1_scr_889619",
+      "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+      "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+      "page_title": "Flights Travel Uhp At Store Online - Buy Flights Travel Uhp At Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/screenshot.png",
+      "timestamp": "2026-09-02_14-31-47",
+      "context": "Platform: Flipkart | Page: 1 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p1_dom_1b5083",
+      "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+      "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+      "page_title": "Flights Travel Uhp At Store Online - Buy Flights Travel Uhp At Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/dom.html",
+      "timestamp": "2026-09-02_14-31-47",
+      "context": "Captured at network idle for https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_0_8333",
+      "audit_id": "audit_flipkart_2026-09-02_14-31-47",
+      "page_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=FKT",
+      "page_title": "Flights Travel Uhp At Store Online - Buy Flights Travel Uhp At Online at Best Price in India | Flipkart.com",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-g5y9jx.r-13awgt0:nth-of-type(4) > div.css-g5y9jx.r-1awozwy:nth-of-type(1) > div.css-g5y9jx.r-1awozwy > div.css-g5y9jx.r-yw45xt:nth-of-type(2)",
+      "text": "Student\nExtra baggage,discounts\nSenior Citizen\nUp to ₹600 OFF\nArmed Forces\nUp to ₹600 OFF",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_14-31-47/page_001/extracted.json",
+      "timestamp": "2026-09-02_14-31-47",
+      "context": "Special fares (Optional)\nStudent\nExtra baggage,discounts\nSenior Citizen\nUp to ₹600 OFF\nArmed Forces\nUp to ₹600 OFF",
+      "attributes": {
+        "detected_price": "₹600",
+        "currency": "INR"
+      }
+    }
+  ]
+}
