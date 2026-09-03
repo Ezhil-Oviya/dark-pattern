@@ -4,11 +4,10 @@ import {
   PlayCircle,
   FileSearch,
   FileText,
-  Bot
+  Bot,
+  Shield
 } from "lucide-react";
-
 import { NavLink } from "react-router-dom";
-
 import "../../styles/sidebar.css";
 
 export default function Sidebar() {
@@ -16,50 +15,51 @@ export default function Sidebar() {
     {
       title: "Dashboard",
       path: "/dashboard",
-      icon: <LayoutDashboard size={20} />
+      icon: <LayoutDashboard size={18} />
     },
     {
-      title: "Website Configuration",
+      title: "Website Config",
       path: "/website-config",
-      icon: <Globe size={20} />
+      icon: <Globe size={18} />
     },
     {
       title: "Browser Automation",
       path: "/audits",
-      icon: <PlayCircle size={20} />
+      icon: <PlayCircle size={18} />
     },
     {
       title: "Evidence Collection",
       path: "/evidence",
-      icon: <FileSearch size={20} />
+      icon: <FileSearch size={18} />
     },
     {
       title: "Reports",
       path: "/reports",
-      icon: <FileText size={20} />
+      icon: <FileText size={18} />
     },
     {
       title: "AI Compliance Bot",
       path: "/bot",
-      icon: <Bot size={20} />
+      icon: <Bot size={18} />
     }
   ];
 
   return (
     <aside className="sidebar">
-
       <div className="sidebar-logo">
-
-        <h2>DPCA</h2>
-
-        <p>Compliance Auditor</p>
-
+        <div className="logo-icon-wrapper">
+          <Shield size={24} className="logo-icon" />
+        </div>
+        <div>
+          <h2>DPCA</h2>
+          <p className="logo-subtitle">Compliance Auditor</p>
+        </div>
       </div>
 
-      <nav>
-
+      <div className="menu-label">Auditing Engine</div>
+      
+      <nav className="sidebar-nav">
         {menuItems.map((item) => (
-
           <NavLink
             key={item.path}
             to={item.path}
@@ -69,17 +69,15 @@ export default function Sidebar() {
                 : "sidebar-link"
             }
           >
-
-            {item.icon}
-
-            <span>{item.title}</span>
-
+            <span className="icon-span">{item.icon}</span>
+            <span className="title-span">{item.title}</span>
           </NavLink>
-
         ))}
-
       </nav>
 
+      <div className="sidebar-footer">
+        <span className="version-badge">v1.1.0-prod</span>
+      </div>
     </aside>
   );
 }

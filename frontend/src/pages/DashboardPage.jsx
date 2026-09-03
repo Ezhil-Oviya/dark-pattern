@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import {
     Globe,
     PlayCircle,
@@ -10,19 +9,14 @@ import {
     MonitorSmartphone
 } from "lucide-react";
 
-import Sidebar from "../components/layout/Sidebar";
-import Topbar from "../components/layout/Topbar";
+import Layout from "../components/layout/Layout";
 import DashboardCard from "../components/layout/DashboardCard";
 import StatusCard from "../components/layout/StatusCard";
 import QuickActions from "../components/layout/QuickActions";
 import { useNavigate } from "react-router-dom";
-
 import { getWebsites } from "../services/websiteService";
 import { getHealth } from "../services/healthService";
 import { getAudits } from "../services/automationService";
-
-import Layout from "../components/layout/Layout";
-
 import "../styles/dashboard.css";
 
 export default function DashboardPage(){
@@ -40,32 +34,24 @@ const [health,setHealth]=useState({
 
 });
 
+
     const navigate = useNavigate();
 
-    useEffect(()=>{
-
+    useEffect(() => {
         load();
+
         loadAuditsCount();
+
         loadHealth();
+    }, []);
 
-    },[]);
-
-    const load=async()=>{
-
-        try{
-
-            const data=await getWebsites();
-
+    const load = async () => {
+        try {
+            const data = await getWebsites();
             setWebsites(data);
-
-        }
-
-        catch(e){
-
+        } catch (e) {
             console.log(e);
-
         }
-
     };
 
     const loadAuditsCount = async () => {
@@ -78,41 +64,23 @@ const [health,setHealth]=useState({
     };
 
     const loadHealth = async () => {
+        try {
+            const data = await getHealth();
+            setHealth(data);
+        } catch {
+            setHealth({
+                backend: "offline",
+                database: "offline",
+                browser: "offline"
+            });
+        }
+    };
 
-    try{
-
-        const data = await getHealth();
-
-        setHealth(data);
-
-    }
-
-    catch{
-
-        setHealth({
-
-            backend:"offline",
-
-            database:"offline",
-
-            browser:"offline"
-
-        });
-
-    }
-
-};
-
-    
-
-    return(
-
+    return (
         <Layout>
-
-
             <div className="dashboard-cards">
-
                 <DashboardCard
+
 
     title="Configured Websites"
 
@@ -166,120 +134,59 @@ const [health,setHealth]=useState({
 
 />
 
+
             </div>
 
             <div className="status-grid">
-
                 <StatusCard
-
-                    title="Backend"
-
+                    title="Automation Engine"
                     status={health.backend}
-
-                    color="#22C55E"
-
-                    icon={<Server/>}
-
+                    color="var(--primary)"
+                    icon={<Server size={20} />}
                 />
-
                 <StatusCard
-
-                    title="MongoDB"
-
+                    title="Database Store"
                     status={health.database}
-
-                    color="#2563EB"
-
-                    icon={<Database/>}
-
+                    color="var(--success)"
+                    icon={<Database size={20} />}
                 />
-
                 <StatusCard
-
-                    title="Browser"
-
+                    title="Browser Instance"
                     status={health.browser}
-
-                    color="#F59E0B"
-
-                    icon={<MonitorSmartphone/>}
-
+                    color="var(--warning)"
+                    icon={<MonitorSmartphone size={20} />}
                 />
-
             </div>
 
-            <div
-            style={{
-            display:"grid",
-            gridTemplateColumns:"2fr 1fr",
-            gap:"25px"
-            }}
-           >
-            <div className="recent-card">
+            <div className="dashboard-grid-layout">
+                <div className="recent-card">
+                    <div className="recent-header">
+                        <h2>Recent Configured Websites</h2>
+                        <span className="badge-count">{websites.length} Sites</span>
+                    </div>
 
-                <div className="recent-header">
-
-                    <h2>
-
-                        Recent Websites
-
-                    </h2>
-
-                    <span>
-
-                        {websites.length} Websites
-
-                    </span>
-
+                    <div className="recent-items-list">
+                        {websites.length === 0 ? (
+                            <div className="empty-state">
+                                <Globe size={32} className="empty-icon" />
+                                <p>No websites configured. Configure a site to get started.</p>
+                            </div>
+                        ) : (
+                            websites.slice(0, 5).map(site => (
+                                <div key={site.id || site.url} className="recent-item">
+                                    <div className="recent-item-meta">
+                                        <strong>{site.platform}</strong>
+                                        <span>{site.url}</span>
+                                    </div>
+                                    <span className="badge-ready">Ready</span>
+                                </div>
+                            ))
+                        )}
+                    </div>
                 </div>
 
-                {
-
-                    websites.map(site=>(
-
-                        <div
-                            key={site.id}
-                            className="recent-item"
-                        >
-
-                            <div>
-
-                                <strong>
-
-                                    {site.platform}
-
-                                </strong>
-
-                                <br/>
-
-                                <small>
-
-                                    {site.url}
-
-                                </small>
-
-                            </div>
-
-                            <span className="ready">
-
-                                Ready
-
-                            </span>
-
-                        </div>
-
-                    ))
-
-                }
-
+                <QuickActions />
             </div>
-
-        </div>
-
-        <QuickActions/>
-
-      </Layout>
-
+        </Layout>
     );
-
 }

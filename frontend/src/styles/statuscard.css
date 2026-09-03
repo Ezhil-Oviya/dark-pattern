@@ -1,59 +1,82 @@
-.status-box{
-
-    background:white;
-
-    border-radius:14px;
-
-    padding:22px;
-
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
-
-    box-shadow:0 6px 18px rgba(0,0,0,.08);
-
-    transition:.25s;
-
+.status-box {
+  background-color: var(--bg-card);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
 }
 
-.status-box:hover{
-
-    transform:translateY(-4px);
-
+.status-box:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
 
-.status-icon{
-
-    width:60px;
-
-    height:60px;
-
-    border-radius:50%;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    color:white;
-
+.status-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.status-box h3{
-
-    color:#0F172A;
-
+.status-info h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
-.status-box p{
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
 
-    color:#16A34A;
+.status-badge.online {
+  background-color: var(--success-light);
+  color: var(--success-hover);
+}
 
-    margin-top:6px;
+.status-badge.offline {
+  background-color: var(--danger-light);
+  color: var(--danger-hover);
+}
 
-    font-weight:600;
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
 
+.status-badge.online .status-dot {
+  background-color: var(--success);
+  box-shadow: 0 0 0 2px var(--success-light);
+  animation: pulse-dot 1.5s infinite ease-in-out;
+}
+
+.status-badge.offline .status-dot {
+  background-color: var(--danger);
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+  }
 }

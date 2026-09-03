@@ -1,71 +1,66 @@
-.quick-card{
-
-    background:white;
-
-    border-radius:15px;
-
-    padding:30px;
-
-    margin-top:25px;
-
-    box-shadow:0 8px 18px rgba(0,0,0,.08);
-
+.quick-card {
+  background-color: var(--bg-card);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.quick-card h2{
-
-    margin-bottom:20px;
-
+.quick-card h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
 }
 
-.quick-btn{
-
-    width:100%;
-
-    border:none;
-
-    border-radius:10px;
-
-    padding:16px;
-
-    margin-top:15px;
-
-    display:flex;
-
-    gap:12px;
-
-    align-items:center;
-
-    color:white;
-
-    cursor:pointer;
-
-    font-size:16px;
-
-    transition:.25s;
-
+.quick-btn {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  padding: 14px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background-color var(--transition-fast);
 }
 
-.quick-btn:hover{
-
-    transform:translateX(5px);
-
+.quick-btn:hover {
+  transform: translateY(-2px);
 }
 
-.blue{
-
-    background:#2563EB;
-
+.quick-btn.blue {
+  background-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
 }
 
-.green{
-
-    background:#16A34A;
-
+.quick-btn.blue:hover {
+  background-color: var(--primary-hover);
+  box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3);
 }
 
-.orange{
+.quick-btn.green {
+  background-color: var(--success);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
 
-    background:#F59E0B;
+.quick-btn.green:hover {
+  background-color: var(--success-hover);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.3);
+}
 
+.quick-btn.orange {
+  background-color: var(--warning);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+}
+
+.quick-btn.orange:hover {
+  background-color: var(--warning-hover);
+  box-shadow: 0 6px 16px rgba(245, 158, 11, 0.3);
 }

@@ -1,3 +1,4 @@
+
 import logging
 import os
 import certifi
@@ -7,8 +8,9 @@ from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
 
 logger = logging.getLogger("app.config.database")
 
-# Load environment variables
-load_dotenv()
+
+from app.core.config.settings import settings
+
 
 # Read values from environment
 MONGO_URI = os.getenv("MONGO_URI") or os.getenv("MONGODB_URI", "")
