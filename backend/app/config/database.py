@@ -8,9 +8,7 @@ from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
 
 logger = logging.getLogger("app.config.database")
 
-
-from app.core.config.settings import settings
-
+load_dotenv()
 
 # Read values from environment
 MONGO_URI = os.getenv("MONGO_URI") or os.getenv("MONGODB_URI", "")
