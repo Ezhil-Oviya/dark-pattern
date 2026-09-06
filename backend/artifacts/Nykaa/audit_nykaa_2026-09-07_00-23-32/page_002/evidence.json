@@ -1,0 +1,132 @@
+{
+  "evidence_id": "ev_page_002_audit_nykaa_2026-09-07_00-23-32",
+  "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/explore/lp",
+  "page_title": "Explore Webpage Creation - Beauty",
+  "crawl_depth": 1,
+  "page_index": 2,
+  "audit_time": "2026-09-07_00-23-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 5,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 1,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p2_scr_ae604b",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/screenshot.png",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Platform: Nykaa | Page: 2 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p2_dom_76d25f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/dom.html",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Captured at network idle for https://www.nykaa.com/explore/lp (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p2_pr_0_a128",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-tscqxu:nth-of-type(3) > div.css-1axfht6 > div.css-15u830z:nth-of-type(1) > div.css-fd2g8d:nth-of-type(1)",
+      "text": "FREE SHIPPING\nOn Orders of Rs. 299 and above",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "FREE SHIPPING\nOn Orders of Rs. 299 and above\nEASY RETURNS\n15-Day Return Policy\n100% AUTHENTIC\nProducts Sourced Directly",
+      "attributes": {
+        "detected_price": "Rs. 299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p2_btn_0_e28e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p2_btn_1_3251",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/explore/lp",
+      "page_title": "Explore Webpage Creation - Beauty",
+      "crawl_depth": 1,
+      "page_index": 2,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_002/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    }
+  ]
+}

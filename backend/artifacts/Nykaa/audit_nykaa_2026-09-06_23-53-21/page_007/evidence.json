@@ -1,0 +1,1193 @@
+{
+  "evidence_id": "ev_page_007_audit_nykaa_2026-09-06_23-53-21",
+  "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+  "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+  "crawl_depth": 1,
+  "page_index": 7,
+  "audit_time": "2026-09-06_23-53-21",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 58,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 53,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p7_scr_f9aca3",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/screenshot.png",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Platform: Nykaa | Page: 7 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p7_dom_e88e2b",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/dom.html",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Captured at network idle for https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_0_85a7",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹899\n₹719\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Lash Sensational Sky Tubes Tubing Mascar...\n₹899\n₹719\n20% Off\nRegular price ₹899. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_1_cd53",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹899",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹899\n₹719\n20% Off",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_2_0b6a",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹719",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹899\n₹719\n20% Off",
+      "attributes": {
+        "detected_price": "₹719",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_3_83ac",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹999\n₹899\n10% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Super Stay Matte Max Cushion Foundation\n₹999\n₹899\n10% Off\nRegular price ₹999. Discounted price ₹899.",
+      "attributes": {
+        "detected_price": "₹999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_4_0338",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹999",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹999\n₹899\n10% Off",
+      "attributes": {
+        "detected_price": "₹999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_5_c972",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹599\n₹437\n27% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline Serum Matte Lipstick - 8Hr hydration, One-Swipe B...\n₹599\n₹437\n27% Off\nRegular price ₹599. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹599",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_6_0c62",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹599",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹599\n₹437\n27% Off",
+      "attributes": {
+        "detected_price": "₹599",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_7_266f",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹437",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹599\n₹437\n27% Off",
+      "attributes": {
+        "detected_price": "₹437",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_8_f9be",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹829\n₹456\n45% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Lash Sensational Sky High Waterproof Mas...\n₹829\n₹456\n45% Off\nRegular price ₹829. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹829",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_9_e187",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹829",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹829\n₹456\n45% Off",
+      "attributes": {
+        "detected_price": "₹829",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_10_c915",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹456",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹829\n₹456\n45% Off",
+      "attributes": {
+        "detected_price": "₹456",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_11_4abe",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹749\n₹375\n50% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Super Stay Matte Ink Liquid Lipstick, La...\n₹749\n₹375\n50% Off\nRegular price ₹749. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹749",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_12_2c6c",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹749",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹749\n₹375\n50% Off",
+      "attributes": {
+        "detected_price": "₹749",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_13_ac96",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹375",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹749\n₹375\n50% Off",
+      "attributes": {
+        "detected_price": "₹375",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_14_63ef",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹799\n₹639\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Lifter Gel Lip Oil In Gel\n₹799\n₹639\n20% Off\nRegular price ₹799. Discounted price ₹639. 20% Off.\n( 12",
+      "attributes": {
+        "detected_price": "₹799",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_15_8ba4",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹799",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹799\n₹639\n20% Off",
+      "attributes": {
+        "detected_price": "₹799",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_16_c617",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹639",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹799\n₹639\n20% Off",
+      "attributes": {
+        "detected_price": "₹639",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_17_c1bd",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹869\n₹608\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Super Stay Lumi-Matte Liquid Foundation\n₹869\n₹608\n30% Off\nRegular price ₹869. Discounted price ₹608.",
+      "attributes": {
+        "detected_price": "₹869",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_18_c910",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹869",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹869\n₹608\n30% Off",
+      "attributes": {
+        "detected_price": "₹869",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_19_dd59",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹608",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹869\n₹608\n30% Off",
+      "attributes": {
+        "detected_price": "₹608",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_20_7b36",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹429\n₹317\n26% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Fit Me Glow BB Skin Tint, SPF 50, Niacin...\n₹429\n₹317\n26% Off\nRegular price ₹429. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹429",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_21_be94",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹429",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹429\n₹317\n26% Off",
+      "attributes": {
+        "detected_price": "₹429",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_22_0f2c",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹317",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹429\n₹317\n26% Off",
+      "attributes": {
+        "detected_price": "₹317",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_23_04cb",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹849\n₹509\n40% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Super Stay Vinyl Ink Liquid Lipstick, In...\n₹849\n₹509\n40% Off\nRegular price ₹849. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹849",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_24_8661",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹849",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹849\n₹509\n40% Off",
+      "attributes": {
+        "detected_price": "₹849",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_25_850a",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹509",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹849\n₹509\n40% Off",
+      "attributes": {
+        "detected_price": "₹509",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_26_6f5d",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹439",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹799\n₹439\n45% Off",
+      "attributes": {
+        "detected_price": "₹439",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_27_8ce3",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹329\n₹230\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline Color Sensational Creamy Matte Lipstick, 12H Form...\n₹329\n₹230\n30% Off\nRegular price ₹329. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹329",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_28_6643",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹329",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹329\n₹230\n30% Off",
+      "attributes": {
+        "detected_price": "₹329",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_29_4b7e",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹230",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹329\n₹230\n30% Off",
+      "attributes": {
+        "detected_price": "₹230",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_30_c1bf",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹245",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹429\n₹245\n43% Off",
+      "attributes": {
+        "detected_price": "₹245",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_31_68f4",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹649\n₹422\n35% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Fit Me Matte + Poreless Pressed Powder, ...\n₹649\n₹422\n35% Off\nRegular price ₹649. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹649",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_32_24d4",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹649",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹649\n₹422\n35% Off",
+      "attributes": {
+        "detected_price": "₹649",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_33_2223",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹422",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹649\n₹422\n35% Off",
+      "attributes": {
+        "detected_price": "₹422",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_34_2ee3",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹319\n₹223\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York The Colossal Bold Liner, Smudgeproof & W...\n₹319\n₹223\n30% Off\nRegular price ₹319. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹319",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_35_a575",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹319",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹319\n₹223\n30% Off",
+      "attributes": {
+        "detected_price": "₹319",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_36_8624",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹223",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹319\n₹223\n30% Off",
+      "attributes": {
+        "detected_price": "₹223",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_37_5ba4",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹220\n₹169\n23% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York The Colossal Kajal 24Hour Smudge Proof\n₹220\n₹169\n23% Off\nRegular price ₹220. Discounted price ₹169.",
+      "attributes": {
+        "detected_price": "₹220",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_38_d44d",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹220",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹220\n₹169\n23% Off",
+      "attributes": {
+        "detected_price": "₹220",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_39_154b",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹169",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹220\n₹169\n23% Off",
+      "attributes": {
+        "detected_price": "₹169",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_40_2df6",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹679\n₹407\n40% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Fit Me Matte+Poreless 16H Oil Control Fo...\n₹679\n₹407\n40% Off\nRegular price ₹679. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹679",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_41_a33b",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹679",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹679\n₹407\n40% Off",
+      "attributes": {
+        "detected_price": "₹679",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_42_f268",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹407",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹679\n₹407\n40% Off",
+      "attributes": {
+        "detected_price": "₹407",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_43_a234",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹227",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹329\n₹227\n31% Off",
+      "attributes": {
+        "detected_price": "₹227",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_44_8d9d",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹449\n₹314\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Volum Express Hyper Curl Mascara\n₹449\n₹314\n30% Off\nRegular price ₹449. Discounted price ₹314. 30% Of",
+      "attributes": {
+        "detected_price": "₹449",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_45_04ba",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹449",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹449\n₹314\n30% Off",
+      "attributes": {
+        "detected_price": "₹449",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_46_184f",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹314",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "₹449\n₹314\n30% Off",
+      "attributes": {
+        "detected_price": "₹314",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_47_d48d",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-tscqxu:nth-of-type(3) > div.css-1axfht6 > div.css-15u830z:nth-of-type(1) > div.css-fd2g8d:nth-of-type(1)",
+      "text": "FREE SHIPPING\nOn Orders of Rs. 299 and above",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "FREE SHIPPING\nOn Orders of Rs. 299 and above\nEASY RETURNS\n15-Day Return Policy\n100% AUTHENTIC\nProducts Sourced Directly",
+      "attributes": {
+        "detected_price": "Rs. 299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_48_7523",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(1) > td.priceColumn",
+      "text": "₹375",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Super Stay Matte Ink Liquid Lipstick, Lasts Up to 16 Hours - 15 Lover\n₹375",
+      "attributes": {
+        "detected_price": "₹375",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_49_e6af",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(2) > td.priceColumn",
+      "text": "₹439",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Instant Age Rewind Eraser Concealer-Conceal, Contour, Highlight\n₹439",
+      "attributes": {
+        "detected_price": "₹439",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_50_e11c",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(3) > td.priceColumn",
+      "text": "₹509",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Super Stay Vinyl Ink Liquid Lipstick, Instant Shine Lasts Up To 16H\n₹509",
+      "attributes": {
+        "detected_price": "₹509",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_51_5105",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(4) > td.priceColumn",
+      "text": "₹456",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline New York Lash Sensational Sky High Waterproof Mascara\n₹456",
+      "attributes": {
+        "detected_price": "₹456",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_pr_52_3348",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(5) > td.priceColumn",
+      "text": "₹437",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Maybelline Serum Matte Lipstick - 8Hr hydration, One-Swipe Bold Color\n₹437",
+      "attributes": {
+        "detected_price": "₹437",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_btn_0_a9ea",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_btn_1_f90b",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    },
+    {
+      "evidence_id": "ev_p7_btn_2_37a7",
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "page_title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "crawl_depth": 1,
+      "page_index": 7,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#filter-sort > div.css-1fs72da > div.css-0 > button.css-1aucgde",
+      "text": "Sort By : Popularity",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_007/extracted.json",
+      "timestamp": "2026-09-06_23-53-21",
+      "context": "Sort By : Popularity",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1aucgde"
+      }
+    }
+  ]
+}

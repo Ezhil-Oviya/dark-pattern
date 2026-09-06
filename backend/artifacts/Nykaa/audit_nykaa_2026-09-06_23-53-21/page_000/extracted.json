@@ -1,0 +1,1725 @@
+{
+  "url": "https://www.nykaa.com/",
+  "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+  "timestamp": "2026-09-06T18:23:37.631Z",
+  "visible_text": [
+    {
+      "tag": "li",
+      "text": "Get App"
+    },
+    {
+      "tag": "li",
+      "text": "Store & Events"
+    },
+    {
+      "tag": "li",
+      "text": "Gift Card"
+    },
+    {
+      "tag": "li",
+      "text": "Help"
+    },
+    {
+      "tag": "li",
+      "text": "Categories"
+    },
+    {
+      "tag": "li",
+      "text": "Brands"
+    },
+    {
+      "tag": "li",
+      "text": "Luxe"
+    },
+    {
+      "tag": "li",
+      "text": "Nykaa Fashion"
+    },
+    {
+      "tag": "li",
+      "text": "Beauty Advice"
+    },
+    {
+      "tag": "span",
+      "text": "Login or Signup"
+    },
+    {
+      "tag": "li",
+      "text": "Makeup"
+    },
+    {
+      "tag": "li",
+      "text": "Skin"
+    },
+    {
+      "tag": "li",
+      "text": "Hair"
+    },
+    {
+      "tag": "li",
+      "text": "Appliances"
+    },
+    {
+      "tag": "li",
+      "text": "Bath & Body"
+    },
+    {
+      "tag": "li",
+      "text": "Natural"
+    },
+    {
+      "tag": "li",
+      "text": "Mom & Baby"
+    },
+    {
+      "tag": "li",
+      "text": "Health & Wellness"
+    },
+    {
+      "tag": "li",
+      "text": "Men"
+    },
+    {
+      "tag": "li",
+      "text": "Fragrance"
+    },
+    {
+      "tag": "li",
+      "text": "Fashion Selects"
+    },
+    {
+      "tag": "li",
+      "text": "Mix & Match\nLimited Time Only!"
+    },
+    {
+      "tag": "h1",
+      "text": "Nykaa - The Online Beauty Store"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Sign in",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-1gzc5zn",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2:nth-of-type(1) > button.css-1gzc5zn",
+      "metrics": {
+        "x": 1050,
+        "y": 55,
+        "width": 78,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "600",
+        "bg_color": "rgb(232, 0, 113)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "Send OTP",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-15q5a8e",
+      "is_visible": true,
+      "is_disabled": true,
+      "selector": "div.css-14tqohr:nth-of-type(2) > div.css-1r4doqs:nth-of-type(2) > div.css-qenva > button.css-15q5a8e",
+      "metrics": {
+        "x": 1081,
+        "y": 202,
+        "width": 109,
+        "height": 48,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgba(111, 121, 129, 0.36)",
+        "text_color": "rgba(0, 19, 37, 0.36)"
+      }
+    },
+    {
+      "text": "Sign in with Mobile / Email",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-1na4kzg",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-14tqohr:nth-of-type(2) > div.css-j662fd:nth-of-type(4) > button.css-1na4kzg",
+      "metrics": {
+        "x": 910,
+        "y": 298,
+        "width": 280,
+        "height": 50,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(255, 255, 255)",
+        "text_color": "rgb(232, 0, 113)"
+      }
+    },
+    {
+      "text": "Continue with Google",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-16bwu6h",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-14tqohr:nth-of-type(2) > button.css-16bwu6h",
+      "metrics": {
+        "x": 910,
+        "y": 356,
+        "width": 280,
+        "height": 51,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(255, 255, 255)",
+        "text_color": "rgba(0, 19, 37, 0.64)"
+      }
+    },
+    {
+      "text": "Shopping Bag",
+      "tag": "button",
+      "type": "button",
+      "id": "header-bag-icon",
+      "classes": "css-aesrxy",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "#header-bag-icon",
+      "metrics": {
+        "x": 1175,
+        "y": 61,
+        "width": 24,
+        "height": 27,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(255, 255, 255, 0.5)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "BEAUTY BONANZA Get Your Amazing Deals!",
+      "href": "https://www.nykaa.com/sp/offers-native/offers",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.top_strip_wrapper > div.leftDiv.ts-wrap-l:nth-of-type(1) > div.left-message > a",
+      "metrics": {
+        "x": 62,
+        "y": 10,
+        "width": 337,
+        "height": 19,
+        "font_size": "16px",
+        "font_weight": "500",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "Get App",
+      "href": "/explore/lp",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.rightDiv.ts-wrap-r:nth-of-type(2) > ul > li:nth-of-type(1) > a",
+      "metrics": {
+        "x": 767,
+        "y": 0,
+        "width": 80,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "Store & Events",
+      "href": "/stores-n-events-desktop",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.rightDiv.ts-wrap-r:nth-of-type(2) > ul > li:nth-of-type(2) > a",
+      "metrics": {
+        "x": 877,
+        "y": 0,
+        "width": 123,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "Gift Card",
+      "href": "/giftcard.html?root=hdr_giftcards",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.rightDiv.ts-wrap-r:nth-of-type(2) > ul > li:nth-of-type(3) > a",
+      "metrics": {
+        "x": 1030,
+        "y": 0,
+        "width": 86,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "Help",
+      "href": "https://www.nykaa.com/gateway-api/omsApis/helpCenter?domain=NYKAA",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "div.rightDiv.ts-wrap-r:nth-of-type(2) > ul > li:nth-of-type(4) > a",
+      "metrics": {
+        "x": 1146,
+        "y": 0,
+        "width": 56,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "Nykaa Logo",
+      "href": "/?root=logo",
+      "id": "",
+      "classes": "logo css-kus7g9",
+      "is_visible": true,
+      "selector": "#headerMenu > a.logo.css-kus7g9",
+      "metrics": {
+        "x": 50,
+        "y": 44,
+        "width": 94,
+        "height": 50,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "Categories",
+      "href": "/",
+      "id": "category",
+      "classes": "css-1mavm7h",
+      "is_visible": true,
+      "selector": "#category",
+      "metrics": {
+        "x": 160,
+        "y": 44,
+        "width": 74,
+        "height": 62,
+        "font_size": "14px",
+        "font_weight": "600",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Brands",
+      "href": "/",
+      "id": "",
+      "classes": "css-1mavm7h",
+      "is_visible": true,
+      "selector": "div.css-ov1ktg:nth-of-type(2) > ul.HeaderNav.css-f7ogli:nth-of-type(2) > li > a.css-1mavm7h",
+      "metrics": {
+        "x": 266,
+        "y": 44,
+        "width": 48,
+        "height": 62,
+        "font_size": "14px",
+        "font_weight": "600",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Maybelline New York",
+      "href": "/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu,top_brands,Maybelline New York",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(1) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Lakme",
+      "href": "/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu,top_brands,Lakme",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(2) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Nykaa Cosmetics",
+      "href": "/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu,top_brands,Nykaa Cosmetics",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(3) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "M.A.C",
+      "href": "/luxe/brands/mac/c/3899?ptype=brand&id=3899&root=brand_menu,top_brands,M.A.C",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(4) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "The Face Shop",
+      "href": "/brands/the-face-shop/c/4290?ptype=brand&id=4290&root=brand_menu,top_brands,The Face Shop",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(5) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "L'Oreal Paris",
+      "href": "/brands/loreal-paris/c/595?ptype=brand&id=595&root=brand_menu,top_brands,L'Oreal Paris",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(6) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Nykaa Naturals",
+      "href": "/brands/nykaa-naturals/c/7666?ptype=brand&id=7666&root=brand_menu,top_brands,Nykaa Naturals",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(7) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Biotique",
+      "href": "/brands/biotique/c/923?ptype=brand&id=923&root=brand_menu,top_brands,Biotique",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(8) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Huda Beauty",
+      "href": "/luxe/brands/huda-beauty/c/4985?ptype=brand&id=4985&root=brand_menu,top_brands,Huda Beauty",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(9) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Kama Ayurveda",
+      "href": "/luxe/brands/kama-ayurveda/c/2421?ptype=brand&id=2421&root=brand_menu,top_brands,Kama Ayurveda",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(10) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Innisfree",
+      "href": "/brands/innisfree/c/3901?ptype=brand&id=3901&root=brand_menu,top_brands,Innisfree",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(11) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "The Body Shop",
+      "href": "/brands/the-body-shop/c/943?ptype=brand&id=943&root=brand_menu,top_brands,The Body Shop",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(1) > ul.css-urc5lr > li.css-txudx1:nth-of-type(12) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "&Done",
+      "href": "/brands/done/c/97332?root=brand_menu,brand_list,&Done",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(1) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "&honey",
+      "href": "/brands/honey/c/100515?root=brand_menu,brand_list,&honey",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(2) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "18.21 Man Made",
+      "href": "/brands/18-21/c/18677?root=brand_menu,brand_list,18.21 Man Made",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(3) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "2PEACE",
+      "href": "/brands/2peace/c/79736?root=brand_menu,brand_list,2PEACE",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(4) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "360 Block",
+      "href": "/brands/360-block/c/57218?root=brand_menu,brand_list,360 Block",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(5) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "3TENX",
+      "href": "/brands/3tenx/c/64118?root=brand_menu,brand_list,3TENX",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(6) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "4711",
+      "href": "/brands/4711/c/5177?root=brand_menu,brand_list,4711",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(7) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "5 Elements by Radhika Gupta",
+      "href": "/brands/5-elements-by-radhika-gupta/c/18141?root=brand_menu,brand_list,5 Elements by Radhika Gupta",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(8) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "513",
+      "href": "/brands/513/c/60562?root=brand_menu,brand_list,513",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(9) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "52 Sundaze",
+      "href": "/brands/52-sundaze/c/68365?root=brand_menu,brand_list,52 Sundaze",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(10) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "7-10",
+      "href": "/brands/7-10/c/29070?root=brand_menu,brand_list,7-10",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(11) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "90 Feet By Dharavi Market",
+      "href": "/brands/90-feet-by-dharavi-market/c/12305?root=brand_menu,brand_list,90 Feet By Dharavi Market",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(12) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "925 SILLER",
+      "href": "/brands/925-siller/c/90305?root=brand_menu,brand_list,925 SILLER",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(13) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "999Store",
+      "href": "/brands/999store/c/97509?root=brand_menu,brand_list,999Store",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(2) > ul.css-urc5lr > li.css-txudx1:nth-of-type(14) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "A Big Indian Story",
+      "href": "/brands/a-big-indian-story/c/60557?ptype=lst&id=60557&root=brand_menu,brand_list,A Big Indian Story",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(1) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "A Clutch Story",
+      "href": "/brands/a-clutch-story/c/11099?ptype=lst&id=11099&root=brand_menu,brand_list,A Clutch Story",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(2) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aadita",
+      "href": "/brands/aadita/c/66158?ptype=lst&id=66158&root=brand_menu,brand_list,Aadita",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(3) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "AANCHAL SAYAL",
+      "href": "/brands/aanchal-sayal/c/51280?ptype=lst&id=51280&root=brand_menu,brand_list,AANCHAL SAYAL",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(4) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "AANURA",
+      "href": "/brands/aanura/c/105039?ptype=lst&id=105039&root=brand_menu,brand_list,AANURA",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(5) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "AAPNO RAJASTHAN",
+      "href": "/brands/aapno-rajasthan/c/57682?ptype=lst&id=57682&root=brand_menu,brand_list,AAPNO RAJASTHAN",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(6) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aaranyaa",
+      "href": "/brands/aaranyaa/c/4086?ptype=lst&id=4086&root=brand_menu,brand_list,Aaranyaa",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(7) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aarke Ritu Kumar",
+      "href": "/brands/aarke-ritu-kumar/c/60549?ptype=lst&id=60549&root=brand_menu,brand_list,Aarke Ritu Kumar",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(8) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "AARSEE OFFICIAL",
+      "href": "/brands/aarsee-official/c/82690?ptype=lst&id=82690&root=brand_menu,brand_list,AARSEE OFFICIAL",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(9) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aaruvi Ruchi Verma",
+      "href": "/lingerie-online/brands/aaruvi-ruchi-verma/c/27742?ptype=lst&id=27742&root=brand_menu,brand_list,Aaruvi Ruchi Verma",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(10) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aarvi Decor",
+      "href": "/brands/aarvi-decor/c/87664?ptype=lst&id=87664&root=brand_menu,brand_list,Aarvi Decor",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(11) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aastey",
+      "href": "/brands/aastey/c/31946?ptype=lst&id=31946&root=brand_menu,brand_list,Aastey",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(12) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aatmana",
+      "href": "/brands/aatmana/c/58382?ptype=lst&id=58382&root=brand_menu,brand_list,Aatmana",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(13) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Abdesigns",
+      "href": "/brands/abdesigns/c/66309?ptype=lst&id=66309&root=brand_menu,brand_list,Abdesigns",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(14) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Abees",
+      "href": "/brands/abees/c/112317?ptype=lst&id=112317&root=brand_menu,brand_list,Abees",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(15) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ABELARDO DE MODA",
+      "href": "/brands/abelardo-de-moda/c/59159?ptype=lst&id=59159&root=brand_menu,brand_list,ABELARDO DE MODA",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(16) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Abelino",
+      "href": "/lingerie-online/brands/abelino/c/8933?ptype=lst&id=8933&root=brand_menu,brand_list,Abelino",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(17) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ABKASA",
+      "href": "/brands/abkasa/c/114525?ptype=lst&id=114525&root=brand_menu,brand_list,ABKASA",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(18) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "About Face",
+      "href": "/beauty-partners/about-face/c/3793?ptype=lst&id=3793&root=brand_menu,brand_list,About Face",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(19) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ABSO Essentials",
+      "href": "/brands/abso-essentials/c/71049?ptype=lst&id=71049&root=brand_menu,brand_list,ABSO Essentials",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(20) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Absorbia",
+      "href": "/brands/absorbia/c/63083?ptype=lst&id=63083&root=brand_menu,brand_list,Absorbia",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(21) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Acad Home",
+      "href": "/brands/acad-home/c/90861?ptype=lst&id=90861&root=brand_menu,brand_list,Acad Home",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(22) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Accessher",
+      "href": "/brands/accessher/c/14226?ptype=lst&id=14226&root=brand_menu,brand_list,Accessher",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(23) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Accessorize London",
+      "href": "/brands/accessorize-london/c/14221?ptype=lst&id=14221&root=brand_menu,brand_list,Accessorize London",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(24) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Ace Blend",
+      "href": "/brands/ace-blend/c/100300?ptype=lst&id=100300&root=brand_menu,brand_list,Ace Blend",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(25) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ACE THE SPACE",
+      "href": "/brands/ace-the-space/c/24907?ptype=lst&id=24907&root=brand_menu,brand_list,ACE THE SPACE",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(26) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ACKROSS",
+      "href": "/brands/ackross/c/78928?ptype=lst&id=78928&root=brand_menu,brand_list,ACKROSS",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(27) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Acnestar",
+      "href": "/brands/acnestar/c/23878?ptype=lst&id=23878&root=brand_menu,brand_list,Acnestar",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(28) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Addery",
+      "href": "/brands/addery/c/28181?ptype=lst&id=28181&root=brand_menu,brand_list,Addery",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(29) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Addons",
+      "href": "/brands/addons/c/10630?ptype=lst&id=10630&root=brand_menu,brand_list,Addons",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(30) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Adhyay",
+      "href": "/brands/adhyay/c/60015?ptype=lst&id=60015&root=brand_menu,brand_list,Adhyay",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(31) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "adidas",
+      "href": "/brands/adidas/c/15405?ptype=lst&id=15405&root=brand_menu,brand_list,adidas",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(32) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Adidas Fragrances",
+      "href": "/brands/adidas/c/656?ptype=lst&id=656&root=brand_menu,brand_list,Adidas Fragrances",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(33) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "adidas Originals",
+      "href": "/brands/adidas-originals/c/15517?ptype=lst&id=15517&root=brand_menu,brand_list,adidas Originals",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(34) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Adira",
+      "href": "/lingerie-online/brands/adira/c/10935?ptype=lst&id=10935&root=brand_menu,brand_list,Adira",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(35) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ADITI WASAN",
+      "href": "/brands/aditi-wasan/c/17336?ptype=lst&id=17336&root=brand_menu,brand_list,ADITI WASAN",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(36) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ADIVA",
+      "href": "/brands/adiva/c/73139?ptype=lst&id=73139&root=brand_menu,brand_list,ADIVA",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(37) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ADONIS",
+      "href": "/brands/adonis/c/71126?ptype=lst&id=71126&root=brand_menu,brand_list,ADONIS",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(38) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ADORLY",
+      "href": "/brands/adorly/c/78213?ptype=lst&id=78213&root=brand_menu,brand_list,ADORLY",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(39) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Adriatica",
+      "href": "/brands/adriatica/c/94388?ptype=lst&id=94388&root=brand_menu,brand_list,Adriatica",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(40) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Adwita",
+      "href": "/brands/adwita/c/104440?ptype=lst&id=104440&root=brand_menu,brand_list,Adwita",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(41) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Adwitiya",
+      "href": "/brands/adwitiya/c/56142?ptype=lst&id=56142&root=brand_menu,brand_list,Adwitiya",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(42) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "ADYA",
+      "href": "/brands/adya/c/63281?ptype=lst&id=63281&root=brand_menu,brand_list,ADYA",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(43) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aeropostale",
+      "href": "/brands/aeropostale/c/18431?ptype=lst&id=18431&root=brand_menu,brand_list,Aeropostale",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(44) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aerowarm",
+      "href": "/brands/aerowarm/c/88747?ptype=lst&id=88747&root=brand_menu,brand_list,Aerowarm",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(45) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    },
+    {
+      "text": "Aesthete",
+      "href": "/brands/aesthete/c/112758?ptype=lst&id=112758&root=brand_menu,brand_list,Aesthete",
+      "id": "",
+      "classes": "",
+      "is_visible": false,
+      "selector": "div:nth-of-type(3) > ul.css-urc5lr > li.css-txudx1:nth-of-type(46) > a",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(3, 2, 26)"
+      }
+    }
+  ],
+  "forms": [
+    {
+      "id": "",
+      "name": "",
+      "action": "",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "search-suggestions-nykaa",
+          "placeholder": "Search on Nykaa",
+          "label": "",
+          "required": false,
+          "is_visible": true,
+          "value": ""
+        }
+      ],
+      "selector": "div.css-1q0ywzx:nth-of-type(2) > div.css-17yggf0 > div.css-roythe > form.css-19j7d8y"
+    }
+  ],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [
+    {
+      "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+      "pattern_type": "scarcity",
+      "tag": "div",
+      "classes": "css-17xy1kb",
+      "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)"
+    },
+    {
+      "text": "Ends In:\n05h 06m 22s",
+      "pattern_type": "scarcity",
+      "tag": "div",
+      "classes": "69f59eb39d45e6dacb9aa93b css-1by6qld",
+      "selector": "#69f59eb39d45e6dacb9aa93b > div.69f59eb39d45e6dacb9aa93b.css-1by6qld:nth-of-type(1)"
+    },
+    {
+      "text": "Ends In:",
+      "pattern_type": "scarcity",
+      "tag": "span",
+      "classes": "tag-text css-13o7eu2 e13h0shy0",
+      "selector": "div.image-tag-wrapper > div.1788737400.tag-text-wrapper:nth-of-type(2) > div.tag-type-text > span.tag-text.css-13o7eu2:nth-of-type(1)"
+    },
+    {
+      "text": "05h 06m 22s",
+      "pattern_type": "timer",
+      "tag": "span",
+      "classes": "tag-timer-text",
+      "selector": "div.image-tag-wrapper > div.1788737400.tag-text-wrapper:nth-of-type(2) > div.tag-type-text > span.tag-timer-text:nth-of-type(2)"
+    },
+    {
+      "text": "Mix & Match\nLimited Time Only!",
+      "pattern_type": "scarcity",
+      "tag": "div",
+      "classes": "css-1lp585y",
+      "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)"
+    },
+    {
+      "text": "Limited Time Only!",
+      "pattern_type": "scarcity",
+      "tag": "div",
+      "classes": "callout-text2",
+      "selector": "div.image-tag-wrapper > div.image-container:nth-of-type(1) > div.callout-radius.css-1llngxb:nth-of-type(3) > div.callout-text2:nth-of-type(2)"
+    }
+  ],
+  "modals": [],
+  "subscription_signals": [],
+  "summary": {
+    "total_text_blocks": 23,
+    "total_buttons": 5,
+    "total_links": 80,
+    "total_forms": 1,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 6,
+    "total_modals": 0,
+    "total_subscription_signals": 0
+  }
+}

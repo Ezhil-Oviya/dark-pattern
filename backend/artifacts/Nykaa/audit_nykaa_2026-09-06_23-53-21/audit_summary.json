@@ -1,0 +1,1448 @@
+{
+  "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "start_url": "https://www.nykaa.com",
+  "configured_crawl_depth": 1,
+  "actual_max_depth_reached": 1,
+  "max_pages_limit": 10,
+  "pages_discovered": 79,
+  "pages_crawled": 10,
+  "pages_successful": 10,
+  "pages_failed": 0,
+  "total_evidence_items": 291,
+  "total_dark_pattern_findings": 4,
+  "start_time": "2026-09-06_23-53-21",
+  "end_time": "2026-09-06_23-55-31",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "DETECTED",
+      "detected": true,
+      "confidence": 90,
+      "pages_affected_count": 3,
+      "affected_pages": [
+        {
+          "page_index": 0,
+          "url": "https://www.nykaa.com/",
+          "depth": 0,
+          "evidence_count": 6
+        },
+        {
+          "page_index": 3,
+          "url": "https://www.nykaa.com/stores-n-events-desktop",
+          "depth": 1,
+          "evidence_count": 1
+        },
+        {
+          "page_index": 6,
+          "url": "https://www.nykaa.com/?root=logo",
+          "depth": 1,
+          "evidence_count": 6
+        }
+      ],
+      "total_instances": 4,
+      "reason": "Potential False Urgency detected across 3 page(s) (4 unique instance(s) found with 13 traceable evidence items).",
+      "evidence": [
+        {
+          "evidence_id": "ev_p0_urg_0_d156",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+          "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_0_d156",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+          "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_0_d156",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+          "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_0_d156",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+          "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+        },
+        {
+          "evidence_id": "ev_p0_urg_4_e55d",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+          "text": "Mix & Match\nLimited Time Only!",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+          "context": "Mix & Match\nLimited Time Only!"
+        },
+        {
+          "evidence_id": "ev_p0_urg_4_e55d",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+          "text": "Mix & Match\nLimited Time Only!",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+          "context": "Mix & Match\nLimited Time Only!"
+        },
+        {
+          "evidence_id": "ev_p3_urg_0_307f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(220) > div.css-95skh > div.css-zol25y:nth-of-type(3)",
+          "text": "Open 12:00 AM - 11:59 PM",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_003/extracted.json",
+          "context": "Open 12:00 AM - 11:59 PM"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_da37",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+          "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_da37",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+          "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_da37",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+          "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_0_da37",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+          "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+          "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+        },
+        {
+          "evidence_id": "ev_p6_urg_4_3041",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+          "text": "Mix & Match\nLimited Time Only!",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+          "context": "Mix & Match\nLimited Time Only!"
+        },
+        {
+          "evidence_id": "ev_p6_urg_4_3041",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+          "text": "Mix & Match\nLimited Time Only!",
+          "tag": "div",
+          "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+          "context": "Mix & Match\nLimited Time Only!"
+        }
+      ]
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Price disclosures appear upfront; no undisclosed mandatory fees or unexpected surcharges detected.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No interactive opt-out or decline modal elements found on crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "SaaS Billing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+      "evidence": []
+    },
+    {
+      "pattern": "Interface Interference",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+      "evidence": []
+    },
+    {
+      "pattern": "Forced Action",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "https://www.nykaa.com/",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 13,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dafa6c82e4e61a8bbece2",
+        "dom": "api/v1/automation/artifact/6a9dafa8c82e4e61a8bbece7",
+        "extracted_json": "api/v1/automation/artifact/6a9dafa9c82e4e61a8bbecef",
+        "evidence_json": "api/v1/automation/artifact/6a9dafaac82e4e61a8bbecf1"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 6 urgency indicator(s) (countdown timer, scarcity pressure, e.g. 'Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [
+            {
+              "evidence_id": "ev_p0_urg_0_d156",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+              "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_0_d156",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+              "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_0_d156",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+              "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_0_d156",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+              "context": "Ends In:\n05h 06m 22s\nEnds In:\n05h 06m 22s"
+            },
+            {
+              "evidence_id": "ev_p0_urg_4_e55d",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+              "text": "Mix & Match\nLimited Time Only!",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+              "context": "Mix & Match\nLimited Time Only!"
+            },
+            {
+              "evidence_id": "ev_p0_urg_4_e55d",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+              "text": "Mix & Match\nLimited Time Only!",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_000/extracted.json",
+              "context": "Mix & Match\nLimited Time Only!"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 6,
+            "signals": [
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "countdown_timer",
+              "scarcity_pressure",
+              "scarcity_pressure"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "https://www.nykaa.com/sp/offers-native/offers",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 33,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dafb7c82e4e61a8bbecf3",
+        "dom": "api/v1/automation/artifact/6a9dafb8c82e4e61a8bbecfa",
+        "extracted_json": "api/v1/automation/artifact/6a9dafbac82e4e61a8bbed04",
+        "evidence_json": "api/v1/automation/artifact/6a9dafbac82e4e61a8bbed06"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "https://www.nykaa.com/explore/lp",
+      "title": "Explore Webpage Creation - Beauty",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 5,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dafc4c82e4e61a8bbed08",
+        "dom": "api/v1/automation/artifact/6a9dafc5c82e4e61a8bbed0b",
+        "extracted_json": "api/v1/automation/artifact/6a9dafc5c82e4e61a8bbed11",
+        "evidence_json": "api/v1/automation/artifact/6a9dafc6c82e4e61a8bbed13"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/explore/lp",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "https://www.nykaa.com/stores-n-events-desktop",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 24,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dafd0c82e4e61a8bbed15",
+        "dom": "api/v1/automation/artifact/6a9dafd2c82e4e61a8bbed19",
+        "extracted_json": "api/v1/automation/artifact/6a9dafd4c82e4e61a8bbed22",
+        "evidence_json": "api/v1/automation/artifact/6a9dafd4c82e4e61a8bbed24"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 1 urgency indicator(s) (countdown timer, e.g. 'Open 12:00 AM - 11:59 PM...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [
+            {
+              "evidence_id": "ev_p3_urg_0_307f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-1yqyvl8:nth-of-type(2) > div.css-m6uzwn:nth-of-type(220) > div.css-95skh > div.css-zol25y:nth-of-type(3)",
+              "text": "Open 12:00 AM - 11:59 PM",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_003/extracted.json",
+              "context": "Open 12:00 AM - 11:59 PM"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 1,
+            "signals": [
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "https://www.nykaa.com/giftcard/list",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 17,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dafdfc82e4e61a8bbed26",
+        "dom": "api/v1/automation/artifact/6a9dafdfc82e4e61a8bbed2d",
+        "extracted_json": "api/v1/automation/artifact/6a9dafdfc82e4e61a8bbed2f",
+        "evidence_json": "api/v1/automation/artifact/6a9dafe0c82e4e61a8bbed31"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "https://www.nykaa.com/giftcard/list",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 5,
+      "folder": "page_005",
+      "url": "https://www.nykaa.com/help-center?dl_type=help_center",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 13,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dafe9c82e4e61a8bbed33",
+        "dom": "api/v1/automation/artifact/6a9dafe9c82e4e61a8bbed35",
+        "extracted_json": "api/v1/automation/artifact/6a9dafeac82e4e61a8bbed37",
+        "evidence_json": "api/v1/automation/artifact/6a9dafeac82e4e61a8bbed39"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "https://www.nykaa.com/help-center?dl_type=help_center",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 6,
+      "folder": "page_006",
+      "url": "https://www.nykaa.com/?root=logo",
+      "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 10,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9daff5c82e4e61a8bbed3b",
+        "dom": "api/v1/automation/artifact/6a9daff5c82e4e61a8bbed40",
+        "extracted_json": "api/v1/automation/artifact/6a9daff6c82e4e61a8bbed48",
+        "evidence_json": "api/v1/automation/artifact/6a9daff6c82e4e61a8bbed4a"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 6 urgency indicator(s) (countdown timer, scarcity pressure, e.g. 'Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [
+            {
+              "evidence_id": "ev_p6_urg_0_da37",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+              "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_0_da37",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+              "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_0_da37",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+              "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_0_da37",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+              "text": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+              "context": "Ends In:\n05h 05m 06s\nEnds In:\n05h 05m 06s"
+            },
+            {
+              "evidence_id": "ev_p6_urg_4_3041",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+              "text": "Mix & Match\nLimited Time Only!",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+              "context": "Mix & Match\nLimited Time Only!"
+            },
+            {
+              "evidence_id": "ev_p6_urg_4_3041",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+              "text": "Mix & Match\nLimited Time Only!",
+              "tag": "div",
+              "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_23-53-21/page_006/extracted.json",
+              "context": "Mix & Match\nLimited Time Only!"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 6,
+            "signals": [
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "scarcity_pressure",
+              "countdown_timer",
+              "scarcity_pressure",
+              "scarcity_pressure"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/?root=logo",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 7,
+      "folder": "page_007",
+      "url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+      "title": "Shop For Genuine Maybelline New York Products At Best Price Online",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 58,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db002c82e4e61a8bbed4c",
+        "dom": "api/v1/automation/artifact/6a9db003c82e4e61a8bbed54",
+        "extracted_json": "api/v1/automation/artifact/6a9db004c82e4e61a8bbed5c",
+        "evidence_json": "api/v1/automation/artifact/6a9db004c82e4e61a8bbed5e"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/brands/maybelline-new-york/c/596?ptype=brand&id=596&root=brand_menu%2Ctop_brands%2CMaybelline+New+York",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 8,
+      "folder": "page_008",
+      "url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 65,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db00ac82e4e61a8bbed60",
+        "dom": "api/v1/automation/artifact/6a9db00bc82e4e61a8bbed69",
+        "extracted_json": "api/v1/automation/artifact/6a9db00cc82e4e61a8bbed71",
+        "evidence_json": "api/v1/automation/artifact/6a9db00cc82e4e61a8bbed73"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_nykaa_2026-09-06_23-53-21",
+      "page_index": 9,
+      "folder": "page_009",
+      "url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 53,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db017c82e4e61a8bbed75",
+        "dom": "api/v1/automation/artifact/6a9db019c82e4e61a8bbed7c",
+        "extracted_json": "api/v1/automation/artifact/6a9db019c82e4e61a8bbed84",
+        "evidence_json": "api/v1/automation/artifact/6a9db01ac82e4e61a8bbed86"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    }
+  ]
+}

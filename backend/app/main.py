@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from app.config.database import check_mongo_connection, get_mongo_diagnostics
 from app.routes.website_routes import router as website_router
 from app.routes.automation_routes import router as automation_router
+from app.routes.data_quality_routes import router as data_quality_router
 
 # Configure logging
 logging.basicConfig(
@@ -73,6 +74,12 @@ app.include_router(
     automation_router,
     prefix="/api/v1",
     tags=["Automation"]
+)
+
+app.include_router(
+    data_quality_router,
+    prefix="/api/v1",
+    tags=["Data Quality Assessment"]
 )
 
 # Ensure artifacts directory exists for static file serving

@@ -1,0 +1,758 @@
+{
+  "audit_id": "audit_mockdepth2_2026-09-07_00-48-19",
+  "website_id": "",
+  "platform": "MockDepth2",
+  "start_url": "http://127.0.0.1:59017/",
+  "configured_crawl_depth": 2,
+  "actual_max_depth_reached": 2,
+  "max_pages_limit": 50,
+  "pages_discovered": 5,
+  "pages_crawled": 5,
+  "pages_successful": 5,
+  "pages_failed": 0,
+  "total_evidence_items": 12,
+  "total_dark_pattern_findings": 2,
+  "start_time": "2026-09-07_00-48-19",
+  "end_time": "2026-09-07_00-48-27",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "DETECTED",
+      "detected": true,
+      "confidence": 90,
+      "pages_affected_count": 1,
+      "affected_pages": [
+        {
+          "page_index": 2,
+          "url": "http://127.0.0.1:59017/level1_b",
+          "depth": 1,
+          "evidence_count": 1
+        }
+      ],
+      "total_instances": 1,
+      "reason": "Potential False Urgency detected across 1 page(s) (1 unique instance(s) found with 1 traceable evidence items).",
+      "evidence": [
+        {
+          "evidence_id": "ev_p2_urg_0_2e25",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "html > body > span.timer",
+          "text": "04:35 left before deal ends",
+          "tag": "span",
+          "artifact_path": "artifacts/MockDepth2/audit_mockdepth2_2026-09-07_00-48-19/page_002/extracted.json",
+          "context": "04:35 left before deal ends"
+        }
+      ]
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient pricing or checkout breakdown data present across crawled pages to evaluate Drip Pricing.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No interactive opt-out or decline modal elements found on crawled pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "SaaS Billing",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No subscription plans, recurring billing terms, or pricing controls found on crawled pages to evaluate SaaS Billing.",
+      "evidence": []
+    },
+    {
+      "pattern": "Interface Interference",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+      "evidence": []
+    },
+    {
+      "pattern": "Forced Action",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+      "evidence": []
+    },
+    {
+      "pattern": "Basket Sneaking",
+      "status": "DETECTED",
+      "detected": true,
+      "confidence": 85,
+      "pages_affected_count": 1,
+      "affected_pages": [
+        {
+          "page_index": 4,
+          "url": "http://127.0.0.1:59017/level2_b",
+          "depth": 2,
+          "evidence_count": 1
+        }
+      ],
+      "total_instances": 1,
+      "reason": "Potential Basket Sneaking detected across 1 page(s) (1 unique instance(s) found with 1 traceable evidence items).",
+      "evidence": [
+        {
+          "evidence_id": "ev_p4_cb_0_6e0a",
+          "evidence_type": "extracted_data",
+          "category": "checkboxes",
+          "selector": "#opt-form > label > input",
+          "text": "Add Warranty (+₹299)",
+          "tag": "input",
+          "artifact_path": "artifacts/MockDepth2/audit_mockdepth2_2026-09-07_00-48-19/page_004/extracted.json",
+          "context": "Preselected add-on checkbox (warranty): 'Add Warranty (+₹299)' (+₹299)"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_mockdepth2_2026-09-07_00-48-19",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "http://127.0.0.1:59017/",
+      "title": "Level 0 Homepage",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dbc7ccfaeb1e3ba65493a",
+        "dom": "api/v1/automation/artifact/6a9dbc7dcfaeb1e3ba65493c",
+        "extracted_json": "api/v1/automation/artifact/6a9dbc7dcfaeb1e3ba65493e",
+        "evidence_json": "api/v1/automation/artifact/6a9dbc7dcfaeb1e3ba654940"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        },
+        {
+          "pattern": "Basket Sneaking",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient cart or checkout interaction data available on this page to evaluate Basket Sneaking.",
+          "page_url": "http://127.0.0.1:59017/",
+          "evidence": [],
+          "metadata": {
+            "insufficient_cart_context": true
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth2_2026-09-07_00-48-19",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "http://127.0.0.1:59017/level1_a",
+      "title": "Level 1A",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dbc7ecfaeb1e3ba654942",
+        "dom": "api/v1/automation/artifact/6a9dbc7ecfaeb1e3ba654944",
+        "extracted_json": "api/v1/automation/artifact/6a9dbc7ecfaeb1e3ba654946",
+        "evidence_json": "api/v1/automation/artifact/6a9dbc7ecfaeb1e3ba654948"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        },
+        {
+          "pattern": "Basket Sneaking",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient cart or checkout interaction data available on this page to evaluate Basket Sneaking.",
+          "page_url": "http://127.0.0.1:59017/level1_a",
+          "evidence": [],
+          "metadata": {
+            "insufficient_cart_context": true
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth2_2026-09-07_00-48-19",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "http://127.0.0.1:59017/level1_b",
+      "title": "Level 1B",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 3,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dbc7fcfaeb1e3ba65494a",
+        "dom": "api/v1/automation/artifact/6a9dbc7fcfaeb1e3ba65494c",
+        "extracted_json": "api/v1/automation/artifact/6a9dbc7fcfaeb1e3ba65494e",
+        "evidence_json": "api/v1/automation/artifact/6a9dbc80cfaeb1e3ba654950"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 1 urgency indicator(s) (countdown timer, e.g. '04:35 left before deal ends...') were present to accelerate consumer decision-making.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [
+            {
+              "evidence_id": "ev_p2_urg_0_2e25",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "html > body > span.timer",
+              "text": "04:35 left before deal ends",
+              "tag": "span",
+              "artifact_path": "artifacts/MockDepth2/audit_mockdepth2_2026-09-07_00-48-19/page_002/extracted.json",
+              "context": "04:35 left before deal ends"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 1,
+            "signals": [
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No comparative interactive controls or paired choice elements present on this page to evaluate Interface Interference.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PAIRED_CONTROLS"
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        },
+        {
+          "pattern": "Basket Sneaking",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient cart or checkout interaction data available on this page to evaluate Basket Sneaking.",
+          "page_url": "http://127.0.0.1:59017/level1_b",
+          "evidence": [],
+          "metadata": {
+            "insufficient_cart_context": true
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth2_2026-09-07_00-48-19",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "http://127.0.0.1:59017/level2_a",
+      "title": "Level 2A",
+      "depth": 2,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dbc80cfaeb1e3ba654952",
+        "dom": "api/v1/automation/artifact/6a9dbc81cfaeb1e3ba654954",
+        "extracted_json": "api/v1/automation/artifact/6a9dbc81cfaeb1e3ba654956",
+        "evidence_json": "api/v1/automation/artifact/6a9dbc81cfaeb1e3ba654958"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No comparative interactive controls or paired choice elements present on this page to evaluate Interface Interference.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PAIRED_CONTROLS"
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        },
+        {
+          "pattern": "Basket Sneaking",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient cart or checkout interaction data available on this page to evaluate Basket Sneaking.",
+          "page_url": "http://127.0.0.1:59017/level2_a",
+          "evidence": [],
+          "metadata": {
+            "insufficient_cart_context": true
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth2_2026-09-07_00-48-19",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "http://127.0.0.1:59017/level2_b",
+      "title": "Level 2B",
+      "depth": 2,
+      "status": "success",
+      "error": null,
+      "evidence_count": 3,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9dbc82cfaeb1e3ba65495a",
+        "dom": "api/v1/automation/artifact/6a9dbc82cfaeb1e3ba65495c",
+        "extracted_json": "api/v1/automation/artifact/6a9dbc82cfaeb1e3ba65495e",
+        "evidence_json": "api/v1/automation/artifact/6a9dbc82cfaeb1e3ba654960"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No comparative interactive controls or paired choice elements present on this page to evaluate Interface Interference.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PAIRED_CONTROLS"
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Basket Sneaking",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 85,
+          "reason": "Potential Basket Sneaking detected: 1 unsolicited or preselected item(s) found. Optional add-on 'Add Warranty (+₹299)' was preselected by default without explicit user selection.",
+          "page_url": "http://127.0.0.1:59017/level2_b",
+          "evidence": [
+            {
+              "evidence_id": "ev_p4_cb_0_6e0a",
+              "evidence_type": "extracted_data",
+              "category": "checkboxes",
+              "selector": "#opt-form > label > input",
+              "text": "Add Warranty (+₹299)",
+              "tag": "input",
+              "artifact_path": "artifacts/MockDepth2/audit_mockdepth2_2026-09-07_00-48-19/page_004/extracted.json",
+              "context": "Preselected add-on checkbox (warranty): 'Add Warranty (+₹299)' (+₹299)"
+            }
+          ],
+          "metadata": {
+            "detected_items_count": 1,
+            "evidence_categories": [
+              "checkboxes"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

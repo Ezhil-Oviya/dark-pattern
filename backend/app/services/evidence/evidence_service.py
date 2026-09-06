@@ -230,6 +230,35 @@ def create_evidence_record(
             )
         )
 
+    # 8. Interactive Buttons with meaningful text (Confirmshaming & consent indicators)
+    buttons = extracted_data.get("buttons", [])
+    for idx, btn in enumerate(buttons[:20]):
+        btn_text = (btn.get("text") or "").strip()
+        if btn_text and btn.get("is_visible") is not False:
+            evidence_items.append(
+                EvidenceItem(
+                    evidence_id=f"ev_p{page_index}_btn_{idx}_{uuid.uuid4().hex[:4]}",
+                    audit_id=run_id,
+                    page_url=page_url,
+                    page_title=page_title,
+                    crawl_depth=crawl_depth,
+                    page_index=page_index,
+                    evidence_type="extracted_data",
+                    category="buttons",
+                    selector=btn.get("selector"),
+                    text=btn_text,
+                    tag=btn.get("tag") or "button",
+                    artifact_path=rel_extracted or "",
+                    timestamp=audit_time,
+                    context=btn_text,
+                    attributes={
+                        "id": btn.get("id", ""),
+                        "type": btn.get("type", "button"),
+                        "classes": btn.get("classes", "")
+                    }
+                )
+            )
+
     # Construct EvidenceRecord
     summary_counts = {
         "total_evidence_items": len(evidence_items),

@@ -1,0 +1,709 @@
+{
+  "evidence_id": "ev_page_004_audit_makemytrip_2026-09-06_23-57-27",
+  "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/holidays-india/",
+  "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+  "crawl_depth": 1,
+  "page_index": 4,
+  "audit_time": "2026-09-06_23-57-27",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 33,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 8,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 4,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p4_scr_2fec09",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/screenshot.png",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Platform: MakeMyTrip | Page: 4 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p4_dom_e49f54",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/dom.html",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Captured at network idle for https://www.makemytrip.com/holidays-india/ (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_0_db3a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.sliderItemContent:nth-of-type(3) > ul.sliderItem-benefits > li:nth-of-type(2) > div",
+      "text": "Book Hotels @ ₹0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_1_da1b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "ul.sliderItem-benefits > li:nth-of-type(2) > div > p.benefitTitle",
+      "text": "Book Hotels @ ₹0",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_2_4c0f",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(1)",
+      "text": "Thailand\n\nStarting at ₹900 Per person",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Thailand\n\nStarting at ₹900 Per person\n\nMaldives\n\nStarting at ₹900 Per person\n\nSri Lanka\n\nStarting at ₹900 Per person\n\nBa",
+      "attributes": {
+        "detected_price": "₹900",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_3_e05e",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.itemCard > div.itemCard__ftr:nth-of-type(2) > div > p.font12.darkText:nth-of-type(2)",
+      "text": "Starting at ₹900 Per person",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Thailand\n\nStarting at ₹900 Per person",
+      "attributes": {
+        "detected_price": "₹900",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_4_508d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "T&C'S APPLY\n\nHere Now: Lakshadweep Packages with Direct Flights\n\nBook now starting at ₹84,999*.",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nHere Now: Lakshadweep Packages with Direct Flights\n\nBook now starting at ₹84,999*.\n\nBOOK NOW",
+      "attributes": {
+        "detected_price": "₹84,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_5_6625",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Book now starting at ₹84,999*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nHere Now: Lakshadweep Packages with Direct Flights\n\nBook now starting at ₹84,999*.",
+      "attributes": {
+        "detected_price": "₹84,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_6_db1c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(2) > div:nth-of-type(1)",
+      "text": "T&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.\n\nBOOK NOW\n\n \nT&C'S APPLY\n\nL",
+      "attributes": {
+        "detected_price": "₹99,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_pr_7_8862",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Book starting at ₹99,999*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\n4N/5D Phu Quoc Group Package with Direct Flights.\n\nBook starting at ₹99,999*.",
+      "attributes": {
+        "detected_price": "₹99,999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_0_b83d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "#header-container > div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2)",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs\n\nSign up/Login now to\n\nLock Flight",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "imageSliderModal modal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_1_db28",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2) > div.imageSlideContainer > section.modalMain.tcnFooter",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs",
+      "tag": "section",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalMain tcnFooter"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_2_1c5a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.imageSlideContainer > section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1)",
+      "text": "Mobile Number\n\n‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalField makeFlex column appendBottom20"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_md_3_dbed",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1) > div.modalFieldInner.makeFlex",
+      "text": "‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalFieldInner makeFlex hrtlCenter"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_0_400d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "section.modalMain.tcnFooter > form > div.btnContainer.appendBottom25:nth-of-type(2) > button.capText.font16",
+      "text": "CONTINUE",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "CONTINUE",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "capText font16"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_1_71a8",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#search_button",
+      "text": "SEARCH",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "SEARCH",
+      "attributes": {
+        "id": "search_button",
+        "type": "button",
+        "classes": "primaryBtn font24 latoBlack widgetSearchBtn lineHeight29"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_2_7503",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.custom-carousel > ul.custom-carousel__dots > li.custom-carousel__dot-item:nth-of-type(1) > button.custom-carousel__dot-button",
+      "text": "Go to slide 1",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Go to slide 1",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "custom-carousel__dot-button"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_3_0713",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.custom-carousel > ul.custom-carousel__dots > li.custom-carousel__dot-item.custom-carousel__dot-item--active:nth-of-type(2) > button.custom-carousel__dot-button",
+      "text": "Go to slide 2",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Go to slide 2",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "custom-carousel__dot-button"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_4_9a40",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.custom-carousel > ul.custom-carousel__dots > li.custom-carousel__dot-item:nth-of-type(3) > button.custom-carousel__dot-button",
+      "text": "Go to slide 3",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Go to slide 3",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "custom-carousel__dot-button"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_5_5b14",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.custom-carousel > ul.custom-carousel__dots > li.custom-carousel__dot-item:nth-of-type(4) > button.custom-carousel__dot-button",
+      "text": "Go to slide 4",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Go to slide 4",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "custom-carousel__dot-button"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_6_41dc",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.custom-carousel > ul.custom-carousel__dots > li.custom-carousel__dot-item:nth-of-type(5) > button.custom-carousel__dot-button",
+      "text": "Go to slide 5",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Go to slide 5",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "custom-carousel__dot-button"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_7_95e6",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_8_3562",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_9_be36",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_10_e497",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_11_f002",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_12_9dda",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_13_cf07",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info > div.landingCardSlider.categorySlider:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_14_d1d7",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info > div.landingCardSlider.categorySlider:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_15_9039",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_16_ef0b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.commonSlider__info:nth-of-type(2) > div.landingCardSlider > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_17_8415",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_18_ab2c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/holidays-india/",
+      "page_title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_004/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    }
+  ]
+}

@@ -223,16 +223,20 @@ class TestFinalFourDetectors(unittest.TestCase):
         self.assertFalse(finding.detected)
 
     # --- 5. DETECTION SERVICE & REGISTRY TESTS ---
-    def test_registry_contains_final_four(self):
-        self.assertEqual(len(ACTIVE_DETECTORS), 4)
+    def test_registry_contains_all_eight(self):
+        self.assertEqual(len(ACTIVE_DETECTORS), 8)
         self.assertEqual(ALL_PATTERNS, [
             "False Urgency",
             "Drip Pricing",
             "Bait and Switch",
             "Confirmshaming",
+            "SaaS Billing",
+            "Interface Interference",
+            "Forced Action",
+            "Basket Sneaking",
         ])
 
-    def test_run_dark_pattern_detection_returns_all_four(self):
+    def test_run_dark_pattern_detection_returns_all_eight(self):
         extracted_data = {
             "url": "https://example.com/test",
             "urgency_elements": [{"text": "Ends in 05:00", "classes": "timer", "selector": "#t"}],
@@ -243,15 +247,18 @@ class TestFinalFourDetectors(unittest.TestCase):
         }
         evidence_record = {"page_url": "https://example.com/test", "evidence_items": []}
         results = run_dark_pattern_detection(extracted_data, evidence_record)
-        self.assertEqual(len(results), 4)
+        self.assertEqual(len(results), 8)
         pattern_names = [r["pattern"] for r in results]
         self.assertIn("False Urgency", pattern_names)
         self.assertIn("Drip Pricing", pattern_names)
         self.assertIn("Bait and Switch", pattern_names)
         self.assertIn("Confirmshaming", pattern_names)
-        self.assertNotIn("Basket Sneaking", pattern_names)
+        self.assertIn("SaaS Billing", pattern_names)
+        self.assertIn("Interface Interference", pattern_names)
+        self.assertIn("Forced Action", pattern_names)
+        self.assertIn("Basket Sneaking", pattern_names)
 
-    def test_aggregate_detection_findings_all_four_patterns(self):
+    def test_aggregate_detection_findings_all_eight_patterns(self):
         page_records = [
             {
                 "page_index": 0,
@@ -262,16 +269,25 @@ class TestFinalFourDetectors(unittest.TestCase):
                     {"pattern": "Drip Pricing", "status": "NOT_DETECTED", "detected": False, "confidence": 0, "reason": "No hidden fees"},
                     {"pattern": "Bait and Switch", "status": "INSUFFICIENT_EVIDENCE", "detected": False, "confidence": 0, "reason": "No data"},
                     {"pattern": "Confirmshaming", "status": "NOT_DETECTED", "detected": False, "confidence": 0, "reason": "Neutral buttons"},
+                    {"pattern": "SaaS Billing", "status": "NOT_DETECTED", "detected": False, "confidence": 0, "reason": "Clear billing"},
+                    {"pattern": "Interface Interference", "status": "INSUFFICIENT_EVIDENCE", "detected": False, "confidence": 0, "reason": "No pairs"},
+                    {"pattern": "Forced Action", "status": "NOT_DETECTED", "detected": False, "confidence": 0, "reason": "Voluntary"},
+                    {"pattern": "Basket Sneaking", "status": "NOT_DETECTED", "detected": False, "confidence": 0, "reason": "Clean cart"},
                 ]
             }
         ]
         aggregated = aggregate_detection_findings(page_records)
-        self.assertEqual(len(aggregated), 4)
+        self.assertEqual(len(aggregated), 8)
         patterns_found = {a["pattern"]: a["status"] for a in aggregated}
         self.assertEqual(patterns_found["False Urgency"], "DETECTED")
         self.assertEqual(patterns_found["Drip Pricing"], "NOT_DETECTED")
         self.assertEqual(patterns_found["Bait and Switch"], "INSUFFICIENT_EVIDENCE")
         self.assertEqual(patterns_found["Confirmshaming"], "NOT_DETECTED")
+        self.assertEqual(patterns_found["SaaS Billing"], "NOT_DETECTED")
+        self.assertEqual(patterns_found["Interface Interference"], "INSUFFICIENT_EVIDENCE")
+        self.assertEqual(patterns_found["Forced Action"], "NOT_DETECTED")
+        self.assertEqual(patterns_found["Basket Sneaking"], "NOT_DETECTED")
+
 
 
 if __name__ == "__main__":

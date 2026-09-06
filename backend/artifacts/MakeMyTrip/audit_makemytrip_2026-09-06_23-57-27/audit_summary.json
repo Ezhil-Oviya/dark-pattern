@@ -1,0 +1,1265 @@
+{
+  "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "start_url": "https://www.makemytrip.com",
+  "configured_crawl_depth": 2,
+  "actual_max_depth_reached": 1,
+  "max_pages_limit": 10,
+  "pages_discovered": 277,
+  "pages_crawled": 10,
+  "pages_successful": 10,
+  "pages_failed": 0,
+  "total_evidence_items": 245,
+  "total_dark_pattern_findings": 1,
+  "start_time": "2026-09-06_23-57-27",
+  "end_time": "2026-09-06_23-59-10",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "DETECTED",
+      "detected": true,
+      "confidence": 90,
+      "pages_affected_count": 1,
+      "affected_pages": [
+        {
+          "page_index": 7,
+          "url": "https://www.makemytrip.com/cabs/",
+          "depth": 1,
+          "evidence_count": 5
+        }
+      ],
+      "total_instances": 1,
+      "reason": "Potential False Urgency detected across 1 page(s) (1 unique instance(s) found with 5 traceable evidence items).",
+      "evidence": [
+        {
+          "evidence_id": "ev_p7_urg_0_329f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+          "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+          "tag": "div",
+          "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+          "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+        },
+        {
+          "evidence_id": "ev_p7_urg_0_329f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+          "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+          "tag": "div",
+          "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+          "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+        },
+        {
+          "evidence_id": "ev_p7_urg_0_329f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+          "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+          "tag": "div",
+          "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+          "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+        },
+        {
+          "evidence_id": "ev_p7_urg_0_329f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+          "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+          "tag": "div",
+          "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+          "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+        },
+        {
+          "evidence_id": "ev_p7_urg_0_329f",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+          "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+          "tag": "div",
+          "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+          "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+        }
+      ]
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Price disclosures appear upfront; no undisclosed mandatory fees or unexpected surcharges detected.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+      "evidence": []
+    },
+    {
+      "pattern": "SaaS Billing",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+      "evidence": []
+    },
+    {
+      "pattern": "Interface Interference",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+      "evidence": []
+    },
+    {
+      "pattern": "Forced Action",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "https://www.makemytrip.com/",
+      "title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 43,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db09bc82e4e61a8bbeeb5",
+        "dom": "api/v1/automation/artifact/6a9db09dc82e4e61a8bbeebb",
+        "extracted_json": "api/v1/automation/artifact/6a9db09ec82e4e61a8bbeec1",
+        "evidence_json": "api/v1/automation/artifact/6a9db09ec82e4e61a8bbeec3"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "https://www.makemytrip.com/flights/",
+      "title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 22,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0a8c82e4e61a8bbeec5",
+        "dom": "api/v1/automation/artifact/6a9db0a9c82e4e61a8bbeecb",
+        "extracted_json": "api/v1/automation/artifact/6a9db0aac82e4e61a8bbeed1",
+        "evidence_json": "api/v1/automation/artifact/6a9db0aac82e4e61a8bbeed3"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/flights/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "https://www.makemytrip.com/hotels/",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0acc82e4e61a8bbeed5",
+        "dom": "api/v1/automation/artifact/6a9db0acc82e4e61a8bbeed7",
+        "extracted_json": "api/v1/automation/artifact/6a9db0acc82e4e61a8bbeed9",
+        "evidence_json": "api/v1/automation/artifact/6a9db0acc82e4e61a8bbeedb"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient page content and link data to evaluate Bait and Switch.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_CONTENT"
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive buttons, links, or modal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_INTERACTIVE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No comparative interactive controls or paired choice elements present on this page to evaluate Interface Interference.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PAIRED_CONTROLS"
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "https://www.makemytrip.com/hotels/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "https://www.makemytrip.com/homestays/",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 12,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0b6c82e4e61a8bbeedd",
+        "dom": "api/v1/automation/artifact/6a9db0b7c82e4e61a8bbeee2",
+        "extracted_json": "api/v1/automation/artifact/6a9db0b7c82e4e61a8bbeee7",
+        "evidence_json": "api/v1/automation/artifact/6a9db0b8c82e4e61a8bbeee9"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/homestays/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "https://www.makemytrip.com/holidays-india/",
+      "title": "Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : MakeMyTrip",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 33,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0c2c82e4e61a8bbeeeb",
+        "dom": "api/v1/automation/artifact/6a9db0c3c82e4e61a8bbeef3",
+        "extracted_json": "api/v1/automation/artifact/6a9db0c4c82e4e61a8bbeef8",
+        "evidence_json": "api/v1/automation/artifact/6a9db0c4c82e4e61a8bbeefa"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/holidays-india/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 5,
+      "folder": "page_005",
+      "url": "https://www.makemytrip.com/railways/",
+      "title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 14,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0cdc82e4e61a8bbeefc",
+        "dom": "api/v1/automation/artifact/6a9db0cec82e4e61a8bbef01",
+        "extracted_json": "api/v1/automation/artifact/6a9db0cfc82e4e61a8bbef05",
+        "evidence_json": "api/v1/automation/artifact/6a9db0cfc82e4e61a8bbef07"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/railways/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 6,
+      "folder": "page_006",
+      "url": "https://www.makemytrip.com/bus-tickets",
+      "title": "",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0d1c82e4e61a8bbef09",
+        "dom": "api/v1/automation/artifact/6a9db0d1c82e4e61a8bbef0b",
+        "extracted_json": "api/v1/automation/artifact/6a9db0d1c82e4e61a8bbef0d",
+        "evidence_json": "api/v1/automation/artifact/6a9db0d1c82e4e61a8bbef0f"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Insufficient page content and link data to evaluate Bait and Switch.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_CONTENT"
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive buttons, links, or modal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_INTERACTIVE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No subscription plans, recurring billing terms, or pricing controls found on this page to evaluate SaaS Billing.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_SUBSCRIPTION_DATA"
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No comparative interactive controls or paired choice elements present on this page to evaluate Interface Interference.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PAIRED_CONTROLS"
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive forms, required checkboxes, or modal gating elements found on this page to evaluate Forced Action.",
+          "page_url": "https://www.makemytrip.com/bus-tickets",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_FORM_OR_MODAL_ELEMENTS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 7,
+      "folder": "page_007",
+      "url": "https://www.makemytrip.com/cabs/",
+      "title": "Online Cab Booking - Book Outstation Cabs at Lowest Fare @ MakeMyTrip",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 21,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0dbc82e4e61a8bbef11",
+        "dom": "api/v1/automation/artifact/6a9db0dcc82e4e61a8bbef17",
+        "extracted_json": "api/v1/automation/artifact/6a9db0ddc82e4e61a8bbef1b",
+        "evidence_json": "api/v1/automation/artifact/6a9db0ddc82e4e61a8bbef1d"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 5 urgency indicator(s) (countdown timer, e.g. 'From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a ret...') were present to accelerate consumer decision-making.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [
+            {
+              "evidence_id": "ev_p7_urg_0_329f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+              "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+              "tag": "div",
+              "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+              "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+            },
+            {
+              "evidence_id": "ev_p7_urg_0_329f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+              "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+              "tag": "div",
+              "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+              "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+            },
+            {
+              "evidence_id": "ev_p7_urg_0_329f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+              "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+              "tag": "div",
+              "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+              "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+            },
+            {
+              "evidence_id": "ev_p7_urg_0_329f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+              "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+              "tag": "div",
+              "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+              "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+            },
+            {
+              "evidence_id": "ev_p7_urg_0_329f",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "div.minContainer:nth-of-type(2) > div > div.widgetSection.appendBottom40 > div.csw.outstationOneway:nth-of-type(3)",
+              "text": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH",
+              "tag": "div",
+              "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_007/extracted.json",
+              "context": "From\nTo\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTap to add a return date for bigger discounts\n\nPickup-Time\n\n10:00 AM\n\n+ Add Stops\n\nnew\n\nSEARCH"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 5,
+            "signals": [
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer",
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/cabs/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 8,
+      "folder": "page_008",
+      "url": "https://www.makemytrip.com/activities",
+      "title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 69,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0e6c82e4e61a8bbef1f",
+        "dom": "api/v1/automation/artifact/6a9db0e6c82e4e61a8bbef2b",
+        "extracted_json": "api/v1/automation/artifact/6a9db0e7c82e4e61a8bbef2e",
+        "evidence_json": "api/v1/automation/artifact/6a9db0e8c82e4e61a8bbef30"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/activities",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_index": 9,
+      "folder": "page_009",
+      "url": "https://www.makemytrip.com/cruise",
+      "title": "Cruise - Make My Trip",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 27,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9db0f3c82e4e61a8bbef32",
+        "dom": "api/v1/automation/artifact/6a9db0f4c82e4e61a8bbef3c",
+        "extracted_json": "api/v1/automation/artifact/6a9db0f5c82e4e61a8bbef40",
+        "evidence_json": "api/v1/automation/artifact/6a9db0f5c82e4e61a8bbef42"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Price disclosures appear upfront; no hidden mandatory fees, convenience surcharges, or unexpected cost drippings detected.",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interactive opt-out and decline controls were present and use neutral, non-manipulative phrasing (e.g. 'No thanks', 'Cancel', 'Maybe later').",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "neutral_controls_present": true,
+            "preferred_actions": []
+          }
+        },
+        {
+          "pattern": "SaaS Billing",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Interface Interference",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Forced Action",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+          "page_url": "https://www.makemytrip.com/cruise",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        }
+      ]
+    }
+  ]
+}

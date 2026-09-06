@@ -1,0 +1,518 @@
+{
+  "url": "https://www.nykaa.com/giftcard/list",
+  "title": "",
+  "timestamp": "2026-09-06T20:52:10.988Z",
+  "visible_text": [
+    {
+      "tag": "p",
+      "text": "E-Gift Card"
+    },
+    {
+      "tag": "p",
+      "text": "Nykaa For Corporates"
+    },
+    {
+      "tag": "p",
+      "text": "How To Use"
+    },
+    {
+      "tag": "p",
+      "text": "Terms And Conditions"
+    },
+    {
+      "tag": "p",
+      "text": "Choose a design"
+    },
+    {
+      "tag": "p",
+      "text": "That captures the mood"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(1) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 77,
+        "y": 852,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(2) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 499,
+        "y": 852,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(3) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 921,
+        "y": 852,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(4) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 77,
+        "y": 1213,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(5) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 499,
+        "y": 1213,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(6) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 921,
+        "y": 1213,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(7) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 77,
+        "y": 1574,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(8) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 499,
+        "y": 1574,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(9) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 921,
+        "y": 1574,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(10) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 77,
+        "y": 1934,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(11) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 499,
+        "y": 1934,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(12) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 921,
+        "y": 1934,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(13) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 77,
+        "y": 2295,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(14) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 499,
+        "y": 2295,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(15) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "metrics": {
+        "x": 921,
+        "y": 2295,
+        "width": 283,
+        "height": 56,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "Submit your Query",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 css-aymsyc",
+      "is_visible": false,
+      "is_disabled": false,
+      "selector": "div.pos.pt25:nth-of-type(1) > div.pos-abs.mxy-auto > div.css-1vbjt81.e73bsqo7 > button.width-full.p15",
+      "metrics": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "font_size": "16px",
+        "font_weight": "600",
+        "bg_color": "rgb(252, 39, 121)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/",
+      "id": "",
+      "classes": "css-1ria8ez e73bsqo1",
+      "is_visible": true,
+      "selector": "#app > div.css-1ml4ti2.e73bsqo0:nth-of-type(1) > a.css-1ria8ez.e73bsqo1:nth-of-type(1)",
+      "metrics": {
+        "x": 60,
+        "y": 12,
+        "width": 24,
+        "height": 24,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "/",
+      "id": "",
+      "classes": "css-4g6ai3 e73bsqo2",
+      "is_visible": true,
+      "selector": "#app > div.css-1ml4ti2.e73bsqo0:nth-of-type(1) > a.css-4g6ai3.e73bsqo2:nth-of-type(2)",
+      "metrics": {
+        "x": 96,
+        "y": 8,
+        "width": 65,
+        "height": 32,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/mynykaa/?ref=badge",
+      "id": "",
+      "classes": "css-n82rmv",
+      "is_visible": true,
+      "selector": "div.css-saos3t:nth-of-type(3) > ul.css-1i496c0 > li.css-o8gu76:nth-of-type(1) > a.css-n82rmv",
+      "metrics": {
+        "x": 527,
+        "y": 2728,
+        "width": 44,
+        "height": 50,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/MyNykaa",
+      "id": "",
+      "classes": "css-n82rmv",
+      "is_visible": true,
+      "selector": "div.css-saos3t:nth-of-type(3) > ul.css-1i496c0 > li.css-o8gu76:nth-of-type(2) > a.css-n82rmv",
+      "metrics": {
+        "x": 571,
+        "y": 2728,
+        "width": 44,
+        "height": 50,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/channel/UCoaH2UtB1PsV7av17woV1BA",
+      "id": "",
+      "classes": "css-n82rmv",
+      "is_visible": true,
+      "selector": "div.css-saos3t:nth-of-type(3) > ul.css-1i496c0 > li.css-o8gu76:nth-of-type(3) > a.css-n82rmv",
+      "metrics": {
+        "x": 615,
+        "y": 2728,
+        "width": 44,
+        "height": 50,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/MyNykaa",
+      "id": "",
+      "classes": "css-n82rmv",
+      "is_visible": true,
+      "selector": "div.css-saos3t:nth-of-type(3) > ul.css-1i496c0 > li.css-o8gu76:nth-of-type(4) > a.css-n82rmv",
+      "metrics": {
+        "x": 659,
+        "y": 2728,
+        "width": 44,
+        "height": 50,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "https://www.pinterest.com/mynykaa/",
+      "id": "",
+      "classes": "css-n82rmv",
+      "is_visible": true,
+      "selector": "div.css-saos3t:nth-of-type(3) > ul.css-1i496c0 > li.css-o8gu76:nth-of-type(5) > a.css-n82rmv",
+      "metrics": {
+        "x": 703,
+        "y": 2728,
+        "width": 44,
+        "height": 50,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(252, 39, 121)"
+      }
+    },
+    {
+      "text": "",
+      "href": "https://www.nykaa.com/gateway-api/omsApis/helpCenter?domain=NYKAA",
+      "id": "",
+      "classes": "css-18qqcsp",
+      "is_visible": true,
+      "selector": "div:nth-of-type(4) > footer.css-gv2l3t > div.css-1ka2kqh:nth-of-type(5) > a.css-18qqcsp",
+      "metrics": {
+        "x": 575,
+        "y": 2956,
+        "width": 125,
+        "height": 17,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "subscription_signals": [],
+  "summary": {
+    "total_text_blocks": 6,
+    "total_buttons": 16,
+    "total_links": 8,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0,
+    "total_subscription_signals": 0
+  }
+}

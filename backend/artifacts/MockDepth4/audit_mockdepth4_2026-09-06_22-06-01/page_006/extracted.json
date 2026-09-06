@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:63541/level3_b",
+  "title": "Level 3B",
+  "timestamp": "2026-09-06T16:36:10.947Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Level 3B"
+    }
+  ],
+  "buttons": [],
+  "links": [
+    {
+      "text": "Page 4B",
+      "href": "/level4_b",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a"
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 1,
+    "total_buttons": 0,
+    "total_links": 1,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

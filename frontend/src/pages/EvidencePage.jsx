@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import { getAudits, getAuditDetails } from "../services/automationService";
 import { env } from "../config/env";
@@ -90,20 +90,38 @@ export default function EvidencePage() {
               </p>
             </div>
 
-            <div style={{ minWidth: "320px" }}>
-              <label style={{ fontSize: "13px", color: "#374151", marginBottom: "4px" }}>Select Audit Session (MongoDB)</label>
-              <select
-                value={selectedAuditId}
-                onChange={handleAuditChange}
-                style={{ marginBottom: 0, padding: "8px 12px", fontSize: "14px" }}
-              >
-                {audits.length === 0 && <option value="">No completed audits found in MongoDB</option>}
-                {audits.map((a) => (
-                  <option key={a.audit_id} value={a.audit_id}>
-                    {a.platform} - {a.start_time} ({a.pages_crawled} pages)
-                  </option>
-                ))}
-              </select>
+            <div style={{ minWidth: "320px", display: "flex", flexDirection: "column", gap: "8px" }}>
+              <div>
+                <label style={{ fontSize: "13px", color: "#374151", marginBottom: "4px", display: "block" }}>Select Audit Session (MongoDB)</label>
+                <select
+                  value={selectedAuditId}
+                  onChange={handleAuditChange}
+                  style={{ marginBottom: 0, padding: "8px 12px", fontSize: "14px", width: "100%" }}
+                >
+                  {audits.length === 0 && <option value="">No completed audits found in MongoDB</option>}
+                  {audits.map((a) => (
+                    <option key={a.audit_id} value={a.audit_id}>
+                      {a.platform} - {a.start_time} ({a.pages_crawled} pages)
+                    </option>
+                  ))}
+                </select>
+              </div>
+              {selectedAuditId && (
+                <Link
+                  to={`/data-quality?audit_id=${selectedAuditId}`}
+                  style={{
+                    fontSize: "12px",
+                    color: "#4f46e5",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "4px"
+                  }}
+                >
+                  🔍 Assess Data Quality for this Audit ↗
+                </Link>
+              )}
             </div>
           </div>
 
@@ -346,11 +364,11 @@ export default function EvidencePage() {
                   )}
                 </div>
 
-                {/* Page Findings (Final Four Dark Patterns) */}
+                {/* Page Findings (8 Dark Pattern Categories) */}
                 {selectedPage.detections && selectedPage.detections.length > 0 && (
                   <>
                     <hr style={{ margin: "16px 0", borderColor: "#e5e7eb" }} />
-                    <h4 style={{ margin: "0 0 10px 0" }}>Page Dark Pattern Analysis</h4>
+                    <h4 style={{ margin: "0 0 10px 0" }}>Page Dark Pattern Analysis (8 Categories)</h4>
                     <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginBottom: "20px" }}>
                       {selectedPage.detections.map((det, dIdx) => {
                         const isDetected = det.status === "DETECTED" || (det.detected && det.status !== "INSUFFICIENT_EVIDENCE" && det.status !== "NOT_EVALUATED");

@@ -1,0 +1,32 @@
+{
+  "url": "http://127.0.0.1:54339/level4_b",
+  "title": "Level 4B",
+  "timestamp": "2026-09-06T18:11:27.031Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Level 4B"
+    }
+  ],
+  "buttons": [],
+  "links": [],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "subscription_signals": [],
+  "summary": {
+    "total_text_blocks": 1,
+    "total_buttons": 0,
+    "total_links": 0,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0,
+    "total_subscription_signals": 0
+  }
+}

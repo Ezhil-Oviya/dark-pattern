@@ -1,0 +1,313 @@
+{
+  "evidence_id": "ev_page_005_audit_makemytrip_2026-09-06_23-57-27",
+  "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/railways/",
+  "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+  "crawl_depth": 1,
+  "page_index": 5,
+  "audit_time": "2026-09-06_23-57-27",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 14,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 5,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 4,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p5_scr_1b51ca",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/screenshot.png",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Platform: MakeMyTrip | Page: 5 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p5_dom_882bb5",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/dom.html",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Captured at network idle for https://www.makemytrip.com/railways/ (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_pr_0_49d2",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.sliderItemContent:nth-of-type(3) > ul.sliderItem-benefits > li:nth-of-type(2) > div",
+      "text": "Book Hotels @ ₹0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_pr_1_49c5",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "ul.sliderItem-benefits > li:nth-of-type(2) > div > p.benefitTitle",
+      "text": "Book Hotels @ ₹0",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_pr_2_477b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide.slick-active:nth-of-type(1) > div:nth-of-type(2)",
+      "text": "T&C'S APPLY\n\nFor You: Up to ₹40 OFF*\n\non Train Bookings.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSave Big on India’s Sacred Journeys.\n\nGrab up to 40% OFF* on buses, cabs, trains, stays & more.\n\nBOOK NOW",
+      "attributes": {
+        "detected_price": "₹40",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_pr_3_2d6a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "For You: Up to ₹40 OFF*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nFor You: Up to ₹40 OFF*\n\non Train Bookings.",
+      "attributes": {
+        "detected_price": "₹40",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_pr_4_e850",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Up to ₹500 OFF* on Alternate Trip Plan or Free Cancellation. Code: MMTBLACK.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSpecial Deal on Trains for MMTBLACK Members.\n\nUp to ₹500 OFF* on Alternate Trip Plan or Free Cancellation",
+      "attributes": {
+        "detected_price": "₹500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_md_0_1d2d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "#header-container > div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2)",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs\n\nSign up/Login now to\n\nLock Flight",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "imageSliderModal modal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_md_1_6534",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2) > div.imageSlideContainer > section.modalMain.tcnFooter",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs",
+      "tag": "section",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalMain tcnFooter"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_md_2_eb27",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.imageSlideContainer > section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1)",
+      "text": "Mobile Number\n\n‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalField makeFlex column appendBottom20"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_md_3_c562",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1) > div.modalFieldInner.makeFlex",
+      "text": "‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalFieldInner makeFlex hrtlCenter"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_btn_0_19f3",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "section.modalMain.tcnFooter > form > div.btnContainer.appendBottom25:nth-of-type(2) > button.capText.font16",
+      "text": "CONTINUE",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "CONTINUE",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "capText font16"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_btn_1_b324",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p5_btn_2_51e0",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/railways/",
+      "page_title": "Online Train Ticket Booking, IRCTC Ticket Booking Platform",
+      "crawl_depth": 1,
+      "page_index": 5,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_005/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    }
+  ]
+}

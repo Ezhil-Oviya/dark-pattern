@@ -1,0 +1,84 @@
+{
+  "url": "http://127.0.0.1:59017/level2_b",
+  "title": "Level 2B",
+  "timestamp": "2026-09-06T19:18:34.334Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Level 2B"
+    }
+  ],
+  "buttons": [],
+  "links": [
+    {
+      "text": "Page 3B",
+      "href": "/level3_b",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a",
+      "metrics": {
+        "x": 8,
+        "y": 102,
+        "width": 54,
+        "height": 17,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 238)"
+      }
+    }
+  ],
+  "forms": [
+    {
+      "id": "opt-form",
+      "name": "",
+      "action": "",
+      "method": "GET",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "warranty",
+          "placeholder": "",
+          "label": "Add Warranty (+₹299)",
+          "required": false,
+          "is_visible": true,
+          "value": "on"
+        }
+      ],
+      "selector": "#opt-form"
+    }
+  ],
+  "checkboxes": [
+    {
+      "id": "",
+      "name": "warranty",
+      "label": "Add Warranty (+₹299)",
+      "checked": true,
+      "default_checked": true,
+      "required": false,
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "#opt-form > label > input",
+      "surrounding_text": "Add Warranty (+₹299)"
+    }
+  ],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "subscription_signals": [],
+  "summary": {
+    "total_text_blocks": 1,
+    "total_buttons": 0,
+    "total_links": 1,
+    "total_forms": 1,
+    "total_checkboxes": 1,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0,
+    "total_subscription_signals": 0
+  }
+}

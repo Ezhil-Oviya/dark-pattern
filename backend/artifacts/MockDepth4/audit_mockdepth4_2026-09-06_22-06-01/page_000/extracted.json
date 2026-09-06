@@ -1,0 +1,63 @@
+{
+  "url": "http://127.0.0.1:63541/",
+  "title": "Level 0 Homepage",
+  "timestamp": "2026-09-06T16:36:03.056Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Homepage"
+    }
+  ],
+  "buttons": [],
+  "links": [
+    {
+      "text": "Page 1A",
+      "href": "/level1_a",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a:nth-of-type(1)"
+    },
+    {
+      "text": "Page 1B",
+      "href": "/level1_b",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a:nth-of-type(2)"
+    },
+    {
+      "text": "Duplicate Link 1A",
+      "href": "/level1_a",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a:nth-of-type(3)"
+    },
+    {
+      "text": "External Link",
+      "href": "https://external-forbidden.com/exit",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a:nth-of-type(4)"
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 1,
+    "total_buttons": 0,
+    "total_links": 4,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

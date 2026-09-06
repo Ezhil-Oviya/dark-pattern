@@ -2,27 +2,28 @@ import logging
 import re
 from typing import Any, Dict, List
 
+from app.models.detection_model import ALL_PATTERNS
 from app.services.dark_patterns.bait_and_switch_detector import BaitAndSwitchDetector
+from app.services.dark_patterns.basket_sneaking_detector import BasketSneakingDetector
 from app.services.dark_patterns.confirmshaming_detector import ConfirmshamingDetector
 from app.services.dark_patterns.drip_pricing_detector import DripPricingDetector
 from app.services.dark_patterns.false_urgency_detector import FalseUrgencyDetector
+from app.services.dark_patterns.forced_action_detector import ForcedActionDetector
+from app.services.dark_patterns.interface_interference_detector import InterfaceInterferenceDetector
+from app.services.dark_patterns.saas_billing_detector import SaaSBillingDetector
 
 logger = logging.getLogger(__name__)
 
-# Register active dark pattern detectors (Final Four)
+# Register all 8 active dark pattern detectors
 ACTIVE_DETECTORS = [
     FalseUrgencyDetector(),
     DripPricingDetector(),
     BaitAndSwitchDetector(),
     ConfirmshamingDetector(),
-]
-
-# Implemented Dark Pattern taxonomy (Final Four)
-ALL_PATTERNS = [
-    "False Urgency",
-    "Drip Pricing",
-    "Bait and Switch",
-    "Confirmshaming",
+    SaaSBillingDetector(),
+    InterfaceInterferenceDetector(),
+    ForcedActionDetector(),
+    BasketSneakingDetector(),
 ]
 
 
@@ -31,7 +32,7 @@ def run_dark_pattern_detection(
     evidence_record: Dict[str, Any]
 ) -> List[Dict[str, Any]]:
     """
-    Executes the active final four dark pattern detectors on the extracted DOM data
+    Executes the 8 dark pattern detectors on the extracted DOM data
     and linked evidence record for a single crawled page.
 
     Returns a list of structured detection findings.
@@ -96,11 +97,15 @@ def aggregate_detection_findings(
 ) -> List[Dict[str, Any]]:
     """
     Aggregates dark pattern findings across all crawled pages in an audit
-    for the Final Four Dark Patterns:
+    for all 8 Dark Patterns:
     1. False Urgency
     2. Drip Pricing
     3. Bait and Switch
     4. Confirmshaming
+    5. SaaS Billing
+    6. Interface Interference
+    7. Forced Action
+    8. Basket Sneaking
     """
     aggregated: List[Dict[str, Any]] = []
 
@@ -160,7 +165,7 @@ def aggregate_detection_findings(
                 entry["insufficient_count"] += 1
                 entry["reasons"].append(det.get("reason", ""))
 
-    # Build final aggregated finding for each of the 4 patterns
+    # Build final aggregated finding for each of the 8 patterns
     for pat in ALL_PATTERNS:
         entry = pattern_data[pat]
         affected_pages = entry["affected_pages"]
@@ -191,6 +196,10 @@ def aggregate_detection_findings(
                 "Drip Pricing": "Price disclosures appear upfront; no undisclosed mandatory fees or unexpected surcharges detected.",
                 "Bait and Switch": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
                 "Confirmshaming": "Decline and opt-out buttons use neutral, non-manipulative phrasing.",
+                "SaaS Billing": "Subscription terms, billing frequency, and cancellation policies appear transparent without hidden auto-renewals or obstructive barriers.",
+                "Interface Interference": "Interface choices, button sizes, and visual hierarchies appear balanced without deceptive visual suppression.",
+                "Forced Action": "Form requirements and user interactions appear voluntary and strictly relevant to requested functionality.",
+                "Basket Sneaking": "Cart and checkout data evaluated; no preselected add-on items, automatic warranties, donations, or unsolicited fees found.",
             }
             aggregated.append({
                 "pattern": pat,
@@ -211,6 +220,10 @@ def aggregate_detection_findings(
                 "Drip Pricing": "Insufficient pricing or checkout breakdown data present across crawled pages to evaluate Drip Pricing.",
                 "Bait and Switch": "Insufficient cross-page promotional comparison data to evaluate Bait and Switch.",
                 "Confirmshaming": "No interactive opt-out or decline modal elements found on crawled pages.",
+                "SaaS Billing": "No subscription plans, recurring billing terms, or pricing controls found on crawled pages to evaluate SaaS Billing.",
+                "Interface Interference": "No comparative interactive controls or paired choice elements present on crawled pages to evaluate Interface Interference.",
+                "Forced Action": "No interactive forms, required checkboxes, or modal gating elements found on crawled pages to evaluate Forced Action.",
+                "Basket Sneaking": "Insufficient cart or checkout interaction data present across crawled pages to evaluate Basket Sneaking.",
             }
             aggregated.append({
                 "pattern": pat,
@@ -225,3 +238,4 @@ def aggregate_detection_findings(
             })
 
     return aggregated
+

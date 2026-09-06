@@ -1,0 +1,228 @@
+{
+  "url": "https://www.nykaa.com/giftcard/list",
+  "title": "",
+  "timestamp": "2026-09-06T17:22:49.916Z",
+  "visible_text": [
+    {
+      "tag": "p",
+      "text": "E-Gift Card"
+    },
+    {
+      "tag": "p",
+      "text": "Nykaa For Corporates"
+    },
+    {
+      "tag": "p",
+      "text": "How To Use"
+    },
+    {
+      "tag": "p",
+      "text": "Terms And Conditions"
+    },
+    {
+      "tag": "p",
+      "text": "Choose a design"
+    },
+    {
+      "tag": "p",
+      "text": "That captures the mood"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(1) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(2) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(3) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(4) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(5) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(6) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(7) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(8) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(9) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(10) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(11) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(12) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(13) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(14) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "SEND",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 no-radius css-aymsyc",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.gift-card-view:nth-of-type(15) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15"
+    },
+    {
+      "text": "Submit your Query",
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "classes": "width-full p15 css-aymsyc",
+      "is_visible": false,
+      "is_disabled": false,
+      "selector": "div.pos.pt25:nth-of-type(1) > div.pos-abs.mxy-auto > div.css-1vbjt81.e73bsqo7 > button.width-full.p15"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "/",
+      "id": "",
+      "classes": "css-1ria8ez e73bsqo1",
+      "is_visible": true,
+      "selector": "#app > div.css-1ml4ti2.e73bsqo0:nth-of-type(1) > a.css-1ria8ez.e73bsqo1:nth-of-type(1)"
+    },
+    {
+      "text": "",
+      "href": "/",
+      "id": "",
+      "classes": "css-4g6ai3 e73bsqo2",
+      "is_visible": true,
+      "selector": "#app > div.css-1ml4ti2.e73bsqo0:nth-of-type(1) > a.css-4g6ai3.e73bsqo2:nth-of-type(2)"
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "summary": {
+    "total_text_blocks": 6,
+    "total_buttons": 16,
+    "total_links": 2,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0
+  }
+}

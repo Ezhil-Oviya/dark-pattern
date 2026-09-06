@@ -1,0 +1,476 @@
+{
+  "evidence_id": "ev_page_001_audit_makemytrip_2026-09-06_23-57-27",
+  "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/flights/",
+  "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+  "crawl_depth": 1,
+  "page_index": 1,
+  "audit_time": "2026-09-06_23-57-27",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 22,
+    "total_checkbox_evidence": 1,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 11,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 4,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p1_scr_3952ca",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/screenshot.png",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Platform: MakeMyTrip | Page: 1 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p1_dom_c079c3",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/dom.html",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Captured at network idle for https://www.makemytrip.com/flights/ (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_cb_0_0e4e",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "checkboxes",
+      "selector": "div.makeFlex.gap8:nth-of-type(1) > div.checkbox-wrapper.appendRight8:nth-of-type(1) > span.commonCheckbox.flights > input",
+      "text": "",
+      "tag": "input",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "",
+      "attributes": {
+        "name": "",
+        "checked": false,
+        "default_checked": false,
+        "is_visible": false
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_0_ec64",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.sliderItemContent:nth-of-type(3) > ul.sliderItem-benefits > li:nth-of-type(2) > div",
+      "text": "Book Hotels @ ₹0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_1_d59b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "ul.sliderItem-benefits > li:nth-of-type(2) > div > p.benefitTitle",
+      "text": "Book Hotels @ ₹0",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_2_7280",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.fltWidgetSection.appendBottom40 > div.fsw:nth-of-type(2) > div.fsw_inner.returnPersuasion:nth-of-type(1) > div.flt_fsw_inputBox.flightTravellersOnly:nth-of-type(5)",
+      "text": "Travellers\n1\n0\n0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "From\n\nDEL, Delhi Airport India\n\n⇌\nTo\n\nBLR, Bengaluru International Airport India\n\nDeparture\n\n7 Sep26\n\nMonday\n\nReturn\n\nTa",
+      "attributes": {
+        "detected_price": "rs\n1",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_3_9bba",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.specialFareContainer.relative:nth-of-type(1) > div.fareOptionsWrap:nth-of-type(2) > div.makeFlex.gap8 > div.fareCardItemContainer:nth-of-type(3)",
+      "text": "Armed Forces\nUp to ₹ 600 off",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Regular\nRegular fares\nStudent\nExtra discounts/baggage\nArmed Forces\nUp to ₹ 600 off\nHave a GST number ?\nUpto 10% Extra Sa",
+      "attributes": {
+        "detected_price": "₹ 600",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_4_bb06",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(6) > div:nth-of-type(2)",
+      "text": "T&C'S APPLY\n\nBig Savings for You:\n\nGrab Up to ₹7500 OFF* on Flights.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nMeals for Your Flights @ up to 20% Lower Prices!\n\nNow book your meal in advance & save BIG bucks on your",
+      "attributes": {
+        "detected_price": "₹7500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_5_4cfe",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Grab Up to ₹7500 OFF* on Flights.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nBig Savings for You:\n\nGrab Up to ₹7500 OFF* on Flights.",
+      "attributes": {
+        "detected_price": "₹7500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_6_4978",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.slick-list > div.slick-track > div.slick-slide:nth-of-type(10) > div:nth-of-type(1)",
+      "text": "T&C'S APPLY\n\nSale by AirAsia: Book Flights to Thailand\n\nwith Fares Starting at ₹12,850*.\n\nBOOK NOW",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSale by AirAsia: Book Flights to Thailand\n\nwith Fares Starting at ₹12,850*.\n\nBOOK NOW\n\n \nT&C'S APPLY\n\nNOW",
+      "attributes": {
+        "detected_price": "₹12,850",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_7_0a17",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "with Fares Starting at ₹12,850*.",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSale by AirAsia: Book Flights to Thailand\n\nwith Fares Starting at ₹12,850*.",
+      "attributes": {
+        "detected_price": "₹12,850",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_8_2c69",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(1) > div.slideItem > div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1)",
+      "text": "T&C'S APPLY\n\nSale by FLY91 with Special Cashback Worth ₹500*\n\non Flights to/from Tirupati",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSale by FLY91 with Special Cashback Worth ₹500*\n\non Flights to/from Tirupati\n\nEXPLORE NOW",
+      "attributes": {
+        "detected_price": "₹500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_9_29fc",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.blackText.font18:nth-of-type(1)",
+      "text": "Sale by FLY91 with Special Cashback Worth ₹500*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSale by FLY91 with Special Cashback Worth ₹500*\n\non Flights to/from Tirupati",
+      "attributes": {
+        "detected_price": "₹500",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_10_51a1",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.makeFlex.column > div.makeFlex.cardInnerInfo:nth-of-type(1) > div.itemDesc:nth-of-type(2) > p.font14.lineHeight16:nth-of-type(2)",
+      "text": "Round-trips to Select Destinations in Australia Starting @ ₹59,600*",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "T&C'S APPLY\n\nSale by Singapore Airlines with\n\nRound-trips to Select Destinations in Australia Starting @ ₹59,600*",
+      "attributes": {
+        "detected_price": "₹59,600",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_md_0_7fd7",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "#header-container > div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2)",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs\n\nSign up/Login now to\n\nLock Flight",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "imageSliderModal modal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_md_1_b5e7",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2) > div.imageSlideContainer > section.modalMain.tcnFooter",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs",
+      "tag": "section",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalMain tcnFooter"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_md_2_b933",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.imageSlideContainer > section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1)",
+      "text": "Mobile Number\n\n‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalField makeFlex column appendBottom20"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_md_3_f4f8",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1) > div.modalFieldInner.makeFlex",
+      "text": "‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalFieldInner makeFlex hrtlCenter"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_btn_0_47d1",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "section.modalMain.tcnFooter > form > div.btnContainer.appendBottom25:nth-of-type(2) > button.capText.font16",
+      "text": "CONTINUE",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "CONTINUE",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "capText font16"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_btn_1_6b46",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_btn_2_ff1a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_btn_3_8e75",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/flights/",
+      "page_title": "Flight Booking, Cheap Flights , Air Ticket Booking at Lowest Airfare | MakeMyTrip",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div:nth-of-type(1) > div.flexOne.inputSection:nth-of-type(2) > div.makeFlex > button.getAppLinkBtn",
+      "text": "GET APP LINK",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_001/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "GET APP LINK",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "getAppLinkBtn"
+      }
+    }
+  ]
+}

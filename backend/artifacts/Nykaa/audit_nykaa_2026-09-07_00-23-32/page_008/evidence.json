@@ -1,0 +1,1333 @@
+{
+  "evidence_id": "ev_page_008_audit_nykaa_2026-09-07_00-23-32",
+  "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+  "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+  "crawl_depth": 1,
+  "page_index": 8,
+  "audit_time": "2026-09-07_00-23-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 65,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 60,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p8_scr_3ad63b",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/screenshot.png",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Platform: Nykaa | Page: 8 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p8_dom_7ff1c1",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/dom.html",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Captured at network idle for https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_0_5a90",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹1099\n₹769\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Xtraodin Airy Mattereal Mousse Foundation With SPF8, W...\n₹1099\n₹769\n30% Off\nRegular price ₹1099. Discounted price",
+      "attributes": {
+        "detected_price": "₹1099",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_1_f985",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹1099",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹1099\n₹769\n30% Off",
+      "attributes": {
+        "detected_price": "₹1099",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_2_2e87",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹769",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹1099\n₹769\n30% Off",
+      "attributes": {
+        "detected_price": "₹769",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_3_cc15",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹990\n₹792\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Xtraordin-Airy Velvet Lightweight Matte Lip Mousse Wit...\n₹990\n₹792\n20% Off\nRegular price ₹990. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹990",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_4_a39c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹990",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹990\n₹792\n20% Off",
+      "attributes": {
+        "detected_price": "₹990",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_5_48a8",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹792",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹990\n₹792\n20% Off",
+      "attributes": {
+        "detected_price": "₹792",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_6_2fcb",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹925\n₹694\n25% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakmé Peach Creme Moisturiser, Ceramide & Peptide, Skin Barr...\n₹925\n₹694\n25% Off\nRegular price ₹925. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹925",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_7_71c4",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹925",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹925\n₹694\n25% Off",
+      "attributes": {
+        "detected_price": "₹925",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_8_bef2",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹694",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹925\n₹694\n25% Off",
+      "attributes": {
+        "detected_price": "₹694",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_9_01be",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹650\n₹520\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme 9 To 5 Powerplay Priming Matte Lipstick For 16Hr Inten...\n₹650\n₹520\n20% Off\nRegular price ₹650. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹650",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_10_c937",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹650",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹650\n₹520\n20% Off",
+      "attributes": {
+        "detected_price": "₹650",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_11_a65e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹520",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹650\n₹520\n20% Off",
+      "attributes": {
+        "detected_price": "₹520",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_12_4c92",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹325\n₹276\n15% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme 9 to 5 Eyeconic Liquid Eyeliner - Intense Black\n₹325\n₹276\n15% Off\nRegular price ₹325. Discounted price ₹276. 15% O",
+      "attributes": {
+        "detected_price": "₹325",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_13_5a0f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹325",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹325\n₹276\n15% Off",
+      "attributes": {
+        "detected_price": "₹325",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_14_da5b",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹276",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹325\n₹276\n15% Off",
+      "attributes": {
+        "detected_price": "₹276",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_15_06dd",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹1139\n₹911\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme No Makeup Must Haves Combo\n₹1139\n₹911\n20% Off\nRegular price ₹1139. Discounted price ₹911. 20% Off.\n( 286550 )",
+      "attributes": {
+        "detected_price": "₹1139",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_16_5cf3",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹1139",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹1139\n₹911\n20% Off",
+      "attributes": {
+        "detected_price": "₹1139",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_17_c6cd",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹911",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹1139\n₹911\n20% Off",
+      "attributes": {
+        "detected_price": "₹911",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_18_abc6",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹849\n₹764\n10% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme 9to5 Overtime Shine Hydrating Tinted Lip Gloss Oil Wit...\n₹849\n₹764\n10% Off\nRegular price ₹849. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹849",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_19_6aac",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹849",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹849\n₹764\n10% Off",
+      "attributes": {
+        "detected_price": "₹849",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_20_980a",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹764",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹849\n₹764\n10% Off",
+      "attributes": {
+        "detected_price": "₹764",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_21_8855",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹260\n₹247\n5% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Forever Matte Foundation For Superior Coverage, Vitami...\n₹260\n₹247\n5% Off\nRegular price ₹260. Discounted price ₹2",
+      "attributes": {
+        "detected_price": "₹260",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_22_3883",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹260",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹260\n₹247\n5% Off",
+      "attributes": {
+        "detected_price": "₹260",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_23_f924",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹247",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹260\n₹247\n5% Off",
+      "attributes": {
+        "detected_price": "₹247",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_24_f22c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹435\n₹370\n15% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Perfect Radiance Day Gel Crème with 10% Niacinamide Re...\n₹435\n₹370\n15% Off\nRegular price ₹435. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹435",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_25_b5b4",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹435",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹435\n₹370\n15% Off",
+      "attributes": {
+        "detected_price": "₹435",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_26_3dee",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹370",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹435\n₹370\n15% Off",
+      "attributes": {
+        "detected_price": "₹370",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_27_ca7e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹399\n₹319\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Peptide Lip I.V. Hydrating Lip Balm - Bare Minimum Hyd...\n₹399\n₹319\n20% Off\nRegular price ₹399. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹399",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_28_1527",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹399",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹399\n₹319\n20% Off",
+      "attributes": {
+        "detected_price": "₹399",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_29_6e79",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹319",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹399\n₹319\n20% Off",
+      "attributes": {
+        "detected_price": "₹319",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_30_45dd",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹699\n₹489\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme 9 To 5 Powerplay Priming Liquid Foundation, Built In P...\n₹699\n₹489\n30% Off\nRegular price ₹699. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹699",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_31_c23a",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹699",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹489\n30% Off",
+      "attributes": {
+        "detected_price": "₹699",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_32_9392",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹489",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹489\n30% Off",
+      "attributes": {
+        "detected_price": "₹489",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_33_5241",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹450\n₹383\n15% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Forever Matte Liquid Lip Color, 16Hr Lipstick, Lightwe...\n₹450\n₹383\n15% Off\nRegular price ₹450. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹450",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_34_b56d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹450",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹450\n₹383\n15% Off",
+      "attributes": {
+        "detected_price": "₹450",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_35_e099",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹383",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹450\n₹383\n15% Off",
+      "attributes": {
+        "detected_price": "₹383",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_36_13dd",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹600\n₹480\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakmé Peach Moisturiser with SPF 30 & Ceramide, UV Defense &...\n₹600\n₹480\n20% Off\nRegular price ₹600. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹600",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_37_db8e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹600",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹600\n₹480\n20% Off",
+      "attributes": {
+        "detected_price": "₹600",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_38_9307",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹480",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹600\n₹480\n20% Off",
+      "attributes": {
+        "detected_price": "₹480",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_39_d49e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹899\n₹719\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Unreal Blur Perfect Face Primer, Mattifies & Blurs Por...\n₹899\n₹719\n20% Off\nRegular price ₹899. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_40_05b8",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹899",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹899\n₹719\n20% Off",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_41_73f4",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹719",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹899\n₹719\n20% Off",
+      "attributes": {
+        "detected_price": "₹719",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_42_75ed",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹799\n₹639\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme 9 To 5 Double Duty Lip & Cheek Mousse Matte Lipstick &...\n₹799\n₹639\n20% Off\nRegular price ₹799. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹799",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_43_8613",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹799",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹799\n₹639\n20% Off",
+      "attributes": {
+        "detected_price": "₹799",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_44_1b0e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹639",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹799\n₹639\n20% Off",
+      "attributes": {
+        "detected_price": "₹639",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_45_f7a2",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹499\n₹424\n15% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Fluid SPF 50 PA++++ In-Vivo Tested Sunscreen With 1% N...\n₹499\n₹424\n15% Off\nRegular price ₹499. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹499",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_46_004d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹499",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹499\n₹424\n15% Off",
+      "attributes": {
+        "detected_price": "₹499",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_47_56e2",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹424",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹499\n₹424\n15% Off",
+      "attributes": {
+        "detected_price": "₹424",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_48_3164",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "#product-list-wrap > div.productWrapper.css-17nge1h:nth-of-type(18)",
+      "text": "FEATURED\nLakme Ultimate Glam Satin Matte Lipstick For Luxurious Satin...\nPrice ₹350.\n₹350\n( 470 )",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "FEATURED\nLakme Xtraodin Airy Mattereal Mousse Foundation With SPF8, W...\n₹1099\n₹769\n30% Off\nRegular price ₹1099. Discoun",
+      "attributes": {
+        "detected_price": "₹350",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_49_16d9",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > span.css-1yjfidh",
+      "text": "Price ₹350.",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Ultimate Glam Satin Matte Lipstick For Luxurious Satin...\nPrice ₹350.\n₹350\n( 470 )",
+      "attributes": {
+        "detected_price": "₹350",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_50_e115",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹524",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹524\n25% Off",
+      "attributes": {
+        "detected_price": "₹524",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_51_a536",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹379\n₹322\n15% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Lumi Lit Strobe Cream Highlighter + Moisturizer + Prim...\n₹379\n₹322\n15% Off\nRegular price ₹379. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹379",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_52_d122",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹379",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹379\n₹322\n15% Off",
+      "attributes": {
+        "detected_price": "₹379",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_53_aa20",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹322",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹379\n₹322\n15% Off",
+      "attributes": {
+        "detected_price": "₹322",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_54_bf48",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-tscqxu:nth-of-type(3) > div.css-1axfht6 > div.css-15u830z:nth-of-type(1) > div.css-fd2g8d:nth-of-type(1)",
+      "text": "FREE SHIPPING\nOn Orders of Rs. 299 and above",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "FREE SHIPPING\nOn Orders of Rs. 299 and above\nEASY RETURNS\n15-Day Return Policy\n100% AUTHENTIC\nProducts Sourced Directly",
+      "attributes": {
+        "detected_price": "Rs. 299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_55_4f0d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(1) > td.priceColumn",
+      "text": "₹215",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Forever Matte Compact, Smooth Finish, Lasts For 12 Hrs, Even Toned Look\n₹215",
+      "attributes": {
+        "detected_price": "₹215",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_56_ebcc",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "tbody > tr.css-dgjws6:nth-of-type(1) > td.priceColumn > span",
+      "text": "₹215",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹215",
+      "attributes": {
+        "detected_price": "₹215",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_57_3fa3",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(2) > td.priceColumn",
+      "text": "₹338",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Forever Matte Liquid Lip Color, 16Hr Lipstick, Lightweight & Transferproof\n₹338",
+      "attributes": {
+        "detected_price": "₹338",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_58_80ab",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "tbody > tr.css-dgjws6:nth-of-type(2) > td.priceColumn > span",
+      "text": "₹338",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹338",
+      "attributes": {
+        "detected_price": "₹338",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_59_f395",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(3) > td.priceColumn",
+      "text": "₹305",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme Absolute Perfect Radiance Skin Brightening Day Creme\n₹305",
+      "attributes": {
+        "detected_price": "₹305",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_0_f5ad",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_1_72eb",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_2_45d1",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/lakme/c/604?ptype=brand&id=604&root=brand_menu%2Ctop_brands%2CLakme",
+      "page_title": "Buy Lakme Cosmetic & Beauty Products Online At Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#filter-sort > div.css-1fs72da > div.css-0 > button.css-1aucgde",
+      "text": "Sort By : Popularity",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_008/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sort By : Popularity",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1aucgde"
+      }
+    }
+  ]
+}

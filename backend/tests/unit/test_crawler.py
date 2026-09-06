@@ -164,7 +164,7 @@ class TestCrawlerServiceLogic(unittest.TestCase):
         ]
 
         summary = aggregate_detection_findings(page_records)
-        self.assertEqual(len(summary), 4)
+        self.assertEqual(len(summary), 8)
 
         urgency_res = next(s for s in summary if s["pattern"] == "False Urgency")
         self.assertTrue(urgency_res["detected"])

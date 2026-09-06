@@ -1,0 +1,510 @@
+{
+  "evidence_id": "ev_page_003_audit_nykaa_2026-09-07_00-23-32",
+  "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+  "page_title": "",
+  "crawl_depth": 1,
+  "page_index": 3,
+  "audit_time": "2026-09-07_00-23-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 23,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 1,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p3_scr_45689c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/screenshot.png",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Platform: Nykaa | Page: 3 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p3_dom_10ca6d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/dom.html",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Captured at network idle for https://www.nykaa.com/stores-n-events-desktop (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_pr_0_3fb0",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-tscqxu:nth-of-type(3) > div.css-1axfht6 > div.css-15u830z:nth-of-type(1) > div.css-fd2g8d:nth-of-type(1)",
+      "text": "FREE SHIPPING\nOn Orders of Rs. 299 and above",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "FREE SHIPPING\nOn Orders of Rs. 299 and above\nEASY RETURNS\n15-Day Return Policy\n100% AUTHENTIC\nProducts Sourced Directly",
+      "attributes": {
+        "detected_price": "Rs. 299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_0_06d2",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_1_26f9",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_2_771f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1qpk5y1:nth-of-type(1) > div.css-1y14f4o:nth-of-type(1) > div.css-1n0py1k:nth-of-type(1) > button.css-1ml6oyn:nth-of-type(1)",
+      "text": "Search City",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Search City",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1ml6oyn"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_3_24e7",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1qpk5y1:nth-of-type(1) > div.css-1y14f4o:nth-of-type(1) > div.css-1n0py1k:nth-of-type(1) > button.css-16ah7r0:nth-of-type(2)",
+      "text": "Search By Brand",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Search By Brand",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-16ah7r0"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_4_8b19",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(1) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_5_7743",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(2) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_6_deb5",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(3) > div.css-95skh:nth-of-type(1) > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_7_1ae8",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(4) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_8_1518",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(5) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_9_a994",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(6) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_10_d2b6",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(7) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_11_9a48",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(8) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_12_66df",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(9) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_13_760c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(10) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_14_1b6a",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(11) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_15_1630",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(12) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_16_ceb5",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(13) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_17_5c51",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(14) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_18_0408",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(15) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_19_a4c3",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/stores-n-events-desktop",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-m6uzwn:nth-of-type(16) > div.css-95skh > div.css-4vtu0o:nth-of-type(5) > button.css-65och3",
+      "text": "Directions",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_003/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Directions",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-65och3"
+      }
+    }
+  ]
+}

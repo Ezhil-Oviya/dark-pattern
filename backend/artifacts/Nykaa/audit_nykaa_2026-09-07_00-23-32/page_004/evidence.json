@@ -1,0 +1,385 @@
+{
+  "evidence_id": "ev_page_004_audit_nykaa_2026-09-07_00-23-32",
+  "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/giftcard/list",
+  "page_title": "",
+  "crawl_depth": 1,
+  "page_index": 4,
+  "audit_time": "2026-09-07_00-23-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 17,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p4_scr_c343fc",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/screenshot.png",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Platform: Nykaa | Page: 4 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p4_dom_a46a20",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/dom.html",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Captured at network idle for https://www.nykaa.com/giftcard/list (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_0_6138",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(1) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_1_28b2",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(2) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_2_8cf1",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(3) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_3_79d3",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(4) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_4_e19b",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(5) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_5_b375",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(6) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_6_1c9a",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(7) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_7_884e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(8) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_8_ade1",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(9) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_9_2397",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(10) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_10_92d8",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(11) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_11_6309",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(12) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_12_d783",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(13) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_13_ba4b",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(14) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    },
+    {
+      "evidence_id": "ev_p4_btn_14_863d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/giftcard/list",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 4,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.gift-card-view:nth-of-type(15) > div.inner > div.css-1vbjt81.e73bsqo7:nth-of-type(3) > button.width-full.p15",
+      "text": "SEND",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_004/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "SEND",
+      "attributes": {
+        "id": "",
+        "type": "submit",
+        "classes": "width-full p15 no-radius css-aymsyc"
+      }
+    }
+  ]
+}

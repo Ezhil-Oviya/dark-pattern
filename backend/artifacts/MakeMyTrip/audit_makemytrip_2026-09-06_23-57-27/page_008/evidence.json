@@ -1,0 +1,1416 @@
+{
+  "evidence_id": "ev_page_008_audit_makemytrip_2026-09-06_23-57-27",
+  "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/activities",
+  "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+  "crawl_depth": 1,
+  "page_index": 8,
+  "audit_time": "2026-09-06_23-57-27",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 69,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 60,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 1,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p8_scr_d3c780",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/screenshot.png",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Platform: MakeMyTrip | Page: 8 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p8_dom_c4ee15",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/dom.html",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Captured at network idle for https://www.makemytrip.com/activities (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_0_212a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(1)",
+      "text": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹4,988",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_1_782b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(1) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹4,988 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Universal Studios Singapore\n\n₹4,988 per Adult",
+      "attributes": {
+        "detected_price": "₹4,988",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_2_462f",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(2)",
+      "text": "2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹1,282",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_3_9b89",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(2) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹1,282 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Old and New Delhi City Private Guided Tour\n\n₹1,282 per Adult",
+      "attributes": {
+        "detected_price": "₹1,282",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_4_0507",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(3)",
+      "text": "3\nDubai\n\nAt The Top, Burj Khalifa\n\n₹3,542 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹3,542",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_5_df02",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(3) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹3,542 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "At The Top, Burj Khalifa\n\n₹3,542 per Adult",
+      "attributes": {
+        "detected_price": "₹3,542",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_6_dc01",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(4)",
+      "text": "4\nMumbai\n\nImagicaa Theme Park, Khopoli\n\n₹1,106 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹1,106",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_7_b421",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(4) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹1,106 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Imagicaa Theme Park, Khopoli\n\n₹1,106 per Adult",
+      "attributes": {
+        "detected_price": "₹1,106",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_8_2edc",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(5)",
+      "text": "5\nParis\n\nDisneyland Paris\n\n₹6,464 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹6,464",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_9_4374",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(5) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹6,464 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Disneyland Paris\n\n₹6,464 per Adult",
+      "attributes": {
+        "detected_price": "₹6,464",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_10_5b09",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__container > div.embla__slide:nth-of-type(6) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2)",
+      "text": "Wagah Border Beating Retreat Ceremony Private Tour with Dinner & Transfers\n\n₹1,005 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "6\nAmritsar\n\nWagah Border Beating Retreat Ceremony Private Tour with Dinner & Transfers\n\n₹1,005 per Adult",
+      "attributes": {
+        "detected_price": "₹1,005",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_11_e165",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(6) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹1,005 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Wagah Border Beating Retreat Ceremony Private Tour with Dinner & Transfers\n\n₹1,005 per Adult",
+      "attributes": {
+        "detected_price": "₹1,005",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_12_b9e3",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(7)",
+      "text": "7\nBangkok\n\nSafari World Bangkok\n\n₹2,227 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹2,227",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_13_334d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(7) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹2,227 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Safari World Bangkok\n\n₹2,227 per Adult",
+      "attributes": {
+        "detected_price": "₹2,227",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_14_626e",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(8)",
+      "text": "8\nBangalore\n\nWonderla Bengaluru\n\n₹1,096 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹1,096",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_15_6404",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(8) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹1,096 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Wonderla Bengaluru\n\n₹1,096 per Adult",
+      "attributes": {
+        "detected_price": "₹1,096",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_16_bf9d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__viewport:nth-of-type(2) > div.embla__container > div.embla__slide:nth-of-type(9)",
+      "text": "9\nKuala Lumpur\n\nAquaria KLCC\n\n₹1,344 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "1\nSingapore\n\nUniversal Studios Singapore\n\n₹4,988 per Adult\n\n2\nDelhi\n\nOld and New Delhi City Private Guided Tour\n\n₹1,282",
+      "attributes": {
+        "detected_price": "₹1,344",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_17_20c0",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(9) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹1,344 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Aquaria KLCC\n\n₹1,344 per Adult",
+      "attributes": {
+        "detected_price": "₹1,344",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_18_1d2d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__container > div.embla__slide:nth-of-type(10) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2)",
+      "text": "A Day Tour of Ajanta and Ellora from Aurangabad with Guide\n\n₹1,984 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "10\nChhatrapati Sambhajinagar\n\nA Day Tour of Ajanta and Ellora from Aurangabad with Guide\n\n₹1,984 per Adult",
+      "attributes": {
+        "detected_price": "₹1,984",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_19_7dee",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.embla__slide:nth-of-type(10) > div.cardContainer.pointer > div.cardContentWrapper:nth-of-type(2) > p.cardPriceLabel:nth-of-type(2)",
+      "text": "₹1,984 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "A Day Tour of Ajanta and Ellora from Aurangabad with Guide\n\n₹1,984 per Adult",
+      "attributes": {
+        "detected_price": "₹1,984",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_20_56e2",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(1)",
+      "text": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹988",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_21_90d9",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(1) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹988 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "King Power Mahanakhon Skywalk\n\n₹988 per Adult",
+      "attributes": {
+        "detected_price": "₹988",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_22_831c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(1) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹988 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹988 per Adult",
+      "attributes": {
+        "detected_price": "₹988",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_23_730c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(2)",
+      "text": "Dubai\n\nDubai Frame\n\n₹1,162 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹1,162",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_24_acd5",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(2) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹1,162 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Dubai Frame\n\n₹1,162 per Adult",
+      "attributes": {
+        "detected_price": "₹1,162",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_25_57fa",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(2) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹1,162 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹1,162 per Adult",
+      "attributes": {
+        "detected_price": "₹1,162",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_26_6041",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(3)",
+      "text": "Singapore\n\nJewel Changi Airport\n\n₹553 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹553",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_27_9fb6",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(3) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹553 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Jewel Changi Airport\n\n₹553 per Adult",
+      "attributes": {
+        "detected_price": "₹553",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_28_9489",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(3) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹553 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹553 per Adult",
+      "attributes": {
+        "detected_price": "₹553",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_29_e4c0",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(4)",
+      "text": "Bangkok\n\nChao Phraya Princess Cruise\n\n₹2,400 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹2,400",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_30_f212",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(4) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹2,400 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Chao Phraya Princess Cruise\n\n₹2,400 per Adult",
+      "attributes": {
+        "detected_price": "₹2,400",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_31_c576",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(4) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹2,400 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹2,400 per Adult",
+      "attributes": {
+        "detected_price": "₹2,400",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_32_5c9c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(5)",
+      "text": "Singapore\n\nGardens by the Bay\n\n₹1,086 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹1,086",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_33_bfe3",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(5) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹1,086 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Gardens by the Bay\n\n₹1,086 per Adult",
+      "attributes": {
+        "detected_price": "₹1,086",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_34_2856",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(5) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹1,086 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹1,086 per Adult",
+      "attributes": {
+        "detected_price": "₹1,086",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_35_9c92",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(6)",
+      "text": "Phuket\n\nTiger Park Big Buddha Phuket\n\n₹1,493 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹1,493",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_36_53be",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(6) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹1,493 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Tiger Park Big Buddha Phuket\n\n₹1,493 per Adult",
+      "attributes": {
+        "detected_price": "₹1,493",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_37_32be",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(6) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹1,493 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹1,493 per Adult",
+      "attributes": {
+        "detected_price": "₹1,493",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_38_5284",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(7)",
+      "text": "Singapore\n\nSingapore Oceanarium\n\n₹3,472 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹3,472",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_39_5aad",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(7) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹3,472 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Singapore Oceanarium\n\n₹3,472 per Adult",
+      "attributes": {
+        "detected_price": "₹3,472",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_40_489c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(7) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹3,472 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹3,472 per Adult",
+      "attributes": {
+        "detected_price": "₹3,472",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_41_0e36",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(8)",
+      "text": "Singapore\n\nNight Safari\n\n₹3,949 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹3,949",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_42_288b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(8) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹3,949 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Night Safari\n\n₹3,949 per Adult",
+      "attributes": {
+        "detected_price": "₹3,949",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_43_a2f6",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(8) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹3,949 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹3,949 per Adult",
+      "attributes": {
+        "detected_price": "₹3,949",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_44_3172",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(9)",
+      "text": "Kuala Lumpur\n\nPetronas Twin Towers\n\n₹2,968 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹2,968",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_45_ad0e",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(9) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹2,968 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Petronas Twin Towers\n\n₹2,968 per Adult",
+      "attributes": {
+        "detected_price": "₹2,968",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_46_4d8a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(9) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹2,968 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹2,968 per Adult",
+      "attributes": {
+        "detected_price": "₹2,968",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_47_d8d8",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(10)",
+      "text": "Singapore\n\nSingapore Cable Car SkyPass\n\n₹1,715 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹1,715",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_48_4746",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(10) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹1,715 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Singapore Cable Car SkyPass\n\n₹1,715 per Adult",
+      "attributes": {
+        "detected_price": "₹1,715",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_49_141f",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(10) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹1,715 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹1,715 per Adult",
+      "attributes": {
+        "detected_price": "₹1,715",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_50_c03f",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(11)",
+      "text": "Singapore\n\nWings of Time Fireworks Symphony\n\n₹1,029 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹1,029",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_51_6f87",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(11) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹1,029 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Wings of Time Fireworks Symphony\n\n₹1,029 per Adult",
+      "attributes": {
+        "detected_price": "₹1,029",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_52_0233",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(11) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹1,029 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹1,029 per Adult",
+      "attributes": {
+        "detected_price": "₹1,029",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_53_d572",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(12)",
+      "text": "Paris\n\nSeine River 1-Hour Sightseeing Cruise from the Eiffel Tower\n\n₹1,370 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹1,370",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_54_e19f",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(12) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹1,370 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Seine River 1-Hour Sightseeing Cruise from the Eiffel Tower\n\n₹1,370 per Adult",
+      "attributes": {
+        "detected_price": "₹1,370",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_55_8688",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(12) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹1,370 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹1,370 per Adult",
+      "attributes": {
+        "detected_price": "₹1,370",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_56_0ab7",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(13)",
+      "text": "Singapore\n\nSkyline Luge Singapore\n\n₹2,344 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹2,344",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_57_3c05",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(13) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2)",
+      "text": "₹2,344 per Adult",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Skyline Luge Singapore\n\n₹2,344 per Adult",
+      "attributes": {
+        "detected_price": "₹2,344",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_58_cdf4",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.trendingActivityWrapper.clickable:nth-of-type(13) > div.activityContentWrapper:nth-of-type(2) > p.activityDescriptionText:nth-of-type(2) > span.priceLabel",
+      "text": "₹2,344 per Adult",
+      "tag": "span",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "₹2,344 per Adult",
+      "attributes": {
+        "detected_price": "₹2,344",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_pr_59_db0a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.activities-desktop-grid:nth-of-type(1) > div.trendingActivityWrapper.clickable:nth-of-type(14)",
+      "text": "Hanoi\n\nHanoi City Sightseeing Double-Decker Bus Ticket\n\n₹455 per Adult",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Bangkok\n\nKing Power Mahanakhon Skywalk\n\n₹988 per Adult\n\nDubai\n\nDubai Frame\n\n₹1,162 per Adult\n\nSingapore\n\nJewel Changi Ai",
+      "attributes": {
+        "detected_price": "₹455",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_md_0_c3ac",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.makeFlex.hrtlCenter:nth-of-type(1) > ul.userSection.pushRight > li.makeFlex.hrtlCenter:nth-of-type(4) > div.loginModal.displayBlock:nth-of-type(3)",
+      "text": "",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "loginModal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_0_6d5f",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#search_button",
+      "text": "SEARCH",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "SEARCH",
+      "attributes": {
+        "id": "search_button",
+        "type": "button",
+        "classes": "primaryBtn font24 latoBlack widgetSearchBtn lineHeight29"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_1_7389",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.cardContent:nth-of-type(2) > div.trending-tabs-block:nth-of-type(1) > div.trending-tabs-list:nth-of-type(1) > button.trending-tab-button.active:nth-of-type(1)",
+      "text": "International",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "International",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "trending-tab-button active"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_2_e09b",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.cardContent:nth-of-type(2) > div.trending-tabs-block:nth-of-type(1) > div.trending-tabs-list:nth-of-type(1) > button.trending-tab-button:nth-of-type(2)",
+      "text": "India",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "India",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "trending-tab-button"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_3_2e65",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.carouselContainer > div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__arrows:nth-of-type(1) > button.embla__prev:nth-of-type(1)",
+      "text": "Previous slide",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous slide",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "embla__prev"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_4_963d",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.carouselContainer > div.embla.carouselContainer__carousel:nth-of-type(2) > div.embla__arrows:nth-of-type(1) > button.embla__next:nth-of-type(2)",
+      "text": "Next slide",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next slide",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "embla__next"
+      }
+    },
+    {
+      "evidence_id": "ev_p8_btn_5_174a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/activities",
+      "page_title": "Book Top Activities, Tours & Attraction Tickets at Best Prices",
+      "crawl_depth": 1,
+      "page_index": 8,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.cardContent:nth-of-type(2) > div.activities-container > div.view-more-container:nth-of-type(2) > button.tertiary-blue-link",
+      "text": "View more",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_008/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "View more",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "tertiary-blue-link"
+      }
+    }
+  ]
+}

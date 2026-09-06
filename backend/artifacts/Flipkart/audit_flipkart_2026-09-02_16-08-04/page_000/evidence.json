@@ -1,0 +1,210 @@
+{
+  "evidence_id": "ev_page_000_audit_flipkart_2026-09-02_16-08-04",
+  "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+  "website_id": "6a6e0be15e9955a5bebf9ac2",
+  "platform": "Flipkart",
+  "page_url": "https://www.flipkart.com/",
+  "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+  "crawl_depth": 0,
+  "page_index": 0,
+  "audit_time": "2026-09-02_16-08-04",
+  "artifacts": {
+    "screenshot": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/screenshot.png",
+    "dom": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/dom.html",
+    "extracted_json": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+    "evidence_json": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 9,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 4,
+    "total_price_evidence": 3,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p0_scr_f6d8aa",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/screenshot.png",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Platform: Flipkart | Page: 0 | Depth: 0",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p0_dom_86c8e4",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/dom.html",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Captured at network idle for https://www.flipkart.com/ (depth=0)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_0_50f1",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "#slot-list-container > div.SC7gpc > div.fWi7J_:nth-of-type(3)",
+      "text": "In demand\n   \nMilton, Cello & more\nFrom ₹129\n   \nSale\nUpto.90% off\n   \nMen's casual shoes...\nMin. 50% Off\n   \nDeal of the Day\nFrom ₹99",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "In demand\n   \nMilton, Cello & more\nFrom ₹129\n   \nSale\nUpto.90% off\n   \nMen's casual shoes...\nMin. 50% Off\n   \nDeal of the Day\nFrom ₹99",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "fWi7J_"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_1_053b",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div > div > div._3n8fna1co._3n8fna10j > div._3n8fna1co._3n8fna10j:nth-of-type(2)",
+      "text": "Milton, Cello & more\nFrom ₹129\n   \nSale\nUpto.90% off\n   \nMen's casual shoes...\nMin. 50% Off\n   \nDeal of the Day\nFrom ₹99",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Milton, Cello & more\nFrom ₹129\n   \nSale\nUpto.90% off\n   \nMen's casual shoes...\nMin. 50% Off\n   \nDeal of the Day\nFrom ₹99",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "_3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _1i2djtb9 _1i2djt0 _1i2djt90 _1i2djt6r _1i2djt29 _1i2djt4i"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_2_6a53",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(4)",
+      "text": "Deal of the Day\nFrom ₹99",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Deal of the Day\nFrom ₹99",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "grid-formation grid-column-4"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_urg_3_7322",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div > a._3n8fna1co._3n8fna10j > div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._58bkzq6g._3n8fna1co:nth-of-type(1)",
+      "text": "Deal of the Day",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Deal of the Day",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "_58bkzq6g _3n8fna1co _3n8fna10j _3n8fnaod _3n8fna1 _3n8fnac7 _58bkzq2 _1i2djtb9 _1i2djt0"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_0_1eeb",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(1)",
+      "text": "Milton, Cello & more\nFrom ₹129",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Milton, Cello & more\nFrom ₹129\n   \nSale\nUpto.90% off\n   \nMen's casual shoes...\nMin. 50% Off\n   \nDeal of the Day\nFrom",
+      "attributes": {
+        "detected_price": "₹129",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_1_f8cb",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(4)",
+      "text": "Deal of the Day\nFrom ₹99",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Milton, Cello & more\nFrom ₹129\n   \nSale\nUpto.90% off\n   \nMen's casual shoes...\nMin. 50% Off\n   \nDeal of the Day\nFrom",
+      "attributes": {
+        "detected_price": "₹99",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p0_pr_2_1bb6",
+      "audit_id": "audit_flipkart_2026-09-02_16-08-04",
+      "page_url": "https://www.flipkart.com/",
+      "page_title": "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!",
+      "crawl_depth": 0,
+      "page_index": 0,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div._3n8fna1co._3n8fna10j:nth-of-type(2) > div._3n8fna1co._3n8fna10j > div.css-g5y9jx > div.grid-formation.grid-column-4:nth-of-type(1)",
+      "text": "Hand-picked\nFrom ₹49,999",
+      "tag": "div",
+      "artifact_path": "artifacts/Flipkart/audit_flipkart_2026-09-02_16-08-04/page_000/extracted.json",
+      "timestamp": "2026-09-02_16-08-04",
+      "context": "Hand-picked\nFrom ₹49,999\n   \nTop Deals\nWomen's Sarees\n   \nDon't Miss\nTop Rated\n   \nTop Rated\nMin. 60% Off",
+      "attributes": {
+        "detected_price": "₹49,999",
+        "currency": "INR"
+      }
+    }
+  ]
+}

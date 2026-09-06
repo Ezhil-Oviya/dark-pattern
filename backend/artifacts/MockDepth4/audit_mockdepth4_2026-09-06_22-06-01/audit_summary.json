@@ -1,0 +1,718 @@
+{
+  "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+  "website_id": "",
+  "platform": "MockDepth4",
+  "start_url": "http://127.0.0.1:63541/",
+  "configured_crawl_depth": 4,
+  "actual_max_depth_reached": 4,
+  "max_pages_limit": 50,
+  "pages_discovered": 9,
+  "pages_crawled": 9,
+  "pages_successful": 9,
+  "pages_failed": 0,
+  "total_evidence_items": 20,
+  "total_dark_pattern_findings": 1,
+  "start_time": "2026-09-06_22-06-01",
+  "end_time": "2026-09-06_22-06-14",
+  "status": "completed",
+  "dark_pattern_summary": [
+    {
+      "pattern": "False Urgency",
+      "status": "DETECTED",
+      "detected": true,
+      "confidence": 90,
+      "pages_affected_count": 1,
+      "affected_pages": [
+        {
+          "page_index": 2,
+          "url": "http://127.0.0.1:63541/level1_b",
+          "depth": 1,
+          "evidence_count": 1
+        }
+      ],
+      "total_instances": 1,
+      "reason": "Potential False Urgency detected across 1 page(s) (1 unique instance(s) found with 1 traceable evidence items).",
+      "evidence": [
+        {
+          "evidence_id": "ev_p2_urg_0_0650",
+          "evidence_type": "extracted_data",
+          "category": "urgency_elements",
+          "selector": "html > body > span.timer",
+          "text": "04:35 left before deal ends",
+          "tag": "span",
+          "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-06_22-06-01/page_002/extracted.json",
+          "context": "04:35 left before deal ends"
+        }
+      ]
+    },
+    {
+      "pattern": "Drip Pricing",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Insufficient pricing or checkout breakdown data present across crawled pages to evaluate Drip Pricing.",
+      "evidence": []
+    },
+    {
+      "pattern": "Bait and Switch",
+      "status": "NOT_DETECTED",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "Advertised offers, link descriptions, and product terms appear consistent across pages.",
+      "evidence": []
+    },
+    {
+      "pattern": "Confirmshaming",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "detected": false,
+      "confidence": 0,
+      "pages_affected_count": 0,
+      "affected_pages": [],
+      "total_instances": 0,
+      "reason": "No interactive opt-out or decline modal elements found on crawled pages.",
+      "evidence": []
+    }
+  ],
+  "pages": [
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 0,
+      "folder": "page_000",
+      "url": "http://127.0.0.1:63541/",
+      "title": "Level 0 Homepage",
+      "depth": 0,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d9672594ee5be73e873ce",
+        "dom": "api/v1/automation/artifact/6a9d9672594ee5be73e873d0",
+        "extracted_json": "api/v1/automation/artifact/6a9d9673594ee5be73e873d2",
+        "evidence_json": "api/v1/automation/artifact/6a9d9673594ee5be73e873d4"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 1,
+      "folder": "page_001",
+      "url": "http://127.0.0.1:63541/level1_a",
+      "title": "Level 1A",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d9673594ee5be73e873d6",
+        "dom": "api/v1/automation/artifact/6a9d9674594ee5be73e873d8",
+        "extracted_json": "api/v1/automation/artifact/6a9d9674594ee5be73e873da",
+        "evidence_json": "api/v1/automation/artifact/6a9d9674594ee5be73e873dc"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level1_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level1_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level1_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level1_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 2,
+      "folder": "page_002",
+      "url": "http://127.0.0.1:63541/level1_b",
+      "title": "Level 1B",
+      "depth": 1,
+      "status": "success",
+      "error": null,
+      "evidence_count": 3,
+      "findings_count": 1,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d9675594ee5be73e873de",
+        "dom": "api/v1/automation/artifact/6a9d9675594ee5be73e873e0",
+        "extracted_json": "api/v1/automation/artifact/6a9d9675594ee5be73e873e2",
+        "evidence_json": "api/v1/automation/artifact/6a9d9675594ee5be73e873e4"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "DETECTED",
+          "detected": true,
+          "confidence": 90,
+          "reason": "Potential False Urgency detected: 1 urgency indicator(s) (countdown timer, e.g. '04:35 left before deal ends...') were present to accelerate consumer decision-making.",
+          "page_url": "http://127.0.0.1:63541/level1_b",
+          "evidence": [
+            {
+              "evidence_id": "ev_p2_urg_0_0650",
+              "evidence_type": "extracted_data",
+              "category": "urgency_elements",
+              "selector": "html > body > span.timer",
+              "text": "04:35 left before deal ends",
+              "tag": "span",
+              "artifact_path": "artifacts/MockDepth4/audit_mockdepth4_2026-09-06_22-06-01/page_002/extracted.json",
+              "context": "04:35 left before deal ends"
+            }
+          ],
+          "metadata": {
+            "flagged_count": 1,
+            "signals": [
+              "countdown_timer"
+            ]
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level1_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level1_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 3,
+      "folder": "page_003",
+      "url": "http://127.0.0.1:63541/level2_a",
+      "title": "Level 2A",
+      "depth": 2,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d9676594ee5be73e873e6",
+        "dom": "api/v1/automation/artifact/6a9d9676594ee5be73e873e8",
+        "extracted_json": "api/v1/automation/artifact/6a9d9677594ee5be73e873ea",
+        "evidence_json": "api/v1/automation/artifact/6a9d9677594ee5be73e873ec"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level2_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level2_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level2_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 4,
+      "folder": "page_004",
+      "url": "http://127.0.0.1:63541/level2_b",
+      "title": "Level 2B",
+      "depth": 2,
+      "status": "success",
+      "error": null,
+      "evidence_count": 3,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d9677594ee5be73e873ee",
+        "dom": "api/v1/automation/artifact/6a9d9678594ee5be73e873f0",
+        "extracted_json": "api/v1/automation/artifact/6a9d9678594ee5be73e873f2",
+        "evidence_json": "api/v1/automation/artifact/6a9d9678594ee5be73e873f4"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level2_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level2_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level2_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level2_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 5,
+      "folder": "page_005",
+      "url": "http://127.0.0.1:63541/level3_a",
+      "title": "Level 3A",
+      "depth": 3,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d9679594ee5be73e873f6",
+        "dom": "api/v1/automation/artifact/6a9d9679594ee5be73e873f8",
+        "extracted_json": "api/v1/automation/artifact/6a9d9679594ee5be73e873fa",
+        "evidence_json": "api/v1/automation/artifact/6a9d9679594ee5be73e873fc"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level3_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level3_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level3_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level3_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 6,
+      "folder": "page_006",
+      "url": "http://127.0.0.1:63541/level3_b",
+      "title": "Level 3B",
+      "depth": 3,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d967a594ee5be73e873fe",
+        "dom": "api/v1/automation/artifact/6a9d967a594ee5be73e87400",
+        "extracted_json": "api/v1/automation/artifact/6a9d967a594ee5be73e87402",
+        "evidence_json": "api/v1/automation/artifact/6a9d967b594ee5be73e87404"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level3_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level3_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level3_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level3_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 7,
+      "folder": "page_007",
+      "url": "http://127.0.0.1:63541/level4_a",
+      "title": "Level 4A",
+      "depth": 4,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d967b594ee5be73e87406",
+        "dom": "api/v1/automation/artifact/6a9d967c594ee5be73e87408",
+        "extracted_json": "api/v1/automation/artifact/6a9d967c594ee5be73e8740a",
+        "evidence_json": "api/v1/automation/artifact/6a9d967c594ee5be73e8740c"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level4_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level4_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level4_a",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No explicit opt-out, decline, or dismissal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level4_a",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_DECLINE_CONTROLS"
+          }
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_mockdepth4_2026-09-06_22-06-01",
+      "page_index": 8,
+      "folder": "page_008",
+      "url": "http://127.0.0.1:63541/level4_b",
+      "title": "Level 4B",
+      "depth": 4,
+      "status": "success",
+      "error": null,
+      "evidence_count": 2,
+      "findings_count": 0,
+      "artifacts": {
+        "screenshot": "api/v1/automation/artifact/6a9d967d594ee5be73e8740e",
+        "dom": "api/v1/automation/artifact/6a9d967d594ee5be73e87410",
+        "extracted_json": "api/v1/automation/artifact/6a9d967d594ee5be73e87412",
+        "evidence_json": "api/v1/automation/artifact/6a9d967d594ee5be73e87414"
+      },
+      "detections": [
+        {
+          "pattern": "False Urgency",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No evidence of dynamic countdown timers, artificial scarcity statements, or high-demand urgency pressure found on the page.",
+          "page_url": "http://127.0.0.1:63541/level4_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0,
+            "signals": []
+          }
+        },
+        {
+          "pattern": "Drip Pricing",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No price components or transaction breakdown present on this page to evaluate Drip Pricing.",
+          "page_url": "http://127.0.0.1:63541/level4_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_PRICE_DATA"
+          }
+        },
+        {
+          "pattern": "Bait and Switch",
+          "status": "NOT_DETECTED",
+          "detected": false,
+          "confidence": 0,
+          "reason": "Advertised offers, link descriptions, and product terms appear consistent without deceptive substitution.",
+          "page_url": "http://127.0.0.1:63541/level4_b",
+          "evidence": [],
+          "metadata": {
+            "flagged_count": 0
+          }
+        },
+        {
+          "pattern": "Confirmshaming",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "detected": false,
+          "confidence": 0,
+          "reason": "No interactive buttons, links, or modal controls found on this page to evaluate Confirmshaming.",
+          "page_url": "http://127.0.0.1:63541/level4_b",
+          "evidence": [],
+          "metadata": {
+            "reason_code": "NO_INTERACTIVE_CONTROLS"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -186,7 +186,7 @@ class TestReview2Stabilization(unittest.TestCase):
     # 5. PIPELINE INTEGRITY & API RESPONSE
     # ----------------------------------------------------
     def test_pipeline_multi_detector_dispatch(self):
-        """Tests that run_dark_pattern_detection runs all four active detectors."""
+        """Tests that run_dark_pattern_detection runs all active detectors."""
         extracted_data = {
             "url": "https://store.example/multi",
             "urgency_elements": [],
@@ -200,13 +200,16 @@ class TestReview2Stabilization(unittest.TestCase):
             "evidence_items": []
         }
         results = run_dark_pattern_detection(extracted_data, evidence_record)
-        self.assertEqual(len(results), 4)
+        self.assertEqual(len(results), 8)
         patterns = [r["pattern"] for r in results]
         self.assertIn("False Urgency", patterns)
         self.assertIn("Drip Pricing", patterns)
         self.assertIn("Bait and Switch", patterns)
         self.assertIn("Confirmshaming", patterns)
-        self.assertNotIn("Basket Sneaking", patterns)
+        self.assertIn("SaaS Billing", patterns)
+        self.assertIn("Interface Interference", patterns)
+        self.assertIn("Forced Action", patterns)
+        self.assertIn("Basket Sneaking", patterns)
 
         for r in results:
             self.assertIn("pattern", r)
@@ -217,6 +220,7 @@ class TestReview2Stabilization(unittest.TestCase):
             self.assertIn("page_url", r)
             self.assertIn("evidence", r)
             self.assertIn("metadata", r)
+
 
 
 if __name__ == "__main__":

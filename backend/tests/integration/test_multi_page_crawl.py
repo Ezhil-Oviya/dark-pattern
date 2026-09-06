@@ -197,7 +197,7 @@ class TestMultiPageCrawlerIntegration(unittest.TestCase):
 
         # Verify dark pattern detections aggregated across pages
         dark_patterns = res["dark_pattern_summary"]
-        self.assertEqual(len(dark_patterns), 4)
+        self.assertEqual(len(dark_patterns), 8)
 
         urgency = next(p for p in dark_patterns if p["pattern"] == "False Urgency")
         drip = next(p for p in dark_patterns if p["pattern"] == "Drip Pricing")

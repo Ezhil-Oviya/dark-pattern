@@ -2,6 +2,7 @@ import {
   LayoutDashboard,
   Globe,
   PlayCircle,
+  ShieldCheck,
   FileSearch,
   FileText,
   Bot,
@@ -26,6 +27,11 @@ export default function Sidebar() {
       title: "Browser Automation",
       path: "/audits",
       icon: <PlayCircle size={18} />
+    },
+    {
+      title: "Data Quality",
+      path: "/data-quality",
+      icon: <ShieldCheck size={18} />
     },
     {
       title: "Evidence Collection",

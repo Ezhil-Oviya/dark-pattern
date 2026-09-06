@@ -1,0 +1,1093 @@
+{
+  "evidence_id": "ev_page_009_audit_nykaa_2026-09-07_00-23-32",
+  "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+  "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+  "crawl_depth": 1,
+  "page_index": 9,
+  "audit_time": "2026-09-07_00-23-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 53,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 48,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p9_scr_7aefa0",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/screenshot.png",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Platform: Nykaa | Page: 9 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p9_dom_1057cf",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/dom.html",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Captured at network idle for https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_0_01ab",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹699\n₹629\n10% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics Lip Plush Velvet Matte Blurring Long Stay Li...\n₹699\n₹629\n10% Off\nRegular price ₹699. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹699",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_1_2bda",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹699",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹629\n10% Off",
+      "attributes": {
+        "detected_price": "₹699",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_2_8168",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹629",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹629\n10% Off",
+      "attributes": {
+        "detected_price": "₹629",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_3_5f82",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹599\n₹479\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Matte to Last No Transfer Long Lasting Lipstick\n₹599\n₹479\n20% Off\nRegular price ₹599. Discounted price ₹479. 20% O",
+      "attributes": {
+        "detected_price": "₹599",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_4_f3ab",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹599",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹599\n₹479\n20% Off",
+      "attributes": {
+        "detected_price": "₹599",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_5_ada6",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹479",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹599\n₹479\n20% Off",
+      "attributes": {
+        "detected_price": "₹479",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_6_ce61",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹649\n₹389\n40% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics All Day Matte Long Wear Liquid Foundation Wi...\n₹649\n₹389\n40% Off\nRegular price ₹649. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹649",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_7_36b9",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹649",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹649\n₹389\n40% Off",
+      "attributes": {
+        "detected_price": "₹649",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_8_d0ac",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹389",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹649\n₹389\n40% Off",
+      "attributes": {
+        "detected_price": "₹389",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_9_f376",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹329\n₹197\n40% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics So Creme! Creamy Matte Lipstick\n₹329\n₹197\n40% Off\nRegular price ₹329. Discounted price ₹197. 40% Off.\n\nE",
+      "attributes": {
+        "detected_price": "₹329",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_10_935e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹329",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹329\n₹197\n40% Off",
+      "attributes": {
+        "detected_price": "₹329",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_11_a6b2",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹197",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹329\n₹197\n40% Off",
+      "attributes": {
+        "detected_price": "₹197",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_12_012f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹899\n₹629\n30% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa 9 in 1 Highly Blendable Multi Texture Eyeshadow Palett...\n₹899\n₹629\n30% Off\nRegular price ₹899. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_13_bc6d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹899",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹899\n₹629\n30% Off",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_14_9c82",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹749\n₹449\n40% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Matte To Last ! Transferproof Liquid Lipstick\n₹749\n₹449\n40% Off\nRegular price ₹749. Discounted price ₹449. 40% Off",
+      "attributes": {
+        "detected_price": "₹749",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_15_8a2d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹749",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹749\n₹449\n40% Off",
+      "attributes": {
+        "detected_price": "₹749",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_16_3ec6",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹449",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹749\n₹449\n40% Off",
+      "attributes": {
+        "detected_price": "₹449",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_17_6c42",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹325\n₹211\n35% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Ultra Matte Mini Lipstick- Highly Pigmented Comfortabl...\n₹325\n₹211\n35% Off\nRegular price ₹325. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹325",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_18_9d22",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹325",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹325\n₹211\n35% Off",
+      "attributes": {
+        "detected_price": "₹325",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_19_84ed",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹211",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹325\n₹211\n35% Off",
+      "attributes": {
+        "detected_price": "₹211",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_20_ad06",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹637",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹749\n₹637\n15% Off",
+      "attributes": {
+        "detected_price": "₹637",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_21_3539",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > span.css-1yjfidh",
+      "text": "Price ₹999.",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics X Bridgerton Face & Eye Multi-Texture Eyesha...\nPrice ₹999.\n₹999\n\nEnjoy Complimentary Gift\n\n( 1315 )",
+      "attributes": {
+        "detected_price": "₹999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_22_dc99",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹999",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics X Bridgerton Face & Eye Multi-Texture Eyesha...\nPrice ₹999.\n₹999\n\nEnjoy Complimentary Gift\n\n( 1315 )",
+      "attributes": {
+        "detected_price": "₹999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_23_a30f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹199\n₹129\n35% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Magic Smudgeproof Kajal Eyeliner Pencil Lasts Upto 24 ...\n₹199\n₹129\n35% Off\nRegular price ₹199. Discounted price ₹",
+      "attributes": {
+        "detected_price": "₹199",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_24_47cb",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹199",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹199\n₹129\n35% Off",
+      "attributes": {
+        "detected_price": "₹199",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_25_aa6b",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹129",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹199\n₹129\n35% Off",
+      "attributes": {
+        "detected_price": "₹129",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_26_f8dd",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹619\n₹402\n35% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics Prep Me Up! Face Primer\n₹619\n₹402\n35% Off\nRegular price ₹619. Discounted price ₹402. 35% Off.\n\nEnjoy Com",
+      "attributes": {
+        "detected_price": "₹619",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_27_0396",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹619",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹619\n₹402\n35% Off",
+      "attributes": {
+        "detected_price": "₹619",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_28_be28",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹402",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹619\n₹402\n35% Off",
+      "attributes": {
+        "detected_price": "₹402",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_29_c3fb",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹799\n₹719\n10% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics X Bridgerton Creamy Matte Longwear Lipstick\n₹799\n₹719\n10% Off\nRegular price ₹799. Discounted price ₹719.",
+      "attributes": {
+        "detected_price": "₹799",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_30_17d7",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹799",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹799\n₹719\n10% Off",
+      "attributes": {
+        "detected_price": "₹799",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_31_ed95",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹719",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹799\n₹719\n10% Off",
+      "attributes": {
+        "detected_price": "₹719",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_32_5091",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹375\n₹244\n35% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics Eyes On Me! 4 In 1 Quad Eyeshadow Palette\n₹375\n₹244\n35% Off\nRegular price ₹375. Discounted price ₹244. 3",
+      "attributes": {
+        "detected_price": "₹375",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_33_7aa7",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹375",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹375\n₹244\n35% Off",
+      "attributes": {
+        "detected_price": "₹375",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_34_7cef",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹244",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹375\n₹244\n35% Off",
+      "attributes": {
+        "detected_price": "₹244",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_35_8a7f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-d5z3ro:nth-of-type(1) > a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1)",
+      "text": "₹299\n₹239\n20% Off",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics Matte to Last Lip Liner\n₹299\n₹239\n20% Off\nRegular price ₹299. Discounted price ₹239. 20% Off.\n\nEnjoy Com",
+      "attributes": {
+        "detected_price": "₹299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_36_878e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-17x46n5:nth-of-type(1)",
+      "text": "₹299",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹299\n₹239\n20% Off",
+      "attributes": {
+        "detected_price": "₹299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_37_f8d8",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹239",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹299\n₹239\n20% Off",
+      "attributes": {
+        "detected_price": "₹239",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_38_b85e",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹594",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹594\n15% Off",
+      "attributes": {
+        "detected_price": "₹594",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_39_8cb5",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹509",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹599\n₹509\n15% Off",
+      "attributes": {
+        "detected_price": "₹509",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_40_491d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "a.css-qlopj4 > div.css-1rd7vky:nth-of-type(2) > div.css-1d0jf8e:nth-of-type(1) > span.css-111z9ua:nth-of-type(2)",
+      "text": "₹524",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹699\n₹524\n25% Off",
+      "attributes": {
+        "detected_price": "₹524",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_41_b664",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.css-tscqxu:nth-of-type(3) > div.css-1axfht6 > div.css-15u830z:nth-of-type(1) > div.css-fd2g8d:nth-of-type(1)",
+      "text": "FREE SHIPPING\nOn Orders of Rs. 299 and above",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "FREE SHIPPING\nOn Orders of Rs. 299 and above\nEASY RETURNS\n15-Day Return Policy\n100% AUTHENTIC\nProducts Sourced Directly",
+      "attributes": {
+        "detected_price": "Rs. 299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_42_963d",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(1) > td.priceColumn",
+      "text": "₹197",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics So Creme! Creamy Matte Lipstick\n₹197",
+      "attributes": {
+        "detected_price": "₹197",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_43_0076",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(2) > td.priceColumn",
+      "text": "₹479",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Matte to Last No Transfer Long Lasting Lipstick\n₹479",
+      "attributes": {
+        "detected_price": "₹479",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_44_bd58",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(3) > td.priceColumn",
+      "text": "₹101",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics Nail Enamel - Base BFF 373\n₹101",
+      "attributes": {
+        "detected_price": "₹101",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_45_7937",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "tbody > tr.css-dgjws6:nth-of-type(3) > td.priceColumn > span",
+      "text": "₹101",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "₹101",
+      "attributes": {
+        "detected_price": "₹101",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_46_ac6f",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(4) > td.priceColumn",
+      "text": "₹449",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Matte To Last ! Transferproof Liquid Lipstick\n₹449",
+      "attributes": {
+        "detected_price": "₹449",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_pr_47_060c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "table > tbody > tr.css-dgjws6:nth-of-type(5) > td.priceColumn",
+      "text": "₹129",
+      "tag": "td",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Smudgeproof Kajal Eyeliner Pencil - Lasts Upto 24 Hours\n₹129",
+      "attributes": {
+        "detected_price": "₹129",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_btn_0_a959",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_btn_1_327a",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    },
+    {
+      "evidence_id": "ev_p9_btn_2_d8d0",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/brands/nykaa-cosmetics/c/1937?ptype=brand&id=1937&root=brand_menu%2Ctop_brands%2CNykaa+Cosmetics",
+      "page_title": "Buy Nykaa Cosmetics Products Online With Upto 60% Off & more",
+      "crawl_depth": 1,
+      "page_index": 9,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#filter-sort > div.css-1fs72da > div.css-0 > button.css-1aucgde",
+      "text": "Sort By : Popularity",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_009/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sort By : Popularity",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1aucgde"
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { Play, Globe, FileText } from "lucide-react";
+import { Play, Globe, FileText, ShieldCheck } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 import "../../styles/quickactions.css";
@@ -27,6 +27,15 @@ export default function QuickActions() {
             >
                 <Play size={18} />
                 Start Browser Audit
+            </button>
+
+            <button
+                className="quick-btn purple"
+                style={{ background: "rgba(139, 92, 246, 0.1)", color: "#7c3aed", border: "1px solid rgba(139, 92, 246, 0.2)" }}
+                onClick={() => navigate("/data-quality")}
+            >
+                <ShieldCheck size={18} />
+                Assess Data Quality
             </button>
 
             <button

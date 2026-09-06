@@ -1,0 +1,274 @@
+{
+  "evidence_id": "ev_page_003_audit_makemytrip_2026-09-06_23-57-27",
+  "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+  "website_id": "6a72ec8a5c26749a7c2e189d",
+  "platform": "MakeMyTrip",
+  "page_url": "https://www.makemytrip.com/homestays/",
+  "page_title": "",
+  "crawl_depth": 1,
+  "page_index": 3,
+  "audit_time": "2026-09-06_23-57-27",
+  "artifacts": {
+    "screenshot": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/screenshot.png",
+    "dom": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/dom.html",
+    "extracted_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+    "evidence_json": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 12,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 2,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 4,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p3_scr_30b1b3",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/screenshot.png",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Platform: MakeMyTrip | Page: 3 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p3_dom_a8c64e",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/dom.html",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Captured at network idle for https://www.makemytrip.com/homestays/ (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_pr_0_c87a",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.sliderItemContent:nth-of-type(3) > ul.sliderItem-benefits > li:nth-of-type(2) > div",
+      "text": "Book Hotels @ ₹0",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_pr_1_8e41",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "ul.sliderItem-benefits > li:nth-of-type(2) > div > p.benefitTitle",
+      "text": "Book Hotels @ ₹0",
+      "tag": "p",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Book Hotels @ ₹0",
+      "attributes": {
+        "detected_price": "₹0",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_md_0_2316",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "#header-container > div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2)",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs\n\nSign up/Login now to\n\nLock Flight",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "imageSliderModal modal displayBlock modalLogin dynHeight personal"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_md_1_f1d6",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.headerOuter:nth-of-type(2) > div.imageSliderModal.modal:nth-of-type(2) > div.imageSlideContainer > section.modalMain.tcnFooter",
+      "text": "PERSONAL ACCOUNT\nMYBIZ ACCOUNT\nMobile Number\n\n‎+91\n\nCONTINUE\n\nOr Login/Signup With\n\nBy proceeding, you agree to MakeMyTrip's  Privacy Policy, User Agreement and T&Cs",
+      "tag": "section",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalMain tcnFooter"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_md_2_ffd2",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "div.imageSlideContainer > section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1)",
+      "text": "Mobile Number\n\n‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalField makeFlex column appendBottom20"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_md_3_bf48",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "modals",
+      "selector": "section.modalMain.tcnFooter > form > div.modalField.makeFlex:nth-of-type(1) > div.modalFieldInner.makeFlex",
+      "text": "‎+91",
+      "tag": "div",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": null,
+      "attributes": {
+        "id": "",
+        "classes": "modalFieldInner makeFlex hrtlCenter"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_0_d59e",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "section.modalMain.tcnFooter > form > div.btnContainer.appendBottom25:nth-of-type(2) > button.capText.font16",
+      "text": "CONTINUE",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "CONTINUE",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "capText font16"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_1_d454",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#hsw_search_button",
+      "text": "SEARCH",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "SEARCH",
+      "attributes": {
+        "id": "hsw_search_button",
+        "type": "button",
+        "classes": "primaryBtn font24 latoBlack widgetSearchBtn"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_2_d19c",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev:nth-of-type(1)",
+      "text": "Previous",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Previous",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-prev slick-disabled"
+      }
+    },
+    {
+      "evidence_id": "ev_p3_btn_3_4779",
+      "audit_id": "audit_makemytrip_2026-09-06_23-57-27",
+      "page_url": "https://www.makemytrip.com/homestays/",
+      "page_title": "",
+      "crawl_depth": 1,
+      "page_index": 3,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#Offers_Listing > div.landingCardSlider.superOffers:nth-of-type(2) > div.slick-slider.slick-initialized > button.slick-arrow.slick-next:nth-of-type(2)",
+      "text": "Next",
+      "tag": "button",
+      "artifact_path": "artifacts/MakeMyTrip/audit_makemytrip_2026-09-06_23-57-27/page_003/extracted.json",
+      "timestamp": "2026-09-06_23-57-27",
+      "context": "Next",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "slick-arrow slick-next"
+      }
+    }
+  ]
+}

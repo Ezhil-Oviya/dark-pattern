@@ -20,6 +20,26 @@ EXTRACTION_SCRIPT = """
         }
     }
 
+    function getElementMetrics(el) {
+        if (!el) return null;
+        try {
+            const rect = el.getBoundingClientRect();
+            const style = window.getComputedStyle(el);
+            return {
+                x: Math.round(rect.x || rect.left || 0),
+                y: Math.round(rect.y || rect.top || 0),
+                width: Math.round(rect.width || 0),
+                height: Math.round(rect.height || 0),
+                font_size: style.fontSize || '',
+                font_weight: style.fontWeight || '',
+                bg_color: style.backgroundColor || '',
+                text_color: style.color || ''
+            };
+        } catch (e) {
+            return null;
+        }
+    }
+
     function getCssSelector(el) {
         if (!el || el.nodeType !== Node.ELEMENT_NODE) return '';
         if (el.id) return '#' + el.id;
@@ -77,7 +97,7 @@ EXTRACTION_SCRIPT = """
         }
     }
 
-    // 3. Buttons
+    // 3. Buttons (Enhanced with UI metrics for Interface Interference)
     const buttons = [];
     const buttonElements = document.querySelectorAll('button, input[type="button"], input[type="submit"], [role="button"], a.btn, a.button, a[class*="btn"], a[class*="button"]');
     for (const el of buttonElements) {
@@ -93,12 +113,13 @@ EXTRACTION_SCRIPT = """
                 classes: typeof el.className === 'string' ? el.className.trim() : '',
                 is_visible: visible,
                 is_disabled: el.disabled || el.getAttribute('aria-disabled') === 'true',
-                selector: getCssSelector(el)
+                selector: getCssSelector(el),
+                metrics: getElementMetrics(el)
             });
         }
     }
 
-    // 4. Links
+    // 4. Links (Enhanced with UI metrics)
     const links = [];
     const linkElements = document.querySelectorAll('a[href]');
     for (const el of linkElements) {
@@ -112,7 +133,8 @@ EXTRACTION_SCRIPT = """
                 id: el.id || '',
                 classes: typeof el.className === 'string' ? el.className.trim() : '',
                 is_visible: isElementVisible(el),
-                selector: getCssSelector(el)
+                selector: getCssSelector(el),
+                metrics: getElementMetrics(el)
             });
         }
     }
@@ -153,7 +175,7 @@ EXTRACTION_SCRIPT = """
                 name: inp.getAttribute('name') || '',
                 placeholder: inp.getAttribute('placeholder') || '',
                 label: labelText,
-                required: inp.required || inp.getAttribute('aria-required') === 'true',
+                required: Boolean(inp.required || inp.getAttribute('aria-required') === 'true'),
                 is_visible: isElementVisible(inp),
                 value: value
             });
@@ -169,7 +191,7 @@ EXTRACTION_SCRIPT = """
         });
     }
 
-    // 6. Checkboxes (Basket Sneaking Indicator)
+    // 6. Checkboxes (Basket Sneaking & Forced Consent Indicator)
     const checkboxes = [];
     const checkboxElements = document.querySelectorAll('input[type="checkbox"]');
     for (const el of checkboxElements) {
@@ -189,6 +211,7 @@ EXTRACTION_SCRIPT = """
             label: labelText || parentText.slice(0, 100),
             checked: !!el.checked,
             default_checked: !!el.defaultChecked || el.hasAttribute('checked'),
+            required: Boolean(el.required || el.getAttribute('aria-required') === 'true'),
             is_visible: isElementVisible(el),
             is_disabled: el.disabled || el.getAttribute('aria-disabled') === 'true',
             selector: getCssSelector(el),
@@ -307,6 +330,29 @@ EXTRACTION_SCRIPT = """
         }
     }
 
+    // 11. Subscription & Billing Signals (SaaS Billing Indicator)
+    const subscriptionSignals = [];
+    const subRegex = /(?:per\\s+month|\\/mo(?:nth)?|per\\s+year|\\/yr|\\/year|billed\\s+annually|billed\\s+monthly|auto[- ]renew(?:al|ing|s)?|recurring\\s+charge|cancel\\s+anytime|free\\s+trial|trial\\s+converts|subscription\\s+terms|membership\\s+fee)/i;
+    const subCandidates = document.querySelectorAll('[class*="plan"], [class*="pricing"], [class*="subscri"], [class*="tier"], [class*="billing"], [id*="pricing"], [id*="subscri"], div, p, span, li, section');
+    const seenSubTexts = new Set();
+    for (const el of subCandidates) {
+        if (subscriptionSignals.length >= 30) break;
+        if (!isElementVisible(el)) continue;
+        const txt = (el.innerText || '').trim();
+        if (txt.length >= 10 && txt.length <= 300 && subRegex.test(txt)) {
+            const norm = txt.slice(0, 100);
+            if (!seenSubTexts.has(norm)) {
+                seenSubTexts.add(norm);
+                subscriptionSignals.push({
+                    text: txt,
+                    tag: el.tagName.toLowerCase(),
+                    classes: typeof el.className === 'string' ? el.className.trim() : '',
+                    selector: getCssSelector(el)
+                });
+            }
+        }
+    }
+
     return {
         url: metadata.url,
         title: metadata.title,
@@ -320,6 +366,7 @@ EXTRACTION_SCRIPT = """
         cart_items: cartItems,
         urgency_elements: urgencyElements,
         modals: modals,
+        subscription_signals: subscriptionSignals,
         summary: {
             total_text_blocks: visibleTextBlocks.length,
             total_buttons: buttons.length,
@@ -329,7 +376,8 @@ EXTRACTION_SCRIPT = """
             total_prices: prices.length,
             total_cart_items: cartItems.length,
             total_urgency_elements: urgencyElements.length,
-            total_modals: modals.length
+            total_modals: modals.length,
+            total_subscription_signals: subscriptionSignals.length
         }
     };
 }
@@ -369,6 +417,7 @@ def extract_page_data(page) -> Dict[str, Any]:
         "cart_items": [],
         "urgency_elements": [],
         "modals": [],
+        "subscription_signals": [],
         "summary": {
             "total_text_blocks": 0,
             "total_buttons": 0,
@@ -379,5 +428,6 @@ def extract_page_data(page) -> Dict[str, Any]:
             "total_cart_items": 0,
             "total_urgency_elements": 0,
             "total_modals": 0,
+            "total_subscription_signals": 0,
         },
     }

@@ -1,0 +1,309 @@
+{
+  "url": "https://www.nykaa.com/help-center?dl_type=help_center",
+  "title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+  "timestamp": "2026-09-06T20:52:21.545Z",
+  "visible_text": [
+    {
+      "tag": "p",
+      "text": "Help Center"
+    },
+    {
+      "tag": "p",
+      "text": "Getting help is easy"
+    },
+    {
+      "tag": "p",
+      "text": "Sign in to get help with recent orders"
+    },
+    {
+      "tag": "section",
+      "text": "Browse Topics\n\nOrder Related\nShopping\nNykaa Account\nPayments\nSell On Nykaa\nOthers"
+    },
+    {
+      "tag": "p",
+      "text": "Browse Topics"
+    },
+    {
+      "tag": "li",
+      "text": "Order Related"
+    },
+    {
+      "tag": "li",
+      "text": "Shopping"
+    },
+    {
+      "tag": "li",
+      "text": "Nykaa Account"
+    },
+    {
+      "tag": "li",
+      "text": "Payments"
+    },
+    {
+      "tag": "li",
+      "text": "Sell On Nykaa"
+    },
+    {
+      "tag": "li",
+      "text": "Others"
+    },
+    {
+      "tag": "h2",
+      "text": "Need more help?"
+    },
+    {
+      "tag": "li",
+      "text": "Chat with us\n\nGet instant query assistance"
+    },
+    {
+      "tag": "h2",
+      "text": "Chat with us"
+    },
+    {
+      "tag": "p",
+      "text": "Get instant query assistance"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Go to Nykaa home",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-1nn5xgf ec6nsyt2",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-184zjdd.eajszxz3:nth-of-type(1) > div.css-o074og.ec6nsyt0 > div.css-1ku073z.ec6nsyt1:nth-of-type(1) > button.css-1nn5xgf.ec6nsyt2",
+      "metrics": {
+        "x": 48,
+        "y": 16,
+        "width": 96,
+        "height": 36,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "Search",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-o3dqs2 ekiyky32",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-0 > div.css-g0nd8e > div.css-euw19v:nth-of-type(2) > button.css-o3dqs2.ekiyky32",
+      "metrics": {
+        "x": 992,
+        "y": 30,
+        "width": 24,
+        "height": 24,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "text": "User",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "eg0q01 css-1gslc73",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-184zjdd.eajszxz3:nth-of-type(1) > div.css-o074og.ec6nsyt0 > div.css-zdpt2t.eg0q00:nth-of-type(4) > button.eg0q01.css-1gslc73",
+      "metrics": {
+        "x": 1144,
+        "y": 14,
+        "width": 88,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "600",
+        "bg_color": "rgb(255, 255, 255)",
+        "text_color": "rgb(0, 19, 37)"
+      }
+    },
+    {
+      "text": "Sign in",
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "classes": "css-8cnumm",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-acn8no.ea5z8k04:nth-of-type(1) > div.css-1vgyjad.e1rpj5080 > div.css-1i7iptz.e1rpj5082:nth-of-type(2) > button.css-8cnumm",
+      "metrics": {
+        "x": 964,
+        "y": 112,
+        "width": 78,
+        "height": 40,
+        "font_size": "14px",
+        "font_weight": "600",
+        "bg_color": "rgb(232, 0, 113)",
+        "text_color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "text": "Order Related",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-jfgty2 eddxt1l0",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "section.css-15jvdn1.e1ucr0i20 > ul.css-1yctooi.e1ucr0i21 > li.css-fa41jt.e1ucr0i22:nth-of-type(1) > div.css-jfgty2.eddxt1l0",
+      "metrics": {
+        "x": 221,
+        "y": 251,
+        "width": 263,
+        "height": 108,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    },
+    {
+      "text": "Shopping",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-jfgty2 eddxt1l0",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "section.css-15jvdn1.e1ucr0i20 > ul.css-1yctooi.e1ucr0i21 > li.css-fa41jt.e1ucr0i22:nth-of-type(2) > div.css-jfgty2.eddxt1l0",
+      "metrics": {
+        "x": 508,
+        "y": 251,
+        "width": 263,
+        "height": 108,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    },
+    {
+      "text": "Nykaa Account",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-jfgty2 eddxt1l0",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "section.css-15jvdn1.e1ucr0i20 > ul.css-1yctooi.e1ucr0i21 > li.css-fa41jt.e1ucr0i22:nth-of-type(3) > div.css-jfgty2.eddxt1l0",
+      "metrics": {
+        "x": 796,
+        "y": 251,
+        "width": 263,
+        "height": 108,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    },
+    {
+      "text": "Payments",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-jfgty2 eddxt1l0",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "section.css-15jvdn1.e1ucr0i20 > ul.css-1yctooi.e1ucr0i21 > li.css-fa41jt.e1ucr0i22:nth-of-type(4) > div.css-jfgty2.eddxt1l0",
+      "metrics": {
+        "x": 221,
+        "y": 383,
+        "width": 263,
+        "height": 108,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    },
+    {
+      "text": "Sell On Nykaa",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-jfgty2 eddxt1l0",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "section.css-15jvdn1.e1ucr0i20 > ul.css-1yctooi.e1ucr0i21 > li.css-fa41jt.e1ucr0i22:nth-of-type(5) > div.css-jfgty2.eddxt1l0",
+      "metrics": {
+        "x": 508,
+        "y": 383,
+        "width": 263,
+        "height": 108,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    },
+    {
+      "text": "Others",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-jfgty2 eddxt1l0",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "section.css-15jvdn1.e1ucr0i20 > ul.css-1yctooi.e1ucr0i21 > li.css-fa41jt.e1ucr0i22:nth-of-type(6) > div.css-jfgty2.eddxt1l0",
+      "metrics": {
+        "x": 796,
+        "y": 383,
+        "width": 263,
+        "height": 108,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    },
+    {
+      "text": "Chat with us\n\nGet instant query assistance",
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "classes": "css-cir1kz e1tyi6890",
+      "is_visible": true,
+      "is_disabled": false,
+      "selector": "div.css-1p3eswj.e1rhh30z0:nth-of-type(2) > ul.css-n4pms3.e1rhh30z3 > li.css-v5aby1.e1rhh30z4 > div.css-cir1kz.e1tyi6890",
+      "metrics": {
+        "x": 221,
+        "y": 583,
+        "width": 838,
+        "height": 70,
+        "font_size": "14px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgba(0, 19, 37, 0.92)"
+      }
+    }
+  ],
+  "links": [],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "subscription_signals": [],
+  "summary": {
+    "total_text_blocks": 15,
+    "total_buttons": 11,
+    "total_links": 0,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0,
+    "total_subscription_signals": 0
+  }
+}

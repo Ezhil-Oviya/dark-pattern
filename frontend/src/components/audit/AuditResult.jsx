@@ -1,11 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
-const FINAL_FOUR_PATTERNS = [
-  "False Urgency",
-  "Drip Pricing",
-  "Bait and Switch",
-  "Confirmshaming",
-];
+import { ALL_PATTERNS, PATTERN_ICONS } from "../../config/patterns";
 
 export default function AuditResult({ result }) {
   const navigate = useNavigate();
@@ -15,8 +9,8 @@ export default function AuditResult({ result }) {
   const pages = result.pages || [];
   const rawDarkPatterns = result.dark_pattern_summary || result.detection_results || [];
 
-  // Normalize and map findings to the Final Four patterns
-  const darkPatterns = FINAL_FOUR_PATTERNS.map((patternName) => {
+  // Normalize and map findings to the complete 8 dark patterns
+  const darkPatterns = ALL_PATTERNS.map((patternName) => {
     const existing = rawDarkPatterns.find((d) => d.pattern === patternName);
     if (existing) return existing;
     return {
@@ -116,13 +110,14 @@ export default function AuditResult({ result }) {
 
       <hr style={{ margin: "24px 0", borderColor: "#e5e7eb" }} />
 
-      {/* Final Four Dark Pattern Findings */}
-      <h3 style={{ marginBottom: "12px" }}>Final Four Dark Pattern Detectors</h3>
+      {/* 8 Dark Pattern Categories Findings */}
+      <h3 style={{ marginBottom: "12px" }}>Dark Pattern Detection Engine (8 Categories)</h3>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "14px", marginBottom: "24px" }}>
         {darkPatterns.map((det, idx) => {
           const isDetected = det.status === "DETECTED" || (det.detected && det.status !== "INSUFFICIENT_EVIDENCE" && det.status !== "NOT_EVALUATED");
           const isInsufficient = det.status === "INSUFFICIENT_EVIDENCE" || det.status === "NOT_EVALUATED";
           const isNotDetected = det.status === "NOT_DETECTED" || (!det.detected && !isInsufficient);
+          const icon = PATTERN_ICONS[det.pattern] || "⚠️";
 
           let badgeBg = "#dcfce7";
           let badgeColor = "#166534";
@@ -156,7 +151,7 @@ export default function AuditResult({ result }) {
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
                 <span style={{ fontSize: "15px", fontWeight: "bold", color: isDetected ? "#b45309" : isInsufficient ? "#334155" : "#15803d" }}>
-                  {det.pattern}
+                  {icon} {det.pattern}
                 </span>
                 <span
                   style={{
@@ -175,6 +170,40 @@ export default function AuditResult({ result }) {
               <p style={{ margin: "6px 0", fontSize: "13px", color: "#374151", lineHeight: "1.4" }}>
                 {det.reason}
               </p>
+
+              {det.metadata?.signals && det.metadata.signals.length > 0 && (
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "4px", margin: "6px 0" }}>
+                  {det.metadata.signals.map((sig, sIdx) => (
+                    <span
+                      key={sIdx}
+                      style={{
+                        fontSize: "10px",
+                        fontWeight: 700,
+                        padding: "2px 6px",
+                        borderRadius: "4px",
+                        background: "rgba(217, 119, 6, 0.15)",
+                        color: "#b45309",
+                        textTransform: "uppercase"
+                      }}
+                    >
+                      🏷️ {sig.replace(/_/g, " ")}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              {det.evidence && det.evidence.length > 0 && (
+                <div style={{ marginTop: "6px", fontSize: "11px", background: "rgba(255, 255, 255, 0.6)", padding: "6px 10px", borderRadius: "6px", border: "1px solid rgba(0,0,0,0.05)" }}>
+                  <strong>Evidence Snippets:</strong>
+                  <ul style={{ margin: "2px 0 0 14px", padding: 0 }}>
+                    {det.evidence.slice(0, 3).map((ev, eIdx) => (
+                      <li key={eIdx} style={{ wordBreak: "break-all" }}>
+                        <code>{ev.category}</code>: {ev.text || ev.selector || ev.evidence_id}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {isDetected && det.pages_affected_count !== undefined && (
                 <div style={{ marginTop: "8px", fontSize: "12px", color: "#b45309", fontWeight: 600 }}>

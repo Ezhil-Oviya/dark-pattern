@@ -1,0 +1,692 @@
+{
+  "evidence_id": "ev_page_001_audit_nykaa_2026-09-07_00-23-32",
+  "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+  "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+  "crawl_depth": 1,
+  "page_index": 1,
+  "audit_time": "2026-09-07_00-23-32",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 33,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 0,
+    "total_price_evidence": 29,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p1_scr_bffee1",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/screenshot.png",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Platform: Nykaa | Page: 1 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p1_dom_1384af",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/dom.html",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Captured at network idle for https://www.nykaa.com/sp/offers-native/offers (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_0_18e5",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "#666ae7eb83260f7a26daccc0 > div.666ae7eb83260f7a26daccc0.css-31pn37:nth-of-type(3)",
+      "text": "Eyeshadows\nUnder ₹499",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Up To 40% Off\nOn Shampoos\nUp To 40% Off\nOn Face Wash\nEyeshadows\nUnder ₹499\nBestselling Lipsticks\nUnder ₹399\nBody Lotions",
+      "attributes": {
+        "detected_price": "₹499",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_1_d664",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "#666ae7eb83260f7a26daccc0 > div.666ae7eb83260f7a26daccc0.css-31pn37:nth-of-type(4)",
+      "text": "Bestselling Lipsticks\nUnder ₹399",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Up To 40% Off\nOn Shampoos\nUp To 40% Off\nOn Face Wash\nEyeshadows\nUnder ₹499\nBestselling Lipsticks\nUnder ₹399\nBody Lotions",
+      "attributes": {
+        "detected_price": "₹399",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_2_c423",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "#666ae7eb83260f7a26daccc0 > div.666ae7eb83260f7a26daccc0.css-31pn37:nth-of-type(6)",
+      "text": "Health Boosters\nUnder ₹999",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Up To 40% Off\nOn Shampoos\nUp To 40% Off\nOn Face Wash\nEyeshadows\nUnder ₹499\nBestselling Lipsticks\nUnder ₹399\nBody Lotions",
+      "attributes": {
+        "detected_price": "₹999",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_3_efad",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹456\nActual price ₹829\nDiscounted Percentage45%\n₹456₹82945%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Maybelline New York\nLash Sensational Sky High Waterproof Mascara\n8 Shades\nSelling price ₹456\nActual price ₹829\nDiscounte",
+      "attributes": {
+        "detected_price": "₹456",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_4_9461",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹829",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹456\nActual price ₹829\nDiscounted Percentage45%\n₹456₹82945%",
+      "attributes": {
+        "detected_price": "₹829",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_5_d9ea",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹719\nActual price ₹899\nDiscounted Percentage20%\n₹719₹89920%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Lakme\nUnreal Blur Perfect Face Primer\n3 Shades\nSelling price ₹719\nActual price ₹899\nDiscounted Percentage20%\n₹719₹89920%",
+      "attributes": {
+        "detected_price": "₹719",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_6_e651",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹899",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹719\nActual price ₹899\nDiscounted Percentage20%\n₹719₹89920%",
+      "attributes": {
+        "detected_price": "₹899",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_7_87c5",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹197\nActual price ₹329\nDiscounted Percentage40%\n₹197₹32940%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Nykaa Cosmetics\nSo Creme! Creamy Matte Lipstick\n35 Shades\nSelling price ₹197\nActual price ₹329\nDiscounted Percentage40%",
+      "attributes": {
+        "detected_price": "₹197",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_8_73d0",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹329",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹197\nActual price ₹329\nDiscounted Percentage40%\n₹197₹32940%",
+      "attributes": {
+        "detected_price": "₹329",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_9_4cf7",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹764\nActual price ₹899\nDiscounted Percentage15%\n₹764₹89915%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Kay Beauty\nLip Tint\n8 Shades\nSelling price ₹764\nActual price ₹899\nDiscounted Percentage15%\n₹764₹89915%",
+      "attributes": {
+        "detected_price": "₹764",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_10_c586",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹3,360\nActual price ₹4,200\nDiscounted Percentage20%\n₹3,360₹4,20020%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "M.A.C\nStrobe Cream Illuminating Moisturizer & Liquid Highlighter\n6 Shades\nSelling price ₹3,360\nActual price ₹4,200\nDisco",
+      "attributes": {
+        "detected_price": "₹3,360",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_11_1f34",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹4,200",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹3,360\nActual price ₹4,200\nDiscounted Percentage20%\n₹3,360₹4,20020%",
+      "attributes": {
+        "detected_price": "₹4,200",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_12_f887",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹1,175\n₹1,175",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "PAC\nMicro Finish Makeup Fixer Spray - Quick Drying Microfine Mist, Longlasting Sweatproof Formula\n120ml\nSelling price ₹1",
+      "attributes": {
+        "detected_price": "₹1,175",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_13_4ec8",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div:nth-of-type(3) > div.css-1ragp37:nth-of-type(2) > div.css-17eyqq7 > div.css-v4c3kx:nth-of-type(7)",
+      "text": "Huda Beauty\nEyeshadow Palette - Pretty Grunge\n16.8 g\nSelling price ₹6,200\n₹6,200",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Maybelline New York\nLash Sensational Sky High Waterproof Mascara\n8 Shades\nSelling price ₹456\nActual price ₹829\nDiscounte",
+      "attributes": {
+        "detected_price": "₹6,200",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_14_6944",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹1,013\nActual price ₹1,299\nDiscounted Percentage22%\n₹1,013₹1,29922%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Swiss Beauty\nProfessional Face & Eye Brush, Soft Synthetic Bristles , Flawless Application- Set of 6\n6 pcs\nSelling price",
+      "attributes": {
+        "detected_price": "₹1,013",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_15_d99a",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹1,299",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹1,013\nActual price ₹1,299\nDiscounted Percentage22%\n₹1,013₹1,29922%",
+      "attributes": {
+        "detected_price": "₹1,299",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_16_2c8c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹323\nActual price ₹340\nDiscounted Percentage5%\n₹323₹3405%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Insight Cosmetics\n3 In 1 Long Lasting Primer\n2 Sizes\nSelling price ₹323\nActual price ₹340\nDiscounted Percentage5%\n₹323₹3",
+      "attributes": {
+        "detected_price": "₹323",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_17_a8ba",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹340",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹323\nActual price ₹340\nDiscounted Percentage5%\n₹323₹3405%",
+      "attributes": {
+        "detected_price": "₹340",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_18_1d00",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹455\nActual price ₹499\nDiscounted Percentage8%\n₹455₹4998%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Renee Cosmetics\nRENEE Madness Ph Lipstick - Black Magic\n3gm\nSelling price ₹455\nActual price ₹499\nDiscounted Percentage8%",
+      "attributes": {
+        "detected_price": "₹455",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_19_b4b7",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹1,055\nActual price ₹1,199\nDiscounted Percentage12%\n₹1,055₹1,19912%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Daily Life Forever52\nUltra Definition Liquid Foundation\n18 Shades\nSelling price ₹1,055\nActual price ₹1,199\nDiscounted Pe",
+      "attributes": {
+        "detected_price": "₹1,055",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_20_1af9",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹1,199",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹1,055\nActual price ₹1,199\nDiscounted Percentage12%\n₹1,055₹1,19912%",
+      "attributes": {
+        "detected_price": "₹1,199",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_21_e415",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹1,260\nActual price ₹1,400\nDiscounted Percentage10%\n₹1,260₹1,40010%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Bobbi Brown\nVitamin Enriched Face Base (Moisturizer & Primer)\n3 Sizes\nSelling price ₹1,260\nActual price ₹1,400\nDiscounte",
+      "attributes": {
+        "detected_price": "₹1,260",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_22_8ff9",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹1,400",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹1,260\nActual price ₹1,400\nDiscounted Percentage10%\n₹1,260₹1,40010%",
+      "attributes": {
+        "detected_price": "₹1,400",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_23_cf73",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹2,160\nActual price ₹2,700\nDiscounted Percentage20%\n₹2,160₹2,70020%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Too Faced\nBorn This Way Super Coverage Multi Use Sculpting Concealer\n33 Shades\nSelling price ₹2,160\nActual price ₹2,700",
+      "attributes": {
+        "detected_price": "₹2,160",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_24_2b1c",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹2,700",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹2,160\nActual price ₹2,700\nDiscounted Percentage20%\n₹2,160₹2,70020%",
+      "attributes": {
+        "detected_price": "₹2,700",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_25_7271",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹1,736\nActual price ₹2,480\nDiscounted Percentage30%\n₹1,736₹2,48030%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Anastasia Beverly Hills\nDipbrow Pomade\n8 Shades\nSelling price ₹1,736\nActual price ₹2,480\nDiscounted Percentage30%\n₹1,736",
+      "attributes": {
+        "detected_price": "₹1,736",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_26_9815",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹2,480",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹1,736\nActual price ₹2,480\nDiscounted Percentage30%\n₹1,736₹2,48030%",
+      "attributes": {
+        "detected_price": "₹2,480",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_27_63b0",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4)",
+      "text": "Selling price ₹600\nActual price ₹1,200\nDiscounted Percentage50%\n₹600₹1,20050%",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Colorbar\nKissproof Lipstick\n25 Shades\nSelling price ₹600\nActual price ₹1,200\nDiscounted Percentage50%\n₹600₹1,20050%",
+      "attributes": {
+        "detected_price": "₹600",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_pr_28_5ba4",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "prices",
+      "selector": "div.width-limiter > div:nth-of-type(2) > div.css-xw08yc:nth-of-type(4) > div.sr-only:nth-of-type(2)",
+      "text": "Actual price ₹1,200",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Selling price ₹600\nActual price ₹1,200\nDiscounted Percentage50%\n₹600₹1,20050%",
+      "attributes": {
+        "detected_price": "₹1,200",
+        "currency": "INR"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_btn_0_10f0",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p1_btn_1_8181",
+      "audit_id": "audit_nykaa_2026-09-07_00-23-32",
+      "page_url": "https://www.nykaa.com/sp/offers-native/offers",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 1,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-07_00-23-32/page_001/extracted.json",
+      "timestamp": "2026-09-07_00-23-32",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    }
+  ]
+}

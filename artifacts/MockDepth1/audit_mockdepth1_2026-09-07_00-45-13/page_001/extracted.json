@@ -1,0 +1,69 @@
+{
+  "url": "http://127.0.0.1:50139/level1_a",
+  "title": "Level 1A",
+  "timestamp": "2026-09-06T19:15:15.957Z",
+  "visible_text": [
+    {
+      "tag": "h1",
+      "text": "Level 1A"
+    }
+  ],
+  "buttons": [],
+  "links": [
+    {
+      "text": "Page 2A",
+      "href": "/level2_a",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a:nth-of-type(1)",
+      "metrics": {
+        "x": 8,
+        "y": 66,
+        "width": 54,
+        "height": 17,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 238)"
+      }
+    },
+    {
+      "text": "Back to Home",
+      "href": "/",
+      "id": "",
+      "classes": "",
+      "is_visible": true,
+      "selector": "html > body > a:nth-of-type(2)",
+      "metrics": {
+        "x": 66,
+        "y": 66,
+        "width": 92,
+        "height": 17,
+        "font_size": "16px",
+        "font_weight": "400",
+        "bg_color": "rgba(0, 0, 0, 0)",
+        "text_color": "rgb(0, 0, 238)"
+      }
+    }
+  ],
+  "forms": [],
+  "checkboxes": [],
+  "prices": [],
+  "cart_items": [],
+  "urgency_elements": [],
+  "modals": [],
+  "subscription_signals": [],
+  "summary": {
+    "total_text_blocks": 1,
+    "total_buttons": 0,
+    "total_links": 2,
+    "total_forms": 0,
+    "total_checkboxes": 0,
+    "total_prices": 0,
+    "total_cart_items": 0,
+    "total_urgency_elements": 0,
+    "total_modals": 0,
+    "total_subscription_signals": 0
+  }
+}

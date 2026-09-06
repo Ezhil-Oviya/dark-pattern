@@ -1,0 +1,232 @@
+{
+  "evidence_id": "ev_page_006_audit_nykaa_2026-09-06_22-51-38",
+  "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+  "website_id": "6a72ebdb5c26749a7c2e189c",
+  "platform": "Nykaa",
+  "page_url": "https://www.nykaa.com/?root=logo",
+  "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+  "crawl_depth": 1,
+  "page_index": 6,
+  "audit_time": "2026-09-06_22-51-38",
+  "artifacts": {
+    "screenshot": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/screenshot.png",
+    "dom": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/dom.html",
+    "extracted_json": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+    "evidence_json": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/evidence.json"
+  },
+  "summary": {
+    "total_evidence_items": 10,
+    "total_checkbox_evidence": 0,
+    "total_urgency_evidence": 6,
+    "total_price_evidence": 0,
+    "total_cart_evidence": 0,
+    "total_modal_evidence": 0,
+    "has_screenshot": 1,
+    "has_dom": 1,
+    "has_extracted_data": 1
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "ev_p6_scr_ec714f",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "screenshot",
+      "category": "page_screenshot",
+      "selector": null,
+      "text": "Full page viewport capture",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/screenshot.png",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Platform: Nykaa | Page: 6 | Depth: 1",
+      "attributes": {
+        "format": "PNG",
+        "full_page": true
+      }
+    },
+    {
+      "evidence_id": "ev_p6_dom_a0a7d5",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "dom_html",
+      "category": "full_dom",
+      "selector": null,
+      "text": "Complete rendered HTML DOM structure",
+      "tag": null,
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/dom.html",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Captured at network idle for https://www.nykaa.com/?root=logo (depth=1)",
+      "attributes": {
+        "format": "HTML5",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_urg_0_8380",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-17xy1kb:nth-of-type(7)",
+      "text": "Ends In:\n06h 06m 47s\nEnds In:\n06h 06m 47s",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Ends In:\n06h 06m 47s\nEnds In:\n06h 06m 47s",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "css-17xy1kb"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_urg_1_d589",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "#69f59eb39d45e6dacb9aa93b > div.69f59eb39d45e6dacb9aa93b.css-1by6qld:nth-of-type(1)",
+      "text": "Ends In:\n06h 06m 47s",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Ends In:\n06h 06m 47s",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "69f59eb39d45e6dacb9aa93b css-1by6qld"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_urg_2_b9d5",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.image-tag-wrapper > div.1788737400.tag-text-wrapper:nth-of-type(2) > div.tag-type-text > span.tag-text.css-13o7eu2:nth-of-type(1)",
+      "text": "Ends In:",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Ends In:",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "tag-text css-13o7eu2 e13h0shy0"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_urg_3_18ea",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.image-tag-wrapper > div.1788737400.tag-text-wrapper:nth-of-type(2) > div.tag-type-text > span.tag-timer-text:nth-of-type(2)",
+      "text": "06h 06m 47s",
+      "tag": "span",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "06h 06m 47s",
+      "attributes": {
+        "pattern_type": "timer",
+        "classes": "tag-timer-text"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_urg_4_28cf",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.css-e82s8r:nth-of-type(1) > div.css-11a3qtn > div:nth-of-type(1) > div.css-1lp585y:nth-of-type(9)",
+      "text": "Mix & Match\nLimited Time Only!",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Mix & Match\nLimited Time Only!",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "css-1lp585y"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_urg_5_b748",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "urgency_elements",
+      "selector": "div.image-tag-wrapper > div.image-container:nth-of-type(1) > div.callout-radius.css-1llngxb:nth-of-type(3) > div.callout-text2:nth-of-type(2)",
+      "text": "Limited Time Only!",
+      "tag": "div",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Limited Time Only!",
+      "attributes": {
+        "pattern_type": "scarcity",
+        "classes": "callout-text2"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_btn_0_e5ca",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "div.css-1tny7j1.e1ewpqpu0:nth-of-type(2) > div.css-vtwhmt.euw1lbv0:nth-of-type(1) > div.css-jgrj0x.euw1lbv2 > button.css-1gzc5zn",
+      "text": "Sign in",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Sign in",
+      "attributes": {
+        "id": "",
+        "type": "button",
+        "classes": "css-1gzc5zn"
+      }
+    },
+    {
+      "evidence_id": "ev_p6_btn_1_42b0",
+      "audit_id": "audit_nykaa_2026-09-06_22-51-38",
+      "page_url": "https://www.nykaa.com/?root=logo",
+      "page_title": "Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa",
+      "crawl_depth": 1,
+      "page_index": 6,
+      "evidence_type": "extracted_data",
+      "category": "buttons",
+      "selector": "#header-bag-icon",
+      "text": "Shopping Bag",
+      "tag": "button",
+      "artifact_path": "artifacts/Nykaa/audit_nykaa_2026-09-06_22-51-38/page_006/extracted.json",
+      "timestamp": "2026-09-06_22-51-38",
+      "context": "Shopping Bag",
+      "attributes": {
+        "id": "header-bag-icon",
+        "type": "button",
+        "classes": "css-aesrxy"
+      }
+    }
+  ]
+}
