@@ -24,3 +24,4 @@ storage/reports/*
 !storage/reports/.gitkeep
 .DS_Store
 Thumbs.db
+backend/artifacts/
