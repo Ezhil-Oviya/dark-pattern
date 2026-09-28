@@ -65,9 +65,32 @@ class TestBasketSneakingDetector(unittest.TestCase):
         self.assertEqual(finding.status, "DETECTED")
         self.assertTrue(finding.detected)
         self.assertGreaterEqual(finding.confidence, 80)
+        self.assertIsNotNone(finding.model_score)
+        self.assertGreaterEqual(finding.model_score, 0.70)
+        self.assertEqual(finding.validation_status, "PASSED")
         self.assertIn("Basket Sneaking", finding.reason)
         self.assertIn("protection plan", finding.reason.lower())
         self.assertGreaterEqual(len(finding.evidence), 1)
+
+    def test_optional_addon_unknown_checkbox_state_insufficient_evidence(self):
+        """Optional add-on text with unknown/inconclusive checkbox state -> INSUFFICIENT_EVIDENCE."""
+        extracted_data = {
+            "url": "https://example.com/product",
+            "checkboxes": [
+                {
+                    "name": "warranty_badge",
+                    "checked": None,
+                    "default_checked": None,
+                    "label": "2-Year Extended Device Protection Plan available for ₹499",
+                    "selector": ".warranty-badge"
+                }
+            ],
+            "cart_items": []
+        }
+        finding = self.detector.detect(extracted_data, {})
+        self.assertEqual(finding.status, "INSUFFICIENT_EVIDENCE")
+        self.assertFalse(finding.detected)
+
 
     def test_preselected_donation_checkbox_detected(self):
         extracted_data = {

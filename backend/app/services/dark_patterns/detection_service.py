@@ -114,6 +114,7 @@ def aggregate_detection_findings(
             "status": "NOT_DETECTED",
             "detected": False,
             "max_confidence": 0,
+            "max_model_score": 0.0,
             "affected_pages": [],
             "all_evidence": [],
             "reasons": [],
@@ -137,6 +138,9 @@ def aggregate_detection_findings(
 
             entry = pattern_data[pat_name]
             det_status = det.get("status", "DETECTED" if det.get("detected") else "NOT_DETECTED")
+            m_score = det.get("model_score")
+            if m_score is not None and m_score > entry["max_model_score"]:
+                entry["max_model_score"] = float(m_score)
 
             if det_status == "DETECTED" or det.get("detected", False):
                 entry["detected"] = True
@@ -171,11 +175,12 @@ def aggregate_detection_findings(
         affected_pages = entry["affected_pages"]
         all_ev = entry["all_evidence"]
         max_conf = entry["max_confidence"]
+        max_m_score = entry["max_model_score"]
 
         if entry["detected"]:
             total_instances = deduplicate_evidence_instances(all_ev)
             affected_count = len(affected_pages)
-            aggregated.append({
+            finding_dict = {
                 "pattern": pat,
                 "status": "DETECTED",
                 "detected": True,
@@ -188,7 +193,10 @@ def aggregate_detection_findings(
                     f"({total_instances} unique instance(s) found with {len(all_ev)} traceable evidence items)."
                 ),
                 "evidence": all_ev
-            })
+            }
+            if max_m_score > 0.0:
+                finding_dict["model_score"] = max_m_score
+            aggregated.append(finding_dict)
 
         elif entry["not_detected_count"] > 0:
             reasons = {

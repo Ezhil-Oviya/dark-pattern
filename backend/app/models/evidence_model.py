@@ -73,5 +73,8 @@ class AuditSummary(BaseModel):
     start_time: str
     end_time: str
     status: str = "completed"
+    authentication_required: bool = False
+    authentication_status: str = "not_required"
+    cart_workflow_executed: bool = False
     dark_pattern_summary: List[Dict[str, Any]] = Field(default_factory=list)
     pages: List[PageSummary] = Field(default_factory=list)

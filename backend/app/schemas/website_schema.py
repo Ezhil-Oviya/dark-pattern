@@ -13,7 +13,11 @@ def website_serializer(website):
         "headless": website.get("headless", True),
         "capture_dom": website.get("capture_dom", True),
         "capture_screenshots": website.get("capture_screenshots", True),
-        "login_required": website.get("login_required", False)
+        "login_required": website.get("login_required", False),
+        "cart_workflow_enabled": website.get("cart_workflow_enabled", True),
+        "product_selection_enabled": website.get("product_selection_enabled", True),
+        "add_to_cart_selectors": website.get("add_to_cart_selectors", []),
+        "cart_selectors": website.get("cart_selectors", []),
     }
 
 

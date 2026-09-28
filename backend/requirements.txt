@@ -5,3 +5,6 @@ python-dotenv
 certifi
 httpx
 playwright
+sentence-transformers
+torch
+transformers

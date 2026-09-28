@@ -407,18 +407,50 @@ export default function EvidencePage() {
                               <strong style={{ color: isDetected ? "#92400e" : isInsufficient ? "#334155" : "#166534" }}>
                                 {det.pattern}: {statusText}
                               </strong>
-                              <span
-                                style={{
-                                  fontSize: "11px",
-                                  fontWeight: "bold",
-                                  padding: "2px 8px",
-                                  borderRadius: "10px",
-                                  background: statusBg,
-                                  color: statusColor
-                                }}
-                              >
-                                {isDetected ? `Confidence: ${det.confidence}%` : isInsufficient ? "Status: Insufficient Evidence" : "Confidence: 0%"}
-                              </span>
+                              <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
+                                {det.model_score !== undefined && det.model_score !== null && (
+                                  <span
+                                    style={{
+                                      fontSize: "11px",
+                                      fontWeight: "600",
+                                      padding: "2px 6px",
+                                      borderRadius: "6px",
+                                      background: "#eff6ff",
+                                      color: "#1d4ed8",
+                                      border: "1px solid #bfdbfe"
+                                    }}
+                                  >
+                                    AI Score: {det.model_score.toFixed(2)}
+                                  </span>
+                                )}
+                                {det.validation_status && (
+                                  <span
+                                    style={{
+                                      fontSize: "11px",
+                                      fontWeight: "600",
+                                      padding: "2px 6px",
+                                      borderRadius: "6px",
+                                      background: det.validation_status === "PASSED" ? "#ecfdf5" : "#f1f5f9",
+                                      color: det.validation_status === "PASSED" ? "#047857" : "#475569",
+                                      border: det.validation_status === "PASSED" ? "1px solid #a7f3d0" : "1px solid #cbd5e1"
+                                    }}
+                                  >
+                                    Validation: {det.validation_status}
+                                  </span>
+                                )}
+                                <span
+                                  style={{
+                                    fontSize: "11px",
+                                    fontWeight: "bold",
+                                    padding: "2px 8px",
+                                    borderRadius: "10px",
+                                    background: statusBg,
+                                    color: statusColor
+                                  }}
+                                >
+                                  {isDetected ? `Confidence: ${det.confidence}%` : isInsufficient ? "Status: Insufficient Evidence" : "Confidence: 0%"}
+                                </span>
+                              </div>
                             </div>
                             <p style={{ margin: "6px 0 0 0", fontSize: "13px", color: "#374151" }}>
                               {det.reason}

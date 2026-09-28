@@ -1,11 +1,12 @@
 import json
 import logging
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter, HTTPException, Response, status
 from pymongo.errors import PyMongoError
 
+from app.services.automation.audit_session_manager import session_manager
 from app.services.automation.playwright_service import run_browser_audit
 from app.services.evidence.mongodb_evidence_service import (
     get_all_audits_from_mongodb,
@@ -48,6 +49,82 @@ def start_automation(website_id: str):
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Audit execution failed: {str(e)}"
+        )
+
+
+@router.get("/automation/audit/{audit_id}/status")
+def get_audit_status(audit_id: str) -> Dict[str, Any]:
+    """
+    Returns current non-sensitive execution and authentication checkpoint status
+    for an active or completed audit session.
+    """
+    session = session_manager.get_session(audit_id)
+    if session:
+        return session.to_dict()
+
+    # If not active in memory, check if already completed in MongoDB
+    try:
+        audit = get_audit_details_from_mongodb(audit_id)
+        if audit:
+            return {
+                "audit_id": audit_id,
+                "status": "COMPLETED",
+                "authentication_required": audit.get("authentication_required", False),
+                "authentication_status": audit.get("authentication_status", "not_required"),
+                "current_stage": "Audit Completed",
+                "message": "Audit completed and loaded from database."
+            }
+    except Exception:
+        pass
+
+    raise HTTPException(
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail=f"Audit session '{audit_id}' not found"
+    )
+
+
+@router.get("/automation/active-session/{website_id}")
+def get_active_session_for_website(website_id: str) -> Dict[str, Any]:
+    """
+    Returns active session information for a website if an audit is currently running or paused at an authentication checkpoint.
+    """
+    session = session_manager.get_active_session_for_website(website_id)
+    if session:
+        res = session.to_dict()
+        res["active"] = True
+        return res
+    return {"status": "idle", "active": False}
+
+
+@router.post("/automation/audit/{audit_id}/resume")
+def resume_audit(audit_id: str) -> Dict[str, Any]:
+    """
+    Resumes an audit session that is paused at an authentication checkpoint
+    after the user has completed manual authentication in the visible browser.
+    """
+    session = session_manager.get_session(audit_id)
+    if not session:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Active audit session '{audit_id}' not found to resume."
+        )
+
+    if session.status != "AUTHENTICATION_REQUIRED":
+        return {
+            "status": session.status,
+            "message": f"Audit is currently in '{session.status}' state, not paused for authentication."
+        }
+
+    resumed = session_manager.resume_session(audit_id)
+    if resumed:
+        return {
+            "status": "RESUMING",
+            "message": "Resume signal delivered to crawler session. Audit will continue."
+        }
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to signal resume to audit session."
         )
 
 

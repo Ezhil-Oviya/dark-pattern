@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "description": "Project-specific labelled semantic reference and evaluation benchmark for AI-assisted Dark Pattern Detection (Forced Action & Basket Sneaking)",
+    "semester_review": "Final Review",
+    "project": "Intelligent Automated Compliance Auditing Framework / Dark Pattern Compliance Auditor",
+    "created_at": "2026-09-26",
+    "nlp_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "total_samples": 38,
+    "patterns": ["Forced Action", "Basket Sneaking"],
+    "model_attribution": "The base language representation uses the pretrained Sentence Transformer model (all-MiniLM-L6-v2). The project does not claim to train the base model.",
+    "evaluation_disclaimer": "The evaluation dataset is project-specific and relatively small (38 samples); results demonstrate functional validation rather than broad statistical generalization."
+  },
+  "reference_prototypes": {
+    "forced_action": {
+      "positive_coercive_prototypes": [
+        {"concept": "coercive_account_gating", "text": "Create an account or sign up to continue reading and access content"},
+        {"concept": "coercive_account_gating", "text": "Sign up or register before proceeding to checkout"},
+        {"concept": "coercive_account_gating", "text": "Register your account to access your search results"},
+        {"concept": "forced_app_download", "text": "Download our mobile app to continue viewing prices or content"},
+        {"concept": "forced_subscription_gate", "text": "Subscribe to our premium service before accessing the requested file or feature"},
+        {"concept": "forced_notification_optin", "text": "Enable browser push notifications to proceed to the page"},
+        {"concept": "social_sharing_wall", "text": "Share this website on social media like Facebook or Twitter to unlock your coupon"},
+        {"concept": "forced_rating_gate", "text": "Rate our application 5 stars to continue using free features"},
+        {"concept": "unrelated_data_harvesting", "text": "Enter your personal phone number or annual income to download"},
+        {"concept": "forced_promotional_consent", "text": "I agree to receive promotional marketing emails, partner ads, and daily SMS offers"}
+      ],
+      "benign_voluntary_prototypes": [
+        {"concept": "guest_alternative", "text": "Continue as guest or checkout without an account"},
+        {"concept": "guest_alternative", "text": "Guest checkout option available"},
+        {"concept": "explicitly_optional", "text": "Account registration is optional"},
+        {"concept": "explicitly_optional", "text": "You may optionally create an account to save your purchase history"},
+        {"concept": "login_convenience", "text": "Login to save your personal preferences"},
+        {"concept": "legitimate_terms", "text": "I accept the Terms and Conditions and Privacy Policy"},
+        {"concept": "legitimate_shipping", "text": "Shipping Address: Full Name, Street, City, Postal Code"},
+        {"concept": "legitimate_payment", "text": "Credit Card Number, Expiration Date, CVV Code"},
+        {"concept": "dismissible_skip", "text": "Skip this step and proceed directly to dashboard"},
+        {"concept": "standard_login", "text": "Sign In with Google, Apple ID, or Email login options"},
+        {"concept": "standard_login_button", "text": "Log In"},
+        {"concept": "standard_signup_button", "text": "Create an account"}
+      ]
+    },
+    "basket_sneaking": {
+      "positive_addon_prototypes": [
+        {"concept": "device_protection_plan", "text": "Add 2-Year Accidental Damage Protection Plan or device care"},
+        {"concept": "extended_warranty", "text": "Extended Warranty Care Pack for 3 Years"},
+        {"concept": "recurring_subscription_addon", "text": "Subscribe to VIP membership express delivery and monthly protection plan"},
+        {"concept": "delivery_theft_insurance", "text": "Include package loss, damage, and theft shipping insurance surcharge"},
+        {"concept": "charitable_donation_addon", "text": "Donate to charity foundation with this order"},
+        {"concept": "gift_wrapping_addon", "text": "Add premium gift wrapping and custom greeting card"},
+        {"concept": "priority_handling_surcharge", "text": "Priority order processing and rush express handling fee"},
+        {"concept": "commercial_addon_product", "text": "Add screen cleaning kit, tempered glass, or accessory bundle to cart"},
+        {"concept": "unsolicited_gratuity_addon", "text": "Add driver tip or delivery partner gratuity"},
+        {"concept": "device_protection_plan", "text": "Device protection plan covering accidental liquid damage and theft"}
+      ],
+      "benign_cart_prototypes": [
+        {"concept": "mandatory_legal_terms", "text": "I agree to the Terms of Service and Privacy Policy"},
+        {"concept": "session_persistence_toggle", "text": "Remember me / Keep me signed in on this computer"},
+        {"concept": "government_tax_line_item", "text": "Goods and Services Tax (GST 18%) / Sales Tax line item"},
+        {"concept": "standard_logistics_fee", "text": "Standard ground shipping delivery logistics fee"},
+        {"concept": "form_convenience_toggle", "text": "Billing address is the same as shipping address"},
+        {"concept": "product_recommendation", "text": "Customers who bought this item also bought / Recommended products carousel"},
+        {"concept": "legitimate_payment_field", "text": "Required credit card payment method and billing details"}
+      ]
+    }
+  },
+  "forced_action_dataset": [
+    {
+      "id": "fa_pos_01",
+      "text": "Create an account to continue reading this article and access full research",
+      "context": "modal_overlay",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Mandatory account creation gating public non-transactional content with no guest alternative"
+    },
+    {
+      "id": "fa_pos_02",
+      "text": "Sign up before continuing to checkout",
+      "context": "gating_banner",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Forced user registration blocking checkout with no guest checkout option"
+    },
+    {
+      "id": "fa_pos_03",
+      "text": "Enable browser push notifications to proceed to the download page",
+      "context": "permission_dialog",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Mandatory push notification opt-in required to perform basic action"
+    },
+    {
+      "id": "fa_pos_04",
+      "text": "Download our mobile application to continue viewing these exclusive discounted prices",
+      "context": "blocking_wall",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Forced application installation to view prices"
+    },
+    {
+      "id": "fa_pos_05",
+      "text": "Subscribe to our premium service before accessing the requested file",
+      "context": "modal_overlay",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Forced paid subscription to access basic resource"
+    },
+    {
+      "id": "fa_pos_06",
+      "text": "Register your personal phone number to view search results",
+      "context": "form_input",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Mandatory phone harvesting for simple search interaction"
+    },
+    {
+      "id": "fa_pos_07",
+      "text": "I agree to receive promotional marketing emails, partner advertisements, and daily SMS offers",
+      "context": "required_checkbox",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Mandatory consent bundled with marketing promotional emails"
+    },
+    {
+      "id": "fa_pos_08",
+      "text": "Share this website on Facebook or Twitter to unlock your coupon code",
+      "context": "social_gate",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Forced social media sharing wall to unlock basic promised coupon"
+    },
+    {
+      "id": "fa_pos_09",
+      "text": "Rate our application 5 stars to continue using the free features",
+      "context": "modal_overlay",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Forced app rating coercion to unblock core features"
+    },
+    {
+      "id": "fa_pos_10",
+      "text": "Enter your annual income and employer name to download the free whitepaper",
+      "context": "form_input",
+      "has_alternative": false,
+      "label": "FORCED_ACTION",
+      "pattern": "Forced Action",
+      "expected_min_score": 0.70,
+      "rationale": "Intrusive unrelated mandatory data collection on non-credit public asset"
+    },
+    {
+      "id": "fa_neg_01",
+      "text": "Continue as guest or sign in with your existing account",
+      "context": "checkout_choices",
+      "has_alternative": true,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Guest checkout alternative provided; voluntary account selection"
+    },
+    {
+      "id": "fa_neg_02",
+      "text": "Create an account (optional) to save your purchase history",
+      "context": "post_checkout",
+      "has_alternative": true,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Explicitly optional account creation"
+    },
+    {
+      "id": "fa_neg_03",
+      "text": "I accept the Terms and Conditions and Privacy Policy",
+      "context": "required_checkbox",
+      "has_alternative": false,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Legitimate, legally required terms of service agreement"
+    },
+    {
+      "id": "fa_neg_04",
+      "text": "Shipping Address: Full Name, Street, City, Postal Code",
+      "context": "checkout_form",
+      "has_alternative": false,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Legitimate required information for physical product delivery"
+    },
+    {
+      "id": "fa_neg_05",
+      "text": "Credit Card Number, Expiration Date, CVV Code",
+      "context": "payment_form",
+      "has_alternative": false,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Legitimate transaction payment input requirements"
+    },
+    {
+      "id": "fa_neg_06",
+      "text": "Subscribe to our newsletter for weekly tech updates (Optional)",
+      "context": "optional_checkbox",
+      "has_alternative": true,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Voluntary un-coerced promotional opt-in"
+    },
+    {
+      "id": "fa_neg_07",
+      "text": "Skip this step and proceed directly to dashboard",
+      "context": "onboarding_screen",
+      "has_alternative": true,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Clear dismissible skip path available"
+    },
+    {
+      "id": "fa_neg_08",
+      "text": "Sign In with Google, Apple ID, or Email",
+      "context": "login_page",
+      "has_alternative": true,
+      "label": "BENIGN",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.30,
+      "rationale": "Standard login options without coercive forcing language"
+    },
+    {
+      "id": "fa_amb_01",
+      "text": "Create an account",
+      "context": "header_link",
+      "has_alternative": true,
+      "label": "INSUFFICIENT_CONTEXT",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.35,
+      "rationale": "Neutral account creation label without coercive context"
+    },
+    {
+      "id": "fa_amb_02",
+      "text": "Log In",
+      "context": "nav_button",
+      "has_alternative": true,
+      "label": "INSUFFICIENT_CONTEXT",
+      "pattern": "Forced Action",
+      "expected_max_score": 0.35,
+      "rationale": "Standard authentication button"
+    }
+  ],
+  "basket_sneaking_dataset": [
+    {
+      "id": "bs_pos_01",
+      "text": "Add 2-Year Accidental Damage Protection Plan - ₹799",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected optional warranty/protection add-on with financial charge"
+    },
+    {
+      "id": "bs_pos_02",
+      "text": "Extended Warranty Care Pack (3 Years) - ₹499",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected extended warranty with monetary fee"
+    },
+    {
+      "id": "bs_pos_03",
+      "text": "Subscribe to VIP Express Delivery & Protection - ₹199/month",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected recurring subscription add-on introduced at checkout"
+    },
+    {
+      "id": "bs_pos_04",
+      "text": "Include Package Loss & Theft Insurance - $4.99",
+      "context": "toggle",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected delivery protection insurance surcharge"
+    },
+    {
+      "id": "bs_pos_05",
+      "text": "Donate ₹50 to Green Earth Foundation with this order",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Pre-checked charitable contribution automatically added to order total"
+    },
+    {
+      "id": "bs_pos_06",
+      "text": "Add Premium Gift Wrapping & Custom Greeting Card - ₹149",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected optional decorative gift wrapping service fee"
+    },
+    {
+      "id": "bs_pos_07",
+      "text": "Priority Order Processing and Rush Handling - $9.95",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected handling surcharge added by default"
+    },
+    {
+      "id": "bs_pos_08",
+      "text": "Add Screen Cleaning Kit & Tempered Glass - ₹299",
+      "context": "cart_item",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Physical add-on accessory pre-inserted into shopping cart"
+    },
+    {
+      "id": "bs_pos_09",
+      "text": "Add Driver Tip of ₹30 to support delivery partner",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Pre-checked gratuity/tip selection without manual user consent"
+    },
+    {
+      "id": "bs_pos_10",
+      "text": "Device Protection Plan (Covers Liquid Damage & Theft) - ₹1,299",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BASKET_SNEAKING",
+      "pattern": "Basket Sneaking",
+      "expected_min_score": 0.70,
+      "rationale": "Preselected high-value insurance add-on"
+    },
+    {
+      "id": "bs_neg_01",
+      "text": "Add 2-Year Accidental Damage Protection Plan - ₹799",
+      "context": "checkbox",
+      "is_checked": false,
+      "has_price": true,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.90,
+      "rationale": "Optional add-on offered transparently in unchecked state (voluntary choice, DOM validation will mark not detected)"
+    },
+    {
+      "id": "bs_neg_02",
+      "text": "I agree to the Terms of Service and Privacy Policy",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": false,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.30,
+      "rationale": "Mandatory legal consent checkbox; no monetary product add-on"
+    },
+    {
+      "id": "bs_neg_03",
+      "text": "Remember me / Keep me signed in on this computer",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": false,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.30,
+      "rationale": "Session persistence toggle; not a basket item"
+    },
+    {
+      "id": "bs_neg_04",
+      "text": "Goods and Services Tax (GST 18%) - ₹360",
+      "context": "pricing_breakdown",
+      "is_checked": false,
+      "has_price": true,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.30,
+      "rationale": "Standard mandatory government tax line item"
+    },
+    {
+      "id": "bs_neg_05",
+      "text": "Standard Ground Shipping - ₹50",
+      "context": "shipping_selection",
+      "is_checked": true,
+      "has_price": true,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.30,
+      "rationale": "Standard logistics delivery fee disclosed transparently"
+    },
+    {
+      "id": "bs_neg_06",
+      "text": "Billing address is the same as shipping address",
+      "context": "checkbox",
+      "is_checked": true,
+      "has_price": false,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.30,
+      "rationale": "Standard checkout address form convenience toggle"
+    },
+    {
+      "id": "bs_neg_07",
+      "text": "Customers who bought this item also bought: Wireless Mouse",
+      "context": "recommendation_carousel",
+      "is_checked": false,
+      "has_price": true,
+      "label": "BENIGN",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.30,
+      "rationale": "Un-added product recommendation carousel"
+    },
+    {
+      "id": "bs_amb_01",
+      "text": "Extended Warranty Option Available",
+      "context": "badge",
+      "is_checked": null,
+      "has_price": false,
+      "label": "INSUFFICIENT_CONTEXT",
+      "pattern": "Basket Sneaking",
+      "expected_max_score": 0.80,
+      "rationale": "Warranty mention without DOM interaction state or selection indicator"
+    }
+  ]
+}

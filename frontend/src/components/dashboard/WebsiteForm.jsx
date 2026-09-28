@@ -11,7 +11,8 @@ const initialForm = {
   headless: true,
   capture_dom: true,
   capture_screenshots: true,
-  login_required: false
+  login_required: false,
+  cart_workflow_enabled: true
 };
 
 export default function WebsiteForm({
@@ -208,6 +209,19 @@ export default function WebsiteForm({
             />
 
             Login Required
+
+          </label>
+
+          <label>
+
+            <input
+              type="checkbox"
+              name="cart_workflow_enabled"
+              checked={formData.cart_workflow_enabled !== false}
+              onChange={handleChange}
+            />
+
+            Cart Workflow (Basket Sneaking)
 
           </label>
 
