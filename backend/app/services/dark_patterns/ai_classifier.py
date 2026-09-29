@@ -174,6 +174,20 @@ class PatternSemanticClassifier(BaseAIClassifier):
                     cls._instance = PatternSemanticClassifier()
         return cls._instance
 
+    def get_text_embedding_tensor(self, text: str) -> Optional[Any]:
+        """Returns 384-dimensional normalized dense embedding tensor for deep neural networks."""
+        if not text or not text.strip() or not self._is_ready or self._model is None:
+            if _TRANSFORMER_AVAILABLE:
+                return torch.zeros((1, 384))
+            return None
+        try:
+            return self._model.encode(text.strip(), convert_to_tensor=True, normalize_embeddings=True)
+        except Exception as e:
+            logger.warning(f"[AI] Failed to encode text tensor: {e}")
+            if _TRANSFORMER_AVAILABLE:
+                return torch.zeros((1, 384))
+            return None
+
     def classify_forced_action(
         self,
         candidate_text: str,

@@ -9,6 +9,7 @@ from app.config.database import check_mongo_connection, get_mongo_diagnostics
 from app.routes.website_routes import router as website_router
 from app.routes.automation_routes import router as automation_router
 from app.routes.data_quality_routes import router as data_quality_router
+from app.routes.model_comparison_routes import router as model_comparison_router
 
 # Configure logging
 logging.basicConfig(
@@ -81,6 +82,11 @@ app.include_router(
     data_quality_router,
     prefix="/api/v1",
     tags=["Data Quality Assessment"]
+)
+
+app.include_router(
+    model_comparison_router,
+    tags=["Model Comparison"]
 )
 
 # Ensure artifacts directory exists for static file serving

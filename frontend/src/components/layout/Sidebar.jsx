@@ -6,7 +6,8 @@ import {
   FileSearch,
   FileText,
   Bot,
-  Shield
+  Shield,
+  BrainCircuit
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import "../../styles/sidebar.css";
@@ -27,6 +28,11 @@ export default function Sidebar() {
       title: "Browser Automation",
       path: "/audits",
       icon: <PlayCircle size={18} />
+    },
+    {
+      title: "Algorithm Analysis",
+      path: "/algorithm-analysis",
+      icon: <BrainCircuit size={18} />
     },
     {
       title: "Data Quality",

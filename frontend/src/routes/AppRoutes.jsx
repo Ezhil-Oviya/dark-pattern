@@ -7,6 +7,7 @@ import DataQualityPage from "../pages/DataQualityPage";
 import EvidencePage from "../pages/EvidencePage";
 import ReportsPage from "../pages/ReportsPage";
 import WebsiteConfigPage from "../pages/WebsiteConfigPage";
+import AlgorithmComparisonPage from "../pages/AlgorithmComparisonPage";
 
 export default function AppRoutes() {
   return (
@@ -40,6 +41,11 @@ export default function AppRoutes() {
       <Route
         path="/evidence"
         element={<EvidencePage />}
+      />
+
+      <Route
+        path="/algorithm-analysis"
+        element={<AlgorithmComparisonPage />}
       />
 
       <Route
