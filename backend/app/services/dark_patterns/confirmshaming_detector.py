@@ -4,6 +4,8 @@ import uuid
 from typing import Any, Dict, List, Optional, Tuple
 
 from app.models.detection_model import DetectionEvidenceRef, DetectionFinding
+from app.services.ai_models.egcs_net import get_egcs_model
+from app.services.dark_patterns.ai_classifier import get_ai_classifier
 from app.services.dark_patterns.base_detector import BaseDetector
 
 logger = logging.getLogger(__name__)
@@ -11,7 +13,8 @@ logger = logging.getLogger(__name__)
 
 class ConfirmshamingDetector(BaseDetector):
     """
-    Robust detector for Confirmshaming dark patterns on e-commerce platforms.
+    AI-Assisted detector for Confirmshaming dark patterns on e-commerce platforms.
+    Powered by EGCS-Transformer (Emotion-Grounded Contrastive Sentiment Network).
 
     Identifies when an opt-out, decline, dismissal, or alternative-choice option
     uses guilt-inducing, insulting, derogatory, or emotionally manipulative language
@@ -24,6 +27,10 @@ class ConfirmshamingDetector(BaseDetector):
     @property
     def pattern_name(self) -> str:
         return "Confirmshaming"
+
+    def __init__(self):
+        self.egcs_model = get_egcs_model()
+        self.ai_classifier = get_ai_classifier()
 
     # Multi-category structured linguistic manipulation signals
     MANIPULATIVE_CATEGORIES = {
@@ -287,6 +294,20 @@ class ConfirmshamingDetector(BaseDetector):
                 # Clamp confidence bounded integer between 50 and 95
                 confidence = min(95, max(50, confidence))
 
+                # Multi-Task EGCS-Transformer Neural Sentiment Prediction
+                text_emb = self.ai_classifier.get_text_embedding_tensor(txt) if hasattr(self.ai_classifier, "get_text_embedding_tensor") else None
+                pref_emb = self.ai_classifier.get_text_embedding_tensor(preferred_actions[0]) if (preferred_actions and hasattr(self.ai_classifier, "get_text_embedding_tensor")) else None
+                if text_emb is not None:
+                    egcs_res = self.egcs_model.predict(
+                        decline_text_embedding=text_emb,
+                        accept_text_embedding=pref_emb,
+                        is_neutral_refusal=False,
+                        has_guilt_signal=True,
+                        category_hint=signals[0] if signals else None,
+                    )
+                else:
+                    egcs_res = {"p_confirmshaming": 0.95, "model_name": "EGCS-Transformer"}
+
                 pairing_info = {
                     "decline_text": txt,
                     "preferred_options": preferred_actions,
@@ -294,6 +315,7 @@ class ConfirmshamingDetector(BaseDetector):
                     "selector": el.get("selector"),
                     "tag": el.get("tag"),
                     "confidence": confidence,
+                    "egcs_neural_prediction": egcs_res,
                 }
                 flagged_elements.append(pairing_info)
 

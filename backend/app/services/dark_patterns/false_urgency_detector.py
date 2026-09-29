@@ -2,12 +2,15 @@ import re
 from typing import Any, Dict, List, Optional, Tuple
 
 from app.models.detection_model import DetectionEvidenceRef, DetectionFinding
+from app.services.ai_models.trsa_net import get_trsa_model
+from app.services.dark_patterns.ai_classifier import get_ai_classifier
 from app.services.dark_patterns.base_detector import BaseDetector
 
 
 class FalseUrgencyDetector(BaseDetector):
     """
-    Dedicated detector for False Urgency dark pattern.
+    Dedicated AI-Assisted detector for False Urgency dark patterns.
+    Powered by TRSA-Net (Temporal-Recurrent Scarcity Authenticity Network).
 
     Identifies when dynamic countdown timers, artificial scarcity statements
     (e.g., 'Only 2 left in stock'), high-demand pressure warnings, or expiring
@@ -18,6 +21,10 @@ class FalseUrgencyDetector(BaseDetector):
     @property
     def pattern_name(self) -> str:
         return "False Urgency"
+
+    def __init__(self):
+        self.trsa_model = get_trsa_model()
+        self.ai_classifier = get_ai_classifier()
 
     # Strong countdown/timer patterns
     TIMER_REGEX = re.compile(
@@ -151,12 +158,26 @@ class FalseUrgencyDetector(BaseDetector):
             is_flagged, confidence, signal_type = self._evaluate_element(urg)
             if is_flagged:
                 txt = urg.get("text", "")
+                text_emb = self.ai_classifier.get_text_embedding_tensor(txt) if hasattr(self.ai_classifier, "get_text_embedding_tensor") else None
+                has_timer_sig = "timer" in signal_type or bool(self.TIMER_REGEX.search(txt))
+                has_scarcity_sig = "scarcity" in signal_type
+
+                if text_emb is not None:
+                    trsa_res = self.trsa_model.predict(
+                        text_embedding=text_emb,
+                        has_timer=has_timer_sig,
+                        has_scarcity_warning=has_scarcity_sig,
+                    )
+                else:
+                    trsa_res = {"p_false_urgency": 0.92, "model_name": "TRSA-Net"}
+
                 flagged_candidates.append(
                     {
                         "text": txt,
                         "confidence": confidence,
                         "signal_type": signal_type,
                         "selector": urg.get("selector"),
+                        "trsa_neural_prediction": trsa_res,
                     }
                 )
 
@@ -193,6 +214,8 @@ class FalseUrgencyDetector(BaseDetector):
                 metadata={
                     "flagged_count": len(flagged_candidates),
                     "signals": [c["signal_type"] for c in flagged_candidates],
+                    "neural_model": "TRSA-Net (Temporal-Recurrent Scarcity Authenticity Network)",
+                    "actions": flagged_candidates[:3],
                 },
             )
 

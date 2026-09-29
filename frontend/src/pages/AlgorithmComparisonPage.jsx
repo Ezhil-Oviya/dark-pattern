@@ -25,10 +25,8 @@ import "../styles/algorithm-comparison.css";
 const PATTERN_TABS = [
   { id: "Basket Sneaking", label: "Basket Sneaking", icon: "🛒" },
   { id: "Forced Action", label: "Forced Action (CCPA)", icon: "🚪" },
-  { id: "Drip Pricing", label: "Drip Pricing", icon: "💧" },
-  { id: "Bait & Switch", label: "Bait & Switch", icon: "🔀" },
-  { id: "Interface Interference", label: "Interface Interference", icon: "👁️" },
-  { id: "SaaS Billing Trap", label: "SaaS Billing Trap", icon: "🔄" },
+  { id: "False Urgency", label: "False Urgency", icon: "⏰" },
+  { id: "Confirmshaming", label: "Confirmshaming", icon: "🥺" },
 ];
 
 const PRESET_SAMPLES = {
@@ -75,40 +73,47 @@ const PRESET_SAMPLES = {
       is_dismissible: false,
     },
   ],
-  "Drip Pricing": [
+  "False Urgency": [
     {
-      label: "Hidden Step-4 Platform Surcharge (Violation)",
-      text: "Mandatory Platform Service & Handling Fee ₹75",
-      is_preselected: true,
-      has_price_surcharge: true,
-      price_value: 75,
+      label: "Fake Looping Countdown Scarcity (Violation)",
+      text: "Hurry! Only 2 left in stock at this price! Timer resets in 04:59!",
+      has_countdown_timer: true,
+      resets_on_refresh: true,
+      has_scarcity_warning: true,
+    },
+    {
+      label: "Legitimate Annual Flash Sale (Legal Promotional)",
+      text: "Annual Summer Flash Sale ends on July 31st at midnight",
+      has_countdown_timer: false,
+      resets_on_refresh: false,
+      has_scarcity_warning: false,
+    },
+    {
+      label: "Transparent Real Inventory Level (Legal)",
+      text: "Current Warehouse Inventory: 48 items available in stock",
+      has_countdown_timer: false,
+      resets_on_refresh: false,
+      has_scarcity_warning: false,
     },
   ],
-  "Bait & Switch": [
+  "Confirmshaming": [
     {
-      label: "Silently Swapped Refurbished Unit (Violation)",
-      text: "Standard Refurbished Grade-B condition (originally advertised as New)",
-      is_preselected: true,
-      has_price_surcharge: false,
-      price_value: 0,
+      label: "Guilt-Tripping Self-Deprecation (Violation)",
+      text: "No thanks, I prefer paying full price and hate saving money",
+      is_neutral_refusal: false,
+      has_guilt_signal: true,
     },
-  ],
-  "Interface Interference": [
     {
-      label: "Low-Contrast Cancel Link (WCAG Violation)",
-      text: "Decline and pay full regular price (Low-contrast grey text #d1d5db on white)",
-      is_preselected: false,
-      has_price_surcharge: false,
-      price_value: 0,
+      label: "Polite Neutral Refusal (Clean / Legal UX)",
+      text: "No thanks, continue without a discount",
+      is_neutral_refusal: true,
+      has_guilt_signal: false,
     },
-  ],
-  "SaaS Billing Trap": [
     {
-      label: "Disguised $0 Trial with Recurring Trap (Violation)",
-      text: "Free 7-Day Trial (Automatically renews at $49.99/mo without prior notification)",
-      is_preselected: true,
-      has_price_surcharge: true,
-      price_value: 49.99,
+      label: "Standard Modal Dismissal Link (Legal)",
+      text: "Skip and continue to shopping cart",
+      is_neutral_refusal: true,
+      has_guilt_signal: false,
     },
   ],
 };
@@ -125,6 +130,14 @@ export default function AlgorithmComparisonPage() {
   const [isDismissible, setIsDismissible] = useState(false);
   const [hasPrice, setHasPrice] = useState(true);
   const [priceVal, setPriceVal] = useState(299);
+  
+  // False Urgency & Confirmshaming Specific Flags
+  const [hasTimer, setHasTimer] = useState(false);
+  const [resetsLoop, setResetsLoop] = useState(false);
+  const [hasScarcity, setHasScarcity] = useState(false);
+  const [isNeutralRefusal, setIsNeutralRefusal] = useState(false);
+  const [hasGuiltSignal, setHasGuiltSignal] = useState(false);
+
   const [battleLoading, setBattleLoading] = useState(false);
   const [battleResults, setBattleResults] = useState(null);
 
@@ -159,6 +172,13 @@ export default function AlgorithmComparisonPage() {
     if (preset.is_dismissible !== undefined) setIsDismissible(preset.is_dismissible);
     if (preset.has_price_surcharge !== undefined) setHasPrice(preset.has_price_surcharge);
     if (preset.price_value !== undefined) setPriceVal(preset.price_value);
+    
+    if (preset.has_countdown_timer !== undefined) setHasTimer(preset.has_countdown_timer);
+    if (preset.resets_on_refresh !== undefined) setResetsLoop(preset.resets_on_refresh);
+    if (preset.has_scarcity_warning !== undefined) setHasScarcity(preset.has_scarcity_warning);
+    if (preset.is_neutral_refusal !== undefined) setIsNeutralRefusal(preset.is_neutral_refusal);
+    if (preset.has_guilt_signal !== undefined) setHasGuiltSignal(preset.has_guilt_signal);
+
     setBattleResults(null);
   };
 
@@ -173,6 +193,11 @@ export default function AlgorithmComparisonPage() {
         is_dismissible: isDismissible,
         has_price_surcharge: hasPrice,
         price_value: Number(priceVal) || 0,
+        has_countdown_timer: hasTimer,
+        resets_on_refresh: resetsLoop,
+        has_scarcity_warning: hasScarcity,
+        is_neutral_refusal: isNeutralRefusal,
+        has_guilt_signal: hasGuiltSignal,
       };
       const res = await simulateAlgorithmBattle(payload);
       setBattleResults(res);
@@ -469,6 +494,56 @@ export default function AlgorithmComparisonPage() {
                           onChange={(e) => setIsDismissible(e.target.checked)}
                         />
                         Modal has Close (✕) Button (Dismissible)
+                      </label>
+                    </>
+                  )}
+
+                  {activePattern === "False Urgency" && (
+                    <>
+                      <label className="toggle-label-row">
+                        <input
+                          type="checkbox"
+                          checked={hasTimer}
+                          onChange={(e) => setHasTimer(e.target.checked)}
+                        />
+                        Active Countdown Timer Visible in UI
+                      </label>
+                      <label className="toggle-label-row">
+                        <input
+                          type="checkbox"
+                          checked={resetsLoop}
+                          onChange={(e) => setResetsLoop(e.target.checked)}
+                        />
+                        Timer Resets / Loops on Page Reload
+                      </label>
+                      <label className="toggle-label-row">
+                        <input
+                          type="checkbox"
+                          checked={hasScarcity}
+                          onChange={(e) => setHasScarcity(e.target.checked)}
+                        />
+                        High-Pressure Scarcity Cue ("Only 2 left!")
+                      </label>
+                    </>
+                  )}
+
+                  {activePattern === "Confirmshaming" && (
+                    <>
+                      <label className="toggle-label-row">
+                        <input
+                          type="checkbox"
+                          checked={hasGuiltSignal}
+                          onChange={(e) => setHasGuiltSignal(e.target.checked)}
+                        />
+                        Guilt-Inducing / Self-Deprecating Language
+                      </label>
+                      <label className="toggle-label-row">
+                        <input
+                          type="checkbox"
+                          checked={isNeutralRefusal}
+                          onChange={(e) => setIsNeutralRefusal(e.target.checked)}
+                        />
+                        Clean Neutral Decline ("No thanks / Skip")
                       </label>
                     </>
                   )}
