@@ -914,7 +914,7 @@ def run_crawler(website: Dict[str, Any], audit_id: Optional[str] = None) -> Dict
 
     except Exception as e:
         logger.error(f"Fatal error in Playwright runner for audit '{audit_id}': {e}", exc_info=True)
-        session.fail_session(audit_id, str(e))
+        session_manager.fail_session(audit_id, str(e))
         raise
 
     end_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")

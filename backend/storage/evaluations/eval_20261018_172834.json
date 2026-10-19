@@ -1,0 +1,1301 @@
+{
+  "evaluation_id": "eval_20261018_172834",
+  "created_at": "2026-10-18T17:28:34.948402",
+  "status": "COMPLETED",
+  "dataset_name": "DPCA-ECom-8Cat-Benchmark",
+  "dataset_version": "3.0.0",
+  "dataset_hash": "601d828a8ecdec5daf5ba42742c2111aff26dc24bef74e26788614d3a7b24ccd",
+  "split_policy": "Stratified 70/30 Split (Random Seed=42)",
+  "random_seed": 42,
+  "train_sample_count": 50,
+  "test_sample_count": 22,
+  "positive_test_count": 14,
+  "negative_test_count": 8,
+  "environment_info": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.13.4",
+    "scikit_learn_version": "1.9.1",
+    "pytorch_version": "2.14.1+cpu",
+    "cuda_available": false
+  },
+  "proposed_algorithm_name": "Proposed Multi-Modal & State-Gated Architecture (SACM / CGPD / TRSA / EGCS + DOM Hybrid)",
+  "proposed_paradigm": "Multi-Modal Cross-Attention + Physical DOM State Gating (Ours)",
+  "proposed_metrics": {
+    "accuracy": 95.45,
+    "precision": 93.33,
+    "recall": 100.0,
+    "f1_score": 96.55,
+    "specificity": 87.5,
+    "false_positive_rate": 12.5,
+    "predicted_detection_rate": 68.18,
+    "support": 22,
+    "positive_ground_truth": 14,
+    "negative_ground_truth": 8,
+    "predicted_positives": 15,
+    "confusion_matrix": {
+      "true_positive": 14,
+      "false_positive": 1,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "confusion_matrix_percentages": {
+      "true_positive_rate": 100.0,
+      "false_negative_rate": 0.0,
+      "true_negative_rate": 87.5,
+      "false_positive_rate": 12.5
+    },
+    "status": "Evaluated"
+  },
+  "proposed_averages": {
+    "macro_accuracy": 93.75,
+    "macro_precision": 93.75,
+    "macro_recall": 100.0,
+    "macro_f1": 95.83,
+    "weighted_f1": 96.97,
+    "categories_evaluated_count": 8,
+    "total_categories_count": 8,
+    "averaging_method": "Macro average treats each dark-pattern category equally; weighted average scales by test-set support."
+  },
+  "category_breakdown": {
+    "False Urgency": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 66.67,
+      "support": 3,
+      "positive_ground_truth": 2,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "False Urgency"
+    },
+    "Drip Pricing": {
+      "accuracy": 50.0,
+      "precision": 50.0,
+      "recall": 100.0,
+      "f1_score": 66.67,
+      "specificity": 0.0,
+      "false_positive_rate": 100.0,
+      "predicted_detection_rate": 100.0,
+      "support": 2,
+      "positive_ground_truth": 1,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 1,
+        "false_positive": 1,
+        "true_negative": 0,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 0.0,
+        "false_positive_rate": 100.0
+      },
+      "status": "Evaluated",
+      "category": "Drip Pricing"
+    },
+    "Bait and Switch": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 66.67,
+      "support": 3,
+      "positive_ground_truth": 2,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "Bait and Switch"
+    },
+    "Confirmshaming": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 66.67,
+      "support": 3,
+      "positive_ground_truth": 2,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "Confirmshaming"
+    },
+    "SaaS Billing": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 50.0,
+      "support": 2,
+      "positive_ground_truth": 1,
+      "negative_ground_truth": 1,
+      "predicted_positives": 1,
+      "confusion_matrix": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "SaaS Billing"
+    },
+    "Interface Interference": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 66.67,
+      "support": 3,
+      "positive_ground_truth": 2,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "Interface Interference"
+    },
+    "Forced Action": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 66.67,
+      "support": 3,
+      "positive_ground_truth": 2,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "Forced Action"
+    },
+    "Basket Sneaking": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0,
+      "predicted_detection_rate": 66.67,
+      "support": 3,
+      "positive_ground_truth": 2,
+      "negative_ground_truth": 1,
+      "predicted_positives": 2,
+      "confusion_matrix": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "true_negative": 1,
+        "false_negative": 0
+      },
+      "confusion_matrix_percentages": {
+        "true_positive_rate": 100.0,
+        "false_negative_rate": 0.0,
+        "true_negative_rate": 100.0,
+        "false_positive_rate": 0.0
+      },
+      "status": "Evaluated",
+      "category": "Basket Sneaking"
+    }
+  },
+  "baseline_evaluations": [
+    {
+      "name": "TF-IDF + Logistic Regression",
+      "paradigm": "Traditional Machine Learning (Shallow NLP)",
+      "metrics": {
+        "accuracy": 81.82,
+        "precision": 85.71,
+        "recall": 85.71,
+        "f1_score": 85.71,
+        "specificity": 75.0,
+        "false_positive_rate": 25.0,
+        "predicted_detection_rate": 63.64,
+        "support": 22,
+        "positive_ground_truth": 14,
+        "negative_ground_truth": 8,
+        "predicted_positives": 14,
+        "confusion_matrix": {
+          "true_positive": 12,
+          "false_positive": 2,
+          "true_negative": 6,
+          "false_negative": 2
+        },
+        "confusion_matrix_percentages": {
+          "true_positive_rate": 85.71,
+          "false_negative_rate": 14.29,
+          "true_negative_rate": 75.0,
+          "false_positive_rate": 25.0
+        },
+        "status": "Evaluated"
+      },
+      "category_breakdown": {
+        "False Urgency": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "False Urgency"
+        },
+        "Drip Pricing": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 50.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Drip Pricing"
+        },
+        "Bait and Switch": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Bait and Switch"
+        },
+        "Confirmshaming": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Confirmshaming"
+        },
+        "SaaS Billing": {
+          "accuracy": 50.0,
+          "precision": 50.0,
+          "recall": 100.0,
+          "f1_score": 66.67,
+          "specificity": 0.0,
+          "false_positive_rate": 100.0,
+          "predicted_detection_rate": 100.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 1,
+            "true_negative": 0,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 0.0,
+            "false_positive_rate": 100.0
+          },
+          "status": "Evaluated",
+          "category": "SaaS Billing"
+        },
+        "Interface Interference": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Interface Interference"
+        },
+        "Forced Action": {
+          "accuracy": 33.33,
+          "precision": 50.0,
+          "recall": 50.0,
+          "f1_score": 50.0,
+          "specificity": 0.0,
+          "false_positive_rate": 100.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 1,
+            "true_negative": 0,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 50.0,
+            "false_negative_rate": 50.0,
+            "true_negative_rate": 0.0,
+            "false_positive_rate": 100.0
+          },
+          "status": "Evaluated",
+          "category": "Forced Action"
+        },
+        "Basket Sneaking": {
+          "accuracy": 66.67,
+          "precision": 100.0,
+          "recall": 50.0,
+          "f1_score": 66.67,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 33.33,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 50.0,
+            "false_negative_rate": 50.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Basket Sneaking"
+        }
+      },
+      "predictions_count": 22
+    },
+    {
+      "name": "TF-IDF + Linear SVM",
+      "paradigm": "Traditional Machine Learning (Support Vector Classifier)",
+      "metrics": {
+        "accuracy": 77.27,
+        "precision": 80.0,
+        "recall": 85.71,
+        "f1_score": 82.76,
+        "specificity": 62.5,
+        "false_positive_rate": 37.5,
+        "predicted_detection_rate": 68.18,
+        "support": 22,
+        "positive_ground_truth": 14,
+        "negative_ground_truth": 8,
+        "predicted_positives": 15,
+        "confusion_matrix": {
+          "true_positive": 12,
+          "false_positive": 3,
+          "true_negative": 5,
+          "false_negative": 2
+        },
+        "confusion_matrix_percentages": {
+          "true_positive_rate": 85.71,
+          "false_negative_rate": 14.29,
+          "true_negative_rate": 62.5,
+          "false_positive_rate": 37.5
+        },
+        "status": "Evaluated"
+      },
+      "category_breakdown": {
+        "False Urgency": {
+          "accuracy": 66.67,
+          "precision": 66.67,
+          "recall": 100.0,
+          "f1_score": 80.0,
+          "specificity": 0.0,
+          "false_positive_rate": 100.0,
+          "predicted_detection_rate": 100.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 3,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 1,
+            "true_negative": 0,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 0.0,
+            "false_positive_rate": 100.0
+          },
+          "status": "Evaluated",
+          "category": "False Urgency"
+        },
+        "Drip Pricing": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 50.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Drip Pricing"
+        },
+        "Bait and Switch": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Bait and Switch"
+        },
+        "Confirmshaming": {
+          "accuracy": 66.67,
+          "precision": 66.67,
+          "recall": 100.0,
+          "f1_score": 80.0,
+          "specificity": 0.0,
+          "false_positive_rate": 100.0,
+          "predicted_detection_rate": 100.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 3,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 1,
+            "true_negative": 0,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 0.0,
+            "false_positive_rate": 100.0
+          },
+          "status": "Evaluated",
+          "category": "Confirmshaming"
+        },
+        "SaaS Billing": {
+          "accuracy": 50.0,
+          "precision": 50.0,
+          "recall": 100.0,
+          "f1_score": 66.67,
+          "specificity": 0.0,
+          "false_positive_rate": 100.0,
+          "predicted_detection_rate": 100.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 1,
+            "true_negative": 0,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 0.0,
+            "false_positive_rate": 100.0
+          },
+          "status": "Evaluated",
+          "category": "SaaS Billing"
+        },
+        "Interface Interference": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Interface Interference"
+        },
+        "Forced Action": {
+          "accuracy": 66.67,
+          "precision": 100.0,
+          "recall": 50.0,
+          "f1_score": 66.67,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 33.33,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 50.0,
+            "false_negative_rate": 50.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Forced Action"
+        },
+        "Basket Sneaking": {
+          "accuracy": 66.67,
+          "precision": 100.0,
+          "recall": 50.0,
+          "f1_score": 66.67,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 33.33,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 50.0,
+            "false_negative_rate": 50.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Basket Sneaking"
+        }
+      },
+      "predictions_count": 22
+    },
+    {
+      "name": "Text-Only Transformer (MiniLM-L6-v2)",
+      "paradigm": "Pretrained Dense NLP Transformer (Text-Only, No DOM Gating)",
+      "metrics": {
+        "accuracy": 54.55,
+        "precision": 100.0,
+        "recall": 28.57,
+        "f1_score": 44.44,
+        "specificity": 100.0,
+        "false_positive_rate": 0.0,
+        "predicted_detection_rate": 18.18,
+        "support": 22,
+        "positive_ground_truth": 14,
+        "negative_ground_truth": 8,
+        "predicted_positives": 4,
+        "confusion_matrix": {
+          "true_positive": 4,
+          "false_positive": 0,
+          "true_negative": 8,
+          "false_negative": 10
+        },
+        "confusion_matrix_percentages": {
+          "true_positive_rate": 28.57,
+          "false_negative_rate": 71.43,
+          "true_negative_rate": 100.0,
+          "false_positive_rate": 0.0
+        },
+        "status": "Evaluated"
+      },
+      "category_breakdown": {
+        "False Urgency": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "False Urgency"
+        },
+        "Drip Pricing": {
+          "accuracy": 50.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Drip Pricing"
+        },
+        "Bait and Switch": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Bait and Switch"
+        },
+        "Confirmshaming": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Confirmshaming"
+        },
+        "SaaS Billing": {
+          "accuracy": 50.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "SaaS Billing"
+        },
+        "Interface Interference": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Interface Interference"
+        },
+        "Forced Action": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Forced Action"
+        },
+        "Basket Sneaking": {
+          "accuracy": 100.0,
+          "precision": 100.0,
+          "recall": 100.0,
+          "f1_score": 100.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 66.67,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 2,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Basket Sneaking"
+        }
+      },
+      "predictions_count": 22
+    },
+    {
+      "name": "Deterministic Regex & Keyword Engine",
+      "paradigm": "Handcrafted Syntactic Pattern Rules",
+      "metrics": {
+        "accuracy": 45.45,
+        "precision": 75.0,
+        "recall": 21.43,
+        "f1_score": 33.33,
+        "specificity": 87.5,
+        "false_positive_rate": 12.5,
+        "predicted_detection_rate": 18.18,
+        "support": 22,
+        "positive_ground_truth": 14,
+        "negative_ground_truth": 8,
+        "predicted_positives": 4,
+        "confusion_matrix": {
+          "true_positive": 3,
+          "false_positive": 1,
+          "true_negative": 7,
+          "false_negative": 11
+        },
+        "confusion_matrix_percentages": {
+          "true_positive_rate": 21.43,
+          "false_negative_rate": 78.57,
+          "true_negative_rate": 87.5,
+          "false_positive_rate": 12.5
+        },
+        "status": "Evaluated"
+      },
+      "category_breakdown": {
+        "False Urgency": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "False Urgency"
+        },
+        "Drip Pricing": {
+          "accuracy": 50.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Drip Pricing"
+        },
+        "Bait and Switch": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Bait and Switch"
+        },
+        "Confirmshaming": {
+          "accuracy": 66.67,
+          "precision": 100.0,
+          "recall": 50.0,
+          "f1_score": 66.67,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 33.33,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 50.0,
+            "false_negative_rate": 50.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Confirmshaming"
+        },
+        "SaaS Billing": {
+          "accuracy": 50.0,
+          "precision": 50.0,
+          "recall": 100.0,
+          "f1_score": 66.67,
+          "specificity": 0.0,
+          "false_positive_rate": 100.0,
+          "predicted_detection_rate": 100.0,
+          "support": 2,
+          "positive_ground_truth": 1,
+          "negative_ground_truth": 1,
+          "predicted_positives": 2,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 1,
+            "true_negative": 0,
+            "false_negative": 0
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 100.0,
+            "false_negative_rate": 0.0,
+            "true_negative_rate": 0.0,
+            "false_positive_rate": 100.0
+          },
+          "status": "Evaluated",
+          "category": "SaaS Billing"
+        },
+        "Interface Interference": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Interface Interference"
+        },
+        "Forced Action": {
+          "accuracy": 66.67,
+          "precision": 100.0,
+          "recall": 50.0,
+          "f1_score": 66.67,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 33.33,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 1,
+          "confusion_matrix": {
+            "true_positive": 1,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 1
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 50.0,
+            "false_negative_rate": 50.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Forced Action"
+        },
+        "Basket Sneaking": {
+          "accuracy": 33.33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "specificity": 100.0,
+          "false_positive_rate": 0.0,
+          "predicted_detection_rate": 0.0,
+          "support": 3,
+          "positive_ground_truth": 2,
+          "negative_ground_truth": 1,
+          "predicted_positives": 0,
+          "confusion_matrix": {
+            "true_positive": 0,
+            "false_positive": 0,
+            "true_negative": 1,
+            "false_negative": 2
+          },
+          "confusion_matrix_percentages": {
+            "true_positive_rate": 0.0,
+            "false_negative_rate": 100.0,
+            "true_negative_rate": 100.0,
+            "false_positive_rate": 0.0
+          },
+          "status": "Evaluated",
+          "category": "Basket Sneaking"
+        }
+      },
+      "predictions_count": 22
+    }
+  ],
+  "stability_analysis": {
+    "n_folds": 5,
+    "status": "Validated across 5 Stratified Folds",
+    "mean_accuracy": 93.24,
+    "std_accuracy": 5.96,
+    "mean_f1": 94.38,
+    "std_f1": 4.97
+  },
+  "coverage_and_abstention_policy": {
+    "total_corpus_samples": 80,
+    "decisive_samples_count": 72,
+    "insufficient_evidence_count": 8,
+    "coverage_rate_pct": 90.0,
+    "abstention_rate_pct": 10.0,
+    "policy_definition": "Abstentions (INSUFFICIENT_EVIDENCE) are tracked separately to evaluate model coverage. They are not silently classified as negative labels."
+  },
+  "all_categories": [
+    "False Urgency",
+    "Drip Pricing",
+    "Bait and Switch",
+    "Confirmshaming",
+    "SaaS Billing",
+    "Interface Interference",
+    "Forced Action",
+    "Basket Sneaking"
+  ]
+}

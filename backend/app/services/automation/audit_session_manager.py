@@ -53,6 +53,32 @@ class AuditSession:
         self.resume_event.set()
         logger.info(f"[AuditSession {self.audit_id}] Status -> RESUMING (source: {source})")
 
+    def complete(self, result: Optional[Dict[str, Any]] = None):
+        """Marks this session as completed successfully."""
+        self.status = "COMPLETED"
+        self.result = result
+        self.current_stage = "Audit completed successfully"
+        self.message = "Audit completed successfully."
+        logger.info(f"[AuditSession {self.audit_id}] Status -> COMPLETED")
+
+    def complete_session(self, *args, **kwargs):
+        """Convenience alias supporting multiple call conventions."""
+        result = args[-1] if args else kwargs.get("result", {})
+        self.complete(result if isinstance(result, dict) else {})
+
+    def fail(self, error: str):
+        """Marks this session as failed with an error message."""
+        self.status = "FAILED"
+        self.error = error
+        self.current_stage = f"Audit failed: {error}"
+        self.message = f"Audit failed: {error}"
+        logger.error(f"[AuditSession {self.audit_id}] Status -> FAILED: {error}")
+
+    def fail_session(self, *args, **kwargs):
+        """Convenience alias supporting session.fail_session(error) or session.fail_session(audit_id, error)."""
+        error = args[-1] if args else kwargs.get("error", "Unknown error")
+        self.fail(str(error))
+
     def to_dict(self) -> Dict[str, Any]:
         """Returns non-sensitive session metadata for the API/frontend."""
         return {
@@ -114,17 +140,13 @@ class AuditSessionManager:
         with self._lock:
             session = self._sessions.get(audit_id)
             if session:
-                session.status = "COMPLETED"
-                session.result = result
-                session.current_stage = "Audit completed successfully"
+                session.complete(result)
 
     def fail_session(self, audit_id: str, error: str):
         with self._lock:
             session = self._sessions.get(audit_id)
             if session:
-                session.status = "FAILED"
-                session.error = error
-                session.current_stage = f"Audit failed: {error}"
+                session.fail(error)
 
     def remove_session(self, audit_id: str):
         with self._lock:

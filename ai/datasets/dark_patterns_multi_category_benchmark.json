@@ -1,0 +1,1084 @@
+{
+  "metadata": {
+    "version": "3.0.0",
+    "dataset_name": "DPCA-ECom-8Cat-Benchmark",
+    "description": "Multi-category ground-truth benchmark dataset for empirical compliance auditing of 8 dark-pattern categories on Indian and Global E-Commerce platforms.",
+    "created_at": "2026-10-18",
+    "total_samples": 80,
+    "categories": [
+      "False Urgency",
+      "Drip Pricing",
+      "Bait and Switch",
+      "Confirmshaming",
+      "SaaS Billing",
+      "Interface Interference",
+      "Forced Action",
+      "Basket Sneaking"
+    ],
+    "ground_truth_methodology": "Dual-annotator consensus labeling with legal taxonomy mapping to Indian Consumer Protection (CCPA) 2023 Guidelines and international dark pattern taxonomies.",
+    "evaluation_split_policy": "Stratified 70/30 train/test split with deterministic random seed 42 to prevent data leakage.",
+    "insufficient_evidence_policy": "Samples marked INSUFFICIENT_EVIDENCE represent ambiguous or incomplete DOM states; tracked explicitly for coverage analysis."
+  },
+  "samples": [
+    {
+      "id": "fu_pos_01",
+      "category": "False Urgency",
+      "text": "Hurry! Sale ends in 04:59 minutes! Price will increase after countdown expires.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "has_countdown_timer": true,
+        "resets_on_refresh": true,
+        "has_scarcity_warning": true,
+        "is_looping_reset": true
+      },
+      "rationale": "Artificial countdown timer that resets to 04:59 upon page reload, fabricating time pressure."
+    },
+    {
+      "id": "fu_pos_02",
+      "category": "False Urgency",
+      "text": "Only 2 items left in stock! 34 customers are viewing this item right now.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "has_countdown_timer": false,
+        "resets_on_refresh": false,
+        "has_scarcity_warning": true,
+        "is_looping_reset": false
+      },
+      "rationale": "Synthetic low-stock warning paired with fake social proof ticker to force rapid checkout."
+    },
+    {
+      "id": "fu_pos_03",
+      "category": "False Urgency",
+      "text": "High demand warning: 89% of deal claimed! Reservation holds for 5 minutes only.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "has_countdown_timer": true,
+        "resets_on_refresh": true,
+        "has_scarcity_warning": true,
+        "is_looping_reset": true
+      },
+      "rationale": "Fabricated claim percentage and looping artificial cart reservation countdown."
+    },
+    {
+      "id": "fu_pos_04",
+      "category": "False Urgency",
+      "text": "Flash deal ends in 02:15! Buy immediately or lose 40% discount forever.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "has_countdown_timer": true,
+        "resets_on_refresh": true,
+        "has_scarcity_warning": true,
+        "is_looping_reset": true
+      },
+      "rationale": "Manipulative urgency countdown resetting across user browsing sessions."
+    },
+    {
+      "id": "fu_pos_05",
+      "category": "False Urgency",
+      "text": "Last chance: 1 room remaining at this special rate on our platform!",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "has_countdown_timer": false,
+        "resets_on_refresh": false,
+        "has_scarcity_warning": true,
+        "is_looping_reset": false
+      },
+      "rationale": "Misleading scarcity notification contradicted by real inventory availability."
+    },
+    {
+      "id": "fu_neg_01",
+      "category": "False Urgency",
+      "text": "Summer Collection 2026 available now. Explore new seasonal arrivals.",
+      "label": "BENIGN",
+      "dom_features": {
+        "has_countdown_timer": false,
+        "resets_on_refresh": false,
+        "has_scarcity_warning": false,
+        "is_looping_reset": false
+      },
+      "rationale": "Standard seasonal marketing disclosure without pressure or artificial urgency."
+    },
+    {
+      "id": "fu_neg_02",
+      "category": "False Urgency",
+      "text": "Order before 5:00 PM for same-day delivery via BlueDart Logistics.",
+      "label": "BENIGN",
+      "dom_features": {
+        "has_countdown_timer": false,
+        "resets_on_refresh": false,
+        "has_scarcity_warning": false,
+        "is_looping_reset": false
+      },
+      "rationale": "Legitimate operational shipping cutoff window communicated transparently."
+    },
+    {
+      "id": "fu_neg_03",
+      "category": "False Urgency",
+      "text": "Diwali Festive Promotion: 10% instant discount on HDFC Bank Cards until Oct 31.",
+      "label": "BENIGN",
+      "dom_features": {
+        "has_countdown_timer": false,
+        "resets_on_refresh": false,
+        "has_scarcity_warning": false,
+        "is_looping_reset": false
+      },
+      "rationale": "Legitimate calendar-based promotional window with verified partner terms."
+    },
+    {
+      "id": "fu_neg_04",
+      "category": "False Urgency",
+      "text": "Currently in stock: 150 units available in central Mumbai warehouse.",
+      "label": "BENIGN",
+      "dom_features": {
+        "has_countdown_timer": false,
+        "resets_on_refresh": false,
+        "has_scarcity_warning": false,
+        "is_looping_reset": false
+      },
+      "rationale": "Transparent inventory disclosure indicating abundant stock."
+    },
+    {
+      "id": "fu_amb_01",
+      "category": "False Urgency",
+      "text": "Special Offer",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "has_countdown_timer": null,
+        "resets_on_refresh": null,
+        "has_scarcity_warning": null,
+        "is_looping_reset": null
+      },
+      "rationale": "Isolated label lacking temporal parameters, timer metadata, or behavioral context."
+    },
+    {
+      "id": "dp_pos_01",
+      "category": "Drip Pricing",
+      "text": "Order Total: ₹1,499. Mandatory platform convenience fee of ₹99 added at checkout.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "headline_price": 1499.0,
+        "final_price": 1598.0,
+        "has_undisclosed_fee": true,
+        "fee_name": "Platform Convenience Fee",
+        "fee_amount": 99.0
+      },
+      "rationale": "Unavoidable platform charge concealed from headline product price and injected during payment."
+    },
+    {
+      "id": "dp_pos_02",
+      "category": "Drip Pricing",
+      "text": "Flight Fare: ₹3,200. Passenger handling surcharge of ₹450 appended at final confirmation.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "headline_price": 3200.0,
+        "final_price": 3650.0,
+        "has_undisclosed_fee": true,
+        "fee_name": "Passenger Handling Surcharge",
+        "fee_amount": 450.0
+      },
+      "rationale": "Mandatory handling fee partitioned from initial search results, violating CCPA 2023 pricing rules."
+    },
+    {
+      "id": "dp_pos_03",
+      "category": "Drip Pricing",
+      "text": "Room Rate ₹2,500/night. Mandatory resort facility charge of ₹600/night added before booking.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "headline_price": 2500.0,
+        "final_price": 3100.0,
+        "has_undisclosed_fee": true,
+        "fee_name": "Mandatory Resort Fee",
+        "fee_amount": 600.0
+      },
+      "rationale": "Hidden resort fee disclosed incrementally at the end of the booking funnel."
+    },
+    {
+      "id": "dp_pos_04",
+      "category": "Drip Pricing",
+      "text": "Food items: ₹540. Added undisclosed packaging fee ₹40 and delivery partner surge ₹50.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "headline_price": 540.0,
+        "final_price": 630.0,
+        "has_undisclosed_fee": true,
+        "fee_name": "Packaging and Surge Fee",
+        "fee_amount": 90.0
+      },
+      "rationale": "Mandatory packaging surcharge incremental drip added after item selection."
+    },
+    {
+      "id": "dp_pos_05",
+      "category": "Drip Pricing",
+      "text": "Movie Ticket: ₹250. Internet handling fee of ₹45.50 added at checkout payment screen.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "headline_price": 250.0,
+        "final_price": 295.5,
+        "has_undisclosed_fee": true,
+        "fee_name": "Internet Handling Fee",
+        "fee_amount": 45.5
+      },
+      "rationale": "Inescapable internet handling fee excluded from ticket selection display."
+    },
+    {
+      "id": "dp_neg_01",
+      "category": "Drip Pricing",
+      "text": "All-inclusive price: ₹1,999 (Inclusive of all applicable GST, taxes, and shipping fees).",
+      "label": "BENIGN",
+      "dom_features": {
+        "headline_price": 1999.0,
+        "final_price": 1999.0,
+        "has_undisclosed_fee": false,
+        "fee_name": null,
+        "fee_amount": 0.0
+      },
+      "rationale": "Transparent headline pricing clearly stating that all taxes and logistics fees are included."
+    },
+    {
+      "id": "dp_neg_02",
+      "category": "Drip Pricing",
+      "text": "Product Price: ₹800 + Goods and Services Tax (GST 18% ₹144) = Total ₹944 clearly itemized.",
+      "label": "BENIGN",
+      "dom_features": {
+        "headline_price": 944.0,
+        "final_price": 944.0,
+        "has_undisclosed_fee": false,
+        "fee_name": "GST",
+        "fee_amount": 144.0
+      },
+      "rationale": "Statutory government tax explicitly broken down upfront in accordance with tax laws."
+    },
+    {
+      "id": "dp_neg_03",
+      "category": "Drip Pricing",
+      "text": "Subtotal: ₹1,200. Free shipping applied. Zero convenience fees. Total payable: ₹1,200.",
+      "label": "BENIGN",
+      "dom_features": {
+        "headline_price": 1200.0,
+        "final_price": 1200.0,
+        "has_undisclosed_fee": false,
+        "fee_name": null,
+        "fee_amount": 0.0
+      },
+      "rationale": "Zero hidden fees with upfront price confirmation matching final payable amount."
+    },
+    {
+      "id": "dp_neg_04",
+      "category": "Drip Pricing",
+      "text": "Express Delivery option selected (+₹100 optional speed delivery). Standard delivery is ₹0.",
+      "label": "BENIGN",
+      "dom_features": {
+        "headline_price": 500.0,
+        "final_price": 600.0,
+        "has_undisclosed_fee": false,
+        "fee_name": "Optional Express Delivery",
+        "fee_amount": 100.0
+      },
+      "rationale": "Voluntary expedited delivery selected by user with free standard alternative available."
+    },
+    {
+      "id": "dp_amb_01",
+      "category": "Drip Pricing",
+      "text": "Taxes and fees may apply depending on delivery location.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "headline_price": 500.0,
+        "final_price": null,
+        "has_undisclosed_fee": null,
+        "fee_name": null,
+        "fee_amount": null
+      },
+      "rationale": "Pre-checkout statement without final cart pricing data; insufficient context to determine drip pricing."
+    },
+    {
+      "id": "bs_pos_01",
+      "category": "Bait and Switch",
+      "text": "Advertised item unavailable. Switched to alternative model for ₹1,899 at checkout.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "advertised_name": "Model X 64GB",
+        "delivered_name": "Model Y 128GB",
+        "advertised_price": 999.0,
+        "switched_price": 1899.0,
+        "is_mismatch": true
+      },
+      "rationale": "Consumer lured by advertised low-cost item then redirected to more expensive substitute."
+    },
+    {
+      "id": "bs_pos_02",
+      "category": "Bait and Switch",
+      "text": "Promotional deal replaced: Advertised ₹499 price no longer valid, updated price is ₹1,199.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "advertised_name": "Leather Handbag",
+        "delivered_name": "Leather Handbag",
+        "advertised_price": 499.0,
+        "switched_price": 1199.0,
+        "is_mismatch": true
+      },
+      "rationale": "Arbitrary unilateral price hike applied after user clicked promotional banner."
+    },
+    {
+      "id": "bs_pos_03",
+      "category": "Bait and Switch",
+      "text": "Out of stock. Selected product replaced with similar item in cart automatically.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "advertised_name": "Wireless Mouse Black",
+        "delivered_name": "Generic Optical Mouse",
+        "advertised_price": 350.0,
+        "switched_price": 450.0,
+        "is_mismatch": true
+      },
+      "rationale": "Automatic substitution of unchosen product into cart without explicit consumer confirmation."
+    },
+    {
+      "id": "bs_pos_04",
+      "category": "Bait and Switch",
+      "text": "Headline free trial offer switches to immediate billed charge upon account submission.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "advertised_name": "30-Day Free Trial",
+        "delivered_name": "Annual Subscription Charge",
+        "advertised_price": 0.0,
+        "switched_price": 1200.0,
+        "is_mismatch": true
+      },
+      "rationale": "Promised free trial swapped with immediate upfront debit without clear disclosure."
+    },
+    {
+      "id": "bs_pos_05",
+      "category": "Bait and Switch",
+      "text": "Special discount banner links to standard non-discounted checkout page without notice.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "advertised_name": "50% Off Promo",
+        "delivered_name": "Full Price Item",
+        "advertised_price": 500.0,
+        "switched_price": 1000.0,
+        "is_mismatch": true
+      },
+      "rationale": "Deceptive banner funnel failing to deliver advertised promotional terms."
+    },
+    {
+      "id": "bs_neg_01",
+      "category": "Bait and Switch",
+      "text": "Product exactly matches description. Delivered item: Wireless Earbuds Black (₹999).",
+      "label": "BENIGN",
+      "dom_features": {
+        "advertised_name": "Wireless Earbuds Black",
+        "delivered_name": "Wireless Earbuds Black",
+        "advertised_price": 999.0,
+        "switched_price": 999.0,
+        "is_mismatch": false
+      },
+      "rationale": "Exact match between advertised specifications, cart items, and billing details."
+    },
+    {
+      "id": "bs_neg_02",
+      "category": "Bait and Switch",
+      "text": "This item is currently out of stock. We will notify you when it becomes available.",
+      "label": "BENIGN",
+      "dom_features": {
+        "advertised_name": "Smart Watch Silver",
+        "delivered_name": null,
+        "advertised_price": 2499.0,
+        "switched_price": null,
+        "is_mismatch": false
+      },
+      "rationale": "Honest stock notification without deceptive automatic substitutions."
+    },
+    {
+      "id": "bs_neg_03",
+      "category": "Bait and Switch",
+      "text": "You have selected Size XL (₹899). Price differs from Size S (₹799) as listed on table.",
+      "label": "BENIGN",
+      "dom_features": {
+        "advertised_name": "Cotton Shirt Size XL",
+        "delivered_name": "Cotton Shirt Size XL",
+        "advertised_price": 899.0,
+        "switched_price": 899.0,
+        "is_mismatch": false
+      },
+      "rationale": "Transparent variant pricing clearly itemized in the size selector table."
+    },
+    {
+      "id": "bs_neg_04",
+      "category": "Bait and Switch",
+      "text": "Similar items you may like: Optional recommendations carousel displayed below.",
+      "label": "BENIGN",
+      "dom_features": {
+        "advertised_name": "Laptop Stand",
+        "delivered_name": "Laptop Stand",
+        "advertised_price": 650.0,
+        "switched_price": 650.0,
+        "is_mismatch": false
+      },
+      "rationale": "Standard product recommendation display without forced cart injection."
+    },
+    {
+      "id": "bs_amb_01",
+      "category": "Bait and Switch",
+      "text": "Prices subject to change without notice based on market fluctuations.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "advertised_name": "Gold Pendant",
+        "delivered_name": "Gold Pendant",
+        "advertised_price": null,
+        "switched_price": null,
+        "is_mismatch": null
+      },
+      "rationale": "Commodity pricing disclaimer without active evidence of deceptive switching."
+    },
+    {
+      "id": "cs_pos_01",
+      "category": "Confirmshaming",
+      "text": "No thanks, I prefer paying full price and wasting my hard-earned money.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_neutral_refusal": false,
+        "has_guilt_signal": true,
+        "accept_text": "Claim 50% Off Discount Now",
+        "decline_text": "No thanks, I prefer paying full price"
+      },
+      "rationale": "Self-deprecating opt-out button designed to induce financial guilt upon declining."
+    },
+    {
+      "id": "cs_pos_02",
+      "category": "Confirmshaming",
+      "text": "No, I don't care about my device's safety. I choose to stay unprotected.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_neutral_refusal": false,
+        "has_guilt_signal": true,
+        "accept_text": "Protect My Device for ₹299",
+        "decline_text": "No, I want to stay unprotected"
+      },
+      "rationale": "Emotional shaming framing consumer refusal as reckless or irresponsible."
+    },
+    {
+      "id": "cs_pos_03",
+      "category": "Confirmshaming",
+      "text": "No thanks, I hate saving money and don't care about exclusive deals.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_neutral_refusal": false,
+        "has_guilt_signal": true,
+        "accept_text": "Unlock VIP Club Savings",
+        "decline_text": "No thanks, I hate saving money"
+      },
+      "rationale": "Derogatory decline phrasing intended to shame users into promotional consent."
+    },
+    {
+      "id": "cs_pos_04",
+      "category": "Confirmshaming",
+      "text": "No, I don't want to grow my business or improve productivity.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_neutral_refusal": false,
+        "has_guilt_signal": true,
+        "accept_text": "Upgrade to Enterprise Tier",
+        "decline_text": "No, I don't want to grow my business"
+      },
+      "rationale": "Manipulative B2B subscription decline wording questioning consumer competence."
+    },
+    {
+      "id": "cs_pos_05",
+      "category": "Confirmshaming",
+      "text": "Nah, I'd rather stay at risk and let my order get damaged in transit.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_neutral_refusal": false,
+        "has_guilt_signal": true,
+        "accept_text": "Add Shipping Insurance for ₹49",
+        "decline_text": "Let my order stay at risk"
+      },
+      "rationale": "Fear-inducing insurance decline option designed to coerce paid add-on adoption."
+    },
+    {
+      "id": "cs_neg_01",
+      "category": "Confirmshaming",
+      "text": "No thanks, continue to website without signing up for emails.",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_neutral_refusal": true,
+        "has_guilt_signal": false,
+        "accept_text": "Sign Up for Newsletter",
+        "decline_text": "No thanks"
+      },
+      "rationale": "Polite, neutral refusal option devoid of emotional manipulation or guilt."
+    },
+    {
+      "id": "cs_neg_02",
+      "category": "Confirmshaming",
+      "text": "Cancel and return to cart.",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_neutral_refusal": true,
+        "has_guilt_signal": false,
+        "accept_text": "Proceed to Payment",
+        "decline_text": "Cancel"
+      },
+      "rationale": "Standard neutral cancellation control respected by neutral gate."
+    },
+    {
+      "id": "cs_neg_03",
+      "category": "Confirmshaming",
+      "text": "Skip for now, you can complete your profile later in settings.",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_neutral_refusal": true,
+        "has_guilt_signal": false,
+        "accept_text": "Complete Profile",
+        "decline_text": "Skip for now"
+      },
+      "rationale": "Voluntary skip option without guilt-tripping or sarcastic phrasing."
+    },
+    {
+      "id": "cs_neg_04",
+      "category": "Confirmshaming",
+      "text": "Maybe later / Dismiss this notification.",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_neutral_refusal": true,
+        "has_guilt_signal": false,
+        "accept_text": "Enable Push Notifications",
+        "decline_text": "Maybe later"
+      },
+      "rationale": "Standard dismissible notification choice without shaming."
+    },
+    {
+      "id": "cs_amb_01",
+      "category": "Confirmshaming",
+      "text": "Decline offer",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "is_neutral_refusal": null,
+        "has_guilt_signal": null,
+        "accept_text": null,
+        "decline_text": "Decline offer"
+      },
+      "rationale": "Neutral label; cannot evaluate contrastive emotional valence without accept pair."
+    },
+    {
+      "id": "sb_pos_01",
+      "category": "SaaS Billing",
+      "text": "Only ₹199/month! *Billed as one non-refundable annual payment of ₹2,388.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "monthly_breakdown_displayed": 199.0,
+        "actual_charge": 2388.0,
+        "is_frequency_obfuscated": true,
+        "has_cancellation_barrier": false
+      },
+      "rationale": "Billing frequency obfuscation highlighting low monthly rate while locking into annual charge."
+    },
+    {
+      "id": "sb_pos_02",
+      "category": "SaaS Billing",
+      "text": "Subscription renews automatically at regular price without notice. Cancel by calling phone support.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "monthly_breakdown_displayed": null,
+        "actual_charge": 499.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": true
+      },
+      "rationale": "Asymmetric cancellation barrier requiring phone call to terminate digital subscription."
+    },
+    {
+      "id": "sb_pos_03",
+      "category": "SaaS Billing",
+      "text": "Free trial converts automatically to paid continuous subscription. Cancellation fee applies.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "monthly_breakdown_displayed": 0.0,
+        "actual_charge": 999.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": true
+      },
+      "rationale": "Deceptive trial trap coupled with punitive cancellation penalty."
+    },
+    {
+      "id": "sb_pos_04",
+      "category": "SaaS Billing",
+      "text": "To cancel your plan, submit a written letter 30 days prior to billing cycle.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "monthly_breakdown_displayed": null,
+        "actual_charge": 799.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": true
+      },
+      "rationale": "Extreme friction barrier obstructing consumer statutory right to terminate service."
+    },
+    {
+      "id": "sb_pos_05",
+      "category": "SaaS Billing",
+      "text": "Introductory rate of ₹99 increases to ₹899 after month 1 with mandatory 12-month lock-in.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "monthly_breakdown_displayed": 99.0,
+        "actual_charge": 899.0,
+        "is_frequency_obfuscated": true,
+        "has_cancellation_barrier": true
+      },
+      "rationale": "Steep price escalation combined with concealed contract lock-in period."
+    },
+    {
+      "id": "sb_neg_01",
+      "category": "SaaS Billing",
+      "text": "Monthly plan: ₹299 billed monthly. Cancel anytime online with 1-click in account settings.",
+      "label": "BENIGN",
+      "dom_features": {
+        "monthly_breakdown_displayed": 299.0,
+        "actual_charge": 299.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": false
+      },
+      "rationale": "Transparent monthly billing with frictionless self-serve online cancellation."
+    },
+    {
+      "id": "sb_neg_02",
+      "category": "SaaS Billing",
+      "text": "Annual plan: ₹2,400 billed annually (save 20% vs monthly ₹250). Clear renewal reminders sent 7 days prior.",
+      "label": "BENIGN",
+      "dom_features": {
+        "monthly_breakdown_displayed": 200.0,
+        "actual_charge": 2400.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": false
+      },
+      "rationale": "Prominent annual price disclosure with automated pre-renewal notice commitment."
+    },
+    {
+      "id": "sb_neg_03",
+      "category": "SaaS Billing",
+      "text": "7-Day Free Trial. No credit card required. Account expires automatically unless you upgrade.",
+      "label": "BENIGN",
+      "dom_features": {
+        "monthly_breakdown_displayed": 0.0,
+        "actual_charge": 0.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": false
+      },
+      "rationale": "True free trial without payment capture or deceptive auto-conversion."
+    },
+    {
+      "id": "sb_neg_04",
+      "category": "SaaS Billing",
+      "text": "One-time purchase: ₹1,500 lifetime access. No recurring charges or renewals.",
+      "label": "BENIGN",
+      "dom_features": {
+        "monthly_breakdown_displayed": null,
+        "actual_charge": 1500.0,
+        "is_frequency_obfuscated": false,
+        "has_cancellation_barrier": false
+      },
+      "rationale": "Transparent non-recurring perpetual license purchase."
+    },
+    {
+      "id": "sb_amb_01",
+      "category": "SaaS Billing",
+      "text": "Subscription terms apply.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "monthly_breakdown_displayed": null,
+        "actual_charge": null,
+        "is_frequency_obfuscated": null,
+        "has_cancellation_barrier": null
+      },
+      "rationale": "Generic legal disclaimer without subscription terms, pricing, or cancellation mechanics."
+    },
+    {
+      "id": "ii_pos_01",
+      "category": "Interface Interference",
+      "text": "Large high-contrast primary CTA button 'ACCEPT ALL' vs tiny transparent low-contrast 'customize'.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "primary_button_area": 18000.0,
+        "secondary_button_area": 2200.0,
+        "area_ratio": 8.18,
+        "is_low_contrast": true,
+        "has_hidden_decline": true
+      },
+      "rationale": "Extreme visual asymmetry and low contrast steering users to accept tracking."
+    },
+    {
+      "id": "ii_pos_02",
+      "category": "Interface Interference",
+      "text": "Bright green vibrant 'Subscribe to VIP' button with faint grey 10px text link 'No' buried at footer.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "primary_button_area": 14500.0,
+        "secondary_button_area": 1800.0,
+        "area_ratio": 8.05,
+        "is_low_contrast": true,
+        "has_hidden_decline": true
+      },
+      "rationale": "De-emphasized opt-out designed to make rejection virtually invisible to consumers."
+    },
+    {
+      "id": "ii_pos_03",
+      "category": "Interface Interference",
+      "text": "Modal dialog with no visible close (X) icon; primary action visually dominates viewport.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "primary_button_area": 22000.0,
+        "secondary_button_area": 0.0,
+        "area_ratio": 22.0,
+        "is_low_contrast": true,
+        "has_hidden_decline": true
+      },
+      "rationale": "Visual trap eliminating alternative escape actions."
+    },
+    {
+      "id": "ii_pos_04",
+      "category": "Interface Interference",
+      "text": "Pre-ticked consent checkboxes hidden inside collapsed dropdown accordions.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "primary_button_area": 12000.0,
+        "secondary_button_area": 2500.0,
+        "area_ratio": 4.8,
+        "is_low_contrast": true,
+        "has_hidden_decline": true
+      },
+      "rationale": "Concealed pre-selection requiring multi-step interaction to discover and uncheck."
+    },
+    {
+      "id": "ii_pos_05",
+      "category": "Interface Interference",
+      "text": "Misleading inverted button styling: 'Cancel' is styled as primary action while 'Confirm' is hidden.",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "primary_button_area": 15000.0,
+        "secondary_button_area": 3000.0,
+        "area_ratio": 5.0,
+        "is_low_contrast": true,
+        "has_hidden_decline": true
+      },
+      "rationale": "Color-action inversion nudging users against their intended choice."
+    },
+    {
+      "id": "ii_neg_01",
+      "category": "Interface Interference",
+      "text": "Symmetric choices: 'Accept All' and 'Reject All' buttons share identical dimensions, font, and contrast.",
+      "label": "BENIGN",
+      "dom_features": {
+        "primary_button_area": 7200.0,
+        "secondary_button_area": 7200.0,
+        "area_ratio": 1.0,
+        "is_low_contrast": false,
+        "has_hidden_decline": false
+      },
+      "rationale": "Balanced interface design respecting consumer autonomy without visual nudges."
+    },
+    {
+      "id": "ii_neg_02",
+      "category": "Interface Interference",
+      "text": "Standard clear dialog with prominent close (X) button and legible 'Cancel' and 'Confirm' controls.",
+      "label": "BENIGN",
+      "dom_features": {
+        "primary_button_area": 6000.0,
+        "secondary_button_area": 5500.0,
+        "area_ratio": 1.09,
+        "is_low_contrast": false,
+        "has_hidden_decline": false
+      },
+      "rationale": "Neutral dialog design with easily accessible escape and cancellation paths."
+    },
+    {
+      "id": "ii_neg_03",
+      "category": "Interface Interference",
+      "text": "Cookie preferences: Equal prominent buttons 'Accept Necessary Only' and 'Accept All'.",
+      "label": "BENIGN",
+      "dom_features": {
+        "primary_button_area": 8000.0,
+        "secondary_button_area": 8000.0,
+        "area_ratio": 1.0,
+        "is_low_contrast": false,
+        "has_hidden_decline": false
+      },
+      "rationale": "Full compliance with GDPR/CCPA equal-prominence standards."
+    },
+    {
+      "id": "ii_neg_04",
+      "category": "Interface Interference",
+      "text": "Form navigation: 'Back' and 'Next' buttons styled with high legibility and clear contrast.",
+      "label": "BENIGN",
+      "dom_features": {
+        "primary_button_area": 6500.0,
+        "secondary_button_area": 6000.0,
+        "area_ratio": 1.08,
+        "is_low_contrast": false,
+        "has_hidden_decline": false
+      },
+      "rationale": "Standard multi-step checkout workflow with balanced navigational options."
+    },
+    {
+      "id": "ii_amb_01",
+      "category": "Interface Interference",
+      "text": "Options menu",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "primary_button_area": null,
+        "secondary_button_area": null,
+        "area_ratio": null,
+        "is_low_contrast": null,
+        "has_hidden_decline": null
+      },
+      "rationale": "Element text without bounding box coordinates, CSS styling, or contrast metrics."
+    },
+    {
+      "id": "fa_pos_01",
+      "category": "Forced Action",
+      "text": "Create an account to continue reading this article and access full research",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_modal_overlay": true,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Mandatory account creation gating public non-transactional content with no guest alternative."
+    },
+    {
+      "id": "fa_pos_02",
+      "category": "Forced Action",
+      "text": "Sign up before continuing to checkout",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_modal_overlay": true,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Forced user registration blocking checkout with no guest checkout option."
+    },
+    {
+      "id": "fa_pos_03",
+      "category": "Forced Action",
+      "text": "Enable browser push notifications to proceed to the download page",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_modal_overlay": true,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Mandatory push notification opt-in required to perform basic action."
+    },
+    {
+      "id": "fa_pos_04",
+      "category": "Forced Action",
+      "text": "Download our mobile application to continue viewing these exclusive discounted prices",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_modal_overlay": true,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Forced application installation to view prices."
+    },
+    {
+      "id": "fa_pos_05",
+      "category": "Forced Action",
+      "text": "Subscribe to our premium service before accessing the requested file",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_modal_overlay": true,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Forced paid subscription to access basic resource."
+    },
+    {
+      "id": "fa_neg_01",
+      "category": "Forced Action",
+      "text": "Continue as guest or sign in with your existing account",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_modal_overlay": false,
+        "has_guest_alternative": true,
+        "is_dismissible": true
+      },
+      "rationale": "Guest checkout alternative provided; voluntary account selection."
+    },
+    {
+      "id": "fa_neg_02",
+      "category": "Forced Action",
+      "text": "Create an account (optional) to save your purchase history",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_modal_overlay": false,
+        "has_guest_alternative": true,
+        "is_dismissible": true
+      },
+      "rationale": "Explicitly optional account creation."
+    },
+    {
+      "id": "fa_neg_03",
+      "category": "Forced Action",
+      "text": "I accept the Terms and Conditions and Privacy Policy",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_modal_overlay": false,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Legitimate, legally required terms of service agreement."
+    },
+    {
+      "id": "fa_neg_04",
+      "category": "Forced Action",
+      "text": "Shipping Address: Full Name, Street, City, Postal Code",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_modal_overlay": false,
+        "has_guest_alternative": false,
+        "is_dismissible": false
+      },
+      "rationale": "Legitimate required information for physical product delivery."
+    },
+    {
+      "id": "fa_amb_01",
+      "category": "Forced Action",
+      "text": "Create an account",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "is_modal_overlay": false,
+        "has_guest_alternative": true,
+        "is_dismissible": null
+      },
+      "rationale": "Neutral account creation label without coercive context."
+    },
+    {
+      "id": "bsk_pos_01",
+      "category": "Basket Sneaking",
+      "text": "Add 2-Year Accidental Damage Protection Plan - ₹799",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": true,
+        "price_value": 799.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Preselected optional warranty/protection add-on with financial charge."
+    },
+    {
+      "id": "bsk_pos_02",
+      "category": "Basket Sneaking",
+      "text": "Extended Warranty Care Pack (3 Years) - ₹499",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": true,
+        "price_value": 499.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Preselected extended warranty with monetary fee."
+    },
+    {
+      "id": "bsk_pos_03",
+      "category": "Basket Sneaking",
+      "text": "Subscribe to VIP Express Delivery & Protection - ₹199/month",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": true,
+        "price_value": 199.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Preselected recurring subscription add-on introduced at checkout."
+    },
+    {
+      "id": "bsk_pos_04",
+      "category": "Basket Sneaking",
+      "text": "Include Package Loss & Theft Insurance - ₹149",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": true,
+        "price_value": 149.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Preselected delivery protection insurance surcharge."
+    },
+    {
+      "id": "bsk_pos_05",
+      "category": "Basket Sneaking",
+      "text": "Donate ₹50 to Green Earth Foundation with this order",
+      "label": "DARK_PATTERN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": true,
+        "price_value": 50.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Pre-checked charitable contribution automatically added to order total."
+    },
+    {
+      "id": "bsk_neg_01",
+      "category": "Basket Sneaking",
+      "text": "Add 2-Year Accidental Damage Protection Plan - ₹799",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_preselected": false,
+        "has_price": true,
+        "price_value": 799.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Optional add-on offered transparently in unchecked state (voluntary choice)."
+    },
+    {
+      "id": "bsk_neg_02",
+      "category": "Basket Sneaking",
+      "text": "Goods and Services Tax (GST 18%) - ₹360",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_preselected": false,
+        "has_price": true,
+        "price_value": 360.0,
+        "is_statutory_tax": true
+      },
+      "rationale": "Standard mandatory government tax line item."
+    },
+    {
+      "id": "bsk_neg_03",
+      "category": "Basket Sneaking",
+      "text": "Remember me / Keep me signed in on this computer",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": false,
+        "price_value": 0.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Session persistence toggle; not a paid basket item."
+    },
+    {
+      "id": "bsk_neg_04",
+      "category": "Basket Sneaking",
+      "text": "Standard Ground Shipping - ₹50",
+      "label": "BENIGN",
+      "dom_features": {
+        "is_preselected": true,
+        "has_price": true,
+        "price_value": 50.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Standard logistics delivery fee disclosed transparently."
+    },
+    {
+      "id": "bsk_amb_01",
+      "category": "Basket Sneaking",
+      "text": "Extended Warranty Option Available",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "dom_features": {
+        "is_preselected": null,
+        "has_price": false,
+        "price_value": 0.0,
+        "is_statutory_tax": false
+      },
+      "rationale": "Warranty mention without DOM interaction state or selection indicator."
+    }
+  ]
+}
