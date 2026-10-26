@@ -14,7 +14,7 @@ load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI") or os.getenv("MONGODB_URI", "")
 DATABASE_NAME = os.getenv("DATABASE_NAME") or os.getenv("MONGODB_DATABASE") or "dark_pattern_db"
 EVIDENCE_DB_NAME = os.getenv("EVIDENCE_DATABASE_NAME", "dark_pattern_evidence")
-TIMEOUT_MS = int(os.getenv("MONGO_TIMEOUT_MS", "10000"))
+TIMEOUT_MS = int(os.getenv("MONGO_TIMEOUT_MS", "15000"))
 
 
 def configure_dns_resolvers():
@@ -28,7 +28,7 @@ def configure_dns_resolvers():
         resolver = dns.resolver.get_default_resolver()
         reliable_servers = ["8.8.8.8", "1.1.1.1", "8.8.4.4"]
         current = list(resolver.nameservers)
-        resolver.nameservers = [ns for ns in reliable_servers if ns not in current] + current
+        resolver.nameservers = current + [ns for ns in reliable_servers if ns not in current]
         resolver.lifetime = max(getattr(resolver, "lifetime", 5.0), 10.0)
         resolver.timeout = max(getattr(resolver, "timeout", 3.0), 5.0)
     except Exception as e:
@@ -99,7 +99,7 @@ db = website_db
 website_collection = website_db["websites"]
 
 
-def check_mongo_connection(client_instance: Optional[MongoClient] = None, timeout_ms: int = 5000) -> Tuple[bool, str]:
+def check_mongo_connection(client_instance: Optional[MongoClient] = None, timeout_ms: int = TIMEOUT_MS) -> Tuple[bool, str]:
     """
     Pings MongoDB Atlas to verify connectivity and returns (is_connected, status_message).
     If initial connection failed at startup, attempts reconnection when called.

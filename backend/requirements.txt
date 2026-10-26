@@ -7,4 +7,5 @@ httpx
 playwright
 sentence-transformers
 torch
-transformers
+transformers
+reportlab

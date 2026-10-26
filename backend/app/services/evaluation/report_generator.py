@@ -2,19 +2,23 @@ import csv
 import io
 import logging
 from typing import Any, Dict, List, Optional
-from reportlab.lib import colors
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import inch
-from reportlab.platypus import (
-    HRFlowable,
-    KeepTogether,
-    Paragraph,
-    SimpleDocTemplate,
-    Spacer,
-    Table,
-    TableStyle,
-)
+try:
+    from reportlab.lib import colors
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+    from reportlab.lib.units import inch
+    from reportlab.platypus import (
+        HRFlowable,
+        KeepTogether,
+        Paragraph,
+        SimpleDocTemplate,
+        Spacer,
+        Table,
+        TableStyle,
+    )
+    HAS_REPORTLAB = True
+except ImportError:
+    HAS_REPORTLAB = False
 
 from app.services.evaluation.literature_repository import PublishedLiteratureRepository
 
@@ -144,6 +148,11 @@ class EvaluationReportGenerator:
         """
         Generates a publication-grade academic PDF evaluation report using ReportLab.
         """
+        if not HAS_REPORTLAB:
+            raise RuntimeError(
+                "The 'reportlab' package is required to generate PDF evaluation reports. "
+                "Please install it using: pip install reportlab"
+            )
         buffer = io.BytesIO()
         doc = SimpleDocTemplate(
             buffer,
